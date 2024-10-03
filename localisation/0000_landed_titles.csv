@@ -28408,31 +28408,69 @@ d_fortcarson;Fort Carson;;;;;;;;;;;x,,
 d_fortcarson_adj;Carsonian;;;;;;;;;;;x,,
 k_interlake_hetmanate;Red River Hetmanate;;;;;;;;;;;x,,
 k_interlake_hetmanate_adj;Riverian;;;;;;;;;;;x,,
-HOLYLAND_PREFIX;Holy Land of;;;;;;;;;;;x
-ORACLE_PREFIX;Oracle of;;;;;;;;;;;x
-d_nauvoo_legion;The Nauvoo Legion;;;;;;;;;;;x
-d_order_of_quetzalcoatl;The Order of Quetzalcoatl;;;;;;;;;;;x
-d_brown_berets;The Brown Berets;;;;;;;;;;;x
-d_nauvoo_legion_adj;Josephite;;;;;;;;;;;x
-d_order_of_quetzalcoatl_adj;Shriner;;;;;;;;;;;x
-d_brown_berets_adj;Bracero;;;;;;;;;;;x
-d_rising_sun;The Rising Sun;;;;;;;;;;;x
-d_rising_sun_adj;Star Rider;;;;;;;;;;;x
-d_knigths_of_saint_jean_baptiste;Knights of Saint-Jean-Baptiste;;;;;;;;;;;x
-d_knigths_of_saint_jean_baptiste_adj;Baptist;;;;;;;;;;;x
-d_m_26_7;Movimiento 26 de Julio;;;;;;;;;;;x
-d_m_26_7_adj;Fidelista;;;;;;;;;;;x
-d_knigths_of_peter_claver;Chevaliers de Pierre Clave;;;;;;;;;;;x
-d_knigths_of_peter_claver_adj;Chevalier;;;;;;;;;;;x
-d_shomrim_society;Shomrim Society;;;;;;;;;;;x
-d_shomrim_society_adj;Shomrim;;;;;;;;;;;x
-d_order_of_st_thomas;Order of St, Thomas the Apostle;;;;;;;;;;;x
-d_order_of_st_thomas_adj;Thomasite;;;;;;;;;;;x
-d_the_ghuraba;Ghuraba;;;;;;;;;;;x
-d_the_ghuraba_adj;Ghuraban;;;;;;;;;;;x
-d_inayatiyya;Inayatiyya;;;;;;;;;;;x
-d_inayatiyya_adj;Inayatiyyan;;;;;;;;;;;x
-d_knights_of_st_john;Knights of Saint John of Albany;;;;;;;;;;;x
-d_knights_of_st_john_adj;Knightly;;;;;;;;;;;x
-d_stewardess;Stewardesses of the Grove;;;;;;;;;;;x
-d_stewardess_adj;Stewardessan;;;;;;;;;;;x
+HOLYLAND_PREFIX;Holy Land of;;;;;;;;;;;x,,
+ORACLE_PREFIX;Oracle of;;;;;;;;;;;x,,
+d_nauvoo_legion;The Nauvoo Legion;;;;;;;;;;;x,,
+d_order_of_quetzalcoatl;The Order of Quetzalcoatl;;;;;;;;;;;x,,
+d_brown_berets;The Brown Berets;;;;;;;;;;;x,,
+d_nauvoo_legion_adj;Josephite;;;;;;;;;;;x,,
+d_order_of_quetzalcoatl_adj;Shriner;;;;;;;;;;;x,,
+d_brown_berets_adj;Bracero;;;;;;;;;;;x,,
+d_rising_sun;The Rising Sun;;;;;;;;;;;x,,
+d_rising_sun_adj;Star Rider;;;;;;;;;;;x,,
+d_knigths_of_saint_jean_baptiste;Knights of Saint-Jean-Baptiste;;;;;;;;;;;x,,
+d_knigths_of_saint_jean_baptiste_adj;Baptist;;;;;;;;;;;x,,
+d_m_26_7;Movimiento 26 de Julio;;;;;;;;;;;x,,
+d_m_26_7_adj;Fidelista;;;;;;;;;;;x,,
+d_knigths_of_peter_claver;Chevaliers de Pierre Clave;;;;;;;;;;;x,,
+d_knigths_of_peter_claver_adj;Chevalier;;;;;;;;;;;x,,
+d_shomrim_society;Shomrim Society;;;;;;;;;;;x,,
+d_shomrim_society_adj;Shomrim;;;;;;;;;;;x,,
+d_order_of_st_thomas;Order of St, Thomas the Apostle;;;;;;;;;;;x,
+d_order_of_st_thomas_adj;Thomasite;;;;;;;;;;;x,,
+d_the_ghuraba;Ghuraba;;;;;;;;;;;x,,
+d_the_ghuraba_adj;Ghuraban;;;;;;;;;;;x,,
+d_inayatiyya;Inayatiyya;;;;;;;;;;;x,,
+d_inayatiyya_adj;Inayatiyyan;;;;;;;;;;;x,,
+d_knights_of_st_john;Knights of Saint John of Albany;;;;;;;;;;;x,,
+d_knights_of_st_john_adj;Knightly;;;;;;;;;;;x,,
+d_stewardess;Stewardesses of the Grove;;;;;;;;;;;x,,
+d_stewardess_adj;Stewardessan;;;;;;;;;;;x,,
+e_siksika;Siksiká;;;;;;;;;;;;;x,,
+e_siksika_adj;Siksiká;;;;;;;;;;;;;x,,
+e_kainaa;Káínaa;;;;;;;;;;;;;x,,
+e_kainaa_adj;Káínaa;;;;;;;;;;;;;x,,
+e_piikani;Piikáni;;;;;;;;;;;;;x,,
+e_piikani_adj;Piikáni;;;;;;;;;;;;;x,,
+e_hebina;Hebina;;;;;;;;;;;;;x,,
+e_hebina_adj;Hebina;;;;;;;;;;;;;x,,
+e_hudam_wicasta;Húdam Wicášta;;;;;;;;;;;;;x,,
+e_hudam_wicasta_adj;Húdam Wicášta;;;;;;;;;;;;;x,,
+e_waxchica_oyate;Waxchi 'ca Oyáte;;;;;;;;;;;;;x,,
+e_waxchica_oyate_adj;Waxchi'ca Oyáte;;;;;;;;;;;;;x,,
+e_ahsiniiwin;Ahsiniiwin;;;;;;;;;;;;;x,,
+e_ahsiniiwin_adj;Ahsiniiwin;;;;;;;;;;;;;x,,
+e_fort_belknap;Fort Belknap;;;;;;;;;;;;;x,,
+e_fort_belknap_adj;Belknapan;;;;;;;;;;;;;x,,
+e_apsaalooke;Apsáalooke;;;;;;;;;;;;;x,,
+e_apsaalooke_adj;Apsáalooke;;;;;;;;;;;;;x,,
+e_hinterland;Hinterland;;;;;;;;;;;;;x,,
+e_hinterland_adj;Hinterland;;;;;;;;;;;;;x,,
+e_nank_haanseine_nan;Nank'haanseine'nan;;;;;;;;;;;;;x,,
+e_nank_haanseine_nan_adj;Nank'haanseine'nan;;;;;;;;;;;;;x,,
+e_kutsinduka;Kutsindüka;;;;;;;;;;;;;x,,
+e_kutsinduka_adj;Kutsindüka;;;;;;;;;;;;;x,,
+e_the_range;The Range;;;;;;;;;;;;;x,,
+e_the_range_adj;Ranger;;;;;;;;;;;;;x,,
+e_tsehestano;Tsehéstáno;;;;;;;;;;;;;x,,
+e_tsehestano_adj;Tsehéstáno;;;;;;;;;;;;;x,,
+e_hiraaca;Hiraacá;;;;;;;;;;;;;x,,
+e_hiraaca_adj;Hiraacá;;;;;;;;;;;;;x,,
+e_sahnis;Sáhniš;;;;;;;;;;;;;x,,
+e_sahnis_adj;Sáhniš;;;;;;;;;;;;;x,,
+e_inyan_woslal_han;Ínyan Woslál Hán;;;;;;;;;;;;x,,
+e_inyan_woslal_han_adj;Ínyan Woslál Hán;;;;;;;;;;;;x,,
+e_wakpa_waste;Wakpá Wašté;;;;;;;;;;;;;x,,
+e_wakpa_waste_adj;Wakpá Wašté;;;;;;;;;;;;;x,,
+e_wazi_ahanhan;Wazí Ahánhan;;;;;;;;;;;;;x,,
+e_wazi_ahanhan_adj;Wazí Ahánhan;;;;;;;;;;;;;x,,
