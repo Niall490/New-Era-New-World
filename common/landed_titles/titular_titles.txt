@@ -375,7 +375,7 @@ e_piikani = {
 }
 
 e_hebina = {
-	color = { 207 31 67 }
+	color = { 223 223 73 }
 	color2= { 255 255 20 }
 
 	capital = 575 #Piapot
@@ -411,5 +411,93 @@ e_hudam_wicasta = {
 	color2= { 255 255 20 }
 
 	capital = 486 #Fort Peck
+	title = "High Horselord"
+}
+
+e_apsaalooke = {
+	color = { 221 136 38 }
+	color2= { 255 255 20 }
+
+	capital = 481 #Powder River
+	title = "High Horselord"
+}
+
+e_hinterland = {
+	color = { 101 105 32 }
+	color2= { 255 255 20 }
+
+	capital = 1699 #Musselshell
+	title = "High Horselord"
+}
+
+e_nank_haanseine_nan = {
+	color = { 204 0 0 }
+	color2= { 255 255 20 }
+
+	capital = 455 #Bighorn
+	title = "High Horselord"
+}
+
+e_kutsinduka = {
+	color = { 65 10 17 }
+	color2= { 255 255 20 }
+
+	capital = 454 #Wind River
+	title = "High Horselord"
+}
+
+e_the_range = {
+	color = { 213 117 53 }
+	color2= { 255 255 20 }
+
+	capital = 475 #Medicine Bow
+	title = "High Horselord"
+}
+
+e_tsehestano = {
+	color = { 0 83 255 }
+	color2= { 255 255 20 }
+
+	capital = 482 #Fallon Prarie
+	title = "High Horselord"
+}
+
+e_hiraaca = {
+	color = { 85 44 44 }
+	color2= { 255 255 20 }
+
+	capital = 1695 #Dunn
+	title = "High Horselord"
+}
+
+e_sahnis = {
+	color = { 153 63 62 }
+	color2= { 255 255 20 }
+
+	capital = 405 #Fort Berthold
+	title = "High Horselord"
+}
+
+e_inyan_woslal_han = {
+	color = { 0 168 199 }
+	color2= { 255 255 20 }
+
+	capital = 378 #Cheyenne River
+	title = "High Horselord"
+}
+
+e_wakpa_waste = {
+	color = { 45 23 85 }
+	color2= { 255 255 20 }
+
+	capital = 380 #Lyman
+	title = "High Horselord"
+}
+
+e_wazi_ahanhan = {
+	color = { 165 0 33 }
+	color2= { 255 255 20 }
+
+	capital = 382 #Porcupine
 	title = "High Horselord"
 }
