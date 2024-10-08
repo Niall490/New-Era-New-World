@@ -18927,6 +18927,14 @@
 496098 = { name="Sigol" culture=sefardi  }
 496099 = { name="Silverman" culture=sefardi  }
 496100 = { name="Yafi" culture=sefardi  }
+496101 = { name = "nygawai'" culture = seneca }
+496102 = { name = "agata:yö:nih" culture = seneca }
+496103 = { name = "ha'no:wa:h" culture = seneca }
+496104 = { name = "nöganya'göh" culture = seneca }
+496105 = { name = "neogë" culture = seneca }
+496106 = { name = "gaji'da:s" culture = seneca }
+496107 = { name = "nödzahgwë'" culture = seneca }
+496108 = { name = "Jóäshä" culture = seneca }
 
 
 1200081 = { name="Ket" culture=haida }
@@ -19141,3 +19149,4 @@
 2239074 = { name="Kaasx'agweidí" culture=tsimshian }
 2239075 = { name="Taalkweidí" culture=tsimshian }
 2239076 = { name="Kuyéik'ádi" culture=tsimshian }
+
