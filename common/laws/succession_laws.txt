@@ -392,6 +392,7 @@ succession_laws = {
 					has_religion_feature = religion_feature_delver
 					religion = quaker
 					religion = tquaker
+					religion = gaiwiio
 				}
 			}
 			holder_scope = {
@@ -508,6 +509,7 @@ succession_laws = {
 						has_religion_feature = religion_feature_delver
 						religion = quaker
 						religion = tquaker
+						religion = gaiwiio
 					}
 				}
 				custom_tooltip = {
