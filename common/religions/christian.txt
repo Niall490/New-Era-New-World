@@ -2267,7 +2267,7 @@ christian = {
 		color = { 0 0 255 }
 		
 		crusade_name = CRUSADE
-		crusade_cb = crusade
+		crusade_cb = new_crusade
 		
 		scripture_name = THE_BIBLE
 		priest_title = PRIEST
