@@ -865,6 +865,7 @@ e_columbia = {
 
 			pennsilfaanisch = "Nei Yarrick"
 			lenape = "Menating"
+			politan = "Upper Enysee"
 
 			capital = 3 # Manhattan
 
@@ -954,6 +955,7 @@ e_columbia = {
 			capital = 2
 			
 			lenape = "Paumanok"
+			politan = "Lower Enysee"
 
 			c_brooklyn = {
 
