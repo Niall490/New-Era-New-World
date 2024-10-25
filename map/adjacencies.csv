@@ -52,89 +52,89 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 10;12;major_river;1487;-1;-1;-1;-1;Albany-Saratoga
 10;13;major_river;1487;-1;-1;-1;-1;Albany-Johnstown
 3653;13;major_river;1487;-1;-1;-1;-1;Mohawk-Johnstown
-92;703;major_river;1448;-1;-1;-1;-1;Wheeling-Stark
-92;704;major_river;1448;-1;-1;-1;-1;Wheeling-Steubenville
-705;728;major_river;1448;-1;-1;-1;-1;Belmont-Moundsville
-706;724;major_river;1448;-1;-1;-1;-1;Marietta-Ritchie
-706;723;major_river;1448;-1;-1;-1;-1;Marietta-Parkersburg
-711;723;major_river;1448;-1;-1;-1;-1;Meigs-Parkersburg
-712;721;major_river;1498;-1;-1;-1;-1;Lawrence-Cabell
-712;96;major_river;1498;-1;-1;-1;-1;Lawrence-Tug Fork
-712;1003;major_river;1498;-1;-1;-1;-1;Lawrence-Greenbo
-116;1003;major_river;1498;-1;-1;-1;-1;Scioto-Greenbo
-719;1006;major_river;1498;-1;-1;-1;-1;Clermont-Blue Licks
-719;122;major_river;1498;-1;-1;-1;-1;Clermont-Covington
-121;122;major_river;1498;-1;-1;-1;-1;Cincinnati-Covington
-1061;122;major_river;1498;-1;-1;-1;-1;Versailles-Covington
-842;1008;major_river;1498;-1;-1;-1;-1;Switzerland-Old Bourbon
-1060;1009;major_river;1498;-1;-1;-1;-1;Hoosier-Louisvillev
-1059;1014;major_river;1498;-1;-1;-1;-1;Evansville-Owensboro
-1059;837;major_river;1498;-1;-1;-1;-1;Evansville-Morganfield
-854;837;major_river;1498;-1;-1;-1;-1;Shawneetown-Morganfield
-853;1017;major_river;1498;-1;-1;-1;-1;Vienna-Mineral Mound
-1025;827;major_river;1496;-1;-1;-1;-1;Forked Deer-Lawrenceburg
-3318;1026;major_river;1496;-1;-1;-1;-1;Dyersburg-Tullahoma
-830;1083;major_river;1496;-1;-1;-1;-1;Paris-Cheatham
-835;836;major_river;1496;-1;-1;-1;-1;Calloway-Cadiz
-835;1017;major_river;1498;-1;-1;-1;-1;Calloway-Mineral Mound
-170;740;major_river;1555;-1;-1;-1;-1;Chicago-Hammond
-865;1054;major_river;1555;-1;-1;-1;-1;Dekalb-Kankakee
-865;1070;major_river;1553;-1;-1;-1;-1;Dekalb-Streatorland
-1071;1070;major_river;1553;-1;-1;-1;-1;Peoria-Streatorland
-1071;1072;major_river;1553;-1;-1;-1;-1;Peoria-Cass
-866;1072;major_river;1553;-1;-1;-1;-1;Lewistown-Cass
-1078;1072;major_river;1553;-1;-1;-1;-1;Quincy-Cass
-1078;1077;major_river;1553;-1;-1;-1;-1;Quincy-Alton
-859;1077;major_river;1553;-1;-1;-1;-1;Hardin-Alton
-354;376;major_river;1562;-1;-1;-1;-1;Norfolk-Yankton
-354;375;major_river;1562;-1;-1;-1;-1;Norfolk-Minnehaha
-948;363;major_river;1562;-1;-1;-1;-1;Fremont-Floyd
-353;299;major_river;1551;-1;-1;-1;-1;Omaha-Kanesville
-353;253;major_river;1551;-1;-1;-1;-1;Omaha-Nodaway
-346;253;major_river;1551;-1;-1;-1;-1;Atchison-Nodaway
-250;252;major_river;1561;-1;-1;-1;-1;Moks-Bluffwoods
-251;252;major_river;1561;-1;-1;-1;-1;Saline-Bluffwoods
-251;255;major_river;1561;-1;-1;-1;-1;Saline-Thompson
-251;216;major_river;1561;-1;-1;-1;-1;Saline-Boone
-1295;886;major_river;1550;-1;-1;-1;-1;Cole-Fulton
-884;214;major_river;1550;-1;-1;-1;-1;Linn-Cuivre
-1294;214;major_river;1550;-1;-1;-1;-1;Gasconade-Cuivre
-226;264;major_river;1449;-1;-1;-1;-1;Willow-Cannon
-1145;265;major_river;1449;-1;-1;-1;-1;La Crosse-Roch
-894;209;major_river;1563;-1;-1;-1;-1;Prairie du Chien-Decorah
-1147;210;major_river;1563;-1;-1;-1;-1;Galena-Dubuque
-863;211;major_river;1563;-1;-1;-1;-1;Whiteside-Scott
-1148;211;major_river;1563;-1;-1;-1;-1;Rock Island-Scott
-868;213;major_river;1549;-1;-1;-1;-1;Macomb-Shoquoquon
-1078;215;major_river;1549;-1;-1;-1;-1;Quincy-Hannibal
-1078;885;major_river;1549;-1;-1;-1;-1;Quincy-Bowling Green
-214;925;major_river;1518;-1;-1;-1;-1;Cuivre-Chesterfield
-1050;925;major_river;1518;-1;-1;-1;-1;St. Louis-Chesterfield
-1050;1077;major_river;1518;-1;-1;-1;-1;St. Louis-Alton
-1050;1056;major_river;1518;-1;-1;-1;-1;St. Louis-Cahokia
-857;925;major_river;1518;-1;-1;-1;-1;Waterloo-Chesterfield
-1051;1055;major_river;1554;-1;-1;-1;-1;Cape Girardeau-Cairo
-1018;1055;major_river;1554;-1;-1;-1;-1;The Purchase-Cairo
-1018;853;major_river;1554;-1;-1;-1;-1;The Purchase-Vienna
-877;1024;major_river;1552;-1;-1;-1;-1;Wynne-Memphis
-232;873;major_river;1548;-1;-1;-1;-1;White-Arkabutla
-875;869;major_river;1556;-1;-1;-1;-1;Lonoke-Desha
-875;234;major_river;1556;-1;-1;-1;-1;Lonoke-Pine Bluff
-236;240;major_river;1556;-1;-1;-1;-1;Sherwood-Little Rock
-236;243;major_river;1557;-1;-1;-1;-1;Sherwood-Dardanelle
-244;3341;major_river;1557;-1;-1;-1;-1;Fort Smith-Van Buren
-233;1133;major_river;1548;-1;-1;-1;-1;Chicot-Sunflower
-784;1127;major_river;1547;-1;-1;-1;-1;Tellulah-Vicksburg
-777;771;major_river;1546;-1;-1;-1;-1;La Salle-Avoyelles
-777;1266;major_river;1546;-1;-1;-1;-1;La Salle-Rapides
-778;775;major_river;1546;-1;-1;-1;-1;Winn-Colfax
-779;1284;major_river;1546;-1;-1;-1;-1;Red River-Natchitoches
-771;768;major_river;3300;-1;-1;-1;-1;Avoyelles-Pointe-Coupee
-1264;768;major_river;3300;-1;-1;-1;-1;St. Landry-Pointe-Coupee
-1252;768;major_river;3300;-1;-1;-1;-1;Lafayette-Pointe-Coupee
-765;1250;major_river;3300;-1;-1;-1;-1;Iberia-Lafourche-Terrebonne
-768;1119;major_river;1495;-1;-1;-1;-1;Pointe-Coupee-Itta Homma
-1251;1119;major_river;1495;-1;-1;-1;-1;Atchafalaya-Itta Homma
-1124;739;major_river;1495;-1;-1;-1;-1;New Orleans-Saint Charles
-1250;739;major_river;3299;-1;-1;-1;-1;Lafourche-Terrebonne-Saint Charles
+92;703;sea;1448;-1;-1;-1;-1;Wheeling-Stark
+92;704;sea;1448;-1;-1;-1;-1;Wheeling-Steubenville
+705;728;sea;1448;-1;-1;-1;-1;Belmont-Moundsville
+706;724;sea;1448;-1;-1;-1;-1;Marietta-Ritchie
+706;723;sea;1448;-1;-1;-1;-1;Marietta-Parkersburg
+711;723;sea;1448;-1;-1;-1;-1;Meigs-Parkersburg
+712;721;sea;1498;-1;-1;-1;-1;Lawrence-Cabell
+712;96;sea;1498;-1;-1;-1;-1;Lawrence-Tug Fork
+712;1003;sea;1498;-1;-1;-1;-1;Lawrence-Greenbo
+116;1003;sea;1498;-1;-1;-1;-1;Scioto-Greenbo
+719;1006;sea;1498;-1;-1;-1;-1;Clermont-Blue Licks
+719;122;sea;1498;-1;-1;-1;-1;Clermont-Covington
+121;122;sea;1498;-1;-1;-1;-1;Cincinnati-Covington
+1061;122;sea;1498;-1;-1;-1;-1;Versailles-Covington
+842;1008;sea;1498;-1;-1;-1;-1;Switzerland-Old Bourbon
+1060;1009;sea;1498;-1;-1;-1;-1;Hoosier-Louisvillev
+1059;1014;sea;1498;-1;-1;-1;-1;Evansville-Owensboro
+1059;837;sea;1498;-1;-1;-1;-1;Evansville-Morganfield
+854;837;sea;1498;-1;-1;-1;-1;Shawneetown-Morganfield
+853;1017;sea;1498;-1;-1;-1;-1;Vienna-Mineral Mound
+1025;827;sea;1496;-1;-1;-1;-1;Forked Deer-Lawrenceburg
+3318;1026;sea;1496;-1;-1;-1;-1;Dyersburg-Tullahoma
+830;1083;sea;1496;-1;-1;-1;-1;Paris-Cheatham
+835;836;sea;1496;-1;-1;-1;-1;Calloway-Cadiz
+835;1017;sea;1498;-1;-1;-1;-1;Calloway-Mineral Mound
+170;740;sea;1555;-1;-1;-1;-1;Chicago-Hammond
+865;1054;sea;1555;-1;-1;-1;-1;Dekalb-Kankakee
+865;1070;sea;1553;-1;-1;-1;-1;Dekalb-Streatorland
+1071;1070;sea;1553;-1;-1;-1;-1;Peoria-Streatorland
+1071;1072;sea;1553;-1;-1;-1;-1;Peoria-Cass
+866;1072;sea;1553;-1;-1;-1;-1;Lewistown-Cass
+1078;1072;sea;1553;-1;-1;-1;-1;Quincy-Cass
+1078;1077;sea;1553;-1;-1;-1;-1;Quincy-Alton
+859;1077;sea;1553;-1;-1;-1;-1;Hardin-Alton
+354;376;sea;1562;-1;-1;-1;-1;Norfolk-Yankton
+354;375;sea;1562;-1;-1;-1;-1;Norfolk-Minnehaha
+948;363;sea;1562;-1;-1;-1;-1;Fremont-Floyd
+353;299;sea;1551;-1;-1;-1;-1;Omaha-Kanesville
+353;253;sea;1551;-1;-1;-1;-1;Omaha-Nodaway
+346;253;sea;1551;-1;-1;-1;-1;Atchison-Nodaway
+250;252;sea;1561;-1;-1;-1;-1;Moks-Bluffwoods
+251;252;sea;1561;-1;-1;-1;-1;Saline-Bluffwoods
+251;255;sea;1561;-1;-1;-1;-1;Saline-Thompson
+251;216;sea;1561;-1;-1;-1;-1;Saline-Boone
+1295;886;sea;1550;-1;-1;-1;-1;Cole-Fulton
+884;214;sea;1550;-1;-1;-1;-1;Linn-Cuivre
+1294;214;sea;1550;-1;-1;-1;-1;Gasconade-Cuivre
+226;264;sea;1449;-1;-1;-1;-1;Willow-Cannon
+1145;265;sea;1449;-1;-1;-1;-1;La Crosse-Roch
+894;209;sea;1563;-1;-1;-1;-1;Prairie du Chien-Decorah
+1147;210;sea;1563;-1;-1;-1;-1;Galena-Dubuque
+863;211;sea;1563;-1;-1;-1;-1;Whiteside-Scott
+1148;211;sea;1563;-1;-1;-1;-1;Rock Island-Scott
+868;213;sea;1549;-1;-1;-1;-1;Macomb-Shoquoquon
+1078;215;sea;1549;-1;-1;-1;-1;Quincy-Hannibal
+1078;885;sea;1549;-1;-1;-1;-1;Quincy-Bowling Green
+214;925;sea;1518;-1;-1;-1;-1;Cuivre-Chesterfield
+1050;925;sea;1518;-1;-1;-1;-1;St. Louis-Chesterfield
+1050;1077;sea;1518;-1;-1;-1;-1;St. Louis-Alton
+1050;1056;sea;1518;-1;-1;-1;-1;St. Louis-Cahokia
+857;925;sea;1518;-1;-1;-1;-1;Waterloo-Chesterfield
+1051;1055;sea;1554;-1;-1;-1;-1;Cape Girardeau-Cairo
+1018;1055;sea;1554;-1;-1;-1;-1;The Purchase-Cairo
+1018;853;sea;1554;-1;-1;-1;-1;The Purchase-Vienna
+877;1024;sea;1552;-1;-1;-1;-1;Wynne-Memphis
+232;873;sea;1548;-1;-1;-1;-1;White-Arkabutla
+875;869;sea;1556;-1;-1;-1;-1;Lonoke-Desha
+875;234;sea;1556;-1;-1;-1;-1;Lonoke-Pine Bluff
+236;240;sea;1556;-1;-1;-1;-1;Sherwood-Little Rock
+236;243;sea;1557;-1;-1;-1;-1;Sherwood-Dardanelle
+244;3341;sea;1557;-1;-1;-1;-1;Fort Smith-Van Buren
+233;1133;sea;1548;-1;-1;-1;-1;Chicot-Sunflower
+784;1127;sea;1547;-1;-1;-1;-1;Tellulah-Vicksburg
+777;771;sea;1546;-1;-1;-1;-1;La Salle-Avoyelles
+777;1266;sea;1546;-1;-1;-1;-1;La Salle-Rapides
+778;775;sea;1546;-1;-1;-1;-1;Winn-Colfax
+779;1284;sea;1546;-1;-1;-1;-1;Red River-Natchitoches
+771;768;sea;3300;-1;-1;-1;-1;Avoyelles-Pointe-Coupee
+1264;768;sea;3300;-1;-1;-1;-1;St. Landry-Pointe-Coupee
+1252;768;sea;3300;-1;-1;-1;-1;Lafayette-Pointe-Coupee
+765;1250;sea;3300;-1;-1;-1;-1;Iberia-Lafourche-Terrebonne
+768;1119;sea;1495;-1;-1;-1;-1;Pointe-Coupee-Itta Homma
+1251;1119;sea;1495;-1;-1;-1;-1;Atchafalaya-Itta Homma
+1124;739;sea;1495;-1;-1;-1;-1;New Orleans-Saint Charles
+1250;739;sea;3299;-1;-1;-1;-1;Lafourche-Terrebonne-Saint Charles
 -1;-1;;-1;-1;-1;-1;-1;-1
