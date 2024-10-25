@@ -3336,7 +3336,7 @@ crusade = {
 				trigger_else_if = { 
 					limit = { religion = parabrahmanist }
 					custom_tooltip = {
-						text = CTT_CHRISTIAN_CRUSADES_UNLOCKED#Since you can't play as the parabrahmanist religious head, shouldn't need its own tooltip
+						text = CTT_CHRISTIAN_CRUSADES_UNLOCKED #Since you can't play as the parabrahmanist religious head, shouldn't need its own tooltip
 						has_global_flag = parabrahmanist_crusades
 					}
 				}
@@ -3356,6 +3356,20 @@ crusade = {
 					custom_tooltip = {
 						text = CTT_CHRISTIAN_CRUSADES_UNLOCKED
 						has_global_flag = christian_crusades_unlocked
+					}
+				}
+				trigger_else_if = {
+					limit = { religion = columbian }
+					custom_tooltip = {
+						text = CTT_COLUMBIAN_CRUSADES_UNLOCKED
+						has_global_flag = columbian_crusades_unlocked
+					}
+				}
+				trigger_else_if = {
+					limit = { religion = sedevacantist }
+					custom_tooltip = {
+						text = CTT_GALLICANIST_CRUSADES_UNLOCKED
+						has_global_flag = sedevacantist_crusades_unlocked
 					}
 				}
 				trigger_else = {
@@ -4115,10 +4129,16 @@ new_crusade = {
 					}
 				}
 				trigger_else_if = {
+					limit = { religion = columbian }
+					custom_tooltip = {
+						text = CTT_CHRISTIAN_CRUSADES_UNLOCKED
+						has_global_flag = columbian_crusades_unlocked
+					}
+				}
+				trigger_else_if = {
 					limit = { 
 						OR = {
 							religion = catholic
-							religion = columbian
 							religion = fraticelli
 							religion = cadaverist
 						}

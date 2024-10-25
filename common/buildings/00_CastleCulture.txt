@@ -14344,6 +14344,149 @@ castle = {
 		tax_income = -0.2
 	}
 	
+		ca_culture_associators_1 = {
+		desc = ca_culture_associators_1_desc
+		potential = {
+			OR = {
+				culture = keystoner
+				has_building = ca_culture_associators_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = keystoner
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = keystoner
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		archers = 20
+		archers_offensive = 0.2
+		archers_morale = 0.2
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_associators_2 = {
+		desc = ca_culture_associators_1_desc
+		potential = {
+			OR = {
+				culture = keystoner
+				has_building = ca_culture_associators_1
+				has_building = ca_culture_associators_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = keystoner
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1 
+			ROOT = {
+				OR = {
+					culture = keystoner
+				}
+			}
+		}
+		upgrades_from = ca_culture_associators_1
+		gold_cost = 300
+		build_time = 1095
+		archers = 30
+		archers_offensive = 0.2
+		archers_morale = 0.2
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_associators_3 = {
+		desc = ca_culture_associators_1_desc
+		potential = {
+			OR = {
+				culture = keystoner
+				has_building = ca_culture_associators_1
+				has_building = ca_culture_associators_2
+				has_building = ca_culture_associators_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = keystoner
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = keystoner
+				}
+			}
+		}
+		upgrades_from = ca_culture_associators_2
+		gold_cost = 400
+		build_time = 2190
+		archers = 30
+		archers_offensive = 0.2
+		archers_morale = 0.2
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	 ca_culture_associators_4 = {
+		desc = ca_culture_associators_1_desc
+		potential = {
+			OR = {
+				culture = keystoner
+				has_building = ca_culture_associators_1
+				has_building = ca_culture_associators_2
+				has_building = ca_culture_associators_3
+				has_building = ca_culture_associators_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = keystoner
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = keystoner
+				}
+			}
+		}
+		upgrades_from = ca_culture_associators_3
+		gold_cost = 500
+		build_time = 2190
+		archers = 40
+		archers_offensive = 0.2
+		archers_morale = 0.2
+		archers_morale = 0.2
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	
 	ca_culture_gaoshan_1 = {
 		desc = ca_culture_gaoshan_1_desc
 		potential = {
@@ -14639,6 +14782,234 @@ castle = {
 		extra_tech_building_start = 0.8
 		tax_income = -0.2
 	}
+	
+	ca_culture_southern_1 = {
+		desc = ca_culture_southern_1_desc
+		potential = {
+			OR = { 
+				culture_group = southerner
+				has_building = ca_culture_southern_1
+			}
+			NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture_group = southerner
+				}
+				
+				NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+				culture_group = southerner
+				}
+				NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+				}
+			}
+		}
+		gold_cost = 300
+		build_time = 1095
+		knights = 25
+		superheavy_infantry = 10
+		knights_offensive = 0.15
+		knights_morale = 0.1
+		superheavy_infantry_offensive = 0.15
+		superheavy_infantry_morale = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_southern_2 = {
+		desc = ca_culture_southern_1_desc
+		potential = {
+			OR = { 
+				culture_group = southerner
+				has_building = ca_culture_southern_1
+				has_building = ca_culture_southern_2
+			}
+			NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture_group = southerner
+				}
+				NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+				culture_group = southerner
+				}
+				NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+				}
+			}
+		}
+		upgrades_from = ca_culture_southern_1
+		gold_cost = 300
+		build_time = 1095
+		knights = 25
+		superheavy_infantry = 10
+		knights_offensive = 0.15
+		knights_morale = 0.1
+		superheavy_infantry_offensive = 0.15
+		superheavy_infantry_morale = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_southern_3 = {
+		desc = ca_culture_southern_1_desc
+		potential = {
+			OR = { 
+				culture_group = southerner
+				has_building = ca_culture_southern_1
+				has_building = ca_culture_southern_2
+				has_building = ca_culture_southern_3
+			}
+			NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture_group = southerner
+				}
+				NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 3
+			ROOT = {
+				OR = {
+				culture_group = southerner
+				}
+				NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+				}
+			}
+		}
+		upgrades_from = ca_culture_southern_2
+		gold_cost = 300
+		build_time = 1095
+		knights = 35
+		superheavy_infantry = 20
+		knights_offensive = 0.15
+		knights_morale = 0.1
+		superheavy_infantry_offensive = 0.15
+		superheavy_infantry_morale = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_southern_4 = {
+		desc = ca_culture_southern_1_desc
+		potential = {
+			OR = { 
+				culture_group = southerner
+				has_building = ca_culture_southern_1
+				has_building = ca_culture_southern_2
+				has_building = ca_culture_southern_3
+				has_building = ca_culture_southern_4
+			}
+			NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture_group = southerner
+				}
+				NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 5
+			ROOT = {
+				OR = {
+				culture_group = southerner
+				}
+				NOR = {
+				culture = lumbee
+				culture = arkensawyer
+				culture = crabber
+				culture = hoi_toider
+				}
+			}
+		}
+		upgrades_from = ca_culture_southern_3
+		gold_cost = 300
+		build_time = 1095
+		knights = 25
+		superheavy_infantry = 10
+		knights_offensive = 0.15
+		knights_morale = 0.1
+		superheavy_infantry_offensive = 0.15
+		superheavy_infantry_morale = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	
 	ca_culture_dominion_1 = {
 		desc = ca_culture_dominion_1_desc
 		potential = {

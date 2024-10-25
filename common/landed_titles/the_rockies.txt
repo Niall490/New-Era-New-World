@@ -4,10 +4,11 @@ e_the_rockies = {
 
 	capital = 430 # Salt Lake
 	
-	
 	k_nevada = {
 		color={ 255 255 255 }
 		color2={ 255 255 255 }
+		
+		capital = 1683 # c_the_area_NV
 	
 		d_black_desert_NV = {
 			color={ 255 255 255 }

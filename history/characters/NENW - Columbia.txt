@@ -1263,7 +1263,7 @@
 }
 900074 = { #Defeated by America in their first major war, died soon after
 	name = "Nedric"
-	dynasty = 3000869
+	dynasty = 5129891
 	culture = crabber
 	religion = celtic_pagan
 	2033.4.12 = {

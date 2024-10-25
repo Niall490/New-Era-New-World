@@ -65141,7 +65141,7 @@ coat_of_arms = {
 4022227 = { name="Sharkey" culture=mississippians  }
 4022228 = { name="Humphreys" culture=mississippians  }
 4022229 = { name="Grubb" culture=mississippians  }
-4022230 = { name="Powers" culture=mississippians  }
+4022230 = { name="Powers" culture=mississippians 
 
 
 coat_of_arms = {

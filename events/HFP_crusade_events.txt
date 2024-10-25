@@ -306,6 +306,22 @@ character_event = {
                     }
 	    		}
 			}
+			columbian = {
+	    		official_crusade_recipient = {
+                    character = ROOT
+                    NOT = {
+                        religion = columbian
+                    }
+	    		}
+			}
+			sedevacantist = {
+	    		official_crusade_recipient = {
+                    character = ROOT
+                    NOT = {
+                        religion = sedevacantist
+                    }
+	    		}
+			}
 			fraticelli = {
 				official_crusade_recipient = {
                     character = ROOT
@@ -379,6 +395,8 @@ character_event = {
 			neohuguenot = { k_jury_god = { owner = { character_event = { id = HFP.41000 days = 1 } } } }	
 			katoliko = { k_katoliko = { owner = { character_event = { id = HFP.41000 days = 1 } } } }
 			aglipayan = { k_aglipayan = { owner = { character_event = { id = HFP.41000 days = 1 } } } }
+			columbian = { d_columbian = { owner = { character_event = { id = HFP.41000 days = 1 } } } }
+			sedevacantist = { k_sedevacantist = { owner = { character_event = { id = HFP.41000 days = 1 } } } }
     	}
     }
 }
@@ -430,6 +448,16 @@ character_event = {
                     character = ROOT
 				}
 			}
+			columbian = {
+				official_crusade_recipient = {
+                    character = ROOT
+				}
+			}
+			sedevacantist = {
+				official_crusade_recipient = {
+                    character = ROOT
+				}
+			}
             has_character_flag = fourth_crusade_recipient
 		}
     }
@@ -463,6 +491,12 @@ character_event = {
             aglipayan = {
                 set_official_crusade_recipient = NONE
             }
+            columbian = {
+                set_official_crusade_recipient = NONE
+            }
+            sedevacantist = {
+                set_official_crusade_recipient = NONE
+            }
         }
 
     	trigger_switch = {
@@ -475,6 +509,8 @@ character_event = {
 			sevillian = { k_sevillian = { owner = { character_event = { id = HFP.41000 } } } }
 			katoliko = { k_katoliko = { owner = { character_event = { id = HFP.41000 } } } }
 			aglipayan = { k_aglipayan = { owner = { character_event = { id = HFP.41000 } } } }
+			columbian = { d_columbian = { owner = { character_event = { id = HFP.41000 } } } }
+			sedevacantist = { k_sedevacantist = { owner = { character_event = { id = HFP.41000 } } } }
     	}
     }
 }
@@ -496,6 +532,8 @@ character_event = {
 			religion = calvinist
 			religion = katoliko
 			religion = aglipayan
+			religion = columbian
+			religion = sedevacantist
     	}
     }
 
@@ -5496,6 +5534,8 @@ character_event = {
 			religion = calvinist
 			religion = katoliko
 			religion = aglipayan
+			religion = columbian
+			religion = sedevacantist
         }
     }
 
@@ -6585,6 +6625,38 @@ province_event = {
                 }
             }
         }
+        if = {
+            limit = {
+                d_columbian = {
+                    owner = {
+                        any_war = {
+                            using_cb = new_crusade
+                        }
+                    }
+                }
+            }
+            d_columbian = {
+                owner = {
+                    character_event = { id = HFP.41143 }
+                }
+            }
+        }
+        if = {
+            limit = {
+                k_sedevacantist = {
+                    owner = {
+                        any_war = {
+                            using_cb = new_crusade
+                        }
+                    }
+                }
+            }
+            k_sedevacantist = {
+                owner = {
+                    character_event = { id = HFP.41143 }
+                }
+            }
+        }
         if = { #Delay event if the target is far far away
             limit = {
                 any_war = {
@@ -6858,7 +6930,39 @@ province_event = {
                     character_event = { id = HFP.41146 }
                 }
             }
-        }	
+        }
+        if = {
+            limit = {
+                d_columbian = {
+                    owner = {
+                        any_war = {
+                            using_cb = new_crusade
+                        }
+                    }
+                }
+            }
+            d_columbian = {
+                owner = {
+                    character_event = { id = HFP.41146 }
+                }
+            }
+        }
+        if = {
+            limit = {
+                k_sedevacantist = {
+                    owner = {
+                        any_war = {
+                            using_cb = new_crusade
+                        }
+                    }
+                }
+            }
+            k_sedevacantist = {
+                owner = {
+                    character_event = { id = HFP.41146 }
+                }
+            }
+        }			
     }
 }
 

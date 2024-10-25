@@ -371,7 +371,7 @@
 }
 
 2910015 = {
-	name = "Helio" #A mysterious man who became the founder of the Sun Kingdom. Apparently lived for 100 years before passing
+	name = "Helios" #A mysterious man who became the founder of the Sun Kingdom. Apparently lived for 100 years before passing
 	culture = neomexicano
 	religion = zenith
 	dynasty = 5128469

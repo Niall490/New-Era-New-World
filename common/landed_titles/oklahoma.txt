@@ -291,8 +291,6 @@ e_oklahoma = {
 				color = { 60 188 60 }
 				color2= { 255 255 255 }
 
-				culture = sioux
-
 				b_pawhuska_OK = {}
 				b_hominy_OK = {}
 				b_fairfax_OK = {}
@@ -352,8 +350,6 @@ e_oklahoma = {
 			c_kiamichi = {
 				color = { 33 143 52 }
 				color2= { 255 255 255 }
-
-				culture = dixie
 
 				b_hugo_OK = {}
 				b_broken_bow_OK = {

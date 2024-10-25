@@ -13,6 +13,20 @@ estates_2;Small Estate;;;;;;;;;;;;x
 estates_3;Moderate Estate;;;;;;;;;;;;x
 estates_4;Large Estate;;;;;;;;;;;;x
 estates_5;Petty Barony;;;;;;;;;;;;x
+conqueror_modifier;Can use force Vassalisation on §YAnyone§! smaller than themselves.;;;;;;x
+conqueror;Conqueror;;;;;;x
+conqueror_desc;This character is made for greatness;;;;;;x
+give_conqueror_trait;Give the Conqueror Trait;;;;;;;x
+give_conqueror_trait_desc;Give any ruler of your choosing the conqueror trait;;;;;;;x
+give_conqueror_trait_self;Give the Conqueror Trait;;;;;;;x
+give_conqueror_trait_self_desc;Give any ruler of your choosing the conqueror trait;;;;;;;x
+RULE_CONQUEROR;Conquerors;;;;;;;x
+RULE_OPTION_UNCOMMON;Uncommon;;;;;;;x
+RULE_CONQUEROR_UNCOMMON;Characters with the §YConqueror§! trait will spawn rarely;;;;;;;x
+RULE_OPTION_RARE;Rare;;;;;;;x
+RULE_CONQUEROR_RARE;Characters with the §YConqueror§! trait will spawn very rarely;;;;;;;x
+RULE_OPTION_OFF;Off;;;;;;;x
+RULE_CONQUEROR_OFF;Characters with the §YConqueror§! trait won't spawn;;;;;;;x
 title_master_of_the_audit;Chief Auditor;;;;;;;;;x
 title_master_of_the_audit_desc;The Chief Auditor is tasked with supervising all areas of government, and bringing any acts of corruption they detect to light. It is a position of great trust, since nobody audits the Chief Auditor...;;;;;;;;;x
 EVTDESCWX2;As an adult member of the Wuxia faith, it’s time for you to choose which school of martial arts you will pursue in order to reach Enlightenment.;;;;;;;;;;;;x

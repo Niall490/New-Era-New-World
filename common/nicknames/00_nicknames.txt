@@ -2566,7 +2566,6 @@ the_wizard = {
 		OR = {
 			culture_group = chinese_group
 			culture_group = south_chinese_group
-			culture_group = amero_sinitic
 			culture_group = korean_group
 			culture_group = viet
 			culture_group = hmong_mien

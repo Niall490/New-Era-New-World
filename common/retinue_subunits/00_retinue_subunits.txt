@@ -1220,6 +1220,30 @@ RETTYPE_CUL_FINGERLAKER =
 	}
 }
 
+RETTYPE_CUL_KEYSTONER = 
+{
+	first_type = 5
+	first_amount = 150
+	
+	potential = {
+		 higher_tier_than = BARON
+		 is_nomadic = no
+		 OR = {
+			 culture = keystoner
+				any_realm_province = {
+				OR = {
+				culture = keystoner
+				}
+			}
+		}
+	}
+	
+	 modifier = {
+		archers_offensive = 0.2
+		archers_morale = 0.2
+	}
+}
+
 RETTYPE_CUL_VERMONT =
 {
 	first_type = 0
@@ -1314,22 +1338,76 @@ RETTYPE_CUL_SOUTHERN =
 	first_type = 4
 	first_amount = 150
 	
-	second_type = 3
+	second_type = 6
 	second_amount = 100
+	
+	special_troops = superheavy_infantry
+	
+	potential = {
+		 higher_tier_than = BARON
+		 is_nomadic = no
+		 OR = {
+			 culture_group = southerner
+				any_realm_province = {
+				OR = {
+				culture_group = southerner
+				}
+			}
+		}
+				NOR = {
+				culture = arkensawyer
+				culture = crabber
+				culture = lumbee
+				culture = hoi_tider
+				}
+			 any_realm_province = {
+				NOR = {
+				culture = arkensawyer
+				culture = crabber
+				culture = lumbee
+				culture = hoi_tider
+			}
+		}
+	}
+	
+	 modifier = {
+		knights_offensive = 0.3
+		knights_morale = 0.25
+		superheavy_infantry_offensive = 0.3
+		superheavy_infantry_morale = 0.25
+	}
+}
+
+RETTYPE_CUL_SOUTHRON = 
+{
+	first_type = 3
+	first_amount = 150
+	
+	second_type = 6
+	second_amount = 100
+	
+	special_troops = carbineers
 	
 	potential = {
 		higher_tier_than = BARON
 		is_nomadic = no
-		#OR = {
-			#culture = dixie
+		OR = {
 			culture = southron
-		#}
+			culture = desi
+			any_realm_province = {
+			OR = {
+			culture = southron
+			culture = desi
+				}
+			}
+		}
 	}
 	
 	modifier = {
-		knights_offensive = 0.1
-		knights_defensive = 0.1
-		knights_morale = 0.2
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale = 0.15
+		carbineers_offensive = 0.2
+		carbineers_morale = 0.15
 	}
 }
 RETTYPE_CUL_APPALACHIAN = 

@@ -144,17 +144,27 @@ tb_culture_hellfighters_3;Hellfighter Watchtower;;;;;;;;;;;;;x
 tb_culture_hellfighters_4;Hellfighter Watchtower;;;;;;;;;;;;;x
 ca_culture_hellfighters_1_desc;The Hellfighters are a unit of Afro-Americans who venerate an antediviludian unit made out of their kin, who fought with gallantry and bravery. These men aim to do the same, striking deep into their enemies.;;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ca_culture_dominion_1;Royal Mounties;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ca_culture_dominion_2;Royal Mounties;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ca_culture_dominion_3;Royal Mounties;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ca_culture_dominion_4;Royal Mounties;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_dominion_1;Royal Mounties;;;;;;;;;;;;;x
+ca_culture_dominion_2;Royal Mounties;;;;;;;;;;;;;x
+ca_culture_dominion_3;Royal Mounties;;;;;;;;;;;;;x
+ca_culture_dominion_4;Royal Mounties;;;;;;;;;;;;;x
 ca_culture_dominion_1_desc;The Royal Mounties are men of the saddle and sword, being expert skirmishers and heavy cavalry. They uphold their ancient duty to protect the lands of Canada be enforcing law or fighting on the battlefield.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ca_culture_southron_1;Southron Cavalrymen;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ca_culture_southron_2;Southron Cavalrymen;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ca_culture_southron_3;Southron Cavalrymen;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ca_culture_southron_4;Southron Cavalrymen;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_southron_1;Southron Cavalrymen;;;;;;;;;;;;;x
+ca_culture_southron_2;Southron Cavalrymen;;;;;;;;;;;;;x
+ca_culture_southron_3;Southron Cavalrymen;;;;;;;;;;;;;x
+ca_culture_southron_4;Southron Cavalrymen;;;;;;;;;;;;;x
 ca_culture_southron_1_desc;Southron Cavalrymen make use of their light cavalry in massive charges while harassing their foes with their gunpowder wielding units.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_southern_1;Southern Gallant Manors;;;;;;;;;;;;;x
+ca_culture_southern_2;Southern Gallant Manors;;;;;;;;;;;;;x
+ca_culture_southern_3;Southern Gallant Manors;;;;;;;;;;;;;x
+ca_culture_southern_4;Southern Gallant Manors;;;;;;;;;;;;;x
+tb_culture_southern_1;Southern Gallant Halls;;;;;;;;;;;;;x
+tb_culture_southern_2;Southern Gallant Halls;;;;;;;;;;;;;x
+tb_culture_southern_3;Southern Gallant Halls;;;;;;;;;;;;;x
+tb_culture_southern_4;Southern Gallant Halls;;;;;;;;;;;;;x
+ca_culture_southern_1_desc;The Southern Gallants are Southern people who have adpoted a tradition of chivalry and consequently have transformed into knights, travelling amongst the lands in elegant fashion. Still, this does not take away their marvelous military prowress.;;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_wicker_1;Wicker Swordsmen Barracks;;;;;;;;;;;;x
 ca_culture_wicker_2;Wicker Swordsmen Barracks;;;;;;;;;;;;x
@@ -264,6 +274,16 @@ tb_culture_finger_laker_2;Fingerlaiker Skirmisher Proving Grounds;;;;;;;;;;;;;x
 tb_culture_finger_laker_3;Fingerlaiker Skirmisher Proving Grounds;;;;;;;;;;;;;x
 tb_culture_finger_laker_4;Fingerlaiker Skirmisher Proving Grounds;;;;;;;;;;;;;x
 tb_culture_finger_laker_1_desc;These grounds drill the skirmishers of the Fingerlaiker. They guard the frontiers of the realm, keeping off any straglers who dare come near.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_associators_1;Associator Hall;;;;;;;;;;;;;x
+ca_culture_associators_2;Associator Hall;;;;;;;;;;;;;x
+ca_culture_associators_3;Associator Hall;;;;;;;;;;;;;x
+ca_culture_associators_4;Associator Hall;;;;;;;;;;;;;x
+tb_culture_associators_1;Associator Meeting Grounds;;;;;;;;;;;;;x
+tb_culture_associators_2;Associator Meeting Grounds;;;;;;;;;;;;;x
+tb_culture_associators_3;Associator Meeting Grounds;;;;;;;;;;;;;x
+tb_culture_associators_4;Associator Meeting Grounds;;;;;;;;;;;;;x
+ca_culture_associators_1_desc;The Associators are a antediviludian group of Pennsylvanians who were volunteer militias who fought for Old America. Today, these men are of the same volunteer nature, helping whoever needs aid.;;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_gaoshan_1;Gaoshan Crossbow Range;;;;;;;;;;;;;x
 ca_culture_gaoshan_2;Gaoshan Crossbow Range;;;;;;;;;;;;;x

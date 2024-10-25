@@ -1950,7 +1950,7 @@
 }
 700126 = {
 	name = "John"
-	dynasty = 3000646
+	dynasty = 3001646
 	religion = scholastic
 	culture = bostonian
 	2065.5.28 = {
@@ -1962,7 +1962,7 @@
 }
 700127 = {
 	name = "Ahab"
-	dynasty = 3000647
+	dynasty = 3001647
 	religion = pagan
 	culture = massachusite
 	2054.6.23 = {
@@ -1977,7 +1977,7 @@
 }
 700128 = {
 	name = "Shay"
-	dynasty = 3000648
+	dynasty = 3001648
 	religion = columbian
 	culture = massachusite
 	2129.9.12 = {

@@ -1,0 +1,78 @@
+namespace = columbian
+
+narrative_event = { #Columbian Crusades Start - New York City is reclaimed from the CRE
+	id = columbian.1
+	title = EVTNAME_nyc_retaken
+	desc = EVTDESC_nyc_retaken
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+	
+	major = yes
+	
+	show_ROOT = yes
+	hide_new = yes
+	
+	only_playable = yes
+	min_age = 16
+	religion = columbian
+	
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		controls_religion = yes
+		NOT = { has_global_flag = columbian_crusades_unlocked }
+		OR = {
+			d_new_york = {
+				owner = { top_liege = { religion = columbian } }
+			}
+			c_manhattan = {
+				owner = { top_liege = { religion = columbian } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		set_global_flag = columbian_crusades_unlocked
+	}
+	
+	option = {
+		name = EVTOPTA_nyc_retaken
+		trigger = {
+			religion = columbian
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_nyc_retaken
+		trigger = {
+			religion = catholic
+		}
+	}
+	option = {
+		name = EVTOPTC_nyc_retaken
+		trigger = {
+			religion_group = christian
+			NOR = {
+				religion = catholic
+				religion = columbian
+			}
+		}
+	}	
+	option = {
+		name = EVTOPTD_nyc_retaken
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+	option = {
+		name = EVTOPTD_nyc_retaken
+		trigger = {
+			religion = constitutional
+		}
+	}
+}

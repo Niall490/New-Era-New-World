@@ -53,11 +53,38 @@ decisions = {
 			}
 			form_empire_allow = yes
 			#Control a bunch of lands
-				completely_controls_region = world_northeast
-				completely_controls_region = world_appalachia
-				completely_controls_region = world_southeast
-				completely_controls_region = world_mississippi
-				completely_controls_region = world_steel_belt
+				d_capital = { show_scope_change = no province_completely_controls_trigger = yes } # DC
+				d_black_belt = { show_scope_change = no province_completely_controls_trigger = yes } # Montgomery, AL
+				d_timberland = { show_scope_change = no province_completely_controls_trigger = yes } # Little Rock, AR
+				d_hartford = { show_scope_change = no province_completely_controls_trigger = yes } # Hartford, CT
+				d_delaware_valley = { show_scope_change = no province_completely_controls_trigger = yes } # Dover, DA
+				d_tallahassee = { show_scope_change = no province_completely_controls_trigger = yes } # Tallahassee, FL
+				d_peachtree = { show_scope_change = no province_completely_controls_trigger = yes } # Atlanta, GA
+				d_illinois = { show_scope_change = no province_completely_controls_trigger = yes } # Springfield, IL
+				d_indianapolis = { show_scope_change = no province_completely_controls_trigger = yes } # Indianapolis, ID
+				d_moingonia = { show_scope_change = no province_completely_controls_trigger = yes } # Des Moines, IO
+				d_bluegrass = { show_scope_change = no province_completely_controls_trigger = yes } # Frankfort, KY
+				d_west_florida = { show_scope_change = no province_completely_controls_trigger = yes } # Baton Rouge, LA
+				d_boston = { show_scope_change = no province_completely_controls_trigger = yes } # Boston, MA
+				d_calvert = { show_scope_change = no province_completely_controls_trigger = yes } # Annapolis, MD
+				d_belknap = { show_scope_change = no province_completely_controls_trigger = yes } # Augusta, ME
+				d_midmichigan = { show_scope_change = no province_completely_controls_trigger = yes } # Lansing, MI
+				d_st_anthony = { show_scope_change = no province_completely_controls_trigger = yes } # Saint Paul, MN
+				d_boonslick = { show_scope_change = no province_completely_controls_trigger = yes } # Jefferson City, MO
+				d_triangle = { show_scope_change = no province_completely_controls_trigger = yes } # Raleigh, NC
+				d_bismarck = { show_scope_change = no province_completely_controls_trigger = yes } # Bismark, ND / Pierre, SD
+				d_concord = { show_scope_change = no province_completely_controls_trigger = yes } # Concord, NH
+				d_cersey = { show_scope_change = no province_completely_controls_trigger = yes } # Trenton, NJ
+				d_mohawk_valley = { show_scope_change = no province_completely_controls_trigger = yes } # Albany, NY
+				d_columbus = { show_scope_change = no province_completely_controls_trigger = yes } # Columbus, OH
+				d_three_mile_island = { show_scope_change = no province_completely_controls_trigger = yes } # Harrisburg, PA
+				d_rhode_island = { show_scope_change = no province_completely_controls_trigger = yes } # Providence, RI
+				d_columbia = { show_scope_change = no province_completely_controls_trigger = yes } # Columbia, SC
+				d_middle_tennessee = { show_scope_change = no province_completely_controls_trigger = yes } # Nashville, TN
+				d_richmond = { show_scope_change = no province_completely_controls_trigger = yes } # Richmond, VA
+				d_nek = { show_scope_change = no province_completely_controls_trigger = yes } # Montpelier, VT
+				d_mountain_lakes = { show_scope_change = no province_completely_controls_trigger = yes } # Charleston, WV
+				d_coulee = { show_scope_change = no province_completely_controls_trigger = yes } # Madison, WI
 		}
 
 		effect = {
