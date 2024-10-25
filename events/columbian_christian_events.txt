@@ -69,7 +69,7 @@ narrative_event = { #Columbian Crusades Start - New York City is reclaimed from 
 			NOT = { religion_group = christian }
 		}
 	}
-	option = { #I thought the Politan Wars were over!
+	option = {
 		name = EVTOPTD_nyc_retaken
 		trigger = {
 			religion = constitutional

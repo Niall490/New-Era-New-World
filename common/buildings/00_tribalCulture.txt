@@ -5532,7 +5532,6 @@ tribal = {
 				culture = arkensawyer
 				culture = crabber
 				culture = hoi_toider
-				}
 			}
 		}
 		is_active_trigger = {

@@ -1386,6 +1386,8 @@ is_catholic_branch = {
 		religion = hussite
 		religion = fraticelli
 		religion = cadaverist
+		religion = columbian
+		religion = sedevacantist
 	}
 }
 
@@ -1395,6 +1397,8 @@ is_catholic_true_branch = {
 		true_religion = hussite
 		true_religion = fraticelli
 		true_religion = cadaverist
+		true_religion = columbian
+		true_religion = sedevacantist
 	}
 }
 
@@ -1404,6 +1408,8 @@ is_catholic_secret_branch = {
 		secret_religion = hussite
 		secret_religion = fraticelli
 		secret_religion = cadaverist
+		secret_religion = columbian
+		secret_religion = sedevacantist
 	}
 }
 

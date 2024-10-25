@@ -840,7 +840,7 @@
 	trait = diligent
 	trait = deceitful
 	trait = just
-	trait = mutazilite
+	#trait = mutazilite
 	disallow_random_traits = yes
 	2284.6.27 = {
 		birth = yes

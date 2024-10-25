@@ -18652,9 +18652,9 @@
 3000641 = { name="Columbo" culture=politan  }
 3000642 = { name = "Carcinos" culture = crabber }
 3000643 = { name = "LaHood" culture = prairielander }
-3000644 = { name = "Narmerovich" culture = lil_egyptian }
+3001644 = { name = "Narmerovich" culture = kairebiyan }
 3000645 = { name = "Cawthon" culture = lil_egyptian  }
-3000646 = { name = "Eggleston" culture = bostonian }
+3001646 = { name = "Eggleston" culture = bostonian }
 3001647 = { name = "Melville" culture = massachusite }
 3001648 = { name = "Pynchon" culture = massachusite }
 

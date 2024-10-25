@@ -77,7 +77,7 @@
 }
 
 1100003 = {
-	dynasty = 3000644
+	dynasty = 3001644
 	name = "Fatima" #A pious woman who considers herself a true Muslim
 	religion = islamity
 	culture = kairebiyan
@@ -215,7 +215,7 @@
 	trait = poet
 	trait = quick
 	trait = temperate
-	trait = bard
+	#trait = bard
 	trait = vegetarian
 	trait = humble
 	2276.9.17 = {
@@ -860,7 +860,7 @@
     }
 }
 1100038  = {
-    dynasty = 5128087
+    dynasty = 5128088
     name = "Juanita"
     religion = santeria
     culture = cubano

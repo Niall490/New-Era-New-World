@@ -1340,7 +1340,7 @@
 }
 100088 = { #Carib Mercs
 	name = "James"
-	dynasty = 3000740
+	dynasty = 3000749
 	culture = "hoi_toider"
 	religion = "libertalian"
 	trait = brilliant_strategist

@@ -348,7 +348,7 @@
 }
 650022 = {
 	name = "Gustav"
-	dynasty = 5129279
+	dynasty = 5124081
 	religion = "uniate"
 	culture = "norwsk"	
 	2282.6.12 = {
