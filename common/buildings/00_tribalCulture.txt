@@ -6307,12 +6307,12 @@ tribal = {
 		extra_tech_building_start = 0.8
 	}
 	
-	tb_culture_keystoner_1 = {
+	tb_culture_associators_1 = {
 		desc = ca_culture_keystoner_1_desc
 		potential = {
 			OR = {
 				culture = keystoner
-				has_building = tb_culture_keystoner_1
+				has_building = tb_culture_associators_1
 			}
 		}
 		is_active_trigger = {
@@ -6340,13 +6340,13 @@ tribal = {
 		
 		extra_tech_building_start = 0.8
 	}
-	tb_culture_keystoner_2 = {
+	tb_culture_associators_2 = {
 		desc = ca_culture_keystoner_1_desc
 		potential = {
 			OR = {
 				culture = keystoner
-				has_building = tb_culture_keystoner_1
-				has_building = tb_culture_keystoner_2
+				has_building = tb_culture_associators_1
+				has_building = tb_culture_associators_2
 			}
 		}
 		is_active_trigger = {
@@ -6364,7 +6364,7 @@ tribal = {
 				}
 			}
 		}
-		upgrades_from = tb_culture_keystoner_1
+		upgrades_from = tb_culture_associators_1
 		prestige_cost = 200
 		build_time = 547
 		archers = 15
@@ -6376,14 +6376,14 @@ tribal = {
 		
 		extra_tech_building_start = 0.8
 	}
-	tb_culture_keystoner_3 = {
+	tb_culture_associators_3 = {
 		desc = ca_culture_keystoner_1_desc
 		potential = {
 			OR = {
 				culture = keystoner
-				has_building = tb_culture_keystoner_1
-				has_building = tb_culture_keystoner_2
-				has_building = tb_culture_keystoner_3
+				has_building = tb_culture_associators_1
+				has_building = tb_culture_associators_2
+				has_building = tb_culture_associators_3
 			}
 		}
 		is_active_trigger = {
@@ -6401,7 +6401,7 @@ tribal = {
 				}
 			}
 		}
-		upgrades_from = tb_culture_keystoner_2
+		upgrades_from = tb_culture_associators_2
 		prestige_cost = 300
 		build_time = 730
 		archers = 20
@@ -6413,15 +6413,15 @@ tribal = {
 		
 		extra_tech_building_start = 0.8
 	}
-	tb_culture_keystoner_4 = {
+	tb_culture_associators_4 = {
 		desc = ca_culture_keystoner_1_desc
 		potential = {
 			OR = {
 				culture = keystoner
-				has_building = tb_culture_keystoner_1
-				has_building = tb_culture_keystoner_2
-				has_building = tb_culture_keystoner_3
-				has_building = tb_culture_keystoner_4
+				has_building = tb_culture_associators_1
+				has_building = tb_culture_associators_2
+				has_building = tb_culture_associators_3
+				has_building = tb_culture_associators_4
 			}
 		}
 		is_active_trigger = {
@@ -6439,7 +6439,7 @@ tribal = {
 				}
 			}
 		}
-		upgrades_from = tb_culture_keystoner_3
+		upgrades_from = tb_culture_associators_3
 		prestige_cost = 400
 		build_time = 1095
 		archers = 20
