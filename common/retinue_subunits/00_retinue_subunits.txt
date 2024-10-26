@@ -1136,6 +1136,61 @@ RETTYPE_CUL_HELLFIGHTER =
 		gunmen_offensive = 0.3
 		gunmen_morale = 0.25
 	}
+}
+
+RETTYPE_CUL_MAROON = 
+{
+	first_type = 5
+	first_amount = 250
+	
+	second_type = 0
+	second_amount = 150
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = tuskegean
+			culture = gullah
+			any_realm_province = {
+			OR = {
+			culture = tuskegean
+			culture = gullah
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.2
+		light_infantry_morale = 0.15
+		archers_offensive = 0.2
+		archers_morale = 0.15
+	}
+}
+
+RETTYPE_CUL_REDTAILS = 
+{
+	first_type = 3
+	first_amount = 350
+	
+	potential = {
+		 higher_tier_than = BARON
+		 is_nomadic = no
+		 OR = {
+			 culture = fiskean
+			 any_realm_province = {
+				OR = {
+			culture = fiskean
+				}
+			}
+		 }
+	 }
+	
+	 modifier = {
+		light_cavalry_offensive = 0.3
+		light_cavalry_morale = 0.25
+	}
 }	
 
 RETTYPE_CUL_HUDSUNITE = 
@@ -1410,6 +1465,61 @@ RETTYPE_CUL_SOUTHRON =
 		carbineers_morale = 0.15
 	}
 }
+
+RETTYPE_CUL_CAROLINO = 
+{
+	first_type = 5
+	first_amount = 300
+
+	second_type = 2
+	second_amount = 150
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		culture = carolino
+		any_realm_province = {
+				OR = {
+				culture = carolino
+			}
+		}
+	}	
+	
+	modifier = {
+		archers_offensive = 0.25
+		archers_morale = 0.2
+		pikemen_offensive = 0.25
+		pikemen_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_CRABBER = 
+{
+	first_type = 0
+	first_amount = 250
+
+	second_type = 2
+	second_amount = 150
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		culture = crabber
+		any_realm_province = {
+				OR = {
+				culture = crabber
+			}
+		}
+	}	
+	
+	modifier = {
+		light_infantry_offensive = 0.25
+		light_infantry_morale = 0.2
+		pikemen_offensive = 0.25
+		pikemen_morale = 0.2
+	}
+}
+
 RETTYPE_CUL_APPALACHIAN = 
 {
 	first_type = 2
