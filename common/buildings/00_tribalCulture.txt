@@ -6308,7 +6308,7 @@ tribal = {
 	}
 	
 	tb_culture_associators_1 = {
-		desc = ca_culture_keystoner_1_desc
+		desc = ca_culture_associators_1_desc
 		potential = {
 			OR = {
 				culture = keystoner
@@ -6341,7 +6341,7 @@ tribal = {
 		extra_tech_building_start = 0.8
 	}
 	tb_culture_associators_2 = {
-		desc = ca_culture_keystoner_1_desc
+		desc = ca_culture_associators_1_desc
 		potential = {
 			OR = {
 				culture = keystoner
@@ -6372,12 +6372,10 @@ tribal = {
 		archers_morale = 0.2
 		ai_creation_factor = 100
 		
-		convert_to_castle = ca_culture_keystoner_1
-		
 		extra_tech_building_start = 0.8
 	}
 	tb_culture_associators_3 = {
-		desc = ca_culture_keystoner_1_desc
+		desc = ca_culture_associators_1_desc
 		potential = {
 			OR = {
 				culture = keystoner
@@ -6409,12 +6407,12 @@ tribal = {
 		archers_morale = 0.2
 		ai_creation_factor = 99
 		
-		convert_to_castle = ca_culture_keystoner_1
+		convert_to_castle = ca_culture_associators_1
 		
 		extra_tech_building_start = 0.8
 	}
 	tb_culture_associators_4 = {
-		desc = ca_culture_keystoner_1_desc
+		desc = ca_culture_associators_1_desc
 		potential = {
 			OR = {
 				culture = keystoner
@@ -6447,7 +6445,7 @@ tribal = {
 		archers_morale = 0.2
 		ai_creation_factor = 98
 		
-		convert_to_castle = ca_culture_keystoner_2
+		convert_to_castle = ca_culture_associators_2
 		
 		extra_tech_building_start = 0.8
 	}
