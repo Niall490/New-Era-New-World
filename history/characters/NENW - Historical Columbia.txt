@@ -1,0 +1,204 @@
+3400000 = { #First "President" of Columbia, who is totally real, trust me and not made up, who defended the remains of the republic considitang the East Coast from rebels
+	name = "Marshall"
+	dynasty = 4000039 # Law
+	religion=constitutional
+	culture=federalist
+    diplomacy=5
+    martial=8
+    stewardship=4
+    intrigue=4
+    learning=1
+    disallow_random_traits = yes
+	trait=brilliant_strategist
+    trait=scarred_high
+    trait=quick
+    trait=diligent
+    trait=ambitious
+    trait=wroth
+    trait=proud
+    trait=brave
+    trait=just
+	trait=defensive_leader
+    trait=unyielding_leader
+	trait=trait=democrat_sen
+	1955.10.17 = {
+		birth = yes
+	}
+	2020.10.08 = {
+		death = yes
+	}
+}
+3400001 = { #Third "President" of Columbia, who came to power thanks to his reorganzing around DC, at the cost of loosing much of what remained to warlords but keeping the nation alive
+	name = "Murphy"
+	dynasty = 4000039 # Law
+	religion=constitutional
+	culture=federalist
+    diplomacy=8
+    martial=1
+    stewardship=1
+    intrigue=8
+    learning=8
+    disallow_random_traits = yes
+	trait=grey_eminence
+    trait=genius
+    trait=groomed
+    trait=strategist
+    trait=scholar
+    trait=envious
+    trait=humble
+    trait=content
+    trait=shy
+	trait=stubborn
+    trait=trait=democrat_sen
+	father = 3400000
+	1974.6.4 = {
+		birth = yes
+	}
+	2035.10.08 = {
+		death = yes
+	}
+}
+3400002 = { #Second "President" of Columbia, who failed so much it caused the 2nd great retreat
+	name = "Zachery"
+	dynasty = 4000040 #Smithson
+	religion=constitutional
+	culture=federalist
+    diplomacy=1
+    martial=1
+    stewardship=1
+    intrigue=1
+    learning=1
+    disallow_random_traits = yes
+	trait=misguided_warrior
+    trait=drunkard
+    trait=lefthanded
+    trait=feeble
+    trait=patient
+    trait=slothful
+    trait=greedy
+    trait=craven
+    trait=paranoid
+	trait=aggressive_leader
+    trait=trait=republican_sen
+	1974.6.4 = {
+		birth = yes
+	}
+	2035.10.08 = {
+		death = yes
+	}
+}
+3400003 = { #Fourth President of Columbia, rebuilt the nation around Washington DC, but was killed by a Free Way incursion in his second term, ending the Law family as its final member, part of the 1st Quartet
+	name = "Abraham"
+	dynasty = 4000039 #Law
+	religion=constitutional
+	culture=federalist
+    diplomacy=4
+    martial=3
+    stewardship=8
+    intrigue=3
+    learning=5
+    disallow_random_traits = yes
+	trait=midas_touched
+    trait=maimed
+    trait=administrator
+    trait=architect
+    trait=erudite
+    trait=diligent
+    trait=chaste
+    trait=sympathy_christendom
+    trait=trait=democrat_sen
+	father = 3400000
+	1980.4.15 = {
+		birth = yes
+	}
+	2026.6.11 = {
+		death = yes
+	}
+}
+3400004 = { #Fifth President of Columbia, first a vice president, then full president in his second and third term, was responsible for restablashing militias as a key part of the army and member of 1st Quartet, died of camp fever day he left office
+	name = "William"
+	dynasty = 5000169 #Harricarter
+	religion=constitutional
+	culture=federalist
+    diplomacy=5
+    martial=7
+    stewardship=5
+    intrigue=2
+    learning=5
+    disallow_random_traits = yes
+	trait=skilled_tactician
+    trait=weak	
+    trait=shrewd
+    trait=strategist
+    trait=honest
+    trait=organizer
+	trait=has_typhus
+    trait=trait=democrat_sen
+	1991.1.19 = {
+		birth = yes
+	}
+	2032.1.20 = {
+		death = yes
+	}
+}
+3400005 = { #Sixth President of Columbia, three time president to help Gauis Washington Roosevelt, but mainly a vice president trough out most of the 1st Quartet, created the generations lasting bond between the Roosevelts and Delanos and their early reign and later importance in Virginia, also helped larpify the federalists
+	name = "Rodney"
+	dynasty = 5000180 #Delano
+	religion=constitutional
+	culture=federalist
+    diplomacy=8
+    martial=2
+    stewardship=6
+    intrigue=2
+    learning=3
+    disallow_random_traits = yes
+	trait=charismatic_negotiator
+    trait=fair
+    trait=diplomat_3
+    trait=socializer
+    trait=poet
+    trait=kind
+	trait=tall
+    trait=trait=republican_sen
+	1990.11.11 = {
+		birth = yes
+	}
+	2067.7.23 = {
+		death = yes
+	}
+}
+3400006 = { #Seventh President of Columbia, massive history nerd and romaboo, who happened to be one of the best statesmen at the time, the most important of the 1st Quartet, he expended the CRE from DC when his terms were up and people wanted him dead for doing stuff with out approval of the senate, later allowed himself to be elected more then 2 times cause he was the only person with an army by then, he would pass away the same year the 28th amendment was passed, unable to turn the presidency into a full monarchy leaving it in a limbo which it continues to be from here
+	name = "Gauis Washington"
+	dynasty = 5000165 #Roosevelt
+	religion=constitutional
+	culture=federalist
+    diplomacy=6
+    martial=8
+    stewardship=2
+    intrigue=5
+    learning=8
+    disallow_random_traits = yes
+	trait=exalted_warlord
+    trait=proud
+	trait=feeble
+	trait=quick
+    trait=diplomat_1
+    trait=ambitious
+    trait=arbitrary
+    trait=cynical
+    trait=humble
+	trait=diligent
+	trait=charitable
+	trait=temperate
+	trait=scholar
+	trait=gamer
+    trait=experimenter
+    trait=inspiring_leader
+    trait=trait=republican_sen
+	2001.4.15 = {
+		birth = yes
+	}
+	2065.12.14 = {
+		death = yes
+	}
+}

@@ -781,7 +781,7 @@ teaset={
 	picture = "GFX_Teaset"
 }
 beer_recipe_fragment={
-	german_opinion = 1
+	amerogerman_opinion = 1
 	quality=1
 	flags = { nobelart beer }
 	active = {
