@@ -18675,6 +18675,7 @@
 3001646 = { name = "Eggleston" culture = bostonian }
 3001647 = { name = "Melville" culture = massachusite }
 3001648 = { name = "Pynchon" culture = massachusite }
+3001649 = { name = "Ward" culture = politan }
 
 5130831 = { 
 	name="Seed" 

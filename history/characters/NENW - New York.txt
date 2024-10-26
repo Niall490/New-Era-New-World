@@ -1940,6 +1940,7 @@
 	trait = ambitious
 	trait = zealous	
 	disallow_random_traits=yes
+	father = 800123
 	2276.12.1 = {
 		birth = yes
 		culture = politan
@@ -2312,6 +2313,57 @@
 		employer = 900301
 	}
 	2666.03.02 = {
+		death = yes
+	}
+}
+800120 = { #King and uniter of Enysee
+	name = "Dustin"
+	dynasty = 3001649
+	religion = columbian
+	culture = politan
+	2027.5.28 = {
+		birth = yes
+	}
+	2071.7.11 = {
+		death = yes
+	}
+}
+800121 = { #Prince of Enysee who died lol
+	name = "Cody"
+	dynasty = 3001649
+	religion = columbian
+	culture = politan
+	father = 800120
+	2054.2.19 = {
+		birth = yes
+	}
+	2071.6.19 = {
+		death = yes
+	}
+}
+800122 = { #Petty King of Lower Enysee, lost war for unification
+	name = "Anthony"
+	dynasty = 5022754
+	religion = columbian
+	culture = politan
+	2026.8.13 = {
+		birth = yes
+	}
+	2072.9.11 = {
+		death = yes
+	} 
+}
+800123 = { #line of
+	name = "Line of"
+	dynasty = 5022754
+	religion = columbian
+	culture = politan
+	occluded = yes 
+	father = 800122
+	2056.3.4 = {
+		birth = yes
+	}
+	2311.1.1 = {
 		death = yes
 	}
 }

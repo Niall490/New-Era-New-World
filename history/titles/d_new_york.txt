@@ -1,3 +1,10 @@
+2048.3.14 = {
+	holder = 800120
+}
+2071.5.28 = {
+	holder = 0
+}
+
 2292.5.18 = {
 	holder = 800040
 	liege = e_columbia
