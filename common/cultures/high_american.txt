@@ -92,19 +92,19 @@ high_american = {
 			Indiana Isaac_Isaac Isaiah_Isaiah
 			Jackson_John Jacob_Jacob James_James Jason_Jason Jefferson_Geoffrey Joel_Joel John_John Johnson_John Jonathan_Jonathan Jordan_Jordan Joseph_Joseph Julian_Julian Julius_Julius Justin_Justin
 			Lamar Lawrence_Lawrence Leo_Leo Leonard_Leonard Leonidas_Leonidas Lewis_Louis Levi Lincoln Linwood Lucas_Luke Lucius_Lucius Lyndon
-			Majorian Malcolm_Malcolm Marcellus_Marcellus Mark_Mark Marius_Marius Marshall Martin_Martin Matthew_Matthew McKinley Meriwether Menelaus Michael_Michael Milburn Millard Minos Monroe Morris_Maurice Murphy
-			Nelson_Neil Nicholas_Nicholas Noah_Noah Norman_Norman Norton
+			Majorian Malcolm_Malcolm Marcellus_Marcellus Mark_Mark Marius_Marius Marshall Martin_Martin Matthew_Matthew McKinley Meriwether Menelaus Michael_Michael Milburn Millard Miltiades Minos Mithridates Monroe Morris_Maurice Murphy
+			Nerva Nelson_Neil Nicholas_Nicholas Noah_Noah Norman_Norman Norton
 			Ogden Orville Oswald_Oswald Owen_Eugene Octavian_Octavian
-			Palmer Parker Patrick_Patrick Patton Paul_Paul Pellias Pershing Pericles Philander Pierce_Peter Plato Polycarpus Porter Priscus Pulcher Publicola Pyrrhus
+			Palmer Parker Patrick_Patrick Patton Paul_Paul Pellias Pershing Pericles Philander Pierce_Peter Plato Polycarpus Pompey Porter Priscus Pulcher Publicola Pyrrhus Pythagoras
 			Quincy_Quintus Quintus_Quintus
 			Reagan Remington Rhett Richard_Richard Robert_Robert Roderick_Roderick Rodney Ronald_Ronald Roosevelt Ross Rufus_Rufus Rutherford Ryan
-			Samuel_Samuel Sawyer Schuyler Scipio Scott Seneca Seth Severus_Severus Sheldon Sherman Silas Sinclair Smith Socrates Sophocles Spencer Stafford Stanley_Stanley Steven_Stephen Sullivan_Sullivan
-			Teague Tertius Thaddeus_Thaddeus Theodore_Theodore Theophilus_Theophilus Theseus Thomas_Thomas Tiberius_Tiberius Timothy_Timothy Titus_Titus Todd Trajan Travis Trenton Trophimus Truman Tyler
+			Samuel_Samuel Sawyer Schuyler Scipio Scott Seneca Seth Severus_Severus Sheldon Sherman Silas Sinclair Smith Socrates Sophocles Spartacus Spencer Stafford Stanley_Stanley Steven_Stephen Suetonius Sulla Sullivan_Sullivan
+			Tacitus Teague Tertius Thaddeus_Thaddeus Themistocles Theodore_Theodore Theophilus_Theophilus Theseus Thomas_Thomas Tiberius_Tiberius Timothy_Timothy Titus_Titus Todd Trajan Travis Trenton Trophimus Truman Tyler
 			Ulysses_Odysseus Upton
 			Vergilius Vernon Victor_Victor Vincent_Vincent
 			Quincy_Quintus
 			Walker Walter_Walter Warren Washington Webster William_William Wilson_William Woodrow Wyatt
-			Xavier_Xavier
+			Xavier_Xavier Xenophon
 			Yancy_John
 			Zachary_Zachary
 		}
@@ -114,7 +114,7 @@ high_american = {
 			Bailey Belle_Elizabeth Beatrix_Beatrix Bethany_Bethany Bianca_Blanche Blair Blakely Breanna_Briana Brianna_Briana Briseis Brittany_Brittany Brooke
 			Caitlin_Caitlin Camilla_Camilla Catherine_Catherine Caroline_Caroline Cassandra Cheyenne Chloe_Chloe Christina_Christina Claire_Clara Courtney
 			Dana Danica Danielle_Daniela Daphne Destiny
-			Elaine_Helen Elizabeth_Elizabeth Emily_Emily Emma_Emma Erin Esther_Esther
+			Elaine_Helen Elizabeth_Elizabeth Emily_Emily Emma_Emma Erin Esther_Esther Europa
 			Faith Felicia_Felicia
 			Gloria_Gloria Grace_Grace
 			Haley_Haley Hannah_Hannah Helena_Helen Honoria
