@@ -244,10 +244,9 @@ fort = {
 		ai_creation_factor = 95
 		add_number_to_name = no
 		
-		tradevalue = 15
+		tradevalue = 20
 		
 		extra_tech_building_start = 10.0 # Never get at start of game
-		tax_income = -0.2
 	}
 	ft_trade_route_patrols_2 = {	# Trade Guard patrols
 		potential = {
@@ -281,10 +280,9 @@ fort = {
 		ai_creation_factor = 95
 		add_number_to_name = no
 		
-		tradevalue = 15
+		tradevalue = 20
 		
 		extra_tech_building_start = 10.0 # Never get at start of game
-		tax_income = -0.2
 	}
 	ft_trade_route_patrols_3 = {	# Trade Guard patrols
 		potential = {
