@@ -13739,6 +13739,352 @@ castle = {
 		tax_income = -0.2
 	}
 	
+	ca_culture_redneck_1 = {
+		desc = ca_culture_redneck_1_desc
+		potential = {
+			OR = {
+				culture_group = appalachian_group
+				has_building = ca_culture_redneck_1
+			}
+			NOR= {
+				culture = melungeon
+				culture = vandalian
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture_group = appalachian_group
+				}
+				NOR = {
+				culture = melungeon
+				culture = vandalian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture_group = appalachian_group
+				}
+				NOR = {
+				culture = melungeon
+				culture = vandalian
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 30
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_redneck_2 = {
+		desc = ca_culture_redneck_1_desc
+		potential = {
+			OR = {
+				culture_group = appalachian_group
+				has_building = ca_culture_redneck_1
+				has_building = ca_culture_redneck_2
+			}
+			NOR = {
+				culture = melungeon
+				culture = vandalian
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture_group = appalachian_group
+				}
+				NOR = {
+				culture = melungeon
+				culture = vandalian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1 
+			ROOT = {
+				OR = {
+					culture_group = appalachian_group
+				}
+				NOR = {
+				culture = melungeon
+				culture = vandalian
+				}
+			}
+		}
+		upgrades_from = ca_culture_redneck_1
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 30
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_redneck_3 = {
+		desc = ca_culture_redneck_1_desc
+		potential = {
+			OR = {
+				culture_group = appalachian_group
+				has_building = ca_culture_redneck_1
+				has_building = ca_culture_redneck_2
+				has_building = ca_culture_redneck_3
+			}
+			NOR = {
+				culture = melungeon
+				culture = vandalian
+				}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture_group = appalachian_group
+				}
+				NOR = {
+				culture = melungeon
+				culture = vandalian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture_group = appalachian_group
+				}
+				NOR = {
+				culture = melungeon
+				culture = vandalian
+				}
+			}
+		}
+		upgrades_from = ca_culture_redneck_2
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 45
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_redneck_4 = {
+		desc = ca_culture_redneck_1_desc
+		potential = {
+			OR = {
+				culture_group = appalachian_group
+				has_building = ca_culture_redneck_1
+				has_building = ca_culture_redneck_2
+				has_building = ca_culture_redneck_3
+				has_building = ca_culture_redneck_4
+			}
+			NOR = {
+				culture = melungeon
+				culture = vandalian
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture_group = appalachian_group
+				}
+				NOR = {
+				culture = melungeon
+				culture = vandalian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture_group = appalachian_group
+				}
+				NOR = {
+				culture = melungeon
+				culture = vandalian
+				}
+			}
+		}
+		upgrades_from = ca_culture_redneck_3
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 60
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	
+	ca_culture_vandalian_1 = {
+		desc = ca_culture_vandalian_1_desc
+		potential = {
+			OR = {
+				culture = vandalian
+				has_building = ca_culture_vandalian_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = vandalian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = vandalian
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 30
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_morale = 0.15
+		archers = 25
+		archers_defensive = 0.2
+		archers_morale = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_vandalian_2 = {
+		desc = ca_culture_vandalian_1_desc
+		potential = {
+			OR = {
+				culture = vandalian
+				has_building = ca_culture_vandalian_1
+				has_building = ca_culture_vandalian_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = vandalian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1 
+			ROOT = {
+				OR = {
+					culture = vandalian
+				}
+			}
+		}
+		upgrades_from = ca_culture_vandalian_1
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 30
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_morale = 0.15
+		archers = 25
+		archers_defensive = 0.2
+		archers_morale = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_vandalian_3 = {
+		desc = ca_culture_vandalian_1_desc
+		potential = {
+			OR = {
+				culture = vandalian
+				has_building = ca_culture_vandalian_1
+				has_building = ca_culture_vandalian_2
+				has_building = ca_culture_vandalian_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = vandalian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = vandalian
+				}
+			}
+		}
+		upgrades_from = ca_culture_vandalian_2
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 45
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_morale = 0.15
+		archers = 30
+		archers_defensive = 0.2
+		archers_morale = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_vandalian_4 = {
+		desc = ca_culture_vandalian_1_desc
+		potential = {
+			OR = {
+				culture = vandalian
+				has_building = ca_culture_vandalian_1
+				has_building = ca_culture_vandalian_2
+				has_building = ca_culture_vandalian_3
+				has_building = ca_culture_vandalian_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = vandalian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = vandalian
+				}
+			}
+		}
+		upgrades_from = ca_culture_vandalian_3
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 60
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_morale = 0.15
+		archers = 30
+		archers_defensive = 0.2
+		archers_morale = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	
 		ca_culture_hellfighters_1 = {
 		desc = ca_culture_hellfighters_1_desc
 		potential = {
@@ -14198,6 +14544,149 @@ castle = {
 		light_cavalry = 60
 		light_cavalry_offensive = 0.2
 		light_cavalry_morale = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	
+	ca_culture_melungeon_1 = {
+		desc = ca_culture_melungeon_1_desc
+		potential = {
+			OR = {
+				culture = melungeon
+				has_building = ca_culture_melungeon_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = melungeon
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = melungeon
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 30
+		light_infantry_defensive = 0.15
+		light_infantry_morale = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_melungeon_2 = {
+		desc = ca_culture_melungeon_1_desc
+		potential = {
+			OR = {
+				culture = melungeon
+				has_building = ca_culture_melungeon_1
+				has_building = ca_culture_melungeon_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = melungeon
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1 
+			ROOT = {
+				OR = {
+					culture = melungeon
+				}
+			}
+		}
+		upgrades_from = ca_culture_melungeon_1
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 30
+		light_infantry_defensive = 0.15
+		light_infantry_morale = 0.1
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_melungeon_3 = {
+		desc = ca_culture_melungeon_1_desc
+		potential = {
+			OR = {
+				culture = melungeon
+				has_building = ca_culture_melungeon_1
+				has_building = ca_culture_melungeon_2
+				has_building = ca_culture_melungeon_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = melungeon
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = melungeon
+				}
+			}
+		}
+		upgrades_from = ca_culture_melungeon_2
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 45
+		light_infantry_defensive = 0.15
+		light_infantry_morale = 0.1
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_melungeon_4 = {
+		desc = ca_culture_melungeon_1_desc
+		potential = {
+			OR = {
+				culture = melungeon
+				has_building = ca_culture_melungeon_1
+				has_building = ca_culture_melungeon_2
+				has_building = ca_culture_melungeon_3
+				has_building = ca_culture_melungeon_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = melungeon
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = melungeon
+				}
+			}
+		}
+		upgrades_from = ca_culture_melungeon_3
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 60
+		light_infantry_defensive = 0.15
+		light_infantry_morale = 0.1
 		ai_creation_factor = 99
 		
 		extra_tech_building_start = 0.8

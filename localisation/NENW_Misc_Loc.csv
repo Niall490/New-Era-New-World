@@ -134,6 +134,26 @@ tb_culture_federalist_3;Columbian Minutemen Watchtower;;;;;;;;;;;;;x
 tb_culture_federalist_4;Columbian Minutemen Watchtower;;;;;;;;;;;;;x
 ca_culture_federalist_1_desc;The Columbian Minutemen while not part of the Military or National Guard are an important irregular force, being skilled in outmaneuvering any foe while unleashing volleys of musket fire.;;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_redneck_1;Redneck Barracks;;;;;;;;;;;;;x
+ca_culture_redneck_2;Redneck Barracks;;;;;;;;;;;;;x
+ca_culture_redneck_3;Redneck Barracks;;;;;;;;;;;;;x
+ca_culture_redneck_4;Redneck Barracks;;;;;;;;;;;;;x
+tb_culture_redneck_1;Redneck Grounds;;;;;;;;;;;;;x
+tb_culture_redneck_2;Redneck Grounds;;;;;;;;;;;;;x
+tb_culture_redneck_3;Redneck Grounds;;;;;;;;;;;;;x
+tb_culture_redneck_4;Redneck Grounds;;;;;;;;;;;;;x
+ca_culture_redneck_1_desc;The Rednecks, named so after their sun-burnt necks, are hardworking men of Appalachia who have been drafted for war. Their hardy bodies make for good warriors of their realms.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_vandalian_1;Vandalian Mountaineer Barracks;;;;;;;;;;;;;x
+ca_culture_vandalian_2;Vandalian Mountaineer Barracks;;;;;;;;;;;;;x
+ca_culture_vandalian_3;Vandalian Mountaineer Barracks;;;;;;;;;;;;;x
+ca_culture_vandalian_4;Vandalian Mountaineer Barracks;;;;;;;;;;;;;x
+tb_culture_vandalian_1;Vandalian Mountaineer Meeting Ground;;;;;;;;;;;;;x
+tb_culture_vandalian_2;Vandalian Mountaineer Meeting Ground;;;;;;;;;;;;;x
+tb_culture_vandalian_3;Vandalian Mountaineer Meeting Ground;;;;;;;;;;;;;x
+tb_culture_vandalian_4;Vandalian Mountaineer Meeting Ground;;;;;;;;;;;;;x
+ca_culture_vandalian_1_desc;The Vandalian Mountaineers are a special type of redneck unit from their Appalachian kin, where their titular red necks are hidden under red scarfs. They style themselves around a local legendary group who fought against tyranny.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_hellfighters_1;Hellfighter Garrison;;;;;;;;;;;;;x
 ca_culture_hellfighters_2;Hellfighter Garrison;;;;;;;;;;;;;x
 ca_culture_hellfighters_3;Hellfighter Garrison;;;;;;;;;;;;;x
@@ -163,6 +183,16 @@ tb_culture_redtail_2;Red-Tails Fields;;;;;;;;;;;;x
 tb_culture_redtail_3;Red-Tails Fields;;;;;;;;;;;;x
 tb_culture_redtail_4;Red-Tails Fields;;;;;;;;;;;;x
 ca_culture_redtail_1_desc;The Tuskegee Red-Tails are a group of cavalrymen adopting a name of an antediviludian unit who charge in the battlefield with extreme pride in their name and their strength.;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_melungeon_1;Melung'n Infantry Training Grounds;;;;;;;;;;;;x
+ca_culture_melungeon_2;Melung'n Infantry Training Grounds;;;;;;;;;;;;x
+ca_culture_melungeon_3;Melung'n Infantry Training Grounds;;;;;;;;;;;;x
+ca_culture_melungeon_4;Melung'n Infantry Training Grounds;;;;;;;;;;;;x
+tb_culture_melungeon_1;Melung'n Infantry Proving Grounds;;;;;;;;;;;;x
+tb_culture_melungeon_2;Melung'n Infantry Proving Grounds;;;;;;;;;;;;x
+tb_culture_melungeon_3;Melung'n Infantry Proving Grounds;;;;;;;;;;;;x
+tb_culture_melungeon_4;Melung'n Infantry Proving Grounds;;;;;;;;;;;;x
+ca_culture_melungeon_1_desc;The Melung'n Infantry are a special unit of their culture that specialize in defense, even in the most dire of times.;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_dominion_1;Royal Mounties;;;;;;;;;;;;;x
 ca_culture_dominion_2;Royal Mounties;;;;;;;;;;;;;x
