@@ -79,6 +79,7 @@ RETTYPE_CUL_HIGH_AMERICAN;Columbian Geeyes;;;;;;;;;x
 RETTYPE_CUL_HELLFIGHTER;Hellfighters;;;;;;;;;x
 RETTYPE_CUL_MAROON;Maroons;;;;;;;;;x
 RETTYPE_CUL_REDTAILS;Tuskegee Red-tails;;;;;;;;;x
+RETTYPE_CUL_MELUNGEON;Melung'n Infantry;;;;;;;;;x
 RETTYPE_CUL_HUDSUNITE;Hudsunite Infantry;;;;;;;;;x
 RETTYPE_CUL_CATSKILLER;Catskiller Archers;;;;;;;;;x
 RETTYPE_CUL_FINGERLAKER;Fingerlaiker Skirmishers;;;;;;;;;x
@@ -87,7 +88,8 @@ RETTYPE_CUL_SOUTHERN;Southern Gallants;;;;;;;;;x
 RETTYPE_CUL_CAROLINO;Carolino Pikemen;;;;;;;;;x
 RETTYPE_CUL_CRABBER;Crabber Spearmen;;;;;;;;;x
 RETTYPE_CUL_SOUTHRON;Southron Knights;;;;;;;;;x
-RETTYPE_CUL_APPALACHIAN;Appalachian Pikemen;;;;;;;;;x
+RETTYPE_CUL_APPALACHIAN;Rednecks;;;;;;;;;x
+RETTYPE_CUL_VANDALIAN;Vanadalian Mountaineers;;;;;;;;;x
 RETTYPE_CUL_NY;New Yorker Adventurers;;;;;;;;;x
 RETTYPE_CUL_DEL;Continental Guard;;;;;;;;;x
 RETTYPE_CUL_UPPER_QUEBECOIS;Upper Quebecois Luge;;;;;;;;;x
