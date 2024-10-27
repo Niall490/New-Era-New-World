@@ -900,12 +900,8 @@ gridiron_leader = {
 	leader = yes
 	random = no
 	command_modifier = {
-		terrain = mountain
-		terrain = hills
-		terrain = desert
-		siege = 0.2
-		speed = 0.1
-		morale_defence = 0.25
+		religious_enemy = 0.15
+		morale_offence = 0.2
 	}
 }
 triumphant_leader = {

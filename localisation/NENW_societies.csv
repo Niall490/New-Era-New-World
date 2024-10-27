@@ -18,16 +18,16 @@ string_battle_nick_rangerite_symbol;the Ranger;;;;;;;;;;;;;x
 string_WL_rangerite_religion;§Y[rangerite.GetName]§! religion;;;;;;;;;;x
 rangerite_leader;Texas Ranger;;;;;;;;;;;;;;x
 rangerite_leader_desc;This character is a Ranger.;;;;;;;;;;;;;;x
-warrior_lodge_gridiron;Gridiron Warrior Lodge;;;;;;;;;x
-warrior_lodge_gridiron_desc;A Warrior Lodge.;;;;;;;;;x
-warrior_lodge_gridiron_rank_1_male;Initiate;;;;;;;;;x
-warrior_lodge_gridiron_rank_1_female;Initiate;;;;;;;;;x
-warrior_lodge_gridiron_rank_2_male;Fighter;;;;;;;;;x
-warrior_lodge_gridiron_rank_2_female;Fighter;;;;;;;;;x
-warrior_lodge_gridiron_rank_3_male;Veteran;;;;;;;;;x
-warrior_lodge_gridiron_rank_3_female;Veteran;;;;;;;;;x
-warrior_lodge_gridiron_rank_4_male;Champion;;;;;;;;;x
-warrior_lodge_gridiron_rank_4_female;Champion;;;;;;;;;x
+warrior_lodge_gridiron;Gallants of the Super Grail;;;;;;;;;x
+warrior_lodge_gridiron_desc;The Gallants of the Super Grail have a long history, dating back hundreds upon hundreds of years, begining as a collection of Gallants in the land of Avalon tasked with the divine duty of finding the Super Grail has since become the backbone of organization among the Gallantry of the South. And while its antediluvian task is unfinished, many brave and foolhardy still seek to be the first to find the most sacred of Grails...;;;;;;;;;x
+warrior_lodge_gridiron_rank_1_male;Squire;;;;;;;;;x
+warrior_lodge_gridiron_rank_1_female;Squire;;;;;;;;;x
+warrior_lodge_gridiron_rank_2_male;Gallant;;;;;;;;;x
+warrior_lodge_gridiron_rank_2_female;Dame;;;;;;;;;x
+warrior_lodge_gridiron_rank_3_male;Paladin;;;;;;;;;x
+warrior_lodge_gridiron_rank_3_female;Paladin;;;;;;;;;x
+warrior_lodge_gridiron_rank_4_male;Marshal;;;;;;;;;x
+warrior_lodge_gridiron_rank_4_female;Marshal;;;;;;;;;x
 has_liege_vassal_or_neighbor_of_gridiron_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighbouring ruler§! who follows the §Y[gridiron.GetName]§! faith\n;A un §Yseigneur lige§!, un §Yvassal§! ou un §Yseigneur voisin§! qui suit la foi §Y[gridiron.GetName]§!\n;Hat einen §YLehnsherrn§!, §YVasallen§! oder §Ybenachbarten Herrscher§!, der dem §Y[gridiron.GetName]§! Glauben folgt\n;;Tiene un §Yseñor§!, §Yvasallo§!, o §Ygobernante vecino§! que sigue la fe §Y[gridiron.GetName]§!\n;;;;;;;;;x
 string_gridiron_symbol;the player;;;;;;;;;;;;;x
 string_gridiron_symbol_cap;the Player;;;;;;;;;;;;;x
@@ -35,8 +35,8 @@ string_gridiron_symbol_short;player;;;;;;;;;;;;;x
 string_gridiron_symbol_short_cap;Player;;;;;;;;;;;;;x
 string_battle_nick_gridiron_symbol;the Player;;;;;;;;;;;;;x
 string_WL_gridiron_religion;§Y[gridiron.GetName]§! religion;;;;;;;;;;x
-gridiron_leader;Gridiron Leader;;;;;;;;;;;;;;x
-gridiron_leader_desc;This character is a Gridiron Leader.;;;;;;;;;;;;;;x
+gridiron_leader;Grail Gallant;;;;;;;;;;;;;;x
+gridiron_leader_desc;This character has been knighted a Grail Gallant often times named the "finest flowers of Southern chivalry", they are an one of the finest exemples of courage and bravery on the battlefield.;;;;;;;;;;;;;;x
 warrior_lodge_triumphant;Triumphant Warrior Lodge;;;;;;;;;x
 warrior_lodge_triumphant_desc;A Warrior Lodge.;;;;;;;;;x
 warrior_lodge_triumphant_rank_1_male;Initiate;;;;;;;;;x

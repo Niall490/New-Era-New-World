@@ -712,42 +712,42 @@ high_american = {
 		mat_grm_name_chance = 70
 		mother_name_chance = 5
 	}
-	southron = { #Fancy Southern culture, mix of fancy sounding names
+	southron = { #Fancy Southern culture, mix of fancy sounding names and mythological
 		graphical_cultures = { englishgfx westerngfx}
 		unit_graphical_cultures = { normangfx }
 
 		color = { 36 68 143 }
 
 		male_names = {
-			Aaron_Aaron Abraham_Abraham Achilles_Achilles Ainsworth Ambrose_Ambrose Anderson_Andrew Anthemeol Antipas Alpheus Archer Armistead Arthur_Arthur Augustus_Augustus
-			Baldwin_Baldwin Beauregard Bedford Bedivere_Bedivere Benjamin_Benjamin Bentley Bohemond Bourbon Brandegoris Brangwin Braxton Brent Bridger Braxton Brutus_Brutus Bryan_Brian
+			Aaron_Aaron Aeneas Abraham_Abraham Achilles_Achilles Ainsworth Ajax Ambrose_Ambrose Anderson_Andrew Anthemeol Antipas Alpheus Archer Armistead Arthur_Arthur Augustus_Augustus
+			Baldwin_Baldwin Beauregard Bedford Bedivere_Bedivere Benjamin_Benjamin Bentley Beowulf Bohemond Bourbon Brandegoris Brangwin Braxton Brent Bridger Braxton Brutus_Brutus Bryan_Brian
 			Calhoun Calvin_Calvin Carter Cason Chadwick_Chad Charlemagne Charles_Charles Clark Claudius_Claudius Clifford Constantine_Constantine Coriolanus_Coriolanus Craig Cyrus_Cyrus
-			Daniel_Daniel Davis_David Dennis_Dionysius Devereux Donald_Donald Douglas_Douglas
+			Daedalus Daniel_Daniel Davis_David Dennis_Dionysius Devereux Diomedes Donald_Donald Douglas_Douglas
 			Edward_Edward Ellison_Elijah Evander Ezra_Ezra
 			Felix_Felix Finnegan Fletcher Fraternitas Frederick_Frederick Fulgent Fulwar
-			Garrett_Gerard Garfield Gavin_Gavin George_George Glenn Grayson
+			Garrett_Gerard Garfield Gavin_Gavin Gawain George_George Gilgamesh Glenn Grayson
 			Hamilcar Hannibal_Hannibal Harvey Hector_Hector Hendricks_Henry Homer
-			Isaac_Isaac Isaias_Isaiah
+			Icarus Isaac_Isaac Isaias_Isaiah
 			Jackson_John Jamison_James Jefferson_Geoffrey Jonathan_Jonathan Julian_Julian Julius_Julius Jupiter Justin_Justin
 			Keith_Keith Kennedy Kevin_Kevin
-			Levi Lionel_Lionel Lorenzo_Lawrence Louis_Louis Lucan Lucius_Lucius Lunsford
-			Marcellus_Marcellus Marcus_Mark Marius_Marius Marmaduke Maxwell Mercury Meriwether Meleager Montague Murphy
+			Lancelot Levi Lionel_Lionel Locksley Lorenzo_Lawrence Louis_Louis Lucan Lucius_Lucius Lunsford
+			Marcellus_Marcellus Marcus_Mark Marius_Marius Marmaduke Menelaus Maxwell Mercury Meriwether Meleager Minos Montague Murphy
 			Nathaniel_Nathan Nelson_Neil Neptune
-			Octavian_Octavian Orlando_Roland Oswald_Oswald
-			Paulus_Paul Pellias Pellinore Pembroke Petrus_Peter Philip_Phillip Plato Publicola Pulcher Priscus Prudens
+			Octavian_Octavian Orlando_Roland Orpheus Oswald_Oswald
+			Paris Patroclus Paulus_Paul Pellias Pellinore Pembroke Percivale Petrus_Peter Philip_Phillip Plato Publicola Pulcher Priam Priscus Prudens
 			Quirinus
 			Raleigh Raphael_Raphael Regulus Reynold_Reynold Rhett Richard_Richard Robert_Robert Robin_Robin Roman_Roman Romulus Rufus_Rufus
 			Sagremore Samuel_Samuel Saturn Scipio Severus_Severus Simon_Simon Sosipater Stephanus_Stephen Sylvester_Silvester
-			Tertius Theodore_Theodore Theophilus_Theophilus Thomas_Thomas Tiberius_Tiberius Timothy_Timothy Titus_Titus Trophimus Tyler
+			Tertius Theseus Theodore_Theodore Theophilus_Theophilus Thomas_Thomas Tiberius_Tiberius Timothy_Timothy Titus_Titus Trophimus Tuck Tyler
 			Ulixes_Odysseus
 			Valerian_Valerian Vitalian
-			Wade William_William Winfield
+			Wade Wilfred William_William Winfield
 			Xander_Alexander Xavier_Xavier
 			Zacharias_Zachary
 		}
 
 		female_names = {
-			Abigail_Abigail Alexandra_Alexandra Alexis_Alexia Amanda_Amanda Anastasia_Anastasia Anne_Anna Antonia_Antonia Antigone Artemis Atalanta Augusta_Augusta Alyssa_Alyssa April_April
+			Abigail_Abigail Aegea Alexandra_Alexandra Alexis_Alexia Amanda_Amanda Anastasia_Anastasia Anne_Anna Antonia_Antonia Antigone Artemis Atalanta Augusta_Augusta Alyssa_Alyssa April_April
 			Belle_Elizabeth Beatrice_Beatrix Beverley Bianca_Blanche Blakely
 			Carolina_Caroline Carrington Catherine_Catherine Chloe_Chloe Clover Claudia_Claudia Cornelia_Cornelia
 			Daisy Daniella_Daniela Denise_Dionysia Domitia
@@ -761,7 +761,7 @@ high_american = {
 			Kelly Kristina_Christina
 			Mackenzie Mary_Mary Morgana Margaret_Margaret Melanie Melantha_Melissa Melisende_Millicent Michelle_Michelle Monica_Monica
 			Octavia Olivia_Olivia
-			Pamela_Pamela Paulina_Paula Petronia Porcia Primrose Primula
+			Pamela_Pamela Pandora Paulina_Paula Petronia Penelope Porcia Primrose Primula
 			Rachel_Rachel Rebecca_Rebecca Regina_Regina Rhea Roberta_Roberta
 			Sabrina Samantha_Samantha Sarah_Sarah Scarlett Silvana Susanne_Susan
 			Theresa_Theresa
