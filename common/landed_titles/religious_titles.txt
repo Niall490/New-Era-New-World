@@ -474,7 +474,7 @@ d_columbian = {
 	
 	religion = columbian
 	
-	culture = federalist
+	culture = hudsunite
 	
 	# Cannot be held as a secondary title
 	primary = yes
