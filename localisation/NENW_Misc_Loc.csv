@@ -144,6 +144,26 @@ tb_culture_hellfighters_3;Hellfighter Watchtower;;;;;;;;;;;;;x
 tb_culture_hellfighters_4;Hellfighter Watchtower;;;;;;;;;;;;;x
 ca_culture_hellfighters_1_desc;The Hellfighters are a unit of Afro-Americans who venerate an antediviludian unit made out of their kin, who fought with gallantry and bravery. These men aim to do the same, striking deep into their enemies.;;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_maroon_1;Maroon Garrison;;;;;;;;;;;;;x
+ca_culture_maroon_2;Maroon Garrison;;;;;;;;;;;;;x
+ca_culture_maroon_3;Maroon Garrison;;;;;;;;;;;;;x
+ca_culture_maroon_4;Maroon Garrison;;;;;;;;;;;;;x
+tb_culture_maroon_1;Maroon Watchtower;;;;;;;;;;;;;x
+tb_culture_maroon_2;Maroon Watchtower;;;;;;;;;;;;;x
+tb_culture_maroon_3;Maroon Watchtower;;;;;;;;;;;;;x
+tb_culture_maroon_4;Maroon Watchtower;;;;;;;;;;;;;x
+ca_culture_maroon_1_desc;The Maroons are men who fight for the freedom of their Afro-southerner bretheren. Their deeds are known far and wide, and are a symbol of justice as a consequence.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_redtail_1;Red-Tails Stables;;;;;;;;;;;;x
+ca_culture_redtail_2;Red-Tails Stables;;;;;;;;;;;;x
+ca_culture_redtail_3;Red-Tails Stables;;;;;;;;;;;;x
+ca_culture_redtail_4;Red-Tails Stables;;;;;;;;;;;;x
+tb_culture_redtail_1;Red-Tails Fields;;;;;;;;;;;;x
+tb_culture_redtail_2;Red-Tails Fields;;;;;;;;;;;;x
+tb_culture_redtail_3;Red-Tails Fields;;;;;;;;;;;;x
+tb_culture_redtail_4;Red-Tails Fields;;;;;;;;;;;;x
+ca_culture_redtail_1_desc;The Tuskegee Red-Tails are a group of cavalrymen adopting a name of an antediviludian unit who charge in the battlefield with extreme pride in their name and their strength.;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_dominion_1;Royal Mounties;;;;;;;;;;;;;x
 ca_culture_dominion_2;Royal Mounties;;;;;;;;;;;;;x
 ca_culture_dominion_3;Royal Mounties;;;;;;;;;;;;;x
@@ -156,6 +176,16 @@ ca_culture_southron_3;Southron Cavalrymen;;;;;;;;;;;;;x
 ca_culture_southron_4;Southron Cavalrymen;;;;;;;;;;;;;x
 ca_culture_southron_1_desc;Southron Cavalrymen make use of their light cavalry in massive charges while harassing their foes with their gunpowder wielding units.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_crabber_1;Crabber Spearmen Piers;;;;;;;;;;;;;x
+ca_culture_crabber_2;Crabber Spearmen Piers;;;;;;;;;;;;;x
+ca_culture_crabber_3;Crabber Spearmen Piers;;;;;;;;;;;;;x
+ca_culture_crabber_4;Crabber Spearmen Piers;;;;;;;;;;;;;x
+tb_culture_crabber_1;Crabber Spearmen Docks;;;;;;;;;;;;;x
+tb_culture_crabber_2;Crabber Spearmen Docks;;;;;;;;;;;;;x
+tb_culture_crabber_3;Crabber Spearmen Docks;;;;;;;;;;;;;x
+tb_culture_crabber_4;Crabber Spearmen Docks;;;;;;;;;;;;;x
+ca_culture_crabber_1_desc;These spearmen of Crabber descent use their crab-fishing skills into battle, with their thrusting power from their hardy lifestyle.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_southern_1;Southern Gallant Manors;;;;;;;;;;;;;x
 ca_culture_southern_2;Southern Gallant Manors;;;;;;;;;;;;;x
 ca_culture_southern_3;Southern Gallant Manors;;;;;;;;;;;;;x
@@ -165,6 +195,16 @@ tb_culture_southern_2;Southern Gallant Halls;;;;;;;;;;;;;x
 tb_culture_southern_3;Southern Gallant Halls;;;;;;;;;;;;;x
 tb_culture_southern_4;Southern Gallant Halls;;;;;;;;;;;;;x
 ca_culture_southern_1_desc;The Southern Gallants are Southern people who have adpoted a tradition of chivalry and consequently have transformed into knights, travelling amongst the lands in elegant fashion. Still, this does not take away their marvelous military prowress.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_carolino_1;Carolino Pikemen Barracks;;;;;;;;;;;;;x
+ca_culture_carolino_2;Carolino Pikemen Barracks;;;;;;;;;;;;;x
+ca_culture_carolino_3;Carolino Pikemen Barracks;;;;;;;;;;;;;x
+ca_culture_carolino_4;Carolino Pikemen Barracks;;;;;;;;;;;;;x
+tb_culture_carolino_1;Carolino Pikemen Grounds;;;;;;;;;;;;;x
+tb_culture_carolino_2;Carolino Pikemen Grounds;;;;;;;;;;;;;x
+tb_culture_carolino_3;Carolino Pikemen Grounds;;;;;;;;;;;;;x
+tb_culture_carolino_4;Carolino Pikemen Grounds;;;;;;;;;;;;;x
+ca_culture_carolino_1_desc;The Carolino, ever since settling on the banks of Carolina, have adopted to their Anglo neighbors' tactics. With their pikes and bows, they clean up the battlefield.;;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_wicker_1;Wicker Swordsmen Barracks;;;;;;;;;;;;x
 ca_culture_wicker_2;Wicker Swordsmen Barracks;;;;;;;;;;;;x

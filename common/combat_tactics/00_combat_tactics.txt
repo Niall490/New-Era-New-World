@@ -3264,6 +3264,7 @@ heroic_countercharge_tactic = {
 				trait = aggressive_leader
 				trait = brave
 				trait = cavalry_leader
+				trait = gridiron_leader
 			}
 		}
 	}
@@ -3912,13 +3913,17 @@ retreat_and_ambush_tactic = {
 		flank_has_leader = yes
 		leader = { 
 			OR = {
-				culture_group = berber 
-				culture = turkmen
-				culture = azerbaijani
-				culture = soitoskan
-				culture_group = kipchak
-				culture_group = karluk
-				culture_group = mongolic
+				culture_group = plains_algonquian
+				culture = preriyskiy
+				culture = prairiegerman
+				culture = texgerman
+				culture = czexan
+				culture = teksaski
+				culture = southron
+				culture = desi
+				culture_group = plains_canuck
+				culture_group = plainslander
+				culture_group = east_texan
 				government = nomadic_government
 			}
 			NOR = {
@@ -4013,7 +4018,7 @@ berserker_charge_tactic = {
 			superheavy_infantry = 0.01
 		}
 		flank_has_leader = yes
-		leader = { culture = doggerlander }
+		leader = { culture = baleazale }
 	}
 
 	mean_time_to_happen = {
@@ -4068,7 +4073,7 @@ schiltron_formation_tactic = {
 		phase = melee
 		pikemen = 0.01
 		flank_has_leader = yes
-		leader = { culture = scottish }
+		leader = { culture_group = amero_goidelic }
 	}
 
 	mean_time_to_happen = {
@@ -4197,7 +4202,9 @@ pike_column_advance_tactic = {
 		pikemen = 0.01
 		flank_has_leader = yes
 		leader = { 
-			culture_group = apeninian 
+			culture_group = amero_italic
+			culture = nutmegger
+			culture_group = eastern_algonquian
 		}
 	}
 
@@ -4262,9 +4269,16 @@ massive_longbow_volley_tactic = {
 		leader = {
 			OR = {
 				culture_group = brittannic
-				culture_group = goidelic
-				culture_group = brythonic
-				culture_group = anglo_frisian
+				culture_group = cree
+				culture = newfindler
+				culture = catskiller
+				culture = finger_laker
+				culture = windlander
+				culture = intianoi
+				culture = ameroassyrian
+				culture = kreyol
+				culture = cajun
+				culture = crawfisher
 			}
 		}
 	}
@@ -4330,12 +4344,13 @@ couched_lance_charge_tactic = {
 		flank_has_leader = yes
 		leader = {
 			OR = {
-				culture_group = francophone
-				culture_group = mosellophone
-				culture_group = lusophone
-				culture_group = apeninian
-				culture_group = hispanophone
-				culture_group = occitanophone
+				culture_group = southerner
+				culture = ontarian
+				culture = canjabi
+				culture = yeronian
+				culture = kanadajin
+				culture = bostonian
+				culture = massachusite
 			}
 		}
 	}
@@ -4399,20 +4414,19 @@ mountain_ambush_tactic = {
 		leader = {
 			martial = 9
 			NOR = {
-				culture_group = tibetan_group
-				culture_group = tanic
-				culture_group = digaric
-				culture_group = armenian_group
-				culture_group = caucasian
-				culture_group = iranian
-				culture_group = east_iranic
-				culture_group = alpinian
-				culture = austrian
-				culture_group = dardic
-				culture = nepali
-				culture = sinoshan
-				culture = andorran
-				culture_group = east_african
+				culture_group = appalachian_group
+				culture_group = cascadian
+				culture_group = neo-latin
+				culture_group = ozark
+				culture_group = chicano
+				culture_group = amero_iranic
+				culture = pennsilfaanisch 
+				culture = kolorantoi 
+				culture = ny_asian
+				culture = vermonter
+				culture = albmonter
+				culture = adirondacker
+				culture_group = mountainer
 			}
 			NOR = {
 				any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } }
@@ -4489,19 +4503,13 @@ desert_ambush_tactic = {
 		flank_has_leader = yes
 		leader = { 
 			NOR = {
-				culture_group = arabic
-				culture_group = dhofaric
-				culture_group = cushitic
-				culture_group = saharan
-				culture_group = egyptian
-				culture_group = maghreb_arabic
-				culture_group = berber
-				culture_group = near_eastern
-				culture_group = hebrewic
-				culture = uyghur
-				culture = turkmen
-				culture = uzbek
-				culture = karakalpak
+				culture_group = californio_group
+				culture_group = great_basin
+				culture_group = hopi_group
+				culture_group = north_mexican
+				culture_group = numic
+				culture_group = puebloan
+				culture_group = west_texan
 			}
 			NOR = {
 				any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } }
@@ -4588,20 +4596,19 @@ improved_mountain_ambush_tactic = {
 		leader = {
 			martial = 9
 			OR = {
-				culture_group = tibetan_group
-				culture_group = tanic
-				culture_group = digaric
-				culture_group = armenian_group
-				culture_group = caucasian
-				culture_group = iranian
-				culture_group = east_iranic
-				culture_group = alpinian
-				culture = austrian
-				culture_group = dardic
-				culture = nepali
-				culture = sinoshan
-				culture = andorran
-				culture_group = east_african
+				culture_group = appalachian_group
+				culture_group = cascadian
+				culture_group = neo-latin
+				culture_group = ozark
+				culture_group = chicano
+				culture_group = amero_iranic
+				culture = pennsilfaanisch 
+				culture = kolorantoi 
+				culture = ny_asian
+				culture = vermonter
+				culture = albmonter
+				culture = adirondacker
+				culture_group = mountainer
 			}
 			NOR = {
 				any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } }
@@ -4678,19 +4685,13 @@ improved_desert_ambush_tactic = {
 		flank_has_leader = yes
 		leader = { 
 			OR = {
-				culture_group = arabic
-				culture_group = dhofaric
-				culture_group = cushitic
-				culture_group = saharan
-				culture_group = egyptian
-				culture_group = maghreb_arabic
-				culture_group = berber
-				culture_group = near_eastern
-				culture_group = hebrewic
-				culture = uyghur
-				culture = turkmen
-				culture = uzbek
-				culture = karakalpak
+				culture_group = californio_group
+				culture_group = great_basin
+				culture_group = hopi_group
+				culture_group = north_mexican
+				culture_group = numic
+				culture_group = puebloan
+				culture_group = west_texan
 			}
 			NOR = {
 				any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } }

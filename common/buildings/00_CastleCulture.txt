@@ -13894,6 +13894,316 @@ castle = {
 		tax_income = -0.2
 	}
 	
+	ca_culture_maroon_1 = {
+		desc = ca_culture_maroon_1_desc
+		potential = {
+			OR = {
+				culture = tuskegean
+				culture = gullah
+				has_building = ca_culture_maroon_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = tuskegean
+				culture = gullah
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = tuskegean
+				culture = gullah
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		archers = 25
+		archers_offensive = 0.15
+		archers_morale = 0.1
+		light_infantry = 20
+		light_infantry_offensive = 0.15
+		light_infantry_morale = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_maroon_2 = {
+		desc = ca_culture_maroon_1_desc
+		potential = {
+			OR = {
+				culture = tuskegean
+				culture = gullah
+				has_building = ca_culture_maroon_1
+				has_building = ca_culture_maroon_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = tuskegean
+					culture = gullah
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1 
+			ROOT = {
+				OR = {
+					culture = tuskegean
+					culture = gullah
+				}
+			}
+		}
+		upgrades_from = ca_culture_maroon_1
+		gold_cost = 300
+		build_time = 1095
+		archers = 30
+		archers_offensive = 0.15
+		archers_morale = 0.1
+		light_infantry = 20
+		light_infantry_offensive = 0.15
+		light_infantry_morale = 0.1
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_maroon_3 = {
+		desc = ca_culture_maroon_1_desc
+		potential = {
+			OR = {
+				culture = tuskegean
+				culture = gullah
+				has_building = ca_culture_maroon_1
+				has_building = ca_culture_maroon_2
+				has_building = ca_culture_maroon_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = tuskegean
+					culture = gullah
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = tuskegean
+					culture = gullah
+				}
+			}
+		}
+		upgrades_from = ca_culture_maroon_2
+		gold_cost = 400
+		build_time = 2190
+		archers = 40
+		archers_offensive = 0.15
+		archers_morale = 0.1
+		light_infantry = 25
+		light_infantry_offensive = 0.15
+		light_infantry_morale = 0.1
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_maroon_4 = {
+		desc = ca_culture_maroon_1_desc
+		potential = {
+			OR = {
+				culture = tuskegean
+				culture = gullah
+				has_building = ca_culture_maroon_1
+				has_building = ca_culture_maroon_2
+				has_building = ca_culture_maroon_3
+				has_building = ca_culture_maroon_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = tuskegean
+					culture = gullah
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = tuskegean
+					culture = gullah
+				}
+			}
+		}
+		upgrades_from = ca_culture_maroon_3
+		gold_cost = 500
+		build_time = 2190
+		archers = 45
+		archers_offensive = 0.15
+		archers_morale = 0.1
+		light_infantry = 30
+		light_infantry_offensive = 0.15
+		light_infantry_morale = 0.1
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	
+	ca_culture_redtail_1 = {
+		desc = ca_culture_redtail_1_desc
+		potential = {
+			OR = {
+				culture = fiskean
+				has_building = ca_culture_redtail_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = fiskean
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = fiskean
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 30
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_redtail_2 = {
+		desc = ca_culture_redtail_1_desc
+		potential = {
+			OR = {
+				culture = fiskean
+				has_building = ca_culture_redtail_1
+				has_building = ca_culture_redtail_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = fiskean
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1 
+			ROOT = {
+				OR = {
+					culture = fiskean
+				}
+			}
+		}
+		upgrades_from = ca_culture_redtail_1
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 30
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_redtail_3 = {
+		desc = ca_culture_redtail_1_desc
+		potential = {
+			OR = {
+				culture = fiskean
+				has_building = ca_culture_redtail_1
+				has_building = ca_culture_redtail_2
+				has_building = ca_culture_redtail_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = fiskean
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = fiskean
+				}
+			}
+		}
+		upgrades_from = ca_culture_redtail_2
+		gold_cost = 400
+		build_time = 2190
+		light_cavalry = 45
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_redtail_4 = {
+		desc = ca_culture_redtail_1_desc
+		potential = {
+			OR = {
+				culture = fiskean
+				has_building = ca_culture_redtail_1
+				has_building = ca_culture_redtail_2
+				has_building = ca_culture_redtail_3
+				has_building = ca_culture_redtail_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = fiskean
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = fiskean
+				}
+			}
+		}
+		upgrades_from = ca_culture_redtail_3
+		gold_cost = 500
+		build_time = 2190
+		light_cavalry = 60
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale = 0.15
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	
 		ca_culture_hudsunite_1 = {
 		desc = ca_culture_hudsunite_1_desc
 		potential = {
@@ -15005,6 +15315,316 @@ castle = {
 		superheavy_infantry_offensive = 0.15
 		superheavy_infantry_morale = 0.1
 		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	
+	ca_culture_carolino_1 = {
+		desc = ca_culture_carolino_1_desc
+		potential = {
+			OR = {
+				culture = carolino
+				has_building = ca_culture_carolino_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = carolino
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = carolino
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		archers = 25
+		archers_offensive = 0.15
+		archers_morale = 0.1
+		pikemen = 20
+		pikemen_offensive = 0.15
+		pikemen_morale = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_carolino_2 = {
+		desc = ca_culture_carolino_1_desc
+		potential = {
+			OR = {
+				culture = carolino
+				has_building = ca_culture_carolino_1
+				has_building = ca_culture_carolino_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = carolino
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1 
+			ROOT = {
+				OR = {
+					culture = carolino
+				}
+			}
+		}
+		upgrades_from = ca_culture_carolino_1
+		gold_cost = 300
+		build_time = 1095
+		archers = 30
+		archers_offensive = 0.15
+		archers_morale = 0.1
+		pikemen = 20
+		pikemen_offensive = 0.15
+		pikemen_morale = 0.1
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_carolino_3 = {
+		desc = ca_culture_carolino_1_desc
+		potential = {
+			OR = {
+				culture = carolino
+				has_building = ca_culture_carolino_1
+				has_building = ca_culture_carolino_2
+				has_building = ca_culture_carolino_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = carolino
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = carolino
+				}
+			}
+		}
+		upgrades_from = ca_culture_carolino_2
+		gold_cost = 400
+		build_time = 2190
+		archers = 40
+		archers_offensive = 0.15
+		archers_morale = 0.1
+		pikemen = 25
+		pikemen_offensive = 0.15
+		pikemen_morale = 0.1
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_carolino_4 = {
+		desc = ca_culture_carolino_1_desc
+		potential = {
+			OR = {
+				culture = carolino
+				has_building = ca_culture_carolino_1
+				has_building = ca_culture_carolino_2
+				has_building = ca_culture_carolino_3
+				has_building = ca_culture_carolino_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = carolino
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = carolino
+				}
+			}
+		}
+		upgrades_from = ca_culture_carolino_3
+		gold_cost = 500
+		build_time = 2190
+		archers = 45
+		archers_offensive = 0.15
+		archers_morale = 0.1
+		pikemen = 30
+		pikemen_offensive = 0.15
+		pikemen_morale = 0.1
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	
+	ca_culture_crabber_1 = {
+		desc = ca_culture_crabber_1_desc
+		potential = {
+			OR = {
+				culture = crabber
+				has_building = ca_culture_crabber_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = crabber
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = crabber
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 25
+		light_infantry_offensive = 0.15
+		light_infantry_morale = 0.1
+		pikemen = 20
+		pikemen_offensive = 0.15
+		pikemen_morale = 0.1
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_crabber_2 = {
+		desc = ca_culture_crabber_1_desc
+		potential = {
+			OR = {
+				culture = crabber
+				has_building = ca_culture_crabber_1
+				has_building = ca_culture_crabber_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = crabber
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1 
+			ROOT = {
+				OR = {
+					culture = crabber
+				}
+			}
+		}
+		upgrades_from = ca_culture_crabber_1
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 30
+		light_infantry_offensive = 0.15
+		light_infantry_morale = 0.1
+		pikemen = 20
+		pikemen_offensive = 0.15
+		pikemen_morale = 0.1
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_crabber_3 = {
+		desc = ca_culture_crabber_1_desc
+		potential = {
+			OR = {
+				culture = crabber
+				has_building = ca_culture_crabber_1
+				has_building = ca_culture_crabber_2
+				has_building = ca_culture_crabber_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = crabber
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = crabber
+				}
+			}
+		}
+		upgrades_from = ca_culture_crabber_2
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 40
+		light_infantry_offensive = 0.15
+		light_infantry_morale = 0.1
+		pikemen = 25
+		pikemen_offensive = 0.15
+		pikemen_morale = 0.1
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+		tax_income = -0.2
+	}
+	ca_culture_crabber_4 = {
+		desc = ca_culture_crabber_1_desc
+		potential = {
+			OR = {
+				culture = crabber
+				has_building = ca_culture_crabber_1
+				has_building = ca_culture_crabber_2
+				has_building = ca_culture_crabber_3
+				has_building = ca_culture_crabber_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = crabber
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = crabber
+				}
+			}
+		}
+		upgrades_from = ca_culture_crabber_3
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 45
+		light_infantry_offensive = 0.15
+		light_infantry_morale = 0.1
+		pikemen = 30
+		pikemen_offensive = 0.15
+		pikemen_morale = 0.1
+		ai_creation_factor = 99
 		
 		extra_tech_building_start = 0.8
 		tax_income = -0.2
