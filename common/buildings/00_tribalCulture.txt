@@ -5468,22 +5468,20 @@ tribal = {
 		desc = ca_culture_redneck_1_desc
 		potential = {
 			OR = {
-				culture_group = appalachian_group
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				has_building = tb_culture_redneck_1
-			}
-			NOR = {
-				culture = melungeon
-				culture = vandalian
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-				culture_group = appalachian_group
-				}
-				NOR = {
-				culture = melungeon
-				culture = vandalian
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				}
 			}
 		}
@@ -5491,20 +5489,22 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 0 
 			ROOT = {
 				OR = {
-				culture_group = appalachian_group
-				}
-				NOR = {
-				culture = melungeon
-				culture = vandalian
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				}
 			}
 		}
 		
 		prestige_cost = 100
 		build_time = 365
-		heavy_infantry = 30
-		heavy_infantry_offensive = 0.2
-		heavy_infantry_morale = 0.1
+		light_infantry = 20
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.15
+		archers = 15
+		archers_defensive = 0.2
+		archers_morale = 0.15
 		ai_creation_factor = 101
 		
 		extra_tech_building_start = 0.8
@@ -5513,23 +5513,21 @@ tribal = {
 		desc = ca_culture_redneck_1_desc
 		potential = {
 			OR = {
-				culture_group = appalachian_group
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				has_building = tb_culture_redneck_1
 				has_building = tb_culture_redneck_2
-			}
-			NOR = {
-				culture = melungeon
-				culture = vandalian
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-				culture_group = appalachian_group
-				}
-				NOR = {
-				culture = melungeon
-				culture = vandalian
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				}
 			}
 		}
@@ -5537,20 +5535,22 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 0 
 			ROOT = {
 				OR = {
-				culture_group = appalachian_group
-				}
-				NOR = {
-				culture = melungeon
-				culture = vandalian
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				}
 			}
 		}
 		upgrades_from = tb_culture_redneck_1
 		prestige_cost = 200
 		build_time = 547
-		heavy_infantry = 30
-		heavy_infantry_offensive = 0.2
-		heavy_infantry_morale = 0.1
+		light_infantry = 20
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.15
+		archers = 15
+		archers_defensive = 0.2
+		archers_morale = 0.15
 		ai_creation_factor = 100
 		
 		convert_to_castle = ca_culture_redneck_1
@@ -5561,24 +5561,22 @@ tribal = {
 		desc = ca_culture_redneck_1_desc
 		potential = {
 			OR = {
-				culture_group = appalachian_group
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				has_building = tb_culture_redneck_1
 				has_building = tb_culture_redneck_2
 				has_building = tb_culture_redneck_3
-			}
-			NOR = {
-				culture = melungeon
-				culture = vandalian
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-				culture_group = appalachian_group
-				}
-				NOR = {
-				culture = melungeon
-				culture = vandalian
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				}
 			}
 		}
@@ -5586,20 +5584,22 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
 				OR = {
-				culture_group = appalachian_group
-				}
-				NOR = {
-				culture = melungeon
-				culture = vandalian
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				}
 			}
 		}
 		upgrades_from = tb_culture_redneck_2
 		prestige_cost = 300
 		build_time = 730
-		heavy_infantry = 40
-		heavy_infantry_offensive = 0.2
-		heavy_infantry_morale = 0.1
+		light_infantry = 40
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.15
+		archers = 20
+		archers_defensive = 0.2
+		archers_morale = 0.15
 		ai_creation_factor = 99
 		
 		convert_to_castle = ca_culture_redneck_1
@@ -5610,25 +5610,23 @@ tribal = {
 		desc = ca_culture_redneck_1_desc
 		potential = {
 			OR = {
-				culture_group = appalachian_group
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				has_building = tb_culture_redneck_1
 				has_building = tb_culture_redneck_2
 				has_building = tb_culture_redneck_3
 				has_building = tb_culture_redneck_4
 			}
-			NOR = {
-				culture = melungeon
-				culture = vandalian
-			}
 		}
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-				culture_group = appalachian_group
-				}
-				NOR = {
-				culture = melungeon
-				culture = vandalian
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				}
 			}
 		}
@@ -5636,20 +5634,22 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
 				OR = {
-				culture_group = appalachian_group
-				}
-				NOR = {
-				culture = melungeon
-				culture = vandalian
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				}
 			}
 		}
 		upgrades_from = tb_culture_redneck_3
 		prestige_cost = 400
 		build_time = 1095
-		heavy_infantry = 40
-		heavy_infantry_offensive = 0.2
-		heavy_infantry_morale = 0.1
+		light_infantry = 40
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.15
+		archers = 20
+		archers_defensive = 0.2
+		archers_morale = 0.15
 		ai_creation_factor = 98
 		
 		convert_to_castle = ca_culture_redneck_2
@@ -5810,6 +5810,316 @@ tribal = {
 		ai_creation_factor = 98
 		
 		convert_to_castle = ca_culture_vandalian_2
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	tb_culture_nashvillian_1 = {
+		desc = ca_culture_nashvillian_1_desc
+		potential = {
+			OR = {
+				culture = nashvillian
+				has_building = tb_culture_nashvillian_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = nashvillian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = nashvillian
+				}
+			}
+		}
+		
+		prestige_cost = 100
+		build_time = 365
+		pikemen = 30
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_nashvillian_2 = {
+		desc = ca_culture_nashvillian_1_desc
+		potential = {
+			OR = {
+				culture = nashvillian
+				has_building = tb_culture_nashvillian_1
+				has_building = tb_culture_nashvillian_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = nashvillian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = nashvillian
+				}
+			}
+		}
+		upgrades_from = tb_culture_nashvillian_1
+		prestige_cost = 200
+		build_time = 547
+		pikemen = 30
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_nashvillian_3 = {
+		desc = ca_culture_nashvillian_1_desc
+		potential = {
+			OR = {
+				culture = nashvillian
+				has_building = tb_culture_nashvillian_1
+				has_building = tb_culture_nashvillian_2
+				has_building = tb_culture_nashvillian_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = nashvillian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+				culture = nashvillian
+				}
+			}
+		}
+		upgrades_from = tb_culture_nashvillian_2
+		prestige_cost = 300
+		build_time = 730
+		pikemen = 40
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.15
+		ai_creation_factor = 99
+		
+		convert_to_castle = ca_culture_nashvillian_1
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_nashvillian_4 = {
+		desc = ca_culture_nashvillian_1_desc
+		potential = {
+			OR = {
+				culture = nashvillian
+				has_building = tb_culture_nashvillian_1
+				has_building = tb_culture_nashvillian_2
+				has_building = tb_culture_nashvillian_3
+				has_building = tb_culture_nashvillian_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = nashvillian
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+				culture = nashvillian
+				}
+			}
+		}
+		upgrades_from = tb_culture_nashvillian_3
+		prestige_cost = 400
+		build_time = 1095
+		pikemen = 40
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.15
+		ai_creation_factor = 98
+		
+		convert_to_castle = ca_culture_nashvillian_2
+		
+		extra_tech_building_start = 0.8
+	}
+	
+	tb_culture_kaintucker_1 = {
+		desc = ca_culture_kaintucker_1_desc
+		potential = {
+			OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				has_building = tb_culture_kaintucker_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				}
+			}
+		}
+		
+		prestige_cost = 100
+		build_time = 365
+		light_cavalry = 30
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale= 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_kaintucker_2 = {
+		desc = ca_culture_kaintucker_1_desc
+		potential = {
+			OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				has_building = tb_culture_kaintucker_1
+				has_building = tb_culture_kaintucker_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+			ROOT = {
+				OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				}
+			}
+		}
+		upgrades_from = tb_culture_kaintucker_1
+		prestige_cost = 200
+		build_time = 547
+		light_cavalry = 30
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale= 0.15
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_kaintucker_3 = {
+		desc = ca_culture_kaintucker_1_desc
+		potential = {
+			OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				has_building = tb_culture_kaintucker_1
+				has_building = tb_culture_kaintucker_2
+				has_building = tb_culture_kaintucker_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				}
+			}
+		}
+		upgrades_from = tb_culture_kaintucker_2
+		prestige_cost = 300
+		build_time = 730
+		light_cavalry = 40
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale= 0.15
+		ai_creation_factor = 99
+		
+		convert_to_castle = ca_culture_kaintucker_1
+		
+		extra_tech_building_start = 0.8
+	}
+	tb_culture_kaintucker_4 = {
+		desc = ca_culture_kaintucker_1_desc
+		potential = {
+			OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				has_building = tb_culture_kaintucker_1
+				has_building = tb_culture_kaintucker_2
+				has_building = tb_culture_kaintucker_3
+				has_building = tb_culture_kaintucker_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				}
+			}
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				}
+			}
+		}
+		upgrades_from = tb_culture_kaintucker_3
+		prestige_cost = 400
+		build_time = 1095
+		light_cavalry = 40
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale= 0.15
+		ai_creation_factor = 98
+		
+		convert_to_castle = ca_culture_kaintucker_2
 		
 		extra_tech_building_start = 0.8
 	}
