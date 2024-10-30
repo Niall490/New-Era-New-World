@@ -405,22 +405,6 @@ force_vassalization = { # New2
 	}
 	
 	can_use = {
-		ROOT = {
-			OR = {
-				AND = {
-					tier = COUNT
-					bhutan_minor_cb = yes
-				}
-				AND = {
-					tier = DUKE
-					bhutan_medium_cb = yes
-				}
-				AND = {
-					tier = KING
-					bhutan_major_cb = yes
-				}
-			}
-		}
 		has_dlc = "Jade Dragon"
 		ROOT = {
 			NOT = {
@@ -429,18 +413,6 @@ force_vassalization = { # New2
 					value = off
 				}
 			}
-			NOT = {
-				government = bhutanese_decayed_government
-			}
-			#Bhutan can also use this when Expansionist if they Reformed their Government
-			OR = {
-				NOT = {
-					government = bhutanese_restored_government
-				}
-				OR = {
-					trait = bhutan_expansionist
-				}
-			}		
 			higher_tier_than = count
 			NOT = { same_realm = FROM }
 			NOT = { is_liege_or_above = FROM }
