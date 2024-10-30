@@ -13,7 +13,7 @@ estates_2;Small Estate;;;;;;;;;;;;x
 estates_3;Moderate Estate;;;;;;;;;;;;x
 estates_4;Large Estate;;;;;;;;;;;;x
 estates_5;Petty Barony;;;;;;;;;;;;x
-conqueror_modifier;Can use force Vassalisation on §YAnyone§! smaller than themselves.;;;;;;x
+conqueror_modifier;Can use force Vassalisation on §YAnyone§! smaller than themselves for 100 prestige and can use County Conquest on §YAnyone§!.;;;;;;x
 conqueror;Conqueror;;;;;;x
 conqueror_desc;This character is made for greatness;;;;;;x
 give_conqueror_trait;Give the Conqueror Trait;;;;;;;x

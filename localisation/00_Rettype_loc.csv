@@ -90,6 +90,8 @@ RETTYPE_CUL_CRABBER;Crabber Spearmen;;;;;;;;;x
 RETTYPE_CUL_SOUTHRON;Southron Knights;;;;;;;;;x
 RETTYPE_CUL_APPALACHIAN;Rednecks;;;;;;;;;x
 RETTYPE_CUL_VANDALIAN;Vanadalian Mountaineers;;;;;;;;;x
+RETTYPE_CUL_NASHVILLIAN;Nashviller Hoplites;;;;;;;;;x
+RETTYPE_CUL_KAINTUCKER;Derby Cavalry;;;;;;;;;x
 RETTYPE_CUL_NY;New Yorker Adventurers;;;;;;;;;x
 RETTYPE_CUL_DEL;Continental Guard;;;;;;;;;x
 RETTYPE_CUL_UPPER_QUEBECOIS;Upper Quebecois Luge;;;;;;;;;x

@@ -165,7 +165,7 @@ apocalyptic = {
 		icon = 26
 		heresy_icon = 26
 		
-		color = { 255 255 255 }
+		color = { 237 203 203 }
 		
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = REVELATION

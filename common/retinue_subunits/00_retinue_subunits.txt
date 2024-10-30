@@ -1522,35 +1522,90 @@ RETTYPE_CUL_CRABBER =
 
 RETTYPE_CUL_APPALACHIAN = 
 {
-	first_type = 1
+	first_type = 0
 	first_amount = 300
+	
+	second_type = 5
+	second_amount = 250
 	
 	potential = {
 		higher_tier_than = BARON
 		is_nomadic = no
 		OR = {
-			 culture_group = appalachian_group
+			 culture = agrilachian
+			 culture = hollerer
+			 culture = smokelander
+			 culture = affrilachian
 				any_realm_province = {
 				OR = {
-				culture_group = appalachian_group
+				culture = agrilachian
+				culture = hollerer
+				culture = smokelander
+				culture = affrilachian
 				}
-			}
-		}
-				NOR = {
-				culture = melungeon
-				culture = vandalian
-				}
-			 any_realm_province = {
-				NOR = {
-				culture = melungeon
-				culture = vandalian
 			}
 		}
 	}	
 	
 	modifier = {
-		heavy_infantry_offensive = 0.3
-		heavy_infantry_morale = 0.25
+		light_infantry_defensivee = 0.3
+		light_infantry_morale = 0.25
+		archers_defensive = 0.3
+		archers_morale = 0.25
+	}
+}
+
+RETTYPE_CUL_NASHVILLIAN =
+{
+	first_type = 2
+	first_amount = 300
+	
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+		culture = nashvillian
+			any_realm_province = {
+				OR = {
+		culture = nashvillian
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		pikemen_offensive = 0.3
+		pikemen_defensive = 0.25
+	}
+}
+
+RETTYPE_CUL_KAINTUCKER =
+{
+	first_type = 3
+	first_amount = 300
+	
+	
+	potential = {
+		higher_tier_than = BARON
+		is_nomadic = no
+		OR = {
+			culture = kaintucker
+			culture = bluegrasser
+			culture = bourbon
+			any_realm_province = {
+				OR = {
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.3
+		light_cavalry_defensive = 0.25
 	}
 }
 
