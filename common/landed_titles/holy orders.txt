@@ -356,7 +356,7 @@ d_loyalist_order = { #Mounties
 	
 	mercenary_type = knights_hospitaler_composition
 }
-d_gaiwiio_order = { #Rotisken’rakéhte
+d_gaiwiio_order = { #Rotiskenâ€™rakÃ©hte
 	color={ 60 200 100 }
 	color2={ 255 255 255 }
 	
@@ -735,7 +735,7 @@ d_knigths_of_saint_jean_baptiste = {
 	color = { 0 0 255 }
 	color2={ 255 255 255 }
 	
-	capital = 1217 # Montréal
+	capital = 1217 # MontrÃ©al
 	
 	title = "GRANDMASTER"
 	foa = "GRANDMASTER_FOA"
@@ -1041,6 +1041,34 @@ d_sin_eaters = {
 	
 	# Parent Religion 
 	religion = marked
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to banking, etc
+	monthly_income = 10 # (Must be an integer between 1 and 512)
+}
+d_railroad = {
+	color = { 178 102 48 }
+	color2 = { 0 0 0 }
+
+	capital = 149
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = railroad_composition
+	
+	short_name = yes
+	
+	culture = fiskean
+	
+	# Parent Religion 
+	religion = abolitionist
 	
 	# Cannot be held as a secondary title
 	primary = yes

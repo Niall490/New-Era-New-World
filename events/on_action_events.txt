@@ -4306,6 +4306,12 @@ narrative_event = {
 			celtic_pagan_reformed     = { celtic_pagan = { set_flag = has_been_reformed } }
 			crow_way_reformed = { crow_way = { set_flag = has_been_reformed } }
 			kakyosin_reformed = { kakyosin = { set_flag = has_been_reformed } }
+			anishinaabe_reformed = {anishinaabe = { set_flag = has_been_reformed }}
+			gator_pagan_reformed = {gator_pagan = { set_flag = has_been_reformed }}
+			numic_reformed = {numic = { set_flag = has_been_reformed }}
+			aurorean_reformed = {aurorean = { set_flag = has_been_reformed }}
+			taalawsohu_reformed = {taalawsohu = { set_flag = has_been_reformed }}
+			blessing_way_reformed = {blessing_way = { set_flag = has_been_reformed }}
 		}
 
 		# Set religion head title as landless if religion has theocratic religion head
@@ -4338,6 +4344,12 @@ narrative_event = {
 				celtic_pagan_reformed     = { d_celtic_pagan_reformed = { save_event_target_as = religious_head_title } }
 				crow_way_reformed = { d_crow_way = { save_event_target_as = religious_head_title } }
 				kakyosin_reformed = { d_kakyosin = { save_event_target_as = religious_head_title } }
+				anishinaabe_reformed = {d_anishinaabe_reformed = { save_event_target_as = religious_head_title }}
+				gator_pagan_reformed = {d_gator_pagan_reformed = { save_event_target_as = religious_head_title }}
+				#numic_reformed = {d_kakyosin = { save_event_target_as = religious_head_title }}
+				#aurorean_reformed = {d_kakyosin = { save_event_target_as = religious_head_title }}
+				#taalawsohu_reformed = {d_kakyosin = { save_event_target_as = religious_head_title }}
+				#blessing_way_reformed = {d_kakyosin = { save_event_target_as = religious_head_title }}
 			}
 
 			set_title_landless = {
@@ -4385,6 +4397,13 @@ narrative_event = {
 					nousthreskeia_reformed     = {}
 					celtic_pagan_reformed     = {}
 					crow_way_reformed = {}
+					anishinaabe_reformed = {}
+					gator_pagan_reformed = {}
+					numic_reformed = {}
+					aurorean_reformed = {}
+					taalawsohu_reformed = {}
+					kakyosin_reformed = {}
+					blessing_way_reformed = {}
 				}
 			}
 			else_if = { # Religion is Matriarchal
@@ -4409,6 +4428,13 @@ narrative_event = {
 					nousthreskeia_reformed     = {}
 					celtic_pagan_reformed     = {}
 					crow_way_reformed = {}
+					anishinaabe_reformed = {}
+					gator_pagan_reformed = {}
+					numic_reformed = {}
+					aurorean_reformed = {}
+					taalawsohu_reformed = {}
+					kakyosin_reformed = {}
+					blessing_way_reformed = {}
 				}
 			}
 			else_if = { # Else
@@ -4432,6 +4458,12 @@ narrative_event = {
 					nousthreskeia_reformed     = {}
 					celtic_pagan_reformed     = {}
 					crow_way_reformed = {}
+					anishinaabe_reformed = {}
+					gator_pagan_reformed = {}
+					numic_reformed = {}
+					taalawsohu_reformed = {}
+					kakyosin_reformed = {}
+					blessing_way_reformed = {}
 				}
 			}
 		}
@@ -5099,7 +5131,138 @@ narrative_event = {
 
 		if = {
 			limit = { ai = no }
-
+			if = {
+				limit = {
+					religion = hellenic_pagan
+				}
+				religion = hellenic_pagan_reformed
+			}
+			if = {
+				limit = {
+					religion = starist_pagan
+				}
+				religion = starist_pagan_reformed
+			}
+			if = {
+				limit = {
+					religion = tengri_pagan
+				}
+				religion = tengri_pagan_reformed
+			}
+			if = {
+				limit = {
+					religion = raven_tales
+				}
+				religion = raven_tales_reformed
+			}
+			if = {
+				limit = {
+					religion = finnish_pagan
+				}
+				religion = finnish_pagan_reformed
+			}
+			if = {
+				limit = {
+					religion = folklorist
+				}
+				religion = folklorist_reformed
+			}
+			if = {
+				limit = {
+					religion = novelist
+				}
+				religion = novelist_reformed
+			}
+			if = {
+				limit = {
+					religion = lakefolk_pagan
+				}
+				religion = lakefolk_pagan_reformed
+			}
+			if = {
+				limit = {
+					religion = inuit_pagan
+				}
+				religion = inuit_pagan_reformed
+			}
+			if = {
+				limit = {
+					religion = baltic_pagan
+				}
+				religion = baltic_pagan_reformed
+			}
+			if = {
+				limit = {
+					religion = sarna_pagan
+				}
+				religion = sarna_pagan_reformed
+			}
+			if = {
+				limit = {
+					religion = bon
+				}
+				religion = bon_reformed
+			}
+			if = {
+				limit = {
+					religion = nousthreskeia
+				}
+				religion = nousthreskeia_reformed
+			}
+			if = {
+				limit = {
+					religion = celtic_pagan
+				}
+				religion = celtic_pagan_reformed
+			}
+			if = {
+				limit = {
+					religion = crow_way
+				}
+				religion = crow_way_reformed
+			}
+			if = {
+				limit = {
+					religion = anishinaabe
+				}
+				religion = anishinaabe_reformed
+			}
+			if = {
+				limit = {
+					religion = gator_pagan
+				}
+				religion = gator_pagan_reformed
+			}
+			if = {
+				limit = {
+					religion = numic
+				}
+				religion = numic_reformed
+			}
+			if = {
+				limit = {
+					religion = aurorean
+				}
+				religion = aurorean_reformed
+			}
+			if = {
+				limit = {
+					religion = taalawsohu
+				}
+				religion = taalawsohu_reformed
+			}
+			if = {
+				limit = {
+					religion = kakyosin
+				}
+				religion = kakyosin_reformed
+			}
+			if = {
+				limit = {
+					religion = blessing_way
+				}
+				religion = blessing_way_reformed
+			}
 			chronicle = {
 				entry = CHRONICLE_OTHER_REFORMED_PLAYERS_RELIGION
 				portrait = [Root.GetID]

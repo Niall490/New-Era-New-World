@@ -270,3 +270,9 @@ sin_eaters_composition = {
 	archers = 100
 	light_cavalry = 200
 }
+
+railroad_composition = {
+	levy_size = 2
+	light_cavalry = 300
+	light_infantry = 200
+}

@@ -124,6 +124,16 @@ ca_culture_azure_1;Companion Camp;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_azure_1;Companion Camp;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_azure_1_desc;The Companions are the elite of the Mississipian Armies, these trained Swordsman and Zouaves come from the core regions of the Mississippi and excel in urban combat. Originally the soldiers under the commmand of at the time Prince Basil I, they have been expended in role during his later conquests as Azure Emperor. They have since been divided into many smaller companies of Men-At-Arms, whos loyalty may be closer to that of their local ruler then the Azure Throne.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_shomrim_1;Shomrim Range;;;;;;;;;;;;;x
+ca_culture_shomrim_2;Shomrim Range;;;;;;;;;;;;;x
+ca_culture_shomrim_3;Shomrim Range;;;;;;;;;;;;;x
+ca_culture_shomrim_4;Shomrim Range;;;;;;;;;;;;;x
+tb_culture_shomrim_1;Shomrim Camp;;;;;;;;;;;;;x
+tb_culture_shomrim_2;Shomrim Camp;;;;;;;;;;;;;x
+tb_culture_shomrim_3;Shomrim Camp;;;;;;;;;;;;;x
+tb_culture_shomrim_4;Shomrim Camp;;;;;;;;;;;;;x
+ca_culture_shomrim_1_desc;The Shomrim are a civilian militia patrol specializing in peacekeeping in their realms. In wartime, they turn into an auxillary unit for their lieges.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_federalist_1;Columbian Minutemen Garrison;;;;;;;;;;;;;x
 ca_culture_federalist_2;Columbian Minutemen Garrison;;;;;;;;;;;;;x
 ca_culture_federalist_3;Columbian Minutemen Garrison;;;;;;;;;;;;;x
@@ -133,6 +143,56 @@ tb_culture_federalist_2;Columbian Minutemen Watchtower;;;;;;;;;;;;;x
 tb_culture_federalist_3;Columbian Minutemen Watchtower;;;;;;;;;;;;;x
 tb_culture_federalist_4;Columbian Minutemen Watchtower;;;;;;;;;;;;;x
 ca_culture_federalist_1_desc;The Columbian Minutemen while not part of the Military or National Guard are an important irregular force, being skilled in outmaneuvering any foe while unleashing volleys of musket fire.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_politan_1;City Guard Station;;;;;;;;;;;;;x
+ca_culture_politan_2;City Guard Station;;;;;;;;;;;;;x
+ca_culture_politan_3;City Guard Station;;;;;;;;;;;;;x
+ca_culture_politan_4;City Guard Station;;;;;;;;;;;;;x
+tb_culture_politan_1;City Guard Watchtower;;;;;;;;;;;;;x
+tb_culture_politan_2;City Guard Watchtower;;;;;;;;;;;;;x
+tb_culture_politan_3;City Guard Watchtower;;;;;;;;;;;;;x
+tb_culture_politan_4;City Guard Watchtower;;;;;;;;;;;;;x
+ca_culture_politan_1_desc;The Politan City Guard are a military unit tasked with being the first line of defense against any invader. In times of peace however, they are tasked with keeping the peace along the realm.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_appalachian_1;Appalachian Volunteer Barracks;;;;;;;;;;;;;x
+ca_culture_appalachian_2;Appalachian Volunteer Barracks;;;;;;;;;;;;;x
+ca_culture_appalachian_3;Appalachian Volunteer Barracks;;;;;;;;;;;;;x
+ca_culture_appalachian_4;Appalachian Volunteer Barracks;;;;;;;;;;;;;x
+tb_culture_appalachian_1;Appalachian Volunteer Grounds;;;;;;;;;;;;;x
+tb_culture_appalachian_2;Appalachian Volunteer Grounds;;;;;;;;;;;;;x
+tb_culture_appalachian_3;Appalachian Volunteer Grounds;;;;;;;;;;;;;x
+tb_culture_appalachian_4;Appalachian Volunteer Grounds;;;;;;;;;;;;;x
+ca_culture_appalachian_1_desc;The tight-knit dynasties and septs of southern Applachia, while not prone to maintaining permanent armies, raise great quantities of eager young men eager for glory in times of war, with such men needing to be willing to traverse the rugged terrain of their homelands. These Volunteers are generally armed with what their households can provide, whether that be a yeoman's axe or a chieftain's claymore, and are men who know the nooks and crannies of the valleys and hollers who are comfortable sustaining themselves from the land.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_vandalian_1;Vandalian Longhunter Barracks;;;;;;;;;;;;;x
+ca_culture_vandalian_2;Vandalian Longhunter Barracks;;;;;;;;;;;;;x
+ca_culture_vandalian_3;Vandalian Longhunter Barracks;;;;;;;;;;;;;x
+ca_culture_vandalian_4;Vandalian Longhunter Barracks;;;;;;;;;;;;;x
+tb_culture_vandalian_1;Vandalian Longhunter Meeting Ground;;;;;;;;;;;;;x
+tb_culture_vandalian_2;Vandalian Longhunter Meeting Ground;;;;;;;;;;;;;x
+tb_culture_vandalian_3;Vandalian Longhunter Meeting Ground;;;;;;;;;;;;;x
+tb_culture_vandalian_4;Vandalian Longhunter Meeting Ground;;;;;;;;;;;;;x
+ca_culture_vandalian_1_desc;The Vandalians have regularly suffered from invasions from lowlanders who have persecuted them not just for their land, but for their beliefs, and the Longhunters emerged from these continual struggles against those outsiders who would wish to break the Vandalian people. The Longhunter order recruits primarily from the ranks of trappers and huntsmen, men who are comfortable traversing very far from their homelands, and who take pleasure at denying succor to their enemies. Members of the Longstriders have been known to be absent from the otherwise close-knit Vandalian homesteads for years at a time, earning them a eerie reputation among their kin.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_nashvillian_1;Nashviller Hoplite Barracks;;;;;;;;;;;;;x
+ca_culture_nashvillian_2;Nashviller Hoplite Barracks;;;;;;;;;;;;;x
+ca_culture_nashvillian_3;Nashviller Hoplite Barracks;;;;;;;;;;;;;x
+ca_culture_nashvillian_4;Nashviller Hoplite Barracks;;;;;;;;;;;;;x
+tb_culture_nashvillian_1;Nashviller Hoplite Proving Grounds;;;;;;;;;;;;;x
+tb_culture_nashvillian_2;Nashviller Hoplite Proving Grounds;;;;;;;;;;;;;x
+tb_culture_nashvillian_3;Nashviller Hoplite Proving Grounds;;;;;;;;;;;;;x
+tb_culture_nashvillian_4;Nashviller Hoplite Proving Grounds;;;;;;;;;;;;;x
+ca_culture_nashvillian_1_desc;The Hoplites of Nashville are a pikeman unit emulating an ancient unit of pikemen from a distant land from across the oceans.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_kaintucker_1;Derby Cavalry Stables;;;;;;;;;;;;;x
+ca_culture_kaintucker_2;Derby Cavalry Stables;;;;;;;;;;;;;x
+ca_culture_kaintucker_3;Derby Cavalry Stables;;;;;;;;;;;;;x
+ca_culture_kaintucker_4;Derby Cavalry Stables;;;;;;;;;;;;;x
+tb_culture_kaintucker_1;Derby Cavalry Fields;;;;;;;;;;;;;x
+tb_culture_kaintucker_2;Derby Cavalry Fields;;;;;;;;;;;;;x
+tb_culture_kaintucker_3;Derby Cavalry Fields;;;;;;;;;;;;;x
+tb_culture_kaintucker_4;Derby Cavalry Fields;;;;;;;;;;;;;x
+ca_culture_kaintucker_1_desc;The Derby Cavalry hail from Kentucky's rich history of horses. With the finest steeds, they charge with full confidence.;;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_hellfighters_1;Hellfighter Garrison;;;;;;;;;;;;;x
 ca_culture_hellfighters_2;Hellfighter Garrison;;;;;;;;;;;;;x
@@ -163,6 +223,16 @@ tb_culture_redtail_2;Red-Tails Fields;;;;;;;;;;;;x
 tb_culture_redtail_3;Red-Tails Fields;;;;;;;;;;;;x
 tb_culture_redtail_4;Red-Tails Fields;;;;;;;;;;;;x
 ca_culture_redtail_1_desc;The Tuskegee Red-Tails are a group of cavalrymen adopting a name of an antediviludian unit who charge in the battlefield with extreme pride in their name and their strength.;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_melungeon_1;Melung'n Infantry Training Grounds;;;;;;;;;;;;x
+ca_culture_melungeon_2;Melung'n Infantry Training Grounds;;;;;;;;;;;;x
+ca_culture_melungeon_3;Melung'n Infantry Training Grounds;;;;;;;;;;;;x
+ca_culture_melungeon_4;Melung'n Infantry Training Grounds;;;;;;;;;;;;x
+tb_culture_melungeon_1;Melung'n Infantry Proving Grounds;;;;;;;;;;;;x
+tb_culture_melungeon_2;Melung'n Infantry Proving Grounds;;;;;;;;;;;;x
+tb_culture_melungeon_3;Melung'n Infantry Proving Grounds;;;;;;;;;;;;x
+tb_culture_melungeon_4;Melung'n Infantry Proving Grounds;;;;;;;;;;;;x
+ca_culture_melungeon_1_desc;The Melung'n Infantry are a special unit of their culture that specialize in defense, even in the most dire of times.;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_dominion_1;Royal Mounties;;;;;;;;;;;;;x
 ca_culture_dominion_2;Royal Mounties;;;;;;;;;;;;;x
@@ -346,6 +416,16 @@ tb_culture_group_north_germanic_1;Hockey Axemen Camp;;;;;;;;;;;;;x
 tb_culture_group_north_germanic_2;Hockey Axemen Camp;;;;;;;;;;;;;x
 tb_culture_group_north_germanic_3;Hockey Axemen Camp;;;;;;;;;;;;;x
 tb_culture_group_north_germanic_4;Hockey Axemen Camp;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_yupi_1;Jaakeri Range;;;;;;;;;;;;;x
+ca_culture_yupi_2;Jaakeri Range;;;;;;;;;;;;;x
+ca_culture_yupi_3;Jaakeri Range;;;;;;;;;;;;;x
+ca_culture_yupi_4;Jaakeri Range;;;;;;;;;;;;;x
+tb_culture_yupi_1;Jaakeri Camp;;;;;;;;;;;;;x
+tb_culture_yupi_2;Jaakeri Camp;;;;;;;;;;;;;x
+tb_culture_yupi_3;Jaakeri Camp;;;;;;;;;;;;;x
+tb_culture_yupi_4;Jaakeri Camp;;;;;;;;;;;;;x
+ca_culture_yupi_1_desc;The Jaakeri are a notable ranger unit. With knowledge of the forest in the back of their palms, they effortlessly hunt down their adversaries.;;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_usa_camel_1;Southwestern Camelry;;;;;;;;;;;;;x
 ca_culture_usa_camel_2;Southwestern Camelry;;;;;;;;;;;;;x
