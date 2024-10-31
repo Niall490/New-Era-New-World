@@ -14326,7 +14326,7 @@ castle = {
 				OR = {
 					culture = kaintucker
 					culture = bluegrasser
-				culture = bourbon
+					culture = bourbon
 				}
 			}
 		}
@@ -14354,6 +14354,8 @@ castle = {
 		potential = {
 			OR = {
 				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
 				has_building = ca_culture_kaintucker_1
 				has_building = ca_culture_kaintucker_2
 				has_building = ca_culture_kaintucker_3
@@ -14363,7 +14365,9 @@ castle = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = kaintucker
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
 				}
 			}
 		}
@@ -14371,7 +14375,9 @@ castle = {
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
 				OR = {
-					culture = kaintucker
+				culture = kaintucker
+				culture = bluegrasser
+				culture = bourbon
 				}
 			}
 		}
