@@ -124,6 +124,16 @@ ca_culture_azure_1;Companion Camp;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_azure_1;Companion Camp;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_azure_1_desc;The Companions are the elite of the Mississipian Armies, these trained Swordsman and Zouaves come from the core regions of the Mississippi and excel in urban combat. Originally the soldiers under the commmand of at the time Prince Basil I, they have been expended in role during his later conquests as Azure Emperor. They have since been divided into many smaller companies of Men-At-Arms, whos loyalty may be closer to that of their local ruler then the Azure Throne.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_shomrim_1;Shomrim Range;;;;;;;;;;;;;x
+ca_culture_shomrim_2;Shomrim Range;;;;;;;;;;;;;x
+ca_culture_shomrim_3;Shomrim Range;;;;;;;;;;;;;x
+ca_culture_shomrim_4;Shomrim Range;;;;;;;;;;;;;x
+tb_culture_shomrim_1;Shomrim Camp;;;;;;;;;;;;;x
+tb_culture_shomrim_2;Shomrim Camp;;;;;;;;;;;;;x
+tb_culture_shomrim_3;Shomrim Camp;;;;;;;;;;;;;x
+tb_culture_shomrim_4;Shomrim Camp;;;;;;;;;;;;;x
+ca_culture_shomrim_1_desc;The Shomrim are a civilian militia patrol specializing in peacekeeping in their realms. In wartime, they turn into an auxillary unit for their lieges.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_federalist_1;Columbian Minutemen Garrison;;;;;;;;;;;;;x
 ca_culture_federalist_2;Columbian Minutemen Garrison;;;;;;;;;;;;;x
 ca_culture_federalist_3;Columbian Minutemen Garrison;;;;;;;;;;;;;x
@@ -133,6 +143,16 @@ tb_culture_federalist_2;Columbian Minutemen Watchtower;;;;;;;;;;;;;x
 tb_culture_federalist_3;Columbian Minutemen Watchtower;;;;;;;;;;;;;x
 tb_culture_federalist_4;Columbian Minutemen Watchtower;;;;;;;;;;;;;x
 ca_culture_federalist_1_desc;The Columbian Minutemen while not part of the Military or National Guard are an important irregular force, being skilled in outmaneuvering any foe while unleashing volleys of musket fire.;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_politan_1;City Guard Station;;;;;;;;;;;;;x
+ca_culture_politan_2;City Guard Station;;;;;;;;;;;;;x
+ca_culture_politan_3;City Guard Station;;;;;;;;;;;;;x
+ca_culture_politan_4;City Guard Station;;;;;;;;;;;;;x
+tb_culture_politan_1;City Guard Watchtower;;;;;;;;;;;;;x
+tb_culture_politan_2;City Guard Watchtower;;;;;;;;;;;;;x
+tb_culture_politan_3;City Guard Watchtower;;;;;;;;;;;;;x
+tb_culture_politan_4;City Guard Watchtower;;;;;;;;;;;;;x
+ca_culture_politan_1_desc;The Politan City Guard are a military unit tasked with being the first line of defense against any invader. In times of peace however, they are tasked with keeping the peace along the realm.;;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_appalachian_1;Appalachian Volunteer Barracks;;;;;;;;;;;;;x
 ca_culture_appalachian_2;Appalachian Volunteer Barracks;;;;;;;;;;;;;x
@@ -396,6 +416,16 @@ tb_culture_group_north_germanic_1;Hockey Axemen Camp;;;;;;;;;;;;;x
 tb_culture_group_north_germanic_2;Hockey Axemen Camp;;;;;;;;;;;;;x
 tb_culture_group_north_germanic_3;Hockey Axemen Camp;;;;;;;;;;;;;x
 tb_culture_group_north_germanic_4;Hockey Axemen Camp;;;;;;;;;;;;;x
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ca_culture_yupi_1;Jaakeri Range;;;;;;;;;;;;;x
+ca_culture_yupi_2;Jaakeri Range;;;;;;;;;;;;;x
+ca_culture_yupi_3;Jaakeri Range;;;;;;;;;;;;;x
+ca_culture_yupi_4;Jaakeri Range;;;;;;;;;;;;;x
+tb_culture_yupi_1;Jaakeri Camp;;;;;;;;;;;;;x
+tb_culture_yupi_2;Jaakeri Camp;;;;;;;;;;;;;x
+tb_culture_yupi_3;Jaakeri Camp;;;;;;;;;;;;;x
+tb_culture_yupi_4;Jaakeri Camp;;;;;;;;;;;;;x
+ca_culture_yupi_1_desc;The Jaakeri are a notable ranger unit. With knowledge of the forest in the back of their palms, they effortlessly hunt down their adversaries.;;;;;;;;;;;;;x
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ca_culture_usa_camel_1;Southwestern Camelry;;;;;;;;;;;;;x
 ca_culture_usa_camel_2;Southwestern Camelry;;;;;;;;;;;;;x
