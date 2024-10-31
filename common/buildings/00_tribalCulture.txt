@@ -5464,15 +5464,15 @@ tribal = {
 		tax_income = -0.2
 	}
 	
-	tb_culture_redneck_1 = {
-		desc = ca_culture_redneck_1_desc
+	tb_culture_appalachian_1 = {
+		desc = ca_culture_appalachian_1_desc
 		potential = {
 			OR = {
 				culture = agrilachian
 				culture = hollerer
 				culture = smokelander
 				culture = affrilachian
-				has_building = tb_culture_redneck_1
+				has_building = tb_culture_appalachian_1
 			}
 		}
 		is_active_trigger = {
@@ -5509,16 +5509,16 @@ tribal = {
 		
 		extra_tech_building_start = 0.8
 	}
-	tb_culture_redneck_2 = {
-		desc = ca_culture_redneck_1_desc
+	tb_culture_appalachian_2 = {
+		desc = ca_culture_appalachian_1_desc
 		potential = {
 			OR = {
 				culture = agrilachian
 				culture = hollerer
 				culture = smokelander
 				culture = affrilachian
-				has_building = tb_culture_redneck_1
-				has_building = tb_culture_redneck_2
+				has_building = tb_culture_appalachian_1
+				has_building = tb_culture_appalachian_2
 			}
 		}
 		is_active_trigger = {
@@ -5542,7 +5542,7 @@ tribal = {
 				}
 			}
 		}
-		upgrades_from = tb_culture_redneck_1
+		upgrades_from = tb_culture_appalachian_1
 		prestige_cost = 200
 		build_time = 547
 		light_infantry = 20
@@ -5553,21 +5553,21 @@ tribal = {
 		archers_morale = 0.15
 		ai_creation_factor = 100
 		
-		convert_to_castle = ca_culture_redneck_1
+		convert_to_castle = ca_culture_appalachian_1
 		
 		extra_tech_building_start = 0.8
 	}
-	tb_culture_redneck_3 = {
-		desc = ca_culture_redneck_1_desc
+	tb_culture_appalachian_3 = {
+		desc = ca_culture_appalachian_1_desc
 		potential = {
 			OR = {
 				culture = agrilachian
 				culture = hollerer
 				culture = smokelander
 				culture = affrilachian
-				has_building = tb_culture_redneck_1
-				has_building = tb_culture_redneck_2
-				has_building = tb_culture_redneck_3
+				has_building = tb_culture_appalachian_1
+				has_building = tb_culture_appalachian_2
+				has_building = tb_culture_appalachian_3
 			}
 		}
 		is_active_trigger = {
@@ -5591,7 +5591,7 @@ tribal = {
 				}
 			}
 		}
-		upgrades_from = tb_culture_redneck_2
+		upgrades_from = tb_culture_appalachian_2
 		prestige_cost = 300
 		build_time = 730
 		light_infantry = 40
@@ -5602,22 +5602,22 @@ tribal = {
 		archers_morale = 0.15
 		ai_creation_factor = 99
 		
-		convert_to_castle = ca_culture_redneck_1
+		convert_to_castle = ca_culture_appalachian_1
 		
 		extra_tech_building_start = 0.8
 	}
-	tb_culture_redneck_4 = {
-		desc = ca_culture_redneck_1_desc
+	tb_culture_appalachian_4 = {
+		desc = ca_culture_appalachian_1_desc
 		potential = {
 			OR = {
 				culture = agrilachian
 				culture = hollerer
 				culture = smokelander
 				culture = affrilachian
-				has_building = tb_culture_redneck_1
-				has_building = tb_culture_redneck_2
-				has_building = tb_culture_redneck_3
-				has_building = tb_culture_redneck_4
+				has_building = tb_culture_appalachian_1
+				has_building = tb_culture_appalachian_2
+				has_building = tb_culture_appalachian_3
+				has_building = tb_culture_appalachian_4
 			}
 		}
 		is_active_trigger = {
@@ -5641,7 +5641,7 @@ tribal = {
 				}
 			}
 		}
-		upgrades_from = tb_culture_redneck_3
+		upgrades_from = tb_culture_appalachian_3
 		prestige_cost = 400
 		build_time = 1095
 		light_infantry = 40
@@ -5652,7 +5652,7 @@ tribal = {
 		archers_morale = 0.15
 		ai_creation_factor = 98
 		
-		convert_to_castle = ca_culture_redneck_2
+		convert_to_castle = ca_culture_appalachian_2
 		
 		extra_tech_building_start = 0.8
 	}

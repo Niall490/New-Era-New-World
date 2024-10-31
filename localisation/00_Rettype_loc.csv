@@ -88,8 +88,8 @@ RETTYPE_CUL_SOUTHERN;Southern Gallants;;;;;;;;;x
 RETTYPE_CUL_CAROLINO;Carolino Pikemen;;;;;;;;;x
 RETTYPE_CUL_CRABBER;Crabber Spearmen;;;;;;;;;x
 RETTYPE_CUL_SOUTHRON;Southron Knights;;;;;;;;;x
-RETTYPE_CUL_APPALACHIAN;Rednecks;;;;;;;;;x
-RETTYPE_CUL_VANDALIAN;Vanadalian Mountaineers;;;;;;;;;x
+RETTYPE_CUL_APPALACHIAN;Appalachian Volunteers;;;;;;;;;x
+RETTYPE_CUL_VANDALIAN;Vandalian Longhunters;;;;;;;;;x
 RETTYPE_CUL_NASHVILLIAN;Nashviller Hoplites;;;;;;;;;x
 RETTYPE_CUL_KAINTUCKER;Derby Cavalry;;;;;;;;;x
 RETTYPE_CUL_NY;New Yorker Adventurers;;;;;;;;;x
