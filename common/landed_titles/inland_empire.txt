@@ -209,6 +209,21 @@ e_inland_empire = {
 				b_prineville_OR = {}
 				b_millican_OR = {}
 			}
+			c_crater = {
+				color = { 4 109 157 }
+				color2 = { 152 122 98 }
+				
+				haida = "Xwaaduu"	#freshwater spring
+				holy_site = ghost_dance
+				
+				b_chiloquin_OR = {}
+				b_crater_lake_OR = {}
+				b_gilchrist_OR = {}
+				b_mccredle_springs_OR = {}
+				b_kirk_OR = {}
+				b_la_pine_OR = {}
+				b_chemult_OR = {}
+			}
 		}
 	}
 	k_kootenay = {

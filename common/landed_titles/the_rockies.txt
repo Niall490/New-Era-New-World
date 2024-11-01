@@ -103,6 +103,50 @@ e_the_rockies = {
 				b_unionville_NV = {}
 			}
 		}
+		d_death_valley = {
+			color={ 238 217 135 }
+			color2={ 255 255 255 }
+			
+			capital = 2071 # c_inyo
+			
+			c_inyo = { # 2071
+				color={ 218 227 105 }
+				color2={ 255 255 255 }
+				
+				b_bishop_CA = {}
+				b_lone_pine_CA = {}
+				b_independence_CA = {}
+				b_big_pine_CA = {}
+				b_aberdeen_CA = {}
+				b_deep_springs_CA = {}
+			}
+			c_hawthorne = { # 2072
+				color={ 218 187 135 }
+				color2={ 255 255 255 }
+				
+				b_hawthorne_CA = {}
+				b_yerington_CA = {}
+				b_lee_vining_CA = {}
+				b_bridgeport_CA = {}
+				b_june_lake_CA = {}
+				b_mammoth_lakes_CA = {}
+			}
+			
+			c_nye_pass = {
+				color={ 142 211 152 }
+				color2={ 255 255 255 }
+				
+				holy_site = trinitarian
+				
+				b_amargosa_valley_CA = {}
+				b_beatty_CA = {}
+				b_rhyolite_CA = {}
+				b_bonnie_claire_CA = {}
+				b_goldcenter_CA = {}
+				b_mercury_CA = {}
+				b_lida_CA = {}
+			}
+		}
 	}
 	k_deseret = {
 		color = { 116 170 252 }
