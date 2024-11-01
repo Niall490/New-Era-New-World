@@ -316,21 +316,21 @@ spriteTypes = {
 	}
 	spriteType = {##
 		name = "GFX_trait_rangerite_leader"
-		texturefile = "gfx/traits/rangerite_leader.tga"
+		texturefile = "gfx/traits/rangerite_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_gridiron_leader"
-		texturefile = "gfx/traits/gridiron_leader.tga"
+		texturefile = "gfx/traits/gridiron_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_triumphant_leader"
-		texturefile = "gfx/traits/triumphant_leader.tga"
+		texturefile = "gfx/traits/triumphant_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -344,56 +344,56 @@ spriteTypes = {
 	}
 	spriteType = {##
 		name = "GFX_trait_gibborim_leader"
-		texturefile = "gfx/traits/gibborim_leader.tga"
+		texturefile = "gfx/traits/gibborim_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_gator_leader"
-		texturefile = "gfx/traits/gator_leader.tga"
+		texturefile = "gfx/traits/gator_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_antiquarianist_leader"
-		texturefile = "gfx/traits/antiquarianist_leader.tga"
+		texturefile = "gfx/traits/antiquarianist_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_gaian_leader"
-		texturefile = "gfx/traits/gaian_leader.tga"
+		texturefile = "gfx/traits/gaian_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_delver_leader"
-		texturefile = "gfx/traits/delver_leader.tga"
+		texturefile = "gfx/traits/delver_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_raider_leader"
-		texturefile = "gfx/traits/raider_leader.tga"
+		texturefile = "gfx/traits/raider_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_cowboy_buddhist_leader"
-		texturefile = "gfx/traits/cowboy_buddhist_leader.tga"
+		texturefile = "gfx/traits/cowboy_buddhist_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_sun_dance_leader"
-		texturefile = "gfx/traits/sun_dance_leader.tga"
+		texturefile = "gfx/traits/sun_dance_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -407,21 +407,21 @@ spriteTypes = {
 	}
 	spriteType = {##
 		name = "GFX_trait_crow_way_leader"
-		texturefile = "gfx/traits/crow_way_leader.tga"
+		texturefile = "gfx/traits/crow_way_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_lakefolk_leader"
-		texturefile = "gfx/traits/lakefolk_leader.tga"
+		texturefile = "gfx/traits/lakefolk_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_raven_tales_leader"
-		texturefile = "gfx/traits/raven_tales_leader.tga"
+		texturefile = "gfx/traits/raven_tales_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -435,49 +435,49 @@ spriteTypes = {
 	}
 	spriteType = {##
 		name = "GFX_trait_arcadian_leader"
-		texturefile = "gfx/traits/arcadian_leader.tga"
+		texturefile = "gfx/traits/arcadian_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_anishinaabe_leader"
-		texturefile = "gfx/traits/anishinaabe_leader.tga"
+		texturefile = "gfx/traits/anishinaabe_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_marked_leader"
-		texturefile = "gfx/traits/marked_leader.tga"
+		texturefile = "gfx/traits/marked_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_trinitarian_leader"
-		texturefile = "gfx/traits/trinitarian_leader.tga"
+		texturefile = "gfx/traits/trinitarian_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_kemetic_leader"
-		texturefile = "gfx/traits/kemetic_leader.tga"
+		texturefile = "gfx/traits/kemetic_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_emmaean_leader"
-		texturefile = "gfx/traits/emmaean_leader.tga"
+		texturefile = "gfx/traits/emmaean_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {##
 		name = "GFX_trait_resurrectionist_leader"
-		texturefile = "gfx/traits/resurrectionist_leader.tga"
+		texturefile = "gfx/traits/resurrectionist_leader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
