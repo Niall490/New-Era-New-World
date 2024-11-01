@@ -10,84 +10,12 @@ e_jefferson = {
 		
 		capital = 2056 # c_eureka
 		
-		d_redwoods = { #SPLIT THIS LATER!
+		d_redwoods = {
 			color={ 52 78 202 }
 			color2={ 255 255 255 }
 			
 			capital = 2056 # c_eureka
 			
-			c_eureka = { # 2056
-				color={ 82 68 202 }
-				color2={ 255 255 255 }
-				
-				b_eureka_CA = {}
-				b_mckinleyville_CA = {}
-				b_arcata_CA = {}
-				b_loleta_CA = {}
-				b_trinidad_CA = {}
-				b_willow_creek_CA = {}
-				b_orick_CA = {}
-			}			
-			c_bragg = { # 2053
-				color={ 178 188 233 }
-				color2={ 255 255 255 }
-				
-				b_fort_bragg_CA = {}
-				b_caspar_CA = {}
-				b_gualala_CA = {}
-				b_cleone_CA = {}
-				b_philo_CA = {}
-				b_albion_CA = {}
-				b_little_river_CA = {}
-			}
-			c_the_marbles_CA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_happy_camp_CA = {}
-				b_fort_goff_CA = {}
-				b_clear_creek_CA = {}
-				b_hamburg_CA = {}
-				b_hoskin_CA = {}
-				b_cottage_grove_CA = {}
-				b_oakbar_CA = {}
-			}
-			c_arena_CA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_point_arena_CA = {}
-				b_flumeville_CA = {}
-				b_boonville_CA = {}
-				b_reilly_heights_CA = {}
-				b_stornetta_CA = {}
-				b_manchester_CA = {}
-				b_gallaway_CA = {}
-			}
-			c_humboldt = { # 2055
-				color={ 218 158 233 }
-				color2={ 255 255 255 }
-				
-				b_fortuna_CA = {}
-				b_garberville_CA = {}
-				b_weott_CA = {}
-				b_myers_flat_CA = {}
-				b_petrolia_CA = {}
-				b_miranda_CA = {}
-				b_redcrest_CA = {}
-			}
-			c_mendocino = { # 2054
-				color={ 218 188 193 }
-				color2={ 255 255 255 }
-				
-				b_willits_CA = {}
-				b_brooktrails_CA = {}
-				b_covelo_CA = {}
-				b_copper_city_CA = {}
-				b_griffin_place_CA = {}
-				b_zenia_CA = {}
-				b_marks_place_CA = {}
-			}
 			c_redwood = { # 2057
 				color={ 62 118 182 }
 				color2={ 255 255 255 }
@@ -98,18 +26,6 @@ e_jefferson = {
 				b_hiouchi_CA = {}
 				b_peak_eight_CA = {}
 				b_gasquet_CA = {}
-			}
-			c_klamath = { # 2058
-				color={ 82 108 162 }
-				color2={ 255 255 255 }
-				
-				b_klamath_CA = {}
-				b_requa_CA = {}
-				b_pecwan_CA = {}
-				b_klamath_glen_CA = {}
-				b_orleans_CA = {}
-				b_fort_jones_CA = {}
-				b_etna_CA = {}	
 			}
 			c_josephine = {
 				color = { 244 220 0 }
@@ -137,6 +53,69 @@ e_jefferson = {
 				b_langlois_OR = {}
 				b_ophir_OR = {}		
 			}
+			
+		}
+		d_humboldt = {
+			color = { 0 34 42 }
+			color2 = { 220 220 220 }
+			
+			capital = 2056
+			
+			c_klamath = { # 2058
+				color={ 82 108 162 }
+				color2={ 255 255 255 }
+				
+				b_klamath_CA = {}
+				b_requa_CA = {}
+				b_pecwan_CA = {}
+				b_klamath_glen_CA = {}
+				b_orleans_CA = {}
+				b_fort_jones_CA = {}
+				b_etna_CA = {}	
+			}
+			c_humboldt = { # 2055
+				color={ 218 158 233 }
+				color2={ 255 255 255 }
+				
+				b_fortuna_CA = {}
+				b_garberville_CA = {}
+				b_weott_CA = {}
+				b_myers_flat_CA = {}
+				b_petrolia_CA = {}
+				b_miranda_CA = {}
+				b_redcrest_CA = {}
+			}
+			c_eureka = { # 2056
+				color={ 82 68 202 }
+				color2={ 255 255 255 }
+				
+				b_eureka_CA = {}
+				b_mckinleyville_CA = {}
+				b_arcata_CA = {}
+				b_loleta_CA = {}
+				b_trinidad_CA = {}
+				b_willow_creek_CA = {}
+				b_orick_CA = {}
+			}
+		}
+		d_mendocino = {
+			color = { 218 188 193 }
+			color2 = { 255 255 255 }
+			
+			capital = 2054
+			
+			c_bragg = { # 2053
+				color={ 178 188 233 }
+				color2={ 255 255 255 }
+				
+				b_fort_bragg_CA = {}
+				b_caspar_CA = {}
+				b_gualala_CA = {}
+				b_cleone_CA = {}
+				b_philo_CA = {}
+				b_albion_CA = {}
+				b_little_river_CA = {}
+			}
 			c_lake = { # 2051
 				color={ 193 134 198 }
 				color2={ 255 255 255 }
@@ -149,6 +128,30 @@ e_jefferson = {
 				b_lower_lake_CA = {}
 				b_ukiah_CA = {}
 			}
+			c_arena_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_point_arena_CA = {}
+				b_flumeville_CA = {}
+				b_boonville_CA = {}
+				b_reilly_heights_CA = {}
+				b_stornetta_CA = {}
+				b_manchester_CA = {}
+				b_gallaway_CA = {}
+			}
+			c_mendocino = { # 2054
+				color={ 218 188 193 }
+				color2={ 255 255 255 }
+				
+				b_willits_CA = {}
+				b_brooktrails_CA = {}
+				b_covelo_CA = {}
+				b_copper_city_CA = {}
+				b_griffin_place_CA = {}
+				b_zenia_CA = {}
+				b_marks_place_CA = {}
+			}
 		}
 	}
 	k_shasta = {
@@ -157,24 +160,13 @@ e_jefferson = {
 		
 		capital = 2059 # c_redding
 		
-		d_shasta_cascade = {
+		d_shasta_cascade = { #split later maybe
 			color={ 107 125 190 }
 			color2={ 255 255 255 }
 			
 			capital = 2059 # c_redding
 			
-			c_redding = { # 2059
-				color={ 52 108 202 }
-				color2={ 255 255 255 }
-				
-				b_redding_CA = {}
-				b_anderson_CA = {}
-				b_weaverville_CA = {}
-				b_millville_CA = {}
-				b_whiskeytown_CA = {}
-				b_douglas_city_CA = {}
-				b_lewiston_CA = {}
-			}
+			
 			c_mount_shasta = { # 2060
 				color={ 107 125 160 }
 				color2={ 255 255 255 }
@@ -188,6 +180,30 @@ e_jefferson = {
 				b_chester_CA = {}
 				b_westwood_CA = {}
 			}
+			c_redding = { # 2059
+				color={ 52 108 202 }
+				color2={ 255 255 255 }
+				
+				b_redding_CA = {}
+				b_anderson_CA = {}
+				b_weaverville_CA = {}
+				b_millville_CA = {}
+				b_whiskeytown_CA = {}
+				b_douglas_city_CA = {}
+				b_lewiston_CA = {}
+			}
+		}
+		d_north_jefferson = {
+			color = { 15 106 65 }
+			color2 = { 244 220 0 }
+			
+			culture = cascadian
+			
+			capital = 519 #Jackson
+			
+			haida = "Taagwii"	#southward
+			
+			
 			c_yreka = { # 2061
 				color={ 127 115 160 }
 				color2={ 255 255 255 }
@@ -213,6 +229,18 @@ e_jefferson = {
 				b_gold_hill_OR = {}
 				b_eagle_point_OR = {}
 			}
+			c_the_marbles_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_happy_camp_CA = {}
+				b_fort_goff_CA = {}
+				b_clear_creek_CA = {}
+				b_hamburg_CA = {}
+				b_hoskin_CA = {}
+				b_cottage_grove_CA = {}
+				b_oakbar_CA = {}
+			}
 		}
 	}
 	k_renoland = {
@@ -221,9 +249,16 @@ e_jefferson = {
 		
 		capital = 2068 # c_reno
 		
-		d_nevada = {
+		d_nevada = { #leftovers
 			color={ 158 206 230 }
 			color2={ 255 255 255 }
+			
+			capital = 2068 # c_reno
+			
+		}
+		d_reno = {
+			color = { 12 35 64 }
+			color2 = { 220 220 220 }
 			
 			capital = 2068 # c_reno
 			
@@ -250,18 +285,6 @@ e_jefferson = {
 				b_empire_NV = {}
 				b_gerlach_NV = {}
 				b_vernon_NV = {}
-			}
-			c_fort_bidwell_CA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_fort_bidwell_CA = {}
-				b_lake_city_CA = {}
-				b_adel_OR = {}
-				b_plush_OR = {}
-				b_vya_NV = {}
-				b_lakeview_OR = {}
-				b_valley_falls_OR = {}
 			}
 			c_plumas_CA = {
 				color={ 255 255 255 }
@@ -299,6 +322,13 @@ e_jefferson = {
 				b_herlong_NV = {}
 				b_termo_NV = {}
 			}
+		}
+		d_modoc = {
+			color = { 107 95 190 }
+			color2 = { 220 220 220 }
+			
+			capital = 2066
+			
 			c_modoc = { # 2066
 				color={ 107 95 190 }
 				color2={ 255 255 255 }
@@ -338,6 +368,18 @@ e_jefferson = {
 				b_west_side_OR = {}
 				b_hines_OR = {}
 				b_willow_ranch_CA = {}
+			}
+			c_fort_bidwell_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_fort_bidwell_CA = {}
+				b_lake_city_CA = {}
+				b_adel_OR = {}
+				b_plush_OR = {}
+				b_vya_NV = {}
+				b_lakeview_OR = {}
+				b_valley_falls_OR = {}
 			}
 		}
 	}
