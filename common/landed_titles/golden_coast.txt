@@ -1,0 +1,398 @@
+e_golden_coast = {
+	color = { 225 216 0 }
+	color2 = { 220 220 220 }
+	
+	capital = 2031 # c_san_francisco
+	
+	k_francisco = {
+		color={ 233 188 217 }
+		color2={ 255 255 255 }
+		
+		capital = 2031 # c_san_francisco
+		
+		d_goldengate = {
+			color={ 227 210 150 }
+			color2={ 255 255 255 }
+			
+			capital = 2031 # c_san_francisco
+			
+			c_san_francisco = { # 2031
+				color={ 237 230 150 }
+				color2={ 255 255 255 }
+				
+				holy_site = cetic
+				holy_site = shinto
+				
+				b_fort_point_CA = {}
+				b_alcatraz_CA = {}
+				b_san_francisco_CA = {}
+				b_daly_CA = {}
+				b_redwood_CA = {}
+				b_millbrae_CA = {}
+				b_menlo_park_CA = {}
+			}
+			c_marin = { # 2033
+				color={ 217 210 160 }
+				color2={ 255 255 255 }
+				
+				b_san_rafael_CA = {}
+				b_novato_CA = {}
+				b_sausalito_CA = {}
+				b_mill_valley_CA = {}
+				b_san_quentin_CA = {}
+				b_point_reyes_CA = {}
+				b_marin = {}
+			}
+			c_san_pablo = {
+				color={ 217 210 160 }
+				color2={ 255 255 255 }
+				
+				b_vallejo_CA = {}
+				b_carquinez_CA = {}
+				b_san_pablo = {}
+				b_saint_vincent_CA = {}
+				b_sears_point_CA = {}
+				b_skaggs_CA = {}
+				b_san_marin_CA = {}
+			}
+			c_big_basin = {
+				color={ 175 151 72 }
+				color2={ 255 255 255 }
+				
+				b_pescadero_CA = {}
+				b_swanton_CA = {}
+				b_davidport_CA = {}
+				b_bonnydoon_CA = {}
+				b_san_lorenzo_CA = {}
+				b_redwood_grove_CA = {}
+				b_loma_mar_CA = {}
+			}
+			c_half_moon_bay = {
+				color={ 156 138 76 }
+				color2={ 255 255 255 }
+				
+				b_half_moon_bay_CA = {}
+				b_el_granada_CA = {}
+				b_san_gregorio_CA = {}
+				b_tunitas_CA = {}
+				b_moss_beach_CA = {}
+				b_montara_CA = {}
+				b_rancho_corral_CA = {}
+			}
+		}
+		d_hayward = {
+			color={ 173 119 164 }
+			color2={ 255 255 255 }
+			
+			capital = 2032
+			
+			c_alameda = { # 2032
+				color={ 173 119 164 }
+				color2={ 255 255 255 }
+				
+				holy_site = atomicist
+				
+				b_oakland_CA = {}
+				b_alameda = {}
+				b_livermore_CA = {}
+				b_berkeley_CA = {}
+				b_san_leandro_CA1 = {}
+				b_hayward_CA1 = {}
+				b_pleasanton_CA = {}
+			}
+			c_contra_costa = { # 2042
+				color={ 188 130 178 }
+				color2={ 255 255 255 }
+				
+				b_antioch_CA = {}
+				b_concord_CA = {}
+				b_richmond_CA = {}
+				b_walnut_creek_CA = {}
+				b_brentwood_CA = {}
+				b_pittsburg_CA = {}
+				b_martinez_CA = {}
+			}
+			c_eden_landing = {
+				color={ 188 110 175 }
+				color2={ 255 255 255 }
+				
+				b_fremont_CA = {}
+				b_eden_landing = {}
+				b_castro_valley_CA = {}
+				b_san_leandro_CA = {}
+				b_hayward_CA = {}
+				b_newark_CA = {}
+				b_sorenson_CA = {}
+			}
+			c_diablo = {
+				color={ 166 108 157 }
+				color2={ 255 255 255 }
+				
+				b_diablo_CA = {}
+				b_tassajara_CA = {}
+				b_san_ramon_CA = {}
+				b_danville_CA = {}
+				b_walnut_creek_CA1 = {}
+				b_alamo_CA = {}
+				b_blackhawk_CA = {}
+			}
+		}
+		d_wineland = {
+			color={ 233 134 198 }
+			color2={ 255 255 255 }
+			
+			capital = 2043 # c_napa
+			
+			c_napa = { # 2043
+				color={ 233 104 198 }
+				color2={ 255 255 255 }
+				
+				b_napa_CA = {}
+				b_salvador_CA = {}
+				b_yountville_CA = {}
+				b_calistoga_CA = {}
+				b_yountville_CA1 = {}
+				b_rutherford_CA = {}
+				b_oak_knoll_CA = {}
+			}
+			
+			c_sonoma = { # 2052
+				color={ 233 134 168 }
+				color2={ 255 255 255 }
+				
+				b_santa_rosa_sonoma_CA = {}
+				b_petaluma_CA = {}
+				b_geyserville_CA = {}
+				b_cloverdale_CA = {}
+				b_rohnert_park_CA = {}
+				b_sebastopol_CA = {}
+				b_jenner_CA = {}
+				b_healdsburg_CA = {}
+			}
+			c_solano = { # 2076
+				color={ 203 134 188 }
+				color2={ 255 255 255 }
+				
+				b_travis_CA = {}
+				b_fairfield_CA = {}
+				b_vacaville_CA = {}
+				b_rio_vista_CA = {}
+				b_grizzy_island_CA = {}
+				b_green_valley_CA = {}
+				b_liberty_farms_CA = {}
+			}
+			c_point_reyes = {
+				color={ 217 210 160 }
+				color2={ 255 255 255 }
+				
+				b_bodega_bay_CA = {}
+				b_dillon_beach_CA = {}
+				b_marshall_CA = {}
+				b_iverness_CA = {}
+				b_marconi_CA = {}
+				b_tomales_CA = {}
+				b_occidental_CA = {}
+			}
+		}
+		d_silicon_valley = {
+			color={ 99 141 58 }
+			color2={ 255 255 255 }
+
+			capital = 2029
+
+			c_san_jose = { # 2029
+				color={ 106 149 62 }
+				color2={ 255 255 255 }
+				
+				b_san_jose_CA = {}
+				b_alamitos_CA = {}
+				b_sunnyvale_CA = {}
+				b_milpitas_CA = {}
+				b_santa_clara_CA = {}
+				b_milpitas_CA1 = {}
+				b_burbank_CA1 = {}
+			}
+			c_palo_alto = {
+				color={ 99 131 67 }
+				color2={ 255 255 255 }
+				
+				b_palo_alto_CA = {}
+				b_cupertino_CA = {}
+				b_sunnyvale_CA1 = {}
+				b_stanford_CA = {}
+				b_saratoga_CA = {}
+				b_los_altos_CA = {}
+				b_loyola_CA = {}
+			}
+			c_san_mateo = {
+				color={ 89 129 48 }
+				color2={ 255 255 255 }
+				
+				b_san_mateo_CA = {}
+				b_redwood_city_CA = {}
+				b_san_carlos_CA = {}
+				b_woodside_CA = {}
+				b_portola_valley_CA = {}
+				b_san_bruno_CA = {}
+				b_foster_city_CA = {}
+			}
+		}
+		d_santa_clara_valley = {
+			color={ 129 24 24 }
+			color2={ 255 255 255 }
+
+			capital = 3629
+
+			c_blue_oak = {
+				color={ 125 31 31 }
+				color2={ 255 255 255 }
+				
+				b_blue_oak_CA = {}
+				b_joseph_CA = {}
+				b_mount_hamilton_CA = {}
+				b_bell_station_CA = {}
+				b_ohlone_CA = {}
+				b_henry_CA = {}
+				b_lavender_CA = {}
+			}
+			c_sierra_azul = {
+				color={ 125 17 17 }
+				color2={ 255 255 255 }
+				
+				b_los_gatos_CA = {}
+				b_almaden_CA = {}
+				b_calero_CA = {}
+				b_rancho_canada_CA = {}
+				b_santa_teresa_CA = {}
+				b_belgatos_CA = {}
+				b_el_sombroso_CA = {}
+			}
+			c_san_martin = {
+				color={ 145 35 35 }
+				color2={ 255 255 255 }
+				
+				b_san_martin_CA = {}
+				b_morgan_hill_CA = {}
+				b_madrone_CA = {}
+				b_gilroy_CA = {}
+				b_llagas_uvas_CA = {}
+				b_coyote_CA = {}
+				b_christmas_hill_CA = {}
+			}
+		}
+	}
+	
+	k_central_coast = {
+		color = { 35 39 95 }
+		color2 = { 220 220 220 }
+		
+		capital = 2030 #santa cruz
+		
+		d_salinas = {
+			color={ 233 188 194 }
+			color2={ 255 255 255 }
+			
+			capital = 1877 # c_salinas_CA
+			
+			c_salinas_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_soledad_CA = {}
+				b_king_city_CA = {}
+				b_bitterwater_CA = {}
+				b_pinnacles_CA = {}
+				b_san_lucas_CA = {}
+				b_gonzales_CA = {}
+				b_lonoak_CA = {}
+			}
+			c_santa_maria_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_santa_maria_CA = {}
+				b_orcutt_CA = {}
+				b_guadalupe_CA = {}
+				b_nipomo_CA = {}
+				b_woodlands_CA = {}
+				b_callender_CA = {}
+				b_los_berros_CA = {}
+			}
+		}
+		d_santa_cruz = { 
+			color={ 176 156 89 }
+			color2={ 255 255 255 }
+
+			capital = 2030
+			
+			c_santa_cruz = { # 2030
+				color={ 175 157 99 }
+				color2={ 255 255 255 }
+				
+				b_santa_cruz_salinas_CA = {}
+				b_salinas_CA = {}
+				b_watsonville_CA = {}
+				b_santa_cruz_CA = {}
+				b_aptos_CA = {}
+				b_scotts_valley_CA = {}
+				b_davenport_CA = {}
+			}
+			c_san_benito = { # 2028
+				color={ 233 188 154 }
+				color2={ 255 255 255 }
+				
+				b_hollister_CA = {}
+				b_ridgemark_CA = {}
+				b_paicines_CA = {}
+				b_dunneville_CA = {}
+				b_paicines_CA1 = {}
+				b_san_benito_CA = {}
+				b_tres_pinos_CA = {}
+			}
+		}
+		d_monterey = {
+			color = { 233 158 194 }
+			color2 = { 220 220 220 }
+			
+			capital = 2026
+			
+			c_monterey = { # 2026
+				color={ 233 158 194 }
+				color2={ 255 255 255 }
+				
+				b_carmel_CA = {}
+				b_pacific_grove_CA = {}
+				b_marina_CA = {}
+				b_cannery_row_CA = {}
+				b_del_monte_CA = {}
+				b_seaside_CA = {}
+				b_carmel_highlands_CA = {}
+				b_corral_de_tierra_CA = {}
+			}
+			c_obispo = { # 2025
+				color={ 213 198 174 }
+				color2={ 255 255 255 }
+				
+				b_san_luis_obispo_CA = {}
+				b_baywood_CA = {}
+				b_atascadero_CA = {}
+				b_paso_robles_CA = {}
+				b_templeton_CA = {}
+				b_morro_bay_CA = {}
+				b_cambria_CA = {}
+			}
+			c_big_sur_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_greenfield_CA = {}
+				b_carmel_valley_CA = {}
+				b_pine_canyon_CA = {}
+				b_big_sur_CA = {}
+				b_fort_hunter_liggett_CA = {}
+				b_jolon_CA = {}
+				b_plaskett_CA = {}
+			}
+		}
+	}
+}

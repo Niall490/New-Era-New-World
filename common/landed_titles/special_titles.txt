@@ -633,6 +633,34 @@ d_exovedate_invaders = {
 	}
 }
 
+e_colorado = {
+	color = { 191 10 48 }
+	color2= { 255 215 0 }		
+
+	capital = 389 # Denver
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_colorado = {
+					is_titular = yes
+				}
+			}
+			e_colorado = {
+				is_titular = no
+			}
+		}
+	}
+	
+	kolorantoi = "Koloránto"
+	westerosi_valyrian = "Koloránto"
+	florintoi = "Koloránto"
+	intianoi = "Koloránto"
+	kanadoi = "Koloránto"
+	minoan = "Koloránto"
+}
+
+
 # NEOW LEFTOVERS
 
 e_china_west_governor = { #placeholder for the Chinese Empire Western Governor
