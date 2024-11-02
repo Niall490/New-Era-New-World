@@ -15,6 +15,6 @@ b_mendota_CA = city
 
 # Misc
 culture = joaquino
-religion = bracero
+religion = thaddean
 
 #History
