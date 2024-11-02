@@ -4,7 +4,7 @@ e_the_valley = {
 	
 	capital = 2036 # c_fresno
 	
-	k_the_valley = {
+	k_the_valley = { #reloc to San Juaquin later
 		color={ 148 224 108 }
 		color2={ 255 255 255 }
 		
@@ -52,6 +52,37 @@ e_the_valley = {
 				b_hilmar_CA = {}
 				b_yosemite_valley_CA = {}
 			}
+			c_tuolumne = { # 2041
+				color={ 236 235 66 }
+				color2={ 255 255 255 }
+				
+				b_modesto_CA = {}
+				b_turlock_CA = {}
+				b_waterford_CA = {}
+				b_oakdale_CA = {}
+				b_riverbank_CA = {}
+				b_groveland_CA = {}
+				b_salida_CA = {}
+			}
+			c_tollhouse = { # 2037
+				color={ 193 220 68 }
+				color2={ 255 255 255 }
+				
+				b_tollhouse_CA = {}
+				b_woodlake_CA = {}
+				b_orange_cove_CA = {}
+				b_squaw_valley_CA = {}
+				b_shaver_lake_CA = {}
+				b_sawmill_flat_CA = {}
+				b_auberry_CA = {}
+			}
+		}
+		d_san_luis = {
+			color = { 57 164 27 }
+			color2 = { 220 220 220 }
+			
+			capital = 2038
+			
 			c_stanislaus = { # 2038
 				color={ 147 215 90 }
 				color2={ 255 255 255 }
@@ -100,17 +131,60 @@ e_the_valley = {
 				b_byron_CA = {}
 				b_new_jerusalem_CA = {}
 			}
-			c_tuolumne = { # 2041
-				color={ 236 235 66 }
+		}
+		d_tulare = {
+			color = { 203 200 88 }
+			color2 = { 220 220 202 }
+			
+			capital = 2034
+			
+			c_tulare = { # 2034
+				color={ 203 200 88 }
 				color2={ 255 255 255 }
 				
-				b_modesto_CA = {}
-				b_turlock_CA = {}
-				b_waterford_CA = {}
-				b_oakdale_CA = {}
-				b_riverbank_CA = {}
-				b_groveland_CA = {}
-				b_salida_CA = {}
+				b_tulare_CA = {}
+				b_visalia_CA = {}
+				b_porterville_CA = {}
+				b_exeter_CA = {}
+				b_lindsay_CA = {}
+				b_swall_CA = {}
+				b_three_rivers_CA = {}
+			}
+			c_avenal = { # 2035
+				color={ 193 180 108 }
+				color2={ 255 255 255 }
+				
+				b_avenal_CA = {}
+				b_murray_CA = {}
+				b_huron_CA = {}
+				b_coalinga_CA = {}
+				b_kettleman_city_CA = {}
+				b_turk_CA = {}
+				b_reef_station_CA = {}
+			}
+			c_hanford_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_hanford_CA = {}
+				b_lemoore_CA = {}
+				b_armona_CA = {}
+				b_lemoore_station_CA = {}
+				b_stratford_CA = {}
+				b_corcoran_CA = {}
+				b_guernsey_CA = {}
+			}
+			c_wasco_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_wasco_CA = {}
+				b_lost_hills_CA = {}
+				b_buttonwillow_CA = {}
+				b_shafter_CA = {}
+				b_spicer_city_CA = {}
+				b_famoso_CA = {}
+				b_lokern_CA = {}
 			}
 		}
 		d_kern = {
@@ -154,66 +228,6 @@ e_the_valley = {
 				b_valley_acres_CA = {}
 				b_dustin_acres_CA = {}
 				b_ford_city_CA = {}
-			}
-			c_avenal = { # 2035
-				color={ 193 180 108 }
-				color2={ 255 255 255 }
-				
-				b_avenal_CA = {}
-				b_murray_CA = {}
-				b_huron_CA = {}
-				b_coalinga_CA = {}
-				b_kettleman_city_CA = {}
-				b_turk_CA = {}
-				b_reef_station_CA = {}
-			}
-			c_hanford_CA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_hanford_CA = {}
-				b_lemoore_CA = {}
-				b_armona_CA = {}
-				b_lemoore_station_CA = {}
-				b_stratford_CA = {}
-				b_corcoran_CA = {}
-				b_guernsey_CA = {}
-			}
-			c_tollhouse = { # 2037
-				color={ 193 220 68 }
-				color2={ 255 255 255 }
-				
-				b_tollhouse_CA = {}
-				b_woodlake_CA = {}
-				b_orange_cove_CA = {}
-				b_squaw_valley_CA = {}
-				b_shaver_lake_CA = {}
-				b_sawmill_flat_CA = {}
-				b_auberry_CA = {}
-			}
-			c_wasco_CA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_wasco_CA = {}
-				b_lost_hills_CA = {}
-				b_buttonwillow_CA = {}
-				b_shafter_CA = {}
-				b_spicer_city_CA = {}
-				b_famoso_CA = {}
-				b_lokern_CA = {}
-			}
-			c_tulare = { # 2034
-				color={ 203 200 88 }
-				color2={ 255 255 255 }
-				
-				b_tulare_CA = {}
-				b_visalia_CA = {}
-				b_porterville_CA = {}
-				b_exeter_CA = {}
-				b_lindsay_CA = {}
-				b_swall_CA = {}
-				b_three_rivers_CA = {}
 			}
 		}
 	}
