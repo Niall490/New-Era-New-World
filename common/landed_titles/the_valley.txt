@@ -256,13 +256,42 @@ e_the_valley = {
 				b_carmichael_CA = {}
 				b_florin_CA = {}
 			}
-		}
-		d_motherlode = {
-			color={ 236 235 96 }
-			color2={ 255 255 255 }
+			c_yuba = { # 2047
+				color={ 118 224 150 }
+				color2={ 255 255 255 }
+				
+				b_yuba_CA = {}
+				b_live_oak_CA = {}
+				b_beale_CA = {}
+				b_sheridan_CA = {}
+				b_sutter_CA1 = {}
+				b_olivehurst_CA = {}
+				b_subaco_CA = {}
+			}
+			c_yolo = { # 2044
+				color={ 226 215 86 }
+				color2={ 255 255 255 }
+				
+				b_davis_CA = {}
+				b_cottonwood_CA = {}
+				b_clarksburg_CA = {}
+				b_esparto_CA = {}
+				b_brooks_CA = {}
+				b_dunnigan_CA1 = {}
+				b_central_CA = {}
+			}
+			c_woodland_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
 			
-			capital = 2045 # c_san_joaquin
-			
+				b_woodland_CA = {}
+				b_yolo_CA = {}
+				b_dunnigan_CA = {}
+				b_zamora_CA = {}
+				b_dufour_CA = {}
+				b_sugarfield_CA = {}
+				b_monument_hills_CA = {}
+			}
 			c_san_joaquin = { # 2045
 				color={ 196 235 96 }
 				color2={ 255 255 255 }
@@ -275,6 +304,14 @@ e_the_valley = {
 				b_morada_CA = {}
 				b_lathrop_CA = {}
 			}
+		}
+		d_motherlode = {
+			color={ 236 235 96 }
+			color2={ 255 255 255 }
+			
+			capital = 2045 # c_san_joaquin
+			
+			
 			c_dorado = { # 2063
 				color={ 236 205 96 }
 				color2={ 255 255 255 }
@@ -299,7 +336,6 @@ e_the_valley = {
 				b_copperopolis_CA = {}
 				b_avery_CA = {}
 			}
-			
 			c_tahoe = { # 2064
 				color={ 138 206 210 }
 				color2={ 255 255 255 }
@@ -311,25 +347,6 @@ e_the_valley = {
 				b_homewood_CA = {}
 				b_colfax_CA = {}
 				b_olympic_valley_CA = {}
-			}
-		}
-		d_north_valley = {
-			color={ 148 224 150 }
-			color2={ 255 255 255 }
-			
-			capital = 2047 # c_yuba
-			
-			c_yuba = { # 2047
-				color={ 118 224 150 }
-				color2={ 255 255 255 }
-				
-				b_yuba_CA = {}
-				b_live_oak_CA = {}
-				b_beale_CA = {}
-				b_sheridan_CA = {}
-				b_sutter_CA1 = {}
-				b_olivehurst_CA = {}
-				b_subaco_CA = {}
 			}
 			c_oroville_CA = {
 				color={ 255 255 255 }
@@ -355,6 +372,13 @@ e_the_valley = {
 				b_magalia_CA = {}
 				b_durham_CA = {}
 			}
+		}
+		d_north_valley = {
+			color={ 148 224 150 }
+			color2={ 255 255 255 }
+			
+			capital = 2047 # c_yuba
+			
 			c_colusa = { # 2050
 				color={ 148 224 130 }
 				color2={ 255 255 255 }
@@ -390,30 +414,6 @@ e_the_valley = {
 				b_newville_CA = {}
 				b_lodoga_CA = {}
 				b_alder_springs_CA = {}
-			}
-			c_woodland_CA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_woodland_CA = {}
-				b_yolo_CA = {}
-				b_dunnigan_CA = {}
-				b_zamora_CA = {}
-				b_dufour_CA = {}
-				b_sugarfield_CA = {}
-				b_monument_hills_CA = {}
-			}
-			c_yolo = { # 2044
-				color={ 226 215 86 }
-				color2={ 255 255 255 }
-				
-				b_davis_CA = {}
-				b_cottonwood_CA = {}
-				b_clarksburg_CA = {}
-				b_esparto_CA = {}
-				b_brooks_CA = {}
-				b_dunnigan_CA1 = {}
-				b_central_CA = {}
 			}
 			c_tehama = { # 2062
 				color={ 67 125 190 }
