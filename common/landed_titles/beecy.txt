@@ -515,18 +515,6 @@ e_beecy = {
 				b_sardis_BC = {}
 				b_popkum_BC = {}
 			}
-			c_winthrop_WA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_pateros_WA = {}
-				b_winthrop_WA = {}
-				b_azwell_WA = {}
-				b_mazama_WA = {}
-				b_carlton_WA = {}
-				b_methow_WA = {}
-				b_paradise_hill_WA = {}	
-			}
 			c_south_okanagan_BC = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }

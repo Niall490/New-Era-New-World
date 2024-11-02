@@ -451,6 +451,18 @@ e_inland_empire = {
 				b_elmer_city_WA = {}
 				b_omak_WA = {}
 			}
+			c_winthrop_WA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_pateros_WA = {}
+				b_winthrop_WA = {}
+				b_azwell_WA = {}
+				b_mazama_WA = {}
+				b_carlton_WA = {}
+				b_methow_WA = {}
+				b_paradise_hill_WA = {}	
+			}
 			c_okanogan = {
 				color = { 234 182 73 }
 				color2 = { 40 93 72 }
