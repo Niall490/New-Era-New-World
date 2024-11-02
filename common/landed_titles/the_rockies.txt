@@ -30,18 +30,6 @@ e_the_rockies = {
 				b_hiko_NV = {}
 				b_alamo_NV = {}
 			}
-			c_fallon_NV = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_fallon_NV = {}
-				b_fallon_station_NV = {}
-				b_salt_wells_NV = {}
-				b_middlegate_NV = {}
-				b_stillwater_NV = {}
-				b_hazen_NV = {}
-				b_eastgate_NV = {}		
-			}
 			c_tonopah_NV = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -54,6 +42,27 @@ e_the_rockies = {
 				b_gemfield_NV = {}
 				b_blair_NV = {}
 			}
+			c_nye_pass = {
+				color={ 142 211 152 }
+				color2={ 255 255 255 }
+				
+				holy_site = trinitarian
+				
+				b_amargosa_valley_CA = {}
+				b_beatty_CA = {}
+				b_rhyolite_CA = {}
+				b_bonnie_claire_CA = {}
+				b_goldcenter_CA = {}
+				b_mercury_CA = {}
+				b_lida_CA = {}
+			}
+		}
+		d_black_rock = {
+			color = { 0 0 0 }
+			color2 = { 255 255 255 }
+			
+			capital = 1676 #elko
+			
 			c_wendover_UT = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -131,20 +140,36 @@ e_the_rockies = {
 				b_june_lake_CA = {}
 				b_mammoth_lakes_CA = {}
 			}
+			c_fallon_NV = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
 			
-			c_nye_pass = {
-				color={ 142 211 152 }
+				b_fallon_NV = {}
+				b_fallon_station_NV = {}
+				b_salt_wells_NV = {}
+				b_middlegate_NV = {}
+				b_stillwater_NV = {}
+				b_hazen_NV = {}
+				b_eastgate_NV = {}		
+			}
+		}
+		d_las_vegas = {
+			color = { 0 148 255 }
+			color2 = { 220 220 220 }
+			
+			capital = 2073 # Las Vegas
+			
+			c_las_vegas = { # 2073
+				color={ 201 215 144 }
 				color2={ 255 255 255 }
 				
-				holy_site = trinitarian
-				
-				b_amargosa_valley_CA = {}
-				b_beatty_CA = {}
-				b_rhyolite_CA = {}
-				b_bonnie_claire_CA = {}
-				b_goldcenter_CA = {}
-				b_mercury_CA = {}
-				b_lida_CA = {}
+				b_las_vegas_NV = {}
+				b_mccarren_NV = {}
+				b_henderson_NV = {}
+				b_paradise2_NV = {}
+				b_goodsprings_NV = {}
+				b_boulder_city_NV = {}
+				b_blue_diamond_NV = {}
 			}
 		}
 	}
@@ -166,46 +191,7 @@ e_the_rockies = {
 
 			culture = utahn
 
-			c_bear_river = {
-				color = { 113 138 227 }
-				color2= { 255 255 255 }
-
-				b_logan_UT = {}
-				b_brigham_city_UT = {
-					used_for_dynasty_names = no
-				}
-				b_bear_river_city_UT = {}
-				b_roy_UT = {}
-				b_tremonton_UT = {}
-				b_smithfield_UT = {}
-				b_hyrum_UT = {}
-				b_honeyville_UT = {}
-				b_elwood_UT = {}
-			}
-			c_salt_flats = {
-				color = { 255 255 255}
-				color2 = { 85 85 170 }
-				
-				b_snowville_UT = {}
-				b_blue_creek_UT = {}
-				b_graham_UT = {}
-				b_red_butte_UT = {}
-				b_rosette_UT = {}
-				b_mahogany_UT = {}
-				b_bally_UT = {}
-			}
-			c_ogden_UT = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
 			
-				b_ogden_UT = {}
-				b_layton_UT = {}
-				b_farmington_UT = {}
-				b_clearfield_UT = {}
-				b_harrisville_UT = {}
-				b_huntsville_UT = {}
-				b_north_ogden_UT = {}			
-			}
 			c_salt_lake = {
 				color = { 48 91 241 }
 				color2= { 255 255 255 }
@@ -276,6 +262,53 @@ e_the_rockies = {
 				b_knolls_UT = {}
 			}
 		}
+		d_ogden = {
+			color = { 0 52 105 }
+			color2 = { 220 220 220 }
+			
+			capital = 1824
+			
+			c_bear_river = {
+				color = { 113 138 227 }
+				color2= { 255 255 255 }
+
+				b_logan_UT = {}
+				b_brigham_city_UT = {
+					used_for_dynasty_names = no
+				}
+				b_bear_river_city_UT = {}
+				b_roy_UT = {}
+				b_tremonton_UT = {}
+				b_smithfield_UT = {}
+				b_hyrum_UT = {}
+				b_honeyville_UT = {}
+				b_elwood_UT = {}
+			}
+			c_salt_flats = {
+				color = { 255 255 255}
+				color2 = { 85 85 170 }
+				
+				b_snowville_UT = {}
+				b_blue_creek_UT = {}
+				b_graham_UT = {}
+				b_red_butte_UT = {}
+				b_rosette_UT = {}
+				b_mahogany_UT = {}
+				b_bally_UT = {}
+			}
+			c_ogden_UT = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_ogden_UT = {}
+				b_layton_UT = {}
+				b_farmington_UT = {}
+				b_clearfield_UT = {}
+				b_harrisville_UT = {}
+				b_huntsville_UT = {}
+				b_north_ogden_UT = {}			
+			}
+		}
 		d_wasatch = {
 			color = { 188 24 86 }
 			color2= { 255 255 255 }
@@ -306,32 +339,7 @@ e_the_rockies = {
 				b_centerfield_UT = {}
 				b_fayette_UT = {}	
 			}
-			c_loa_UT = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
 			
-				b_lyman_UT = {}
-				b_loa_UT = {}
-				b_bicknell_UT = {}
-				b_teasdale_UT = {}
-				b_torrey_UT = {}
-				b_fremont_UT = {}
-				b_grover_UT = {}
-			}
-			c_zion = {
-				color = { 233 78 136 }
-				color2= { 255 255 255 }
-				holy_site = brighamite
-
-				b_st_george_UT = {}
-				b_enterprise_UT = {}
-				b_virgin_UT = {}
-				b_washington_UT = {}
-				b_adventure_UT = {}
-				b_kanarraville_UT = {}
-				b_lund_UT = {}
-				b_paragonah_UT = {}
-			}
 			c_parowan_UT = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -356,6 +364,14 @@ e_the_rockies = {
 				b_osceola_NV = {}
 				b_atlanta_NV = {}
 			}
+			
+		}
+		d_canyonlands = {
+			color = { 213 93 59 }
+			color2 = { 220 220 220 }
+			
+			capital = 436
+			
 			c_grand_staircase = {
 				color = { 137 20 102 }
 				color2= { 255 255 255 }
@@ -393,6 +409,32 @@ e_the_rockies = {
 				b_cleveland_UT = {}
 				b_mohrland_UT = {}
 				b_woodside_UT = {}
+			}
+			c_loa_UT = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_lyman_UT = {}
+				b_loa_UT = {}
+				b_bicknell_UT = {}
+				b_teasdale_UT = {}
+				b_torrey_UT = {}
+				b_fremont_UT = {}
+				b_grover_UT = {}
+			}
+			c_zion = {
+				color = { 233 78 136 }
+				color2= { 255 255 255 }
+				holy_site = brighamite
+
+				b_st_george_UT = {}
+				b_enterprise_UT = {}
+				b_virgin_UT = {}
+				b_washington_UT = {}
+				b_adventure_UT = {}
+				b_kanarraville_UT = {}
+				b_lund_UT = {}
+				b_paragonah_UT = {}
 			}
 		}
 	}

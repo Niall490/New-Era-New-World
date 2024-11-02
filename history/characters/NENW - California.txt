@@ -1,0 +1,12 @@
+3300000 = {
+	name = "Juan"
+	dynasty = 3001650
+	culture = angeleno
+	religion = amaitist
+	2286.8.23 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}

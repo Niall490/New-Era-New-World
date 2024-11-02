@@ -420,7 +420,6 @@ e_socal = {
 			
 			capital = 2075
 			
-			
 			c_blythe = { # 2018
 				color={ 241 185 144 }
 				color2={ 255 255 255 }
@@ -468,25 +467,6 @@ e_socal = {
 				b_calzona_CA = {}
 				b_rice_CA = {}
 				b_freda_CA = {}
-			}
-		}
-		d_las_vegas = {
-			color = { 0 148 255 }
-			color2 = { 220 220 220 }
-			
-			capital = 2073 # Las Vegas
-			
-			c_las_vegas = { # 2073
-				color={ 201 215 144 }
-				color2={ 255 255 255 }
-				
-				b_las_vegas_NV = {}
-				b_mccarren_NV = {}
-				b_henderson_NV = {}
-				b_paradise2_NV = {}
-				b_goodsprings_NV = {}
-				b_boulder_city_NV = {}
-				b_blue_diamond_NV = {}
 			}
 		}
 	}
