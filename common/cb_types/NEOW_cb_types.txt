@@ -3224,7 +3224,6 @@ tributary_trade_protectorate_cb = { # New8
 	can_use = {
 	
 		ROOT = {
-			bhutan_minor_cb = yes
 			#Bhutan can only use this if not Isolationist
 			government = merchant_republic_government
 			prestige = 1000
