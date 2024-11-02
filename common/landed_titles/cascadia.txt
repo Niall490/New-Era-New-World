@@ -14,16 +14,7 @@ e_cascadia = {
 		
 		capital = 2059 # c_redding
 		
-		d_north_jefferson = {
-			color = { 15 106 65 }
-			color2 = { 244 220 0 }
-			
-			culture = cascadian
-			
-			capital = 519 #Jackson
-			
-			haida = "Taagwii"	#southward
-		}
+		
 	}
 	k_cascadia = { #leftovers
 		color = { 19 88 193 }

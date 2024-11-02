@@ -43,6 +43,37 @@ e_socal = {
 				b_lakewood_CA = {}
 				b_rancho_palos_verdes_CA = {}
 			}
+			c_ventura = { # 2021
+				color={ 169 197 170 }
+				color2={ 255 255 255 }
+				
+				b_oxnard_CA = {}
+				b_ventura_CA = {}
+				b_saticoy_CA = {}
+				b_santa_paula_CA = {}
+				b_camarillo_CA = {}
+				b_oak_view_CA = {}
+				b_ojai_CA = {}
+			}
+			c_santa_clarita_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_santa_clarita_CA = {}
+				b_thousand_oaks_CA = {}
+				b_fillmore_CA = {}
+				b_buckhorn_CA = {}
+				b_simi_valley_CA = {}
+				b_moorpark_CA = {}
+				b_santa_rosa_valley_CA = {}
+			}
+		}
+		d_orange = {
+			color = { 255 106 0 }
+			color2 = { 220 220 220 }
+			
+			capital = 2014
+			
 			c_orange = { # 2014
 				color={ 220 130 74 }
 				color2={ 255 255 255 }
@@ -74,30 +105,6 @@ e_socal = {
 			
 			capital = 2021 # c_ventura
 			
-			c_ventura = { # 2021
-				color={ 169 197 170 }
-				color2={ 255 255 255 }
-				
-				b_oxnard_CA = {}
-				b_ventura_CA = {}
-				b_saticoy_CA = {}
-				b_santa_paula_CA = {}
-				b_camarillo_CA = {}
-				b_oak_view_CA = {}
-				b_ojai_CA = {}
-			}
-			c_santa_clarita_CA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_santa_clarita_CA = {}
-				b_thousand_oaks_CA = {}
-				b_fillmore_CA = {}
-				b_buckhorn_CA = {}
-				b_simi_valley_CA = {}
-				b_moorpark_CA = {}
-				b_santa_rosa_valley_CA = {}
-			}
 			c_los_padres_CA = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -134,16 +141,17 @@ e_socal = {
 				b_goleta_CA = {}
 				b_summerland_CA = {}
 			}
-			c_tejon_pass = { # 2022
-				color={ 199 197 130 }
+			c_santa_maria_CA = {
+				color={ 255 255 255 }
 				color2={ 255 255 255 }
-				
-				b_tehachapi_CA = {}
-				b_lebec_CA = {}
-				b_wheeler_ridge_CA = {}
-				b_bear_valley_CA = {}
-				b_twin_oaks_CA = {}
-				b_stallion_springs_CA = {}
+			
+				b_santa_maria_CA = {}
+				b_orcutt_CA = {}
+				b_guadalupe_CA = {}
+				b_nipomo_CA = {}
+				b_woodlands_CA = {}
+				b_callender_CA = {}
+				b_los_berros_CA = {}
 			}
 		}
 		d_equinox_isles = {
@@ -231,6 +239,51 @@ e_socal = {
 				b_carlsbad_CA = {}
 				b_pala_CA = {}
 			}
+			c_tijuana = { # 2002	
+				color={ 0 255 163 }
+				color2={ 255 255 255 }
+				
+				holy_site = catholic
+				
+				b_la_joya_BAJ = {}
+				b_tijuana_BAJ = {}
+				b_rosarito_BAJ = {}
+				b_tecate_BAJ = {}
+				b_guadalupe_BAJ = {}
+				b_la_rumorosa_BAJ = {}
+				b_sanchez_taboada_BAJ = {}
+			}
+		}
+		d_san_gabriel = {
+			color = { 250 155 60 }
+			color2 = { 220 220 20 }
+			
+			capital = 2015
+			
+			c_riverside = { # 2015
+				color={ 241 190 114 }
+				color2={ 255 255 255 }
+				
+				b_san_bernadino_CA = {}
+				b_moreno_CA = {}
+				b_cucamonga_CA = {}
+				b_hemet_CA = {}
+				b_riverside_CA = {}
+				b_menifee_CA = {}
+				b_redlands_CA = {}
+			}
+			c_covina_CA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_covina_CA = {}
+				b_claremont_CA = {}
+				b_pomona_CA = {}
+				b_glendora_CA = {}
+				b_chino_CA = {}
+				b_chino_hills_CA = {}
+				b_azusa_CA = {}
+			}
 		}
 	}
 	
@@ -257,42 +310,6 @@ e_socal = {
 				b_mojave_CA = {}
 				b_rosamond_CA = {}
 			}
-			c_palm_springs = { # 2016
-				color={ 241 160 144 }
-				color2={ 255 255 255 }
-				
-				b_indio_CA = {}
-				b_coachella_CA = {}
-				b_thousand_palms_CA = {}
-				b_palm_desert_CA = {}
-				b_la_quinta_CA = {}
-				b_cathedral_city_CA = {}
-			}
-			c_riverside = { # 2015
-				color={ 241 190 114 }
-				color2={ 255 255 255 }
-				
-				b_san_bernadino_CA = {}
-				b_moreno_CA = {}
-				b_cucamonga_CA = {}
-				b_hemet_CA = {}
-				b_riverside_CA = {}
-				b_menifee_CA = {}
-				b_redlands_CA = {}
-			}
-			c_covina_CA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_covina_CA = {}
-				b_claremont_CA = {}
-				b_pomona_CA = {}
-				b_glendora_CA = {}
-				b_chino_CA = {}
-				b_chino_hills_CA = {}
-				b_azusa_CA = {}
-			}
-			
 			c_joshua_tree = { # 2077
 				color={ 221 200 104 }
 				color2={ 255 255 255 }
@@ -304,6 +321,39 @@ e_socal = {
 				b_desert_heights_CA = {}
 				b_twentynine_palms_CA = {}
 				b_cleghorn_lakes_CA = {}
+			}
+			c_barstow = { # 2075
+				color={ 241 215 104 }
+				color2={ 255 255 255 }
+				
+				b_barstow_CA = {}
+				b_yermo_CA = {}
+				b_baker_CA = {}
+				b_fort_irwin_CA = {}
+				b_kelso_CA = {}
+				b_zzyzx_CA = {}
+			}
+			c_ridgecrest = { # 2070
+				color={ 178 227 135 }
+				color2={ 255 255 255 }
+				
+				b_ridgecrest_CA = {}
+				b_indian_wells_CA = {}
+				b_coso_junction_CA = {}
+				b_little_lake_CA = {}
+				b_bradys_CA = {}
+				b_randsburg_CA = {}
+			}
+			c_tejon_pass = { # 2022
+				color={ 199 197 130 }
+				color2={ 255 255 255 }
+				
+				b_tehachapi_CA = {}
+				b_lebec_CA = {}
+				b_wheeler_ridge_CA = {}
+				b_bear_valley_CA = {}
+				b_twin_oaks_CA = {}
+				b_stallion_springs_CA = {}
 			}
 		}
 		d_salton = {
@@ -351,6 +401,17 @@ e_socal = {
 				b_imperial_CA = {}
 				b_heber_CA = {}
 				b_plaster_city_CA = {}
+			}
+			c_palm_springs = { # 2016
+				color={ 241 160 144 }
+				color2={ 255 255 255 }
+				
+				b_indio_CA = {}
+				b_coachella_CA = {}
+				b_thousand_palms_CA = {}
+				b_palm_desert_CA = {}
+				b_la_quinta_CA = {}
+				b_cathedral_city_CA = {}
 			}
 		}	
 		d_mojave = {
@@ -408,28 +469,6 @@ e_socal = {
 				b_rice_CA = {}
 				b_freda_CA = {}
 			}
-			c_barstow = { # 2075
-				color={ 241 215 104 }
-				color2={ 255 255 255 }
-				
-				b_barstow_CA = {}
-				b_yermo_CA = {}
-				b_baker_CA = {}
-				b_fort_irwin_CA = {}
-				b_kelso_CA = {}
-				b_zzyzx_CA = {}
-			}
-			c_ridgecrest = { # 2070
-				color={ 178 227 135 }
-				color2={ 255 255 255 }
-				
-				b_ridgecrest_CA = {}
-				b_indian_wells_CA = {}
-				b_coso_junction_CA = {}
-				b_little_lake_CA = {}
-				b_bradys_CA = {}
-				b_randsburg_CA = {}
-			}
 		}
 		d_las_vegas = {
 			color = { 0 148 255 }
@@ -478,20 +517,7 @@ e_socal = {
 				b_delta_numero_uno_BAJ = {}
 				b_durango_BAJ = {}
 			}	
-			c_tijuana = { # 2002	
-				color={ 0 255 163 }
-				color2={ 255 255 255 }
 				
-				holy_site = catholic
-				
-				b_la_joya_BAJ = {}
-				b_tijuana_BAJ = {}
-				b_rosarito_BAJ = {}
-				b_tecate_BAJ = {}
-				b_guadalupe_BAJ = {}
-				b_la_rumorosa_BAJ = {}
-				b_sanchez_taboada_BAJ = {}
-			}	
 		}		
 		d_baja_sur = {		
 			color={ 245 212 251 }	
