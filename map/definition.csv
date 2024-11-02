@@ -959,11 +959,11 @@ province;red;green;blue;x;x
 958;112;130;15;Pagosa;x
 959;151;175;10;Conejos;x
 960;119;9;77;Blanca;x
-961;183;55;136;Beverly Hills;x
+961;188;111;188;Pasadena;x
 962;247;54;173;Del Norte;x
 963;211;46;148;Saguache;x
 964;135;39;99;Westcliffe;x
-965;137;158;18;Pasadena;x
+965;158;193;69;Tehrangeles;x
 966;185;211;55;Breckenridge;x
 967;97;112;21;Grand;x
 968;204;22;131;Walden;x
@@ -1884,16 +1884,16 @@ province;red;green;blue;x;x
 1883;15;142;106;Melones;x
 1884;148;117;234;Merced;x
 1885;206;147;76;Mendota;x
-1886;43;120;43;DUMMY1886;x
-1887;85;123;171;DUMMY1887;x
-1888;127;126;44;DUMMY1888;x
-1889;169;129;172;DUMMY1889;x
-1890;1;132;45;DUMMY1890;x
-1891;43;135;173;DUMMY1891;x
-1892;85;138;46;DUMMY1892;x
-1893;127;141;174;DUMMY1893;x
-1894;169;144;47;DUMMY1894;x
-1895;1;147;175;DUMMY1895;x
+1886;242;166;36;Transverse Mountains;x
+1887;229;157;34;Transverse Mountains;x
+1888;216;149;32;Transverse Mountains;x
+1889;204;140;30;Transverse Mountains;x
+1890;191;131;28;Transverse Mountains;x
+1891;178;120;26;Transverse Mountains;x
+1892;186;197;221;Mojave Desert;x
+1893;175;185;209;Mojave Desert;x
+1894;164;174;196;Mojave Desert;x
+1895;154;163;183;Mojave Desert;x
 1896;43;150;48;DUMMY1896;x
 1897;85;153;176;DUMMY1897;x
 1898;127;156;49;DUMMY1898;x

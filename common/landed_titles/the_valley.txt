@@ -1,35 +1,23 @@
 e_the_valley = {
-	color = { 148 224 108 }
+	color = { 255 233 0 }
 	color2 = { 220 220 220 }
 	
 	capital = 2036 # c_fresno
 	
 	k_the_valley = { #reloc to San Juaquin later
-		color={ 148 224 108 }
+		color={ 216 140 0 }
 		color2={ 255 255 255 }
 		
 		capital = 2036 # c_fresno
 		
 		d_central_valley = {
-			color={ 157 225 80 }
+			color={ 229 183 45 }
 			color2={ 255 255 255 }
 			
 			capital = 2036 # c_fresno
 			
-			c_fresno = { # 2036
-				color={ 127 225 80 }
-				color2={ 255 255 255 }
-				
-				b_fresno_CA = {}
-				b_clovis_CA = {}
-				b_sanger_CA = {}
-				b_selma_CA = {}
-				b_sanger_CA1 = {}
-				b_reedley_CA = {}
-				b_calwa_CA = {}
-			}
 			c_madera = { # 2039
-				color={ 157 185 80 }
+				color={ 204 163 40 }
 				color2={ 255 255 255 }
 				
 				b_madera_CA = {}
@@ -41,7 +29,7 @@ e_the_valley = {
 				b_raymond_CA = {}
 			}
 			c_mariposa = { # 2040
-				color={ 157 225 50 }
+				color={ 255 204 50 }
 				color2={ 255 255 255 }
 				
 				b_mariposa_CA = {}
@@ -53,7 +41,7 @@ e_the_valley = {
 				b_yosemite_valley_CA = {}
 			}
 			c_tuolumne = { # 2041
-				color={ 236 235 66 }
+				color={ 178 142 35 }
 				color2={ 255 255 255 }
 				
 				b_modesto_CA = {}
@@ -65,7 +53,7 @@ e_the_valley = {
 				b_salida_CA = {}
 			}
 			c_tollhouse = { # 2037
-				color={ 193 220 68 }
+				color={ 153 122 30 }
 				color2={ 255 255 255 }
 				
 				b_tollhouse_CA = {}
@@ -76,27 +64,8 @@ e_the_valley = {
 				b_sawmill_flat_CA = {}
 				b_auberry_CA = {}
 			}
-		}
-		d_san_luis = {
-			color = { 57 164 27 }
-			color2 = { 220 220 220 }
-			
-			capital = 2038
-			
-			c_stanislaus = { # 2038
-				color={ 147 215 90 }
-				color2={ 255 255 255 }
-				
-				b_patterson_CA = {}
-				b_westley_CA = {}
-				b_newman_CA = {}
-				b_volta_CA = {}
-				b_gustine_CA = {}
-				b_vernalis_CA = {}
-				b_diablo_grande_CA = {}
-			}
 			c_merced_CA = {
-				color={ 255 255 255 }
+				color={ 255 212 86 }
 				color2={ 255 255 255 }
 			
 				b_merced_CA = {}
@@ -107,8 +76,27 @@ e_the_valley = {
 				b_chowchilla_CA = {}
 				b_stevinson_CA = {}
 			}
+		}
+		d_san_luis = {
+			color = { 178 151 17 }
+			color2 = { 220 220 220 }
+			
+			capital = 2038
+			
+			c_stanislaus = { # 2038
+				color={ 204 173 20 }
+				color2={ 255 255 255 }
+				
+				b_patterson_CA = {}
+				b_westley_CA = {}
+				b_newman_CA = {}
+				b_volta_CA = {}
+				b_gustine_CA = {}
+				b_vernalis_CA = {}
+				b_diablo_grande_CA = {}
+			}
 			c_mendota_CA = {
-				color={ 255 255 255 }
+				color={ 153 130 15 }
 				color2={ 255 255 255 }
 			
 				b_firebaugh_CA = {}
@@ -120,7 +108,7 @@ e_the_valley = {
 				b_tranquility_CA = {}
 			}
 			c_carbona = {
-				color={ 143 219 85 }
+				color={ 229 195 22 }
 				color2={ 255 255 255 }
 				
 				b_carbona_CA = {}
@@ -133,13 +121,13 @@ e_the_valley = {
 			}
 		}
 		d_tulare = {
-			color = { 203 200 88 }
+			color = { 229 172 91 }
 			color2 = { 220 220 202 }
 			
 			capital = 2034
 			
 			c_tulare = { # 2034
-				color={ 203 200 88 }
+				color={ 204 153 81 }
 				color2={ 255 255 255 }
 				
 				b_tulare_CA = {}
@@ -150,8 +138,20 @@ e_the_valley = {
 				b_swall_CA = {}
 				b_three_rivers_CA = {}
 			}
+			c_fresno = { # 2036
+				color={ 255 191 102 }
+				color2={ 255 255 255 }
+				
+				b_fresno_CA = {}
+				b_clovis_CA = {}
+				b_sanger_CA = {}
+				b_selma_CA = {}
+				b_sanger_CA1 = {}
+				b_reedley_CA = {}
+				b_calwa_CA = {}
+			}
 			c_avenal = { # 2035
-				color={ 193 180 108 }
+				color={ 178 133 71 }
 				color2={ 255 255 255 }
 				
 				b_avenal_CA = {}
@@ -163,7 +163,7 @@ e_the_valley = {
 				b_reef_station_CA = {}
 			}
 			c_hanford_CA = {
-				color={ 255 255 255 }
+				color={ 153 114 61 }
 				color2={ 255 255 255 }
 			
 				b_hanford_CA = {}
@@ -174,27 +174,15 @@ e_the_valley = {
 				b_corcoran_CA = {}
 				b_guernsey_CA = {}
 			}
-			c_wasco_CA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_wasco_CA = {}
-				b_lost_hills_CA = {}
-				b_buttonwillow_CA = {}
-				b_shafter_CA = {}
-				b_spicer_city_CA = {}
-				b_famoso_CA = {}
-				b_lokern_CA = {}
-			}
 		}
 		d_kern = {
-			color={ 193 220 108 }
+			color={ 204 102 0 }
 			color2={ 255 255 255 }
 			
 			capital = 2027 # c_bako
 			
 			c_bako = { # 2027
-				color={ 163 220 108 }
+				color={ 229 114 0 }
 				color2={ 255 255 255 }
 				
 				b_bakersfield_CA = {}
@@ -205,8 +193,20 @@ e_the_valley = {
 				b_rosedale_CA = {}
 				b_panama_CA = {}
 			}
+			c_wasco_CA = {
+				color={ 178 89 0 }
+				color2={ 255 255 255 }
+			
+				b_wasco_CA = {}
+				b_lost_hills_CA = {}
+				b_buttonwillow_CA = {}
+				b_shafter_CA = {}
+				b_spicer_city_CA = {}
+				b_famoso_CA = {}
+				b_lokern_CA = {}
+			}
 			c_isabella_CA = {
-				color={ 255 255 255 }
+				color={ 255 127 0 }
 				color2={ 255 255 255 }
 			
 				b_lake_isabella_CA = {}
@@ -218,7 +218,7 @@ e_the_valley = {
 				b_kernville_CA = {}
 			}
 			c_buena_vista_CA = {
-				color={ 255 255 255 }
+				color={ 153 76 0 }
 				color2={ 255 255 255 }
 			
 				b_taft_CA = {}
@@ -232,21 +232,20 @@ e_the_valley = {
 		}
 	}
 	k_sacramento = {
-		color={ 192 61 146 }
+		color={ 30 204 146 }
 		color2={ 243 215 59 }
 		
 		capital = 2046 # c_sacramento
 		
 		d_sacramento = {
-			color={ 192 61 146 }
+			color={ 17 178 138 }
 			color2={ 243 215 59 }
 			
 			capital = 2046 # c_sacramento
 			
 			c_sacramento = { # 2046
-				color={ 192 61 146 }
+				color={ 20 204 158 }
 				color2={ 243 215 59 }
-				holy_site = cetic
 				
 				b_sacramento_CA = {}
 				b_folsom_CA = {}
@@ -257,7 +256,7 @@ e_the_valley = {
 				b_florin_CA = {}
 			}
 			c_yuba = { # 2047
-				color={ 118 224 150 }
+				color={ 15 153 118 }
 				color2={ 255 255 255 }
 				
 				b_yuba_CA = {}
@@ -269,7 +268,7 @@ e_the_valley = {
 				b_subaco_CA = {}
 			}
 			c_yolo = { # 2044
-				color={ 226 215 86 }
+				color={ 22 229 177 }
 				color2={ 255 255 255 }
 				
 				b_davis_CA = {}
@@ -281,7 +280,7 @@ e_the_valley = {
 				b_central_CA = {}
 			}
 			c_woodland_CA = {
-				color={ 255 255 255 }
+				color={ 12 127 98 }
 				color2={ 255 255 255 }
 			
 				b_woodland_CA = {}
@@ -293,7 +292,7 @@ e_the_valley = {
 				b_monument_hills_CA = {}
 			}
 			c_san_joaquin = { # 2045
-				color={ 196 235 96 }
+				color={ 25 255 197 }
 				color2={ 255 255 255 }
 				
 				b_stockton_CA = {}
@@ -306,14 +305,14 @@ e_the_valley = {
 			}
 		}
 		d_motherlode = {
-			color={ 236 235 96 }
+			color={ 0 153 76 }
 			color2={ 255 255 255 }
 			
 			capital = 2045 # c_san_joaquin
 			
 			
 			c_dorado = { # 2063
-				color={ 236 205 96 }
+				color={ 0 178 89 }
 				color2={ 255 255 255 }
 				
 				b_placerville_CA = {}
@@ -325,7 +324,7 @@ e_the_valley = {
 				b_fiddletown_CA = {}
 			}
 			c_melones_CA = {
-				color={ 255 255 255 }
+				color={ 0 127 63 }
 				color2={ 255 255 255 }
 			
 				b_sonora_CA = {}
@@ -337,7 +336,7 @@ e_the_valley = {
 				b_avery_CA = {}
 			}
 			c_tahoe = { # 2064
-				color={ 138 206 210 }
+				color={ 0 204 102 }
 				color2={ 255 255 255 }
 				
 				b_grass_valley_CA = {}
@@ -349,7 +348,7 @@ e_the_valley = {
 				b_olympic_valley_CA = {}
 			}
 			c_oroville_CA = {
-				color={ 255 255 255 }
+				color={ 0 102 51 }
 				color2={ 255 255 255 }
 			
 				b_oroville_CA = {}
@@ -361,7 +360,7 @@ e_the_valley = {
 				b_loma_rica_CA = {}
 			}
 			c_butte = { # 2048
-				color={ 148 194 150 }
+				color={ 0 229 114 }
 				color2={ 255 255 255 }
 				
 				b_chico_CA = {}
@@ -374,13 +373,13 @@ e_the_valley = {
 			}
 		}
 		d_north_valley = {
-			color={ 148 224 150 }
+			color={ 22 229 195 }
 			color2={ 255 255 255 }
 			
 			capital = 2047 # c_yuba
 			
 			c_colusa = { # 2050
-				color={ 148 224 130 }
+				color={ 20 204 173 }
 				color2={ 255 255 255 }
 				
 				b_colusa_CA = {}
@@ -392,7 +391,7 @@ e_the_valley = {
 				b_wilbur_springs_CA = {}
 			}
 			c_glenn = { # 2049
-				color={ 128 224 120 }
+				color={ 25 255 216 }
 				color2={ 255 255 255 }
 				
 				b_glenn_CA = {}
@@ -404,7 +403,7 @@ e_the_valley = {
 				b_greenwood_CA = {}
 			}
 			c_stony_gorge_CA = {
-				color={ 255 255 255 }
+				color={ 17 178 151 }
 				color2={ 255 255 255 }
 			
 				b_elk_creek_CA = {}
@@ -416,7 +415,7 @@ e_the_valley = {
 				b_alder_springs_CA = {}
 			}
 			c_tehama = { # 2062
-				color={ 67 125 190 }
+				color={ 56 255 221 }
 				color2={ 255 255 255 }
 				
 				b_red_bluff_CA = {}
@@ -428,7 +427,7 @@ e_the_valley = {
 				b_el_camino_CA = {}
 			}
 			c_los_molinos_CA = {
-				color={ 255 255 255 }
+				color={ 15 153 130 }
 				color2={ 255 255 255 }
 			
 				b_los_molinos_CA = {}

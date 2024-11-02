@@ -1,27 +1,24 @@
 e_golden_coast = {
-	color = { 225 216 0 }
+	color = { 204 0 51 }
 	color2 = { 220 220 220 }
 	
 	capital = 2031 # c_san_francisco
 	
 	k_francisco = {
-		color={ 233 188 217 }
+		color={ 127 0 42 }
 		color2={ 255 255 255 }
 		
 		capital = 2031 # c_san_francisco
 		
 		d_goldengate = {
-			color={ 227 210 150 }
+			color={ 191 47 83 }
 			color2={ 255 255 255 }
 			
 			capital = 2031 # c_san_francisco
 			
 			c_san_francisco = { # 2031
-				color={ 237 230 150 }
+				color={ 216 54 94 }
 				color2={ 255 255 255 }
-				
-				holy_site = cetic
-				holy_site = shinto
 				
 				b_fort_point_CA = {}
 				b_alcatraz_CA = {}
@@ -32,7 +29,7 @@ e_golden_coast = {
 				b_menlo_park_CA = {}
 			}
 			c_marin = { # 2033
-				color={ 217 210 160 }
+				color={ 165 41 72 }
 				color2={ 255 255 255 }
 				
 				b_san_rafael_CA = {}
@@ -44,7 +41,7 @@ e_golden_coast = {
 				b_marin = {}
 			}
 			c_san_pablo = {
-				color={ 217 210 160 }
+				color={ 242 60 105 }
 				color2={ 255 255 255 }
 				
 				b_vallejo_CA = {}
@@ -55,20 +52,8 @@ e_golden_coast = {
 				b_skaggs_CA = {}
 				b_san_marin_CA = {}
 			}
-			c_big_basin = {
-				color={ 175 151 72 }
-				color2={ 255 255 255 }
-				
-				b_pescadero_CA = {}
-				b_swanton_CA = {}
-				b_davidport_CA = {}
-				b_bonnydoon_CA = {}
-				b_san_lorenzo_CA = {}
-				b_redwood_grove_CA = {}
-				b_loma_mar_CA = {}
-			}
 			c_half_moon_bay = {
-				color={ 156 138 76 }
+				color={ 255 63 111 }
 				color2={ 255 255 255 }
 				
 				b_half_moon_bay_CA = {}
@@ -81,13 +66,13 @@ e_golden_coast = {
 			}
 		}
 		d_hayward = {
-			color={ 173 119 164 }
+			color={ 165 0 41 }
 			color2={ 255 255 255 }
 			
 			capital = 2032
 			
 			c_alameda = { # 2032
-				color={ 173 119 164 }
+				color={ 191 0 47 }
 				color2={ 255 255 255 }
 				
 				holy_site = atomicist
@@ -101,7 +86,7 @@ e_golden_coast = {
 				b_pleasanton_CA = {}
 			}
 			c_contra_costa = { # 2042
-				color={ 188 130 178 }
+				color={ 140 0 35 }
 				color2={ 255 255 255 }
 				
 				b_antioch_CA = {}
@@ -113,7 +98,7 @@ e_golden_coast = {
 				b_martinez_CA = {}
 			}
 			c_eden_landing = {
-				color={ 188 110 175 }
+				color={ 216 0 54 }
 				color2={ 255 255 255 }
 				
 				b_fremont_CA = {}
@@ -125,7 +110,7 @@ e_golden_coast = {
 				b_sorenson_CA = {}
 			}
 			c_diablo = {
-				color={ 166 108 157 }
+				color={ 114 0 28 }
 				color2={ 255 255 255 }
 				
 				b_diablo_CA = {}
@@ -138,13 +123,13 @@ e_golden_coast = {
 			}
 		}
 		d_wineland = {
-			color={ 233 134 198 }
+			color={ 127 36 74 }
 			color2={ 255 255 255 }
 			
 			capital = 2043 # c_napa
 			
 			c_napa = { # 2043
-				color={ 233 104 198 }
+				color={ 153 44 89 }
 				color2={ 255 255 255 }
 				
 				b_napa_CA = {}
@@ -157,7 +142,7 @@ e_golden_coast = {
 			}
 			
 			c_sonoma = { # 2052
-				color={ 233 134 168 }
+				color={ 102 29 59 }
 				color2={ 255 255 255 }
 				
 				b_santa_rosa_sonoma_CA = {}
@@ -170,7 +155,7 @@ e_golden_coast = {
 				b_healdsburg_CA = {}
 			}
 			c_solano = { # 2076
-				color={ 203 134 188 }
+				color={ 178 51 104 }
 				color2={ 255 255 255 }
 				
 				b_travis_CA = {}
@@ -182,7 +167,7 @@ e_golden_coast = {
 				b_liberty_farms_CA = {}
 			}
 			c_point_reyes = {
-				color={ 217 210 160 }
+				color={ 76 22 44 }
 				color2={ 255 255 255 }
 				
 				b_bodega_bay_CA = {}
@@ -195,13 +180,13 @@ e_golden_coast = {
 			}
 		}
 		d_silicon_valley = {
-			color={ 99 141 58 }
+			color={ 102 20 20 }
 			color2={ 255 255 255 }
 
 			capital = 2029
 
 			c_san_jose = { # 2029
-				color={ 106 149 62 }
+				color={ 127 25 25 }
 				color2={ 255 255 255 }
 				
 				b_san_jose_CA = {}
@@ -213,7 +198,7 @@ e_golden_coast = {
 				b_burbank_CA1 = {}
 			}
 			c_palo_alto = {
-				color={ 99 131 67 }
+				color={ 76 15 15 }
 				color2={ 255 255 255 }
 				
 				b_palo_alto_CA = {}
@@ -225,7 +210,7 @@ e_golden_coast = {
 				b_loyola_CA = {}
 			}
 			c_san_mateo = {
-				color={ 89 129 48 }
+				color={ 153 30 30 }
 				color2={ 255 255 255 }
 				
 				b_san_mateo_CA = {}
@@ -238,13 +223,13 @@ e_golden_coast = {
 			}
 		}
 		d_santa_clara_valley = {
-			color={ 129 24 24 }
+			color={ 204 54 40 }
 			color2={ 255 255 255 }
 
 			capital = 3629
 
 			c_blue_oak = {
-				color={ 125 31 31 }
+				color={ 178 47 35 }
 				color2={ 255 255 255 }
 				
 				b_blue_oak_CA = {}
@@ -256,7 +241,7 @@ e_golden_coast = {
 				b_lavender_CA = {}
 			}
 			c_sierra_azul = {
-				color={ 125 17 17 }
+				color={ 229 61 45 }
 				color2={ 255 255 255 }
 				
 				b_los_gatos_CA = {}
@@ -268,7 +253,7 @@ e_golden_coast = {
 				b_el_sombroso_CA = {}
 			}
 			c_san_martin = {
-				color={ 145 35 35 }
+				color={ 153 40 30 }
 				color2={ 255 255 255 }
 				
 				b_san_martin_CA = {}
@@ -283,19 +268,19 @@ e_golden_coast = {
 	}
 	
 	k_central_coast = {
-		color = { 35 39 95 }
+		color = { 124 49 99 }
 		color2 = { 220 220 220 }
 		
 		capital = 2030 #santa cruz
 		
 		d_salinas = {
-			color={ 233 188 194 }
+			color={ 178 71 160 }
 			color2={ 255 255 255 }
 			
 			capital = 1877 # c_salinas_CA
 			
 			c_salinas_CA = {
-				color={ 255 255 255 }
+				color={ 153 61 137 }
 				color2={ 255 255 255 }
 			
 				b_soledad_CA = {}
@@ -306,28 +291,8 @@ e_golden_coast = {
 				b_gonzales_CA = {}
 				b_lonoak_CA = {}
 			}
-			
-		}
-		d_santa_cruz = { 
-			color={ 176 156 89 }
-			color2={ 255 255 255 }
-
-			capital = 2030
-			
-			c_santa_cruz = { # 2030
-				color={ 175 157 99 }
-				color2={ 255 255 255 }
-				
-				b_santa_cruz_salinas_CA = {}
-				b_salinas_CA = {}
-				b_watsonville_CA = {}
-				b_santa_cruz_CA = {}
-				b_aptos_CA = {}
-				b_scotts_valley_CA = {}
-				b_davenport_CA = {}
-			}
 			c_san_benito = { # 2028
-				color={ 233 188 154 }
+				color={ 204 81 183 }
 				color2={ 255 255 255 }
 				
 				b_hollister_CA = {}
@@ -339,14 +304,45 @@ e_golden_coast = {
 				b_tres_pinos_CA = {}
 			}
 		}
+		d_santa_cruz = { 
+			color={ 102 35 68 }
+			color2={ 255 255 255 }
+
+			capital = 2030
+			
+			c_santa_cruz = { # 2030
+				color={ 127 44 86 }
+				color2={ 255 255 255 }
+				
+				b_santa_cruz_salinas_CA = {}
+				b_salinas_CA = {}
+				b_watsonville_CA = {}
+				b_santa_cruz_CA = {}
+				b_aptos_CA = {}
+				b_scotts_valley_CA = {}
+				b_davenport_CA = {}
+			}
+			c_big_basin = {
+				color={ 76 26 51 }
+				color2={ 255 255 255 }
+				
+				b_pescadero_CA = {}
+				b_swanton_CA = {}
+				b_davidport_CA = {}
+				b_bonnydoon_CA = {}
+				b_san_lorenzo_CA = {}
+				b_redwood_grove_CA = {}
+				b_loma_mar_CA = {}
+			}
+		}
 		d_monterey = {
-			color = { 233 158 194 }
+			color = { 127 63 127 }
 			color2 = { 220 220 220 }
 			
 			capital = 2026
 			
 			c_monterey = { # 2026
-				color={ 233 158 194 }
+				color={ 153 76 153 }
 				color2={ 255 255 255 }
 				
 				b_carmel_CA = {}
@@ -359,7 +355,7 @@ e_golden_coast = {
 				b_corral_de_tierra_CA = {}
 			}
 			c_obispo = { # 2025
-				color={ 213 198 174 }
+				color={ 102 51 102 }
 				color2={ 255 255 255 }
 				
 				b_san_luis_obispo_CA = {}
@@ -371,7 +367,7 @@ e_golden_coast = {
 				b_cambria_CA = {}
 			}
 			c_big_sur_CA = {
-				color={ 255 255 255 }
+				color={ 178 89 178 }
 				color2={ 255 255 255 }
 			
 				b_greenfield_CA = {}

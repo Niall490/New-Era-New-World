@@ -1,23 +1,23 @@
 e_jefferson = {
-	color = { 158 174 230 }
+	color = { 0 163 178 }
 	color2 = { 220 220 220 }
 	
 	capital = 2059 # c_redding
 	
 	k_redwood = {
-		color = { 52 78 202 }
+		color = { 229 74 22 }
 		color2 = { 255 255 255 }
 		
 		capital = 2056 # c_eureka
 		
 		d_redwoods = {
-			color={ 52 78 202 }
+			color={ 204 81 20 }
 			color2={ 255 255 255 }
 			
 			capital = 2056 # c_eureka
 			
 			c_redwood = { # 2057
-				color={ 62 118 182 }
+				color={ 229 91 22 }
 				color2={ 255 255 255 }
 				
 				b_crescent_CA = {}
@@ -28,7 +28,7 @@ e_jefferson = {
 				b_gasquet_CA = {}
 			}
 			c_josephine = {
-				color = { 244 220 0 }
+				color = { 178 71 17 }
 				color2 = { 0 0 0 }
 				
 				haida = "hlk'ungadaay"	#miner's root
@@ -42,7 +42,7 @@ e_jefferson = {
 				b_siskiyou_OR = {}
 			}
 			c_curry_OR = {
-				color={ 255 255 255 }
+				color={ 255 101 25 }
 				color2={ 255 255 255 }
 			
 				b_bandon_OR = {}
@@ -56,13 +56,13 @@ e_jefferson = {
 			
 		}
 		d_humboldt = {
-			color = { 0 34 42 }
+			color = { 178 44 17 }
 			color2 = { 220 220 220 }
 			
 			capital = 2056
 			
 			c_klamath = { # 2058
-				color={ 82 108 162 }
+				color={ 204 51 20 }
 				color2={ 255 255 255 }
 				
 				b_klamath_CA = {}
@@ -74,7 +74,7 @@ e_jefferson = {
 				b_etna_CA = {}	
 			}
 			c_humboldt = { # 2055
-				color={ 218 158 233 }
+				color={ 153 38 15 }
 				color2={ 255 255 255 }
 				
 				b_fortuna_CA = {}
@@ -86,7 +86,7 @@ e_jefferson = {
 				b_redcrest_CA = {}
 			}
 			c_eureka = { # 2056
-				color={ 82 68 202 }
+				color={ 229 57 22 }
 				color2={ 255 255 255 }
 				
 				b_eureka_CA = {}
@@ -99,13 +99,13 @@ e_jefferson = {
 			}
 		}
 		d_mendocino = {
-			color = { 218 188 193 }
+			color = { 229 135 68 }
 			color2 = { 255 255 255 }
 			
 			capital = 2054
 			
 			c_bragg = { # 2053
-				color={ 178 188 233 }
+				color={ 204 120 61 }
 				color2={ 255 255 255 }
 				
 				b_fort_bragg_CA = {}
@@ -117,7 +117,7 @@ e_jefferson = {
 				b_little_river_CA = {}
 			}
 			c_lake = { # 2051
-				color={ 193 134 198 }
+				color={ 255 150 76 }
 				color2={ 255 255 255 }
 				
 				b_clearlake_CA = {}
@@ -129,7 +129,7 @@ e_jefferson = {
 				b_ukiah_CA = {}
 			}
 			c_arena_CA = {
-				color={ 255 255 255 }
+				color={ 178 105 53 }
 				color2={ 255 255 255 }
 			
 				b_point_arena_CA = {}
@@ -141,7 +141,7 @@ e_jefferson = {
 				b_gallaway_CA = {}
 			}
 			c_mendocino = { # 2054
-				color={ 218 188 193 }
+				color={ 153 90 45 }
 				color2={ 255 255 255 }
 				
 				b_willits_CA = {}
@@ -155,20 +155,20 @@ e_jefferson = {
 		}
 	}
 	k_shasta = {
-		color = { 107 125 190 }
+		color = { 95 45 153 }
 		color2 = { 220 220 202 }
 		
 		capital = 2059 # c_redding
 		
 		d_shasta_cascade = { #split later maybe
-			color={ 107 125 190 }
+			color={ 59 25 127 }
 			color2={ 255 255 255 }
 			
 			capital = 2059 # c_redding
 			
 			
 			c_mount_shasta = { # 2060
-				color={ 107 125 160 }
+				color={ 71 30 153 }
 				color2={ 255 255 255 }
 				
 				b_shasta_CA = {}
@@ -181,7 +181,7 @@ e_jefferson = {
 				b_westwood_CA = {}
 			}
 			c_redding = { # 2059
-				color={ 52 108 202 }
+				color={ 47 20 102 }
 				color2={ 255 255 255 }
 				
 				b_redding_CA = {}
@@ -194,7 +194,7 @@ e_jefferson = {
 			}
 		}
 		d_north_jefferson = {
-			color = { 15 106 65 }
+			color = { 85 61 204 }
 			color2 = { 244 220 0 }
 			
 			culture = cascadian
@@ -205,7 +205,7 @@ e_jefferson = {
 			
 			
 			c_yreka = { # 2061
-				color={ 127 115 160 }
+				color={ 95 68 229 }
 				color2={ 255 255 255 }
 				
 				b_yreka_CA = {}
@@ -216,7 +216,7 @@ e_jefferson = {
 				b_lava_beds_CA = {}
 			}
 			c_rogue_valley = {
-				color = { 210 170 98 }
+				color = { 74 53 178 }
 				color2 = { 25 60 28 }
 				
 				haida = "hlkyeewjaa"	#the shade
@@ -230,7 +230,7 @@ e_jefferson = {
 				b_eagle_point_OR = {}
 			}
 			c_the_marbles_CA = {
-				color={ 255 255 255 }
+				color={ 106 76 255 }
 				color2={ 255 255 255 }
 			
 				b_happy_camp_CA = {}
@@ -244,7 +244,7 @@ e_jefferson = {
 		}
 	}
 	k_renoland = {
-		color = { 158 206 230 }
+		color = { 204 200 163 }
 		color2 = { 220 220 220 }
 		
 		capital = 2068 # c_reno
@@ -257,13 +257,13 @@ e_jefferson = {
 			
 		}
 		d_reno = {
-			color = { 12 35 64 }
+			color = { 229 225 206 }
 			color2 = { 220 220 220 }
 			
 			capital = 2068 # c_reno
 			
 			c_reno = { # 2068
-				color={ 158 166 230 }
+				color={ 204 200 183 }
 				color2={ 255 255 255 }
 				
 				b_reno_NV = {}
@@ -275,7 +275,7 @@ e_jefferson = {
 				b_sun_valley_NV = {}
 			}
 			c_pyramid_lake_NV = {
-				color={ 255 255 255 }
+				color={ 255 250 229 }
 				color2={ 255 255 255 }
 			
 				b_pyramid_NV = {}
@@ -287,7 +287,7 @@ e_jefferson = {
 				b_vernon_NV = {}
 			}
 			c_plumas_CA = {
-				color={ 255 255 255 }
+				color={ 178 175 160 }
 				color2={ 255 255 255 }
 			
 				b_quincy_CA = {}
@@ -299,7 +299,7 @@ e_jefferson = {
 				b_westwood_CA1 = {}
 			}
 			c_carson = { # 2069
-				color={ 118 206 230 }
+				color={ 153 150 137 }
 				color2={ 255 255 255 }
 				
 				b_carson_NV = {}
@@ -311,7 +311,7 @@ e_jefferson = {
 				b_gardnerville_NV = {}
 			}
 			c_lassen = { # 2065
-				color={ 158 206 200 }
+				color={ 127 125 114 }
 				color2={ 255 255 255 }
 				
 				b_susanville_NV = {}
@@ -324,13 +324,13 @@ e_jefferson = {
 			}
 		}
 		d_modoc = {
-			color = { 107 95 190 }
+			color = { 178 171 151 }
 			color2 = { 220 220 220 }
 			
 			capital = 2066
 			
 			c_modoc = { # 2066
-				color={ 107 95 190 }
+				color={ 204 196 173 }
 				color2={ 255 255 255 }
 				
 				b_alturas_NV = {}
@@ -342,7 +342,7 @@ e_jefferson = {
 				b_madeline_NV = {}
 			}
 			c_klamath_falls = {
-				color = { 112 198 247 }
+				color = { 178 171 151 }
 				color2 = { 0 0 0 }
 				
 				haida = "Skii"	#Steam, mist
@@ -356,7 +356,7 @@ e_jefferson = {
 				b_malin_OR = {}
 			}
 			c_hart_mountain = {
-				color = { 238 130 21 }
+				color = { 229 220 195 }
 				color2 = { 255 255 255 }
 				
 				haida = "Guud Skaalaa"	#Wart, mole
@@ -370,7 +370,7 @@ e_jefferson = {
 				b_willow_ranch_CA = {}
 			}
 			c_fort_bidwell_CA = {
-				color={ 255 255 255 }
+				color={ 255 245 216 }
 				color2={ 255 255 255 }
 			
 				b_fort_bidwell_CA = {}

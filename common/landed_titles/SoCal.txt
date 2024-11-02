@@ -1,5 +1,5 @@
 e_socal = {
-	color = { 241 233 144 }
+	color = { 204 217 255 }
 	color2 = { 220 220 220 }
 	
 	capital = 2019 # c_los_angeles
@@ -11,13 +11,13 @@ e_socal = {
 		capital = 2019 # c_los_angeles
 		
 		d_los_angeles = {
-			color={ 220 208 74 }
+			color={ 0 135 204 }
 			color2={ 255 255 255 }
 			
 			capital = 2019 # c_los_angeles
 			
 			c_los_angeles = { # 2019
-				color={ 210 208 74 }
+				color={ 0 152 229 }
 				color2={ 255 255 255 }
 				
 				holy_site = consumerist
@@ -32,7 +32,7 @@ e_socal = {
 				b_burbank_CA = {}
 			}
 			c_long_beach_CA = {
-				color={ 255 255 255 }
+				color={ 0 118 178 }
 				color2={ 255 255 255 }
 			
 				b_long_beach_CA = {}
@@ -44,7 +44,7 @@ e_socal = {
 				b_rancho_palos_verdes_CA = {}
 			}
 			c_ventura = { # 2021
-				color={ 169 197 170 }
+				color={ 0 169 255 }
 				color2={ 255 255 255 }
 				
 				b_oxnard_CA = {}
@@ -56,7 +56,7 @@ e_socal = {
 				b_ojai_CA = {}
 			}
 			c_santa_clarita_CA = {
-				color={ 255 255 255 }
+				color={ 0 101 153 }
 				color2={ 255 255 255 }
 			
 				b_santa_clarita_CA = {}
@@ -69,13 +69,13 @@ e_socal = {
 			}
 		}
 		d_orange = {
-			color = { 255 106 0 }
+			color = { 0 74 178 }
 			color2 = { 220 220 220 }
 			
 			capital = 2014
 			
 			c_orange = { # 2014
-				color={ 220 130 74 }
+				color={ 0 84 204 }
 				color2={ 255 255 255 }
 				
 				b_orange_CA = {}
@@ -87,7 +87,7 @@ e_socal = {
 				b_lake_forest_CA = {}
 			}
 			c_anaheim_CA = {
-				color={ 255 255 255 }
+				color={ 0 63 153 }
 				color2={ 255 255 255 }
 			
 				b_anaheim_CA = {}
@@ -100,13 +100,13 @@ e_socal = {
 			}
 		}
 		d_los_padres = {
-			color={ 199 197 170 }
+			color={ 0 95 127 }
 			color2={ 255 255 255 }
 			
 			capital = 2021 # c_ventura
 			
 			c_los_padres_CA = {
-				color={ 255 255 255 }
+				color={ 0 114 153 }
 				color2={ 255 255 255 }
 			
 				b_maricopa_CA = {}
@@ -118,7 +118,7 @@ e_socal = {
 				b_scheideck_CA = {}
 			}
 			c_vandenberg_CA = {
-				color={ 255 255 255 }
+				color={ 0 76 102 }
 				color2={ 255 255 255 }
 			
 				b_vandenberg_CA = {}
@@ -130,7 +130,7 @@ e_socal = {
 				b_conception_CA = {}
 			}
 			c_santa_barbara = { # 2024
-				color={ 199 167 170 }
+				color={ 0 133 178 }
 				color2={ 255 255 255 }
 				
 				b_santa_barbara_CA = {}
@@ -142,7 +142,7 @@ e_socal = {
 				b_summerland_CA = {}
 			}
 			c_santa_maria_CA = {
-				color={ 255 255 255 }
+				color={ 0 57 76 }
 				color2={ 255 255 255 }
 			
 				b_santa_maria_CA = {}
@@ -155,13 +155,13 @@ e_socal = {
 			}
 		}
 		d_equinox_isles = {
-			color={ 121 225 194 }
+			color={ 0 191 229 }
 			color2={ 255 255 255 }
 			
 			capital = 2023 # Channel Islands
 			
 			c_channel_islands = {
-				color={ 189 187 190 }
+				color={ 0 170 204 }
 				color2={ 255 255 255 }
 				
 				b_pelican_bay_CA = {}
@@ -173,7 +173,7 @@ e_socal = {
 				b_scorpion_anchorage_CA = {}
 			}
 			c_santa_catalina_CA = {
-				color={ 255 255 255 }
+				color={ 0 212 255 }
 				color2={ 255 255 255 }
 			
 				b_avalon_CA = {}
@@ -185,7 +185,7 @@ e_socal = {
 				b_parsons_landing_CA = {}
 			}
 			c_isla_guadalupe = {
-				color={ 189 187 190 }
+				color={ 0 148 178 }
 				color2={ 255 255 255 }
 				
 				b_melpomene_cove_BAJ = {}
@@ -196,15 +196,14 @@ e_socal = {
 			}
 		}
 		d_san_diego = {
-			color = { 234 193 2 }
+			color = { 40 95 204 }
 			color2 = { 220 220 220 }
 			
 			capital = 2010 # San Diego
 			
 			c_san_diego = { # 2010
-				color={ 181 241 144 }
+				color={ 45 107 229 }
 				color2={ 255 255 255 }
-				holy_site = cetic
 				
 				b_san_diego_CA = {}
 				b_la_jolla_CA = {}
@@ -216,7 +215,7 @@ e_socal = {
 				b_coronado_CA = {}
 			}
 			c_diego_del_norte_CA = {
-				color={ 255 255 255 }
+				color={ 35 84 178 }
 				color2={ 255 255 255 }
 			
 				b_del_mar_CA = {}
@@ -228,7 +227,7 @@ e_socal = {
 				b_escondido_CA = {}
 			}
 			c_pendleton = { # 2012
-				color={ 211 241 114 }
+				color={ 50 119 255 }
 				color2={ 255 255 255 }
 				
 				b_camp_pendleton_CA = {}
@@ -240,7 +239,7 @@ e_socal = {
 				b_pala_CA = {}
 			}
 			c_tijuana = { # 2002	
-				color={ 0 255 163 }
+				color={ 30 71 153 }
 				color2={ 255 255 255 }
 				
 				holy_site = catholic
@@ -255,13 +254,13 @@ e_socal = {
 			}
 		}
 		d_san_gabriel = {
-			color = { 250 155 60 }
+			color = { 38 76 191 }
 			color2 = { 220 220 20 }
 			
 			capital = 2015
 			
 			c_riverside = { # 2015
-				color={ 241 190 114 }
+				color={ 43 86 216 }
 				color2={ 255 255 255 }
 				
 				b_san_bernadino_CA = {}
@@ -273,7 +272,7 @@ e_socal = {
 				b_redlands_CA = {}
 			}
 			c_covina_CA = {
-				color={ 255 255 255 }
+				color={ 33 66 165 }
 				color2={ 255 255 255 }
 			
 				b_covina_CA = {}
@@ -288,19 +287,19 @@ e_socal = {
 	}
 	
 	k_mojave = {
-		color = { 234 193 2 }
+		color = { 127 63 51 }
 		color2 = { 220 220 220 }
 		
 		capital = 2020 # c_antelope
 		
 		d_berdoo = {
-			color={ 241 190 144 }
+			color={ 102 36 30 }
 			color2={ 255 255 255 }
 			
 			capital = 2020 # c_antelope
 			
 			c_antelope = { # 2020
-				color={ 201 190 144 }
+				color={ 127 45 38 }
 				color2={ 255 255 255 }
 				
 				b_lancaster_CA = {}
@@ -311,7 +310,7 @@ e_socal = {
 				b_rosamond_CA = {}
 			}
 			c_joshua_tree = { # 2077
-				color={ 221 200 104 }
+				color={ 76 27 22 }
 				color2={ 255 255 255 }
 				
 				b_victorville_CA = {}
@@ -323,7 +322,7 @@ e_socal = {
 				b_cleghorn_lakes_CA = {}
 			}
 			c_barstow = { # 2075
-				color={ 241 215 104 }
+				color={ 153 54 45 }
 				color2={ 255 255 255 }
 				
 				b_barstow_CA = {}
@@ -334,7 +333,7 @@ e_socal = {
 				b_zzyzx_CA = {}
 			}
 			c_ridgecrest = { # 2070
-				color={ 178 227 135 }
+				color={ 51 18 15 }
 				color2={ 255 255 255 }
 				
 				b_ridgecrest_CA = {}
@@ -345,7 +344,7 @@ e_socal = {
 				b_randsburg_CA = {}
 			}
 			c_tejon_pass = { # 2022
-				color={ 199 197 130 }
+				color={ 178 63 53 }
 				color2={ 255 255 255 }
 				
 				b_tehachapi_CA = {}
@@ -357,14 +356,14 @@ e_socal = {
 			}
 		}
 		d_salton = {
-			color={ 211 241 144 }
+			color={ 204 81 40 }
 			color2={ 255 255 255 }
 			
 			capital = 1856 # Salton
 			
 			
 			c_descanso = { # 2011
-				color={ 211 211 144 }
+				color={ 229 91 45 }
 				color2={ 255 255 255 }
 				
 				b_borrego_CA = {}
@@ -378,7 +377,7 @@ e_socal = {
 			}
 			
 			c_salton_CA = {
-				color={ 255 255 255 }
+				color={ 178 71 35 }
 				color2={ 255 255 255 }
 			
 				b_salton_city_CA = {}
@@ -390,7 +389,7 @@ e_socal = {
 				b_orita_CA = {}
 			}
 			c_imperial = { # 2013
-				color={ 221 221 124 }
+				color={ 153 61 30 }
 				color2={ 255 255 255 }
 				
 				b_el_centro_CA = {}
@@ -403,7 +402,7 @@ e_socal = {
 				b_plaster_city_CA = {}
 			}
 			c_palm_springs = { # 2016
-				color={ 241 160 144 }
+				color={ 255 101 50 }
 				color2={ 255 255 255 }
 				
 				b_indio_CA = {}
@@ -415,13 +414,14 @@ e_socal = {
 			}
 		}	
 		d_mojave = {
-			color={ 241 215 194 }
+			color={ 178 118 89 }
 			color2={ 255 255 255 }
 			
 			capital = 2075
 			
+			
 			c_blythe = { # 2018
-				color={ 241 185 144 }
+				color={ 204 136 102 }
 				color2={ 255 255 255 }
 				
 				b_blythe_CA = {}
@@ -433,7 +433,7 @@ e_socal = {
 				b_east_blythe_CA = {}
 			}
 			c_ivanpah_CA = {
-				color={ 255 255 255 }
+				color={ 153 101 76 }
 				color2={ 255 255 255 }
 			
 				b_laughlin_CA = {}
@@ -445,7 +445,7 @@ e_socal = {
 				b_goffs_CA = {}
 			}
 			c_nopah_CA = {
-				color={ 255 255 255 }
+				color={ 229 153 114 }
 				color2={ 255 255 255 }
 			
 				b_primm_CA = {}
@@ -457,7 +457,7 @@ e_socal = {
 				b_cima_CA = {}
 			}
 			c_big_bend_CA = {
-				color={ 255 255 255 }
+				color={ 127 85 63 }
 				color2={ 255 255 255 }
 			
 				b_needles_CA = {}
@@ -469,7 +469,6 @@ e_socal = {
 				b_freda_CA = {}
 			}
 		}
-	}
 	
 	k_baja_california = {			
 		color={ 215 91 210 }		
