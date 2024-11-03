@@ -14547,8 +14547,8 @@ k_evangelical_adj;Evangelical;;;;;;;;;;;;;x
 k_evangelical;Ecumenical Church Council;;;;;;;;;;;;;x
 k_florida_adj;Floridian;;;;;;;;;;;;;x
 k_florida;Florda;;;;;;;;;;;;;x
-k_francisco_adj;Gran Franciscan;;Gran Franciscan;;;;;;;;;;;x
-k_francisco;Gran Francisco;Gran Francisco;Gran Francisco;;Gran Francisco;;;;;;;;;x
+k_francisco_adj;Goldengater;;;;;;;;;;;x
+k_francisco;Esseph;;;;;;;;;x
 k_gran_chichimeca_adj;Gran Chichimeca;;;;;;;;;;;;;x
 k_gran_chichimeca;Gran Chichimeca;;;;;;;;;;;;;x
 k_grand_bermuda_adj;Grand Bermudan;;;;;;;;;;;;;x
@@ -14653,8 +14653,8 @@ k_superior;Yoopee;;;;;;;;;;;;;x
 e_michigan;Mishigan;;;;;;;;;;;;;x
 e_michigan_adj;Mishiganer;;;;;;;;;;;;;x
 k_suriname;Suriname;;;;;;;;;;;;;x
-k_the_valley_adj;Valleyan;;valleyer;;;;;;;;;;;x
-k_the_valley;The Valley;The Valley;The Valley;;The Valley;;;;;;;;;x
+k_the_valley_adj;Joaquíno;;;;;;;;;;;x
+k_the_valley;San Joaquín;;;;;;;;;x
 k_kentucky_adj;Kaintuckian;;;;;;;;;;;;;x
 k_kentucky;Kaintuckee;;;;;;;;;;;;;x
 k_blue_ridge_adj;Blue Ridger;;;;;;;;;;;;;x
@@ -21861,3 +21861,47 @@ e_haudenosaunee_adj;Haudenosaunee;;;;;;;;;;;x
 e_haudenosaunee;Haudenosaunee;;;;;;;;;;;x
 d_railroad;The Railroad;;;;;;;;;;;x
 d_railroad_adj;Railroader;;;;;;;;;;;x
+e_the_valley;Golden Valley;;;;;;;;;;;x
+e_the_valley_adj;Valleyan;;;;;;;;;;;x
+e_golden_coast;Golden Coast;;;;;;;;;;;x
+e_golden_coast_adj;Coaster;;;;;;;;;;;x
+k_central_coast;Central Coast;;;;;;;;;;;x
+k_central_coast_adj;Central Coaster;;;;;;;;;;;x
+k_allay;Allay;;;;;;;;;;;x
+k_allay_adj;Allayan;;;;;;;;;;;x
+k_mojave;Mojave;;;;;;;;;;;x
+k_mojave_adj;Mojavean;;;;;;;;;;;x
+k_renoland;Renoland;;;;;;;;;;;x
+k_renoland_adj;Renolander;;;;;;;;;;;x
+k_shasta;Shasta;;;;;;;;;;;x
+k_shasta_adj;Shastan;;;;;;;;;;;x
+e_socal;Socal;;;;;;;;;;;x
+e_socal_adj;Socalian;;;;;;;;;;;x
+e_jefferson;Jefferson;;;;;;;;;;;x
+e_jefferson_adj;Jeffersonite;;;;;;;;;;;x
+k_redwood;Redwoods;;;;;;;;;;;x
+k_redwood_adj;Redwood;;;;;;;;;;;x
+d_orange;Orange;;;;;;;;;;;x
+d_orange_adj;Orangite;;;;;;;;;;;x
+d_san_diego;San Diego;;;;;;;;;;;x
+d_san_diego_adj;San Diegoan;;;;;;;;;;;x
+d_san_gabriel;San Gabriel;;;;;;;;;;;x
+d_san_gabriel_adj;San Gabrielan;;;;;;;;;;;x
+d_tulare;Tulare;;;;;;;;;;;x
+d_tulare_adj;Tularean;;;;;;;;;;;x
+d_monterey;Monterey;;;;;;;;;;;x
+d_monterey_adj;Montereyan;;;;;;;;;;;x
+d_mendocino;Mendocino;;;;;;;;;;;x
+d_mendocino_adj;Mendocinoan;;;;;;;;;;;x
+PROV961;Pasadena;;;;;;;;;;;x
+PROV965;Tehrangeles;;;;;;;;;;;x
+PROV1886;Transverse Mountains;;;;;;;;;;;x
+PROV1887;Transverse Mountains;;;;;;;;;;;x
+PROV1888;Transverse Mountains;;;;;;;;;;;x
+PROV1889;Transverse Mountains;;;;;;;;;;;x
+PROV1890;Transverse Mountains;;;;;;;;;;;x
+PROV1891;Transverse Mountains;;;;;;;;;;;x
+PROV1892;Mojave Desert;;;;;;;;;;;x
+PROV1893;Mojave Desert;;;;;;;;;;;x
+PROV1894;Mojave Desert;;;;;;;;;;;x
+PROV1895;Mojave Desert;;;;;;;;;;;x
