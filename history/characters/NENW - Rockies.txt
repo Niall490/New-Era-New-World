@@ -1446,3 +1446,21 @@
 		death = yes
 	}
 }
+2910066 = { #Held on to the Peyotist faith even when his relative Leonard converted away
+	name = "Preston"
+	dynasty = 5123242
+	culture = ute
+	religion = peyotist
+	trait = tough_soldier
+	trait = zealous
+	trait = wroth
+	trait = stubborn
+	trait = just
+	trait = brave
+	2296.1.1 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
