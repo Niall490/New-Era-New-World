@@ -5,7 +5,7 @@ e_the_rockies = {
 	capital = 430 # Salt Lake
 	
 	k_nevada = {
-		color={ 255 255 255 }
+		color={ 34 37 51 }
 		color2={ 255 255 255 }
 		
 		capital = 1683 # c_the_area_NV
@@ -173,9 +173,16 @@ e_the_rockies = {
 			}
 		}
 	}
-	k_deseret = {
+	k_deseret = { # we will be back for you
 		color = { 116 170 252 }
 		color2= { 255 255 255 }
+		
+	}
+		
+	k_yuta = {
+		color={ 32 58 165 }
+		color2={ 255 255 255 }
+		
 
 		capital = 430 # Salt Lake
 
@@ -619,7 +626,7 @@ e_the_rockies = {
 		}	
 	}
 	k_idaho = {
-		color = { 88 7 3 }
+		color = { 127 31 55 }
 		color2= { 255 237 27 }
 
 		capital = 460 #Gem Canyon
@@ -787,7 +794,7 @@ e_the_rockies = {
 		}
 	}
 	k_westslope = {
-		color={ 0 160 154 }
+		color={ 153 102 30 }
 		color2={ 255 255 255 }
 		
 		capital = 424 # Mesa

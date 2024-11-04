@@ -218,19 +218,19 @@ e_comancheria = {
 		}
 	}
 	k_mescalero = {
-		color={ 219 25 51 }
+		color={ 216 161 32 }
 		color2={ 255 255 255 }
 		
 		capital = 3359 # Roswell
 				
 		d_lea = {
-			color={ 239 5 61 }
+			color={ 178 130 35 }
 			color2={ 255 255 255 }
 			
 			capital = 3351 # Mescalero
 			
 			c_white_sands = { # 336
-				color={ 249 251 66 }
+				color={ 204 149 40 }
 				color2={ 255 255 255 }
 				
 				holy_site = trinitarian
@@ -252,7 +252,7 @@ e_comancheria = {
 				}
 			}
 			c_carlsbad = { # 3355
-				color={ 166 126 113 }
+				color={ 153 112 30 }
 				color2={ 255 255 255 }
 				
 				b_carlsbad_nmex = {
@@ -271,7 +271,7 @@ e_comancheria = {
 				}
 			}
 			c_groom = { # 341
-				color={ 230 215 60 }
+				color={ 229 168 45 }
 				color2={ 255 255 255 }
 				
 				b_groom_nmex = {
@@ -290,7 +290,7 @@ e_comancheria = {
 				}
 			}
 			c_mescalero = { # 3351
-				color={ 156 151 119 }
+				color={ 127 93 25 }
 				color2={ 255 255 255 }
 				
 				b_mescalero_nmex = {
@@ -310,13 +310,13 @@ e_comancheria = {
 			}
 		}
 		d_curry = {
-			color={ 135 158 115 }
+			color={ 229 143 22 }
 			color2={ 255 255 255 }
 			
 			capital = 3359 # Roswell
 			
 			c_artesia = { # 3356
-				color={ 145 148 120 }
+				color={ 204 127 20 }
 				color2={ 255 255 255 }
 				
 				b_artesia_nmex = {
@@ -335,7 +335,7 @@ e_comancheria = {
 				}
 			}
 			c_kenna = { # 3358
-				color={ 158 149 121 }
+				color={ 255 159 25 }
 				color2={ 255 255 255 }
 				
 				b_kenna_nmex = {
@@ -354,7 +354,7 @@ e_comancheria = {
 				}
 			}
 			c_lovington = { # 3357
-				color={ 145 152 113 }
+				color={ 178 111 17 }
 				color2={ 255 255 255 }
 				
 				b_lovington_nmex = {
@@ -373,7 +373,7 @@ e_comancheria = {
 				}
 			}
 			c_roswell = { # 3359
-				color={ 158 135 118 }
+				color={ 255 173 58 }
 				color2={ 255 255 255 }
 				
 				b_roswell_nmex = {
@@ -392,7 +392,7 @@ e_comancheria = {
 				}
 			}
 			c_wheatland2 = { # 3361
-				color={ 165 138 111 }
+				color={ 153 95 15 }
 				color2={ 255 255 255 }
 				
 				b_wheatland_nmex = {
@@ -413,19 +413,19 @@ e_comancheria = {
 		}
 	}
 	k_new_mexico = {
-		color={ 222 17 124 }
+		color={ 204 20 66 }
 		color2={ 255 255 255 }
 		
 		capital = 339 # Santa Fe
 				
 		d_rio_arriba = {
-			color={ 242 253 134 }
+			color={ 178 0 59 }
 			color2={ 255 255 255 }
 			
 			capital = 339 # Santa Fe
 			
 			c_socorro = { # 337
-				color={ 252 243 139 }
+				color={ 204 0 67 }
 				color2={ 255 255 255 }
 				
 				holy_site = trinitarian
@@ -447,7 +447,7 @@ e_comancheria = {
 			}
 			
 			c_sandia = { # 338
-				color={ 230 215 59 }
+				color={ 153 0 50 }
 				color2={ 255 255 255 }
 				
 				b_sandia_nmex = {
@@ -466,7 +466,7 @@ e_comancheria = {
 				}
 			}
 			c_santa_fe = { # 339
-				color={ 252 241 139 }
+				color={ 229 0 76 }
 				color2={ 255 255 255 }
 				
 				holy_site = penitente
@@ -488,13 +488,13 @@ e_comancheria = {
 			}
 		}
 		d_san_luis_valley = {
-			color={ 255 255 255 }
+			color={ 127 0 53 }
 			color2={ 255 255 255 }
 			
 			capital = 960 # Blanca
 			
 			c_del_norte_CO = {
-				color={ 255 255 255 }
+				color={ 153 0 63 }
 				color2={ 255 255 255 }
 			
 				b_del_norte_CO = {}
@@ -506,7 +506,7 @@ e_comancheria = {
 				b_alpine_CO = {}			
 			}
 			c_conejos_CO = {
-				color={ 255 255 255 }
+				color={ 102 0 42 }
 				color2={ 255 255 255 }
 			
 				b_antonito_CO = {}
@@ -518,7 +518,7 @@ e_comancheria = {
 				b_fox_creek_CO = {}
 			}
 			c_blanca_CO = {
-				color={ 255 255 255 }
+				color={ 178 0 74 }
 				color2={ 255 255 255 }
 				
 				holy_site = penitente
@@ -532,7 +532,7 @@ e_comancheria = {
 				b_mosca_CO = {}
 			}
 			c_saguache_CO = {
-				color={ 255 255 255 }
+				color={ 76 0 31 }
 				color2={ 255 255 255 }
 			
 				b_saguache_CO = {}
@@ -544,7 +544,7 @@ e_comancheria = {
 				b_la_garita_CO = {}
 			}
 			c_alamosa = { # 397
-				color = { 150 83 10 }
+				color = { 204 0 85 }
 				color2= { 255 255 255 }
 
 				b_alamosa_CO = {}
@@ -559,13 +559,13 @@ e_comancheria = {
 			}
 		}
 		d_bernalillo = {
-			color={ 220 225 54 }
+			color={ 204 20 117 }
 			color2={ 255 255 255 }
 			
 			capital = 3362 # c_sandia
 			
 			c_santa_rosa = { # 3362
-				color={ 166 128 93 }
+				color={ 229 22 126 }
 				color2={ 255 255 255 }
 				
 				b_santa_rosa_nmex = {
@@ -584,7 +584,7 @@ e_comancheria = {
 				}
 			}
 			c_watrous = { # 3363
-				color={ 174 134 106 }
+				color={ 178 17 98 }
 				color2={ 255 255 255 }
 				
 				b_watrous_nmex = {
@@ -603,7 +603,7 @@ e_comancheria = {
 				}
 			}
 			c_vaughn = { # 3360
-				color={ 172 134 105 }
+				color={ 255 25 140 }
 				color2={ 255 255 255 }
 				
 				b_vaughn_nmex = {
@@ -623,13 +623,13 @@ e_comancheria = {
 			}
 		}
 		d_great_albuquerque = {
-			color={ 213 182 251 }
+			color={ 153 0 25 }
 			color2={ 255 255 255 }
 			
 			capital = 3354 # Albuquerque
 			
 			c_escondida = { # 3352
-				color={ 223 172 0 }
+				color={ 178 0 29 }
 				color2={ 255 255 255 }
 				
 				b_escondida_nmex_2 = {
@@ -648,7 +648,7 @@ e_comancheria = {
 				}
 			}
 			c_albuquerque = { # 3354
-				color={ 244 165 7 }
+				color={ 127 0 21 }
 				color2={ 255 255 255 }
 				
 				holy_site = penitente
@@ -669,7 +669,7 @@ e_comancheria = {
 				}
 			}
 			c_belen = { # 3353
-				color={ 229 165 7 }
+				color={ 204 0 34 }
 				color2={ 255 255 255 }
 				
 				b_belen_nmex = {
@@ -689,14 +689,14 @@ e_comancheria = {
 			}
 		}
 		d_quay = {
-			color={ 239 251 61 }
+			color={ 229 45 61 }
 			color2={ 255 255 255 }
 			
 			capital = 3364 #Capulin
 			
 			
 			c_taos = { # 398
-				color = { 197 159 71 }
+				color = { 204 40 54 }
 				color2= { 255 255 255 }
 				
 				holy_site = penitente
@@ -713,7 +713,7 @@ e_comancheria = {
 				b_costilla_NM = {}
 			}
 			c_tucumcari = { # 340
-				color={ 249 241 66 }
+				color={ 255 50 67 }
 				color2={ 255 255 255 }
 				
 				b_tucumcari_nmex = {
@@ -732,7 +732,7 @@ e_comancheria = {
 				}
 			}
 			c_capulin = { # 3364
-				color={ 185 145 121 }
+				color={ 178 35 47 }
 				color2={ 255 255 255 }
 				
 				b_capulin_nmex = {
@@ -751,7 +751,7 @@ e_comancheria = {
 				}
 			}
 			c_raton = { # 3365
-				color={ 165 117 93 }
+				color={ 153 30 40 }
 				color2={ 255 255 255 }
 				
 				b_raton_nmex = {

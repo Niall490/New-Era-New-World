@@ -1,24 +1,24 @@
 e_chihuahua = {
-	color={ 209 35 46 }
+	color={ 229 145 0 }
 	color2={ 255 255 20 }
 	
 	capital = 408 # c_crownpoint
 	culture = newmexican
 	
 	k_navajoland = {
-		color={ 255 255 255 }
+		color={ 204 181 136 }
 		color2={ 255 255 255 }
 		
 		capital = 408 # c_crownpoint
 		
 		d_san_juan = {
-			color={ 121 34 229 }
+			color={ 153 127 91 }
 			color2={ 255 255 255 }
 			
 			capital = 408 # c_crownpoint
 			
 			c_crownpoint = { # 408
-				color={ 111 44 224 }
+				color={ 178 148 108 }
 				color2={ 255 255 255 }
 				
 				b_crownpoint_nmex = {
@@ -37,7 +37,7 @@ e_chihuahua = {
 				}
 			}
 			c_los_alamos = { # 423
-				color={ 133 44 222 }
+				color={ 127 106 76 }
 				color2={ 255 255 255 }
 				
 				holy_site = trinitarian
@@ -58,7 +58,7 @@ e_chihuahua = {
 				}
 			}
 			c_shiwinnagin = { # 415
-				color={ 132 51 220 }
+				color={ 204 170 122 }
 				color2={ 255 255 255 }
 				
 				b_shiwinnagin_nmex = {
@@ -77,7 +77,7 @@ e_chihuahua = {
 				}
 			}
 			c_farmington = { # 3344
-				color={ 133 68 24 }
+				color={ 102 85 61 }
 				color2={ 255 255 255 }
 				
 				b_farmington_nmex = {
@@ -96,7 +96,7 @@ e_chihuahua = {
 				}
 			}
 			c_grants = { # 3345
-				color={ 122 65 36 }
+				color={ 229 191 137 }
 				color2={ 255 255 255 }
 				
 				b_grants_nmex = {
@@ -115,7 +115,7 @@ e_chihuahua = {
 				}
 			}
 			c_jicarilla = { # 414
-				color={ 144 99 196 }
+				color={ 76 63 45 }
 				color2={ 255 255 255 }
 				
 				b_jicarilla_nmex = {
@@ -135,7 +135,7 @@ e_chihuahua = {
 			}
 		}
 		d_navajoland = {
-			color = { 213 173 143 }
+			color = { 204 193 163 }
 			color2= { 255 255 255 }
 
 			navajo = "Diné Bikéyah"
@@ -143,7 +143,7 @@ e_chihuahua = {
 			capital = 412 # Fort Defiance
 
 			c_shiprock = {
-				color = { 187 132 91 }
+				color = { 178 168 142 }
 				color2= { 255 255 255 }
 
 				b_shiprock_NM = {
@@ -168,11 +168,8 @@ e_chihuahua = {
 				}
 			}
 			c_tuba = {
-				color = { 213 191 175 }
+				color = { 229 216 183 }
 				color2= { 255 255 255 }
-				holy_site = bickertonite
-				holy_site = godbeite
-				holy_site = strangite
 
 				b_tuba_city_AZ = {
 					used_for_dynasty_names = no
@@ -195,7 +192,7 @@ e_chihuahua = {
 				b_coppermine_AZ = {}
 			}
 			c_coconino_AZ = {
-				color={ 255 255 255 }
+				color={ 153 144 122 }
 				color2={ 255 255 255 }
 			
 				b_cameron_AZ = {}
@@ -209,7 +206,7 @@ e_chihuahua = {
 				b_seba_dalkai_AZ = {}
 			}
 			c_chinle = {
-				color = { 210 148 107 }
+				color = { 255 240 204 }
 				color2= { 255 255 255 }
 
 				b_chinle_AZ = {
@@ -224,7 +221,7 @@ e_chihuahua = {
 				b_tsaile_AZ = {}
 			}
 			c_petrified_forest_AZ = {
-				color={ 255 255 255 }
+				color={ 127 120 102 }
 				color2={ 255 255 255 }
 			
 				b_holbrook_AZ = {}
@@ -236,7 +233,7 @@ e_chihuahua = {
 				b_sanders_AZ = {}
 			}
 			c_fort_defiance = {
-				color = { 213 171 140 }
+				color = { 255 247 229 }
 				color2= { 255 255 255 }
 
 				b_window_rock_AZ = {
@@ -260,7 +257,7 @@ e_chihuahua = {
 			}
 		}
 		d_hopi = {
-			color = { 45 52 193 }
+			color = { 204 161 102 }
 			color2= { 255 255 255 }
 
 			culture = hopi
@@ -268,7 +265,7 @@ e_chihuahua = {
 			capital = 413 # Hopituskwa
 
 			c_hopituskwa = {
-				color = { 64 93 193 }
+				color = { 229 181 114 }
 				color2= { 255 255 255 }
 
 				culture = hopi
@@ -302,23 +299,23 @@ e_chihuahua = {
 			}
 		}
 	}
-	k_arixo = {
-		color = { 146 62 176 }
+	k_arizona = {
+		color = { 204 67 0 }
 		color2= { 255 255 255 }
 
-		culture = arixan
+		culture = buckaroo
 
 		capital = 439 # Phoenix
 		
 		d_gadsden = { #REPLACE WITH TUCSON
-			color = { 222 232 116 }
+			color = { 153 38 0 }
 			color2= { 255 255 255 }
 
 			capital = 419 # Two Sun
 
 			
 			c_two_sun = {
-				color = { 183 196 41 }
+				color = { 178 44 0 }
 				color2= { 255 255 255 }
 
 				b_tucson_AZ = {}
@@ -328,10 +325,9 @@ e_chihuahua = {
 				b_arivaca_AZ = {}
 				b_topawa_AZ = {}
 				b_pisinemo_AZ = {}
-				b_catalina_AZ = {}
 			}
 			c_sierra_vista = {
-				color = { 201 207 133 }
+				color = { 127 31 0 }
 				color2= { 255 255 255 }
 
 				b_tombstone_AZ = {}
@@ -343,14 +339,9 @@ e_chihuahua = {
 				b_benson_AZ = {}
 				b_bisbee_AZ = {}
 				b_lowell_AZ = {}
-				b_contention_city_AZ = {
-					used_for_dynasty_names = no
-				}
-				b_charleston_AZ = {}
-				b_naco_AZ = {}
 			}
 			c_cochise_AZ = {
-				color={ 255 255 255 }
+				color={ 204 51 0 }
 				color2={ 255 255 255 }
 			
 				b_safford_AZ = {}
@@ -362,7 +353,7 @@ e_chihuahua = {
 				b_apache_AZ = {}
 			}
 			c_san_tan_AZ = {
-				color={ 255 255 255 }
+				color={ 102 25 0 }
 				color2={ 255 255 255 }
 			
 				b_san_tan_valley_AZ = {}
@@ -374,7 +365,7 @@ e_chihuahua = {
 				b_adamsville_AZ = {}
 			}
 			c_gila_bend_AZ = {
-				color={ 255 255 255 }
+				color={ 229 57 0 }
 				color2={ 255 255 255 }
 			
 				b_gila_bend_AZ = {}
@@ -387,13 +378,13 @@ e_chihuahua = {
 			}
 		}
 		d_crit = {
-			color = { 228 191 167 }
+			color = { 216 100 65 }
 			color2 = { 220 220 0 }
 			
 			capital = 1689 #Grand Canyon
 			
 			c_yuma = {
-				color = { 240 255 75 }
+				color = { 153 70 45 }
 				color2= { 255 255 255 }
 
 				b_yuma_AZ = {}
@@ -406,7 +397,7 @@ e_chihuahua = {
 				b_gadsden_AZ = {}
 			}
 			c_havasu_AZ = {
-				color={ 255 255 255 }
+				color={ 204 94 61 }
 				color2={ 255 255 255 }
 			
 				b_havasu_AZ = {}
@@ -418,7 +409,7 @@ e_chihuahua = {
 				b_poston_AZ = {}
 			}
 			c_grand_canyon = { # 2074
-				color={ 241 145 124 }
+				color={ 127 59 38 }
 				color2={ 255 255 255 }
 				
 				b_east_hoover_AZ = {}
@@ -429,7 +420,7 @@ e_chihuahua = {
 				b_echo_bay_NV = {}
 			}
 			c_mohave_AZ = {
-				color={ 255 255 255 }
+				color={ 229 106 68 }
 				color2={ 255 255 255 }
 			
 				b_bullhead_AZ = {}
@@ -442,13 +433,13 @@ e_chihuahua = {
 			}
 		}
 		d_flagstaff = {
-			color = { 121 60 33 }
+			color = { 127 50 12 }
 			color2 = { 220 220 0 }
 			
 			capital = 440 #Flagstaff
 		
 			c_hualapai_AZ = {
-				color={ 255 255 255 }
+				color={ 153 61 15 }
 				color2={ 255 255 255 }
 			
 				b_hualapai_AZ = {}
@@ -460,7 +451,7 @@ e_chihuahua = {
 				b_kaibab_AZ = {}
 			}
 			c_flagstaff = {
-				color = { 30 43 32 }
+				color = { 102 40 10 }
 				color2= { 255 255 255 }
 
 				b_flagstaff_AZ = {}
@@ -477,7 +468,7 @@ e_chihuahua = {
 				b_parks_AZ = {}
 			}
 			c_ahwe_nyava = { # La Paz Co.
-				color = { 91 151 100 }
+				color = { 178 71 17 }
 				color2= { 255 255 255 }
 
 				b_peach_springs_AZ = {}
@@ -490,13 +481,13 @@ e_chihuahua = {
 			}
 		}
 		d_arizona = { #Phoenix
-			color = { 34 72 39 }
+			color = { 229 57 22 }
 			color2= { 255 255 255 }
 
 			capital = 439 # Phoenix
 
 			c_phoenix = {
-				color = { 65 137 74 }
+				color = { 204 51 20 }
 				color2= { 255 255 255 }
 
 				b_phoenix_AZ = {}
@@ -512,7 +503,7 @@ e_chihuahua = {
 			}
 			
 			c_yavapai_AZ = {
-				color={ 255 255 255 }
+				color={ 255 63 25 }
 				color2={ 255 255 255 }
 			
 				b_prescott_AZ = {}
@@ -525,7 +516,7 @@ e_chihuahua = {
 			}
 			
 			c_gila = {
-				color = { 57 87 62 }
+				color = { 204 51 20 }
 				color2= { 255 255 255 }
 
 				b_globe_AZ = {}
@@ -538,7 +529,7 @@ e_chihuahua = {
 				b_roosevelt_AZ = {}
 			}
 			c_tonto_AZ = {
-				color={ 255 255 255 }
+				color={ 178 44 17 }
 				color2={ 255 255 255 }
 			
 				b_payson_AZ = {}
@@ -551,13 +542,13 @@ e_chihuahua = {
 			}
 		}
 		d_apache = {
-			color = { 246 151 68 }
+			color = { 204 108 40 }
 			color2 = { 220 220 0 }
 			
 			capital = 1843 #Fort Apache
 			
 			c_fort_apache_AZ = {
-				color={ 255 255 255 }
+				color={ 229 122 45 }
 				color2={ 255 255 255 }
 			
 				b_fort_apache_AZ = {}
@@ -570,7 +561,7 @@ e_chihuahua = {
 			}
 			
 			c_sitgreaves_AZ = {
-				color={ 255 255 255 }
+				color={ 178 95 35 }
 				color2={ 255 255 255 }
 			
 				b_winslow_AZ = {}
@@ -585,7 +576,7 @@ e_chihuahua = {
 	}
 
 	k_zuni = {
-		color={ 141 14 239 }
+		color={ 52 114 175 }
 		color2={ 255 255 255 }
 		
 		capital = 421 # c_luna
@@ -593,13 +584,13 @@ e_chihuahua = {
 		culture = newmexican
 
 		d_grant = {
-			color={ 122 60 215 }
+			color={ 61 132 204 }
 			color2={ 255 255 255 }
 			
 			capital = 421 # c_luna
 			
 			c_luna = { # 421
-				color={ 132 50 220 }
+				color={ 68 149 229 }
 				color2={ 255 255 255 }
 				
 				b_luna_nmex = {
@@ -618,7 +609,7 @@ e_chihuahua = {
 				}
 			}
 			c_las_cruces = { # 3350
-				color={ 142 83 24 }
+				color={ 53 116 178 }
 				color2={ 255 255 255 }
 				
 				b_las_cruces_nmex_2 = {
@@ -637,7 +628,7 @@ e_chihuahua = {
 				}
 			}
 			c_hidalgo = { # 422
-				color={ 89 12 200 }
+				color={ 76 165 255 }
 				color2={ 255 255 255 }
 				
 				b_hidalgo_nmex = {
@@ -658,13 +649,13 @@ e_chihuahua = {
 
 		}
 		d_mckinley = {
-			color={ 122 61 215 }
+			color={ 20 62 102 }
 			color2={ 255 255 255 }
 			
 			capital = 416 # c_acoma
 			
 			c_acoma = { # 416
-				color={ 88 10 200 }
+				color={ 15 46 76 }
 				color2={ 255 255 255 }
 				
 				b_acoma_nmex = {
@@ -683,7 +674,7 @@ e_chihuahua = {
 				}
 			}
 			c_san_rafael = { # 3346
-				color={ 196 143 72 }
+				color={ 25 78 127 }
 				color2={ 255 255 255 }
 				
 				b_san_rafael_nmex = {
@@ -703,13 +694,13 @@ e_chihuahua = {
 			}
 		}
 		d_socorro = {
-			color={ 169 98 5 }
+			color={ 95 151 191 }
 			color2={ 255 255 255 }
 			
 			capital = 3347 # c_san_antonio
 			
 			c_san_antonio = { # 3347
-				color={ 159 108 0 }
+				color={ 108 171 216 }
 				color2={ 255 255 255 }
 				
 				b_san_antonio_nmex = {
@@ -728,7 +719,7 @@ e_chihuahua = {
 				}
 			}
 			c_silver_city = { # 3349
-				color={ 142 83 13 }
+				color={ 82 131 165 }
 				color2={ 255 255 255 }
 				
 				b_silver_city_nmex = {
@@ -747,7 +738,7 @@ e_chihuahua = {
 				}
 			}
 			c_mogollon = { # 417
-				color={ 112 42 222 }
+				color={ 121 191 242 }
 				color2={ 255 255 255 }
 				
 				b_mogollon_nmex = {
@@ -766,7 +757,7 @@ e_chihuahua = {
 				}
 			}
 			c_teorsee = { # 3348
-				color={ 167 128 79 }
+				color={ 70 111 140 }
 				color2={ 255 255 255 }
 				
 				b_teorsee_nmex = {

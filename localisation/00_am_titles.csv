@@ -13063,7 +13063,8 @@ c_tutuaca_adj;Tutuaca;;;;;;;;;;;;;x
 c_tuxpan_adj;Tuxpan;;;;;;;;;;;;;x
 c_tuxtla_gutierrez_adj;Tuxtla Gutiérrez;;;;;;;;;;;;;x
 c_twin_cities_adj;Twinned;;;;;;;;;;;;;x
-c_two_sun_adj;Two Sun;;;;;;;;;;;;;x
+c_two_sun_adj;Tucson;;;;;;;;;;;;;x
+c_two_sun;Tucson;;;;;;;;;;;;;x
 c_tyler_adj;Tylerite;;;;;;;;;;;;;x
 c_uintah_adj;Uintahn;;;;;;;;;;;;;x
 c_umatilla_adj;Umatilla;;;;;;;;;;;;;x
@@ -13470,8 +13471,8 @@ d_darien_adj;Darién;;;;;;;;;;;;;x
 d_darien;Darién;;;;;;;;;;;;;x
 d_dead_sun_adj;Dead;;;;;;;;;;;;;x
 d_dead_sun;Dead Sun;;;;;;;;;;;;;x
-d_death_valley_adj;Death Valleian;;Death Valleer;;;;;;;;;;;x
-d_death_valley;Death Valley;Death Valley;Death Valley;;Death Valley;;;;;;;;;x
+d_death_valley_adj;Owens Valleyan;;;;;;;;;;;x
+d_death_valley;Owens Valley;;;;;;;;;x
 d_deer_lodge_adj;Deer Lodge;;;;;;;;;;;;;x
 d_deer_lodge;Deer Lodge;;;;;;;;;;;;;x
 d_delaware_valley_adj;Delawarean;;;;;;;;;;;;;x
@@ -14438,8 +14439,8 @@ e_riverlander;Riverlander Empire;;;;;;;;;;;;;x
 e_rochela;Rochela Empire;;;;;;;;;;;;;x
 e_rostmann_adj;Rustman;;;;;;;;;;;;;x
 e_rostmann;Rust Empire;;;;;;;;;;;;;x
-e_saguaro_adj;Saguaran;;;;;;;;;;;;;x
-e_saguaro;Saguaro;;;;;;;;;;;;;x
+e_saguaro_adj;Norteño;;;;;;;;;;;;;x
+e_saguaro;El Norte;;;;;;;;;;;;;x
 e_salishan;Salishan Empire;;;;;;;;;;;;;x
 e_singaporean_adj;Singaporean;;;;;;;;;;;;;x
 e_singaporean;New Singapore;;;;;;;;;;;;;x
@@ -14493,8 +14494,8 @@ k_appalachia_adj;Appalachian;;;;;;;;;;;;;x
 k_appalachia;Appalachia;;;;;;;;;;;;;x
 e_highlands_adj;Highlander;;;;;;;;;;;;;x
 e_highlands;The Highlands;;;;;;;;;;;;;x
-k_arixo_adj;Arixan;;;;;;;;;;;;;x
-k_arixo;Arixo;;;;;;;;;;;;;x
+k_arizona_adj;Arizonan;;;;;;;;;;;;;x
+k_arizona;Arizona;;;;;;;;;;;;;x
 k_aurora_adj;Auroran;;;;;;;;;;;;;x
 k_aurora;Aurora;;;;;;;;;;;;;x
 k_baja_california_adj;Baja Californian;;Baja Californisch;;;;;;;;;;;x
@@ -21802,8 +21803,8 @@ k_exovedate;Exovedate Papacy;;;;;;;;;;;;;x
 k_exovedate_adj;Papal;;;;;;;;;;;;;x
 d_exovedate_invaders;Exovedate Crusaders;;;;;;;;;;;;;x
 d_exovedate_invaders_adj;Exovedate;;;;;;;;;;;;;x
-d_crit;Crit;;;;;;;;;;;;;x
-d_crit_adj;Critian;;;;;;;;;;;;;x
+d_crit;Colorado;;;;;;;;;;;;;x
+d_crit_adj;Coloradan;;;;;;;;;;;;;x
 d_flagstaff;Flagstaff;;;;;;;;;;;;;x
 d_flagstaff_adj;Flagstaffinger;;;;;;;;;;;;;x
 d_apache;Apacheria;;;;;;;;;;;;;x
@@ -21905,3 +21906,23 @@ PROV1892;Mojave Desert;;;;;;;;;;;x
 PROV1893;Mojave Desert;;;;;;;;;;;x
 PROV1894;Mojave Desert;;;;;;;;;;;x
 PROV1895;Mojave Desert;;;;;;;;;;;x
+d_reno;Reno;;;;;;;;;;;x
+d_reno_adj;Renoite;;;;;;;;;;;x
+d_modoc;Modoc;;;;;;;;;;;x
+d_modoc_adj;Modoc;;;;;;;;;;;x
+d_humboldt;Humboldt;;;;;;;;;;;x
+d_humboldt_adj;Humboldt;;;;;;;;;;;x
+d_black_rock;Black Rock;;;;;;;;;;;x
+d_black_rock_adj;Black Rocker;;;;;;;;;;;x
+d_las_vegas;Las Vegas;;;;;;;;;;;x
+d_las_vegas_adj;Las Vegan;;;;;;;;;;;x
+k_las_vegas;Las Vegas;;;;;;;;;;;x
+k_las_vegas_adj;Las Vegan;;;;;;;;;;;x
+d_san_luis;San Luis;;;;;;;;;;;x
+d_san_luis_adj;San Luisan;;;;;;;;;;;x
+d_canyonlands;Canyonlands;;;;;;;;;;;x
+d_canyonlands_adj;Canyonlander;;;;;;;;;;;x
+d_ogden;Ogden;;;;;;;;;;;x
+d_ogden_adj;Ogdenite;;;;;;;;;;;x
+k_yuta;Yuta;;;;;;;;;;;;;x
+k_yuta_adj;Yutan;;;;;;;;;;;;;x
