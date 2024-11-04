@@ -20,7 +20,7 @@
     trait=just
 	trait=defensive_leader
     trait=unyielding_leader
-	trait=trait=democrat_sen
+	trait=democrat_sen
 	1955.10.17 = {
 		birth = yes
 	}
@@ -49,7 +49,7 @@
     trait=content
     trait=shy
 	trait=stubborn
-    trait=trait=democrat_sen
+    trait=democrat_sen
 	father = 3400000
 	1974.6.4 = {
 		birth = yes
@@ -79,7 +79,7 @@
     trait=craven
     trait=paranoid
 	trait=aggressive_leader
-    trait=trait=republican_sen
+    trait=republican_sen
 	1974.6.4 = {
 		birth = yes
 	}
@@ -106,7 +106,7 @@
     trait=diligent
     trait=chaste
     trait=sympathy_christendom
-    trait=trait=democrat_sen
+    trait=democrat_sen
 	father = 3400000
 	1980.4.15 = {
 		birth = yes
@@ -133,7 +133,7 @@
     trait=honest
     trait=organizer
 	trait=has_typhus
-    trait=trait=democrat_sen
+    trait=democrat_sen
 	1991.1.19 = {
 		birth = yes
 	}
@@ -159,7 +159,7 @@
     trait=poet
     trait=kind
 	trait=tall
-    trait=trait=republican_sen
+    trait=republican_sen
 	1990.11.11 = {
 		birth = yes
 	}
@@ -194,7 +194,7 @@
 	trait=gamer
     trait=experimenter
     trait=inspiring_leader
-    trait=trait=republican_sen
+    trait=republican_sen
 	2001.4.15 = {
 		birth = yes
 	}
