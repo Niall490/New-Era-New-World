@@ -469,6 +469,7 @@ e_socal = {
 				b_freda_CA = {}
 			}
 		}
+    }
 	
 	k_baja_california = {			
 		color={ 215 91 210 }		
