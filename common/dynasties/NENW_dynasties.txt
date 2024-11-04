@@ -18230,6 +18230,24 @@
 3000892 = { name = "Harper" culture = angeleno }
 3000893 = { name = "Scarletson" culture = nutmegger }
 3000894 = { name = "Ivyson" culture = nutmegger }
+3000895 = { name = "Loong"
+    culture = chinafornian 
+    religion = taoist
+    used_for_random = no
+    coat_of_arms = {
+        religion = taoist
+        template = 0
+        layer = {
+            texture = 5 #NENW_dynasties_chinese_frame.tga
+            texture_internal = 4
+            emblem = 0
+            color = 0
+            color = 0
+            color = 0
+        }
+    }
+}
+3000896 = { name = "Huangjin" culture = nutmegger }
 
 #For Acadiana history
 3000787 = { name = "Vernon" culture = cajun used_for_random = no }
