@@ -461,6 +461,7 @@ e_great_planes = {
 				color = { 47 94 188 }
 				color2 = { 255 255 255 }
 				holy_site = millenarian
+				holy_site = shinto
 								
 				b_edmonton_AB = {}
 				b_camrose_AB = {}

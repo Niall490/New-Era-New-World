@@ -10,3 +10,221 @@
 		death = yes
 	}
 }
+3300001 = {
+	name = "Nicole" #Ruler of Esseph, born on the first day of the year of the Dragon, came to power after the patrelinial line died out again, her patrician ancestors had to fix the startup's mess of Frisco moving the capital due to it being in complete ruin at the time, but it became one of the most important trade hubs once again by game start
+	dynasty = 3000895
+	culture = chinafornian
+	religion = technopolitan
+	female = yes
+	trait = charismatic_negotiator
+	trait = fair
+	trait = shrewd
+	trait = groomed
+	trait = schemer
+	trait = socializer
+	trait = patient
+	trait = temperate
+	trait = proud
+	trait = deceitful
+	trait = just
+	trait = gregarious
+	disallow_random_traits = yes
+	2300.1.22 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300002 = {
+	name = "Gabriel"
+	dynasty = 3000896
+	culture = chinafornian
+	religion = technopolitan
+	2290.8.23 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300003 = {
+	name = "Ivo"
+	dynasty = 3000897
+	culture = nikkeiamerikajin
+	religion = technopolitan
+	trait = mastermind_theologian
+	trait = genius
+	trait = ugly
+	trait = sturdy
+	trait = hunter
+	trait = diligent
+	trait = greedy
+	trait = wroth
+	trait = proud
+	trait = ambitious
+	trait = arbitrary
+	trait = stubborn
+	trait = eccentric
+	disallow_random_traits = yes
+	2291.7.23 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300004 = {
+	name = "Sage"
+	dynasty = 3000897
+	culture = nikkeiamerikajin
+	religion = technopolitan
+	female = yes
+	trait = genius
+	trait = conscientious
+	trait = curious
+	trait = idolizer
+	trait = affectionate
+	disallow_random_traits = yes
+	father = 3300003
+	2319.11.8 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300005 = {
+	name = "Arthur"
+	dynasty = 3000898
+	culture = goldengater
+	religion = technopolitan
+	trait = skilled_tactician
+	trait = robust
+	trait = architect
+	trait = temperate
+	trait = charitable
+	trait = humble
+	trait = content
+	trait = gregarious
+	trait = inspiring_leader
+	trait = experimenter
+    diplomacy=7
+    martial=7
+    stewardship=5
+    intrigue=3
+    learning=1
+	disallow_random_traits = yes
+	2300.2.4 = {
+		birth = yes
+		create_bloodline = {
+			type = norton_bloodline
+			has_dlc = "Holy Fury"
+		}
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300006 = { #conqueror from Salem who spread the Dianic faith accross oregon, realm would collapsse from the Myriadic rebels
+	name = "Britomartis"
+	dynasty = 3001651
+	culture = oregonite
+	religion = dianic
+	female = yes
+	2173.8.31 = {
+		birth = yes
+	}
+	2203.5.23 = {
+		add_consort = 3300010
+	}
+	2231.5.21 = {
+		death = yes
+	}
+}
+3300007 = { #child of Queen B's twink harem
+	name = "Dictynna"
+	dynasty = 3001651
+	culture = oregonite
+	religion = dianic
+	mother = 3300006
+	father = 3300010
+	trait = child_of_consort_male
+	female = yes
+	2207.4.21 = {
+		birth = yes
+	}
+	2266.7.2 = {
+		death = yes
+	}
+}
+3300008 = { #got got by rebels in Portland
+	name = "Aphaea"
+	dynasty = 3001651
+	culture = oregonite
+	religion = dianic
+	mother = 3300007
+	female = yes
+	2229.5.11 = {
+		birth = yes
+	}
+	2273.2.22 = {
+		death = yes
+	}
+}
+3300009 = { #pre-unification ruler of south oregon
+	name = "Lewis"
+	dynasty = 3001652
+	culture = oregonite
+	religion = thaddean
+	2167.3.22 = {
+		birth = yes
+	}
+	2203.5.23 = {
+		death = {
+			death_reason = death_battle 
+			killer = 3300006
+		} 
+	}
+}
+3300010 = { #boytoy
+	name = "Edmund"
+	dynasty = 3001652
+	culture = oregonite
+	religion = thaddean
+	father = 3300009
+	2186.9.3 = {
+		birth = yes
+	}
+	2232.4.21 = {
+		death = yes
+	}
+}
+3300011 = {
+	name = "Potnia"
+	dynasty = 3001651
+	culture = oregonite
+	religion = dianic
+	mother = 3300008
+	female = yes
+	2253.5.21 = {
+		birth = yes
+	}
+	2300.7.9 = {
+		death = yes
+	}
+}
+3300012 = {
+	name = "Oupis"
+	dynasty = 3001651
+	culture = oregonite
+	religion = dianic
+	mother = 3300011
+	female = yes
+	2294.7.13 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}

@@ -18230,6 +18230,42 @@
 3000892 = { name = "Harper" culture = angeleno }
 3000893 = { name = "Scarletson" culture = nutmegger }
 3000894 = { name = "Ivyson" culture = nutmegger }
+3000895 = { name = "Loong"
+    culture = chinafornian 
+    religion = taoist
+    used_for_random = no
+    coat_of_arms = {
+        religion = taoist
+        template = 0
+        layer = {
+            texture = 5 #NENW_dynasties_chinese_frame.tga
+            texture_internal = 4
+            emblem = 0
+            color = 0
+            color = 0
+            color = 0
+        }
+    }
+}
+3000896 = { name = "Huangjin" culture = chinafornian }
+3000897 = { name = "Robotnik"
+    culture = nikkeiamerikajin 
+    religion = taoist
+    used_for_random = no
+    coat_of_arms = {
+        religion = taoist
+        template = 0
+        layer = {
+            texture = 5 #NENW_dynasties_chinese_frame.tga
+            texture_internal = 5
+            emblem = 0
+            color = 0
+            color = 0
+            color = 0
+        }
+    }
+}
+3000898 = { name = "Norton" culture = goldengater }
 
 #For Acadiana history
 3000787 = { name = "Vernon" culture = cajun used_for_random = no }
@@ -18677,6 +18713,23 @@
 3001648 = { name = "Pynchon" culture = massachusite }
 3001649 = { name = "Ward" culture = politan }
 3001650 = { name = "Naradi" culture = angeleno }
+
+3001651 = { 
+	name = "Aegina" culture = oregonite 
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16 #NENW_CoAs.tga
+			texture_internal = 335
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+3001652 = { name = "Babcock" culture = oregonite }
 
 5130831 = { 
 	name="Seed" 

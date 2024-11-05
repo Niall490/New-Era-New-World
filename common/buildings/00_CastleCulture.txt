@@ -14579,6 +14579,7 @@ castle = {
 		potential = {
 			OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				has_building = ca_culture_nashvillian_1
 			}
 		}
@@ -14586,6 +14587,7 @@ castle = {
 			ROOT = {
 				OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -14594,6 +14596,7 @@ castle = {
 			ROOT = {
 				OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -14601,6 +14604,7 @@ castle = {
 		gold_cost = 200
 		build_time = 730
 		pikemen = 30
+		war_elephants = 3
 		pikemen_offensive = 0.2
 		pikemen_defensive = 0.15
 		ai_creation_factor = 101
@@ -14613,6 +14617,7 @@ castle = {
 		potential = {
 			OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				has_building = ca_culture_nashvillian_1
 				has_building = ca_culture_nashvillian_2
 			}
@@ -14620,7 +14625,8 @@ castle = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = nashvillian
+				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -14628,7 +14634,8 @@ castle = {
 			TECH_CASTLE_CONSTRUCTION = 1 
 			ROOT = {
 				OR = {
-					culture = nashvillian
+				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -14636,6 +14643,7 @@ castle = {
 		gold_cost = 300
 		build_time = 1095
 		pikemen = 30
+		war_elephants = 3
 		pikemen_offensive = 0.2
 		pikemen_defensive = 0.15
 		ai_creation_factor = 100
@@ -14648,6 +14656,7 @@ castle = {
 		potential = {
 			OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				has_building = ca_culture_nashvillian_1
 				has_building = ca_culture_nashvillian_2
 				has_building = ca_culture_nashvillian_3
@@ -14656,7 +14665,8 @@ castle = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = nashvillian
+				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -14664,7 +14674,8 @@ castle = {
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
 				OR = {
-					culture = nashvillian
+				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -14672,6 +14683,7 @@ castle = {
 		gold_cost = 400
 		build_time = 2190
 		pikemen = 45
+		war_elephants = 3
 		pikemen_offensive = 0.2
 		pikemen_defensive = 0.15
 		ai_creation_factor = 99
@@ -14684,6 +14696,7 @@ castle = {
 		potential = {
 			OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				has_building = ca_culture_nashvillian_1
 				has_building = ca_culture_nashvillian_2
 				has_building = ca_culture_nashvillian_3
@@ -14693,7 +14706,8 @@ castle = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = nashvillian
+				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -14701,7 +14715,8 @@ castle = {
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
 				OR = {
-					culture = nashvillian
+				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -14709,6 +14724,7 @@ castle = {
 		gold_cost = 500
 		build_time = 2190
 		pikemen = 60
+		war_elephants = 3
 		pikemen_offensive = 0.2
 		pikemen_defensive = 0.15
 		ai_creation_factor = 99

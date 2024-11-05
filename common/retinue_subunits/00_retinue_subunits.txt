@@ -1627,9 +1627,11 @@ RETTYPE_CUL_NASHVILLIAN =
 		is_nomadic = no
 		OR = {
 		culture = nashvillian
+		culture = tennessee_korean
 			any_realm_province = {
 				OR = {
 		culture = nashvillian
+		culture = tennessee_korean
 				}
 			}
 		}

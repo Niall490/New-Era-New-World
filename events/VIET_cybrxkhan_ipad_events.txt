@@ -2366,7 +2366,7 @@ character_event = {
 				trait = fair
 				trait = lustful
 				trait = tall
-				trait = fertile
+				trait = robust
 				trait = gregarious
 				trait = charismatic_negotiator
 				trait = grey_eminence
@@ -2448,7 +2448,7 @@ character_event = {
 					trait = fair
 					trait = lustful
 					trait = tall
-					trait = fertile
+					trait = robust
 					trait = gregarious
 					trait = charismatic_negotiator
 					trait = grey_eminence
@@ -2849,7 +2849,7 @@ character_event = {
 			trait = fair
 			trait = lustful
 			trait = tall
-			trait = fertile
+			trait = robust
 			trait = gregarious
 			trait = charismatic_negotiator
 			trait = grey_eminence
@@ -3389,7 +3389,7 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		NOT = { trait = deaf }
+		#NOT = { trait = deaf }
 		OR = {
 			is_hummus_culture_trigger = yes
 			capital_scope = {
@@ -4127,7 +4127,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12500
+		months = 12600
 	}
 	
 	option = { #not ok
@@ -4152,7 +4152,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1500
+		months = 1600
 	}
 	
 	option = { #not ok
@@ -5088,6 +5088,7 @@ character_event = {
 			trait = tough_soldier
 			trait = skilled_tactician
 			trait = brilliant_strategist
+			trait = exalted_warlord
 		}
 	}
 	
@@ -7288,7 +7289,7 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	war = no
-	religion = hindu
+	religion = old_hindu
 	
 	trigger = {
 		#in_command = no

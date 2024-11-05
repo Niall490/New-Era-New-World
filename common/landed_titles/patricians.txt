@@ -426,3 +426,7 @@ b_husite = {
 b_cooper = {
 	culture = houstonian
 }
+## San Fransisco
+b_huangjin = {
+	culture = chinafornian
+}

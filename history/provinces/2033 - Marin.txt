@@ -6,8 +6,8 @@ title = c_marin
 # Settlements
 max_settlements = 5
 
-b_san_rafael_CA = castle
-b_novato_CA = city
+b_san_rafael_CA = city
+b_novato_CA = castle
 b_sausalito_CA = temple
 #b_mill_valley_CA = castle
 #b_san_quentin_CA = city

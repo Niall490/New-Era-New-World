@@ -6308,6 +6308,7 @@ tribal = {
 		potential = {
 			OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				has_building = tb_culture_nashvillian_1
 			}
 		}
@@ -6315,6 +6316,7 @@ tribal = {
 			ROOT = {
 				OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -6323,6 +6325,7 @@ tribal = {
 			ROOT = {
 				OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -6330,6 +6333,7 @@ tribal = {
 		prestige_cost = 100
 		build_time = 365
 		pikemen = 30
+		war_elephants = 3
 		pikemen_offensive = 0.2
 		pikemen_defensive = 0.15
 		ai_creation_factor = 101
@@ -6341,6 +6345,7 @@ tribal = {
 		potential = {
 			OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				has_building = tb_culture_nashvillian_1
 				has_building = tb_culture_nashvillian_2
 			}
@@ -6349,6 +6354,7 @@ tribal = {
 			ROOT = {
 				OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -6357,6 +6363,7 @@ tribal = {
 			ROOT = {
 				OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -6364,6 +6371,7 @@ tribal = {
 		prestige_cost = 200
 		build_time = 547
 		pikemen = 30
+		war_elephants = 3
 		pikemen_offensive = 0.2
 		pikemen_defensive = 0.15
 		ai_creation_factor = 100
@@ -6375,6 +6383,7 @@ tribal = {
 		potential = {
 			OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				has_building = tb_culture_nashvillian_1
 				has_building = tb_culture_nashvillian_2
 				has_building = tb_culture_nashvillian_3
@@ -6384,6 +6393,7 @@ tribal = {
 			ROOT = {
 				OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -6392,6 +6402,7 @@ tribal = {
 			ROOT = {
 				OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -6399,6 +6410,7 @@ tribal = {
 		prestige_cost = 300
 		build_time = 730
 		pikemen = 40
+		war_elephants = 3
 		pikemen_offensive = 0.2
 		pikemen_defensive = 0.15
 		ai_creation_factor = 99
@@ -6412,6 +6424,7 @@ tribal = {
 		potential = {
 			OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				has_building = tb_culture_nashvillian_1
 				has_building = tb_culture_nashvillian_2
 				has_building = tb_culture_nashvillian_3
@@ -6422,6 +6435,7 @@ tribal = {
 			ROOT = {
 				OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -6430,6 +6444,7 @@ tribal = {
 			ROOT = {
 				OR = {
 				culture = nashvillian
+				culture = tennessee_korean
 				}
 			}
 		}
@@ -6437,6 +6452,7 @@ tribal = {
 		prestige_cost = 400
 		build_time = 1095
 		pikemen = 40
+		war_elephants = 3
 		pikemen_offensive = 0.2
 		pikemen_defensive = 0.15
 		ai_creation_factor = 98
@@ -8488,7 +8504,7 @@ tribal = {
 		
 		extra_tech_building_start = 0.8
 	}
-	tb_culture_group_arabic_3 = {
+	tb_culture_usa_camel_3 = {
 		desc = ca_culture_usa_camel_1_desc
 		potential = {
 			OR = {
