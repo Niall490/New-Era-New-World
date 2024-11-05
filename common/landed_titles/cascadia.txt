@@ -39,9 +39,179 @@ e_cascadia = {
 			
 			culture = cascadian
 			
-			capital = 529 #lane
+			capital = 1869 #salem
 			
 			haida = "Kak'ahl"	#go up from the shore, into the woods
+			
+			
+			c_eugene_OR = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_eugene_OR = {}
+				b_halsey_OR = {}
+				b_springfield_OR = {}
+				b_harrisburg_OR = {}
+				b_thurston_OR = {}
+				b_coburg_OR = {}
+				b_lorane_OR = {}
+			}
+			c_lane = {
+				color = { 209 226 237 }
+				color2 = { 0 90 119 }
+				
+				haida = "Sgaan"	#saced whistle
+				holy_site = raven_tales
+				
+				b_veneta_OR = {}
+				b_irving_OR = {}
+				b_linslaw_OR = {}
+				b_walton_OR = {}
+				b_vaughn_OR = {}
+				b_elmira_OR = {}
+				b_alvadore_OR = {}
+			}
+			c_polk_OR = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_dallas_OR = {}
+				b_monmouth_OR = {}
+				b_falls_city_OR = {}
+				b_west_salem_OR = {}
+				b_north_albany_OR = {}
+				b_suver_OR = {}
+				b_rickreall_OR = {}
+			}
+			c_salem_OR = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_salem_OR = {}
+				b_silverton_OR = {}
+				b_marion_OR = {}
+				b_turner_OR = {}
+				b_brooks_OR = {}
+				b_jefferson_OR = {}
+				b_millersburg_OR = {}
+			}
+			c_clackamas_OR = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_oregon_city_OR = {}
+				b_woodburn_OR = {}
+				b_canby_OR = {}
+				b_molalla_OR = {}
+				b_beavercreek_OR = {}
+				b_estacada_OR = {}
+				b_colton_OR = {}
+			}
+		}
+		d_portlandia = {
+			color = { 42 110 64 }
+			color2 = { 0 0 0 }
+			
+			culture = portlander
+			
+			capital = 534 # Portland/Multnomah
+			
+			haida = "Gud K'ala"	#to be unwilling to leave
+			
+			
+			c_silicon_forest_OR = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_hillsboro_OR = {}
+				b_forest_grove_OR = {}
+				b_beaverton_OR = {}
+				b_tigard_OR = {}
+				b_aloha_OR = {}
+				b_hazeldale_OR = {}
+				b_sherwood_OR = {}
+			}
+			c_columbia_OR = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_st_helens_OR = {}
+				b_clatskanie_OR = {}
+				b_vernonia_OR = {}
+				b_scappoose_OR = {}
+				b_treharne_OR = {}
+				b_buxton_OR = {}
+				b_mist_OR = {}
+			}
+			c_portland = {
+				color = { 254 196 70 }
+				color2 = { 0 55 45 }
+				
+				haida = "Gaayhldaa"	#fight, feud, raid
+				holy_site = cetic
+				holy_site = shinto
+				
+				b_portland_OR = {}
+				b_gresham_OR = {}
+				b_troutdale_OR = {}
+				b_milwaukie_OR = {}
+				b_clackamas_OR = {}
+				b_happy_valley_OR = {}
+				b_gladstone_OR = {}				
+			}
+		}
+		d_cascade = {
+			color = { 200 200 250 }
+			color2 = { 220 220 220 }
+			
+			capital = 1868
+			
+			c_mount_hood = {
+				color = { 125 88 51 }
+				color2 = { 31 106 159 }
+				
+				haida = "S'am"	#floating snow
+				
+				b_sandy_OR = {}
+				b_rockford_OR = {}
+				b_odell_OR = {}
+				b_ripplebrook_OR = {}
+				b_cherryville_OR = {}
+				b_dover_OR = {}
+				b_marmot_OR = {}
+			}
+			c_willamette_OR = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_lowell_OR = {}
+				b_cottage_grove_OR = {}
+				b_creswell_OR = {}
+				b_dexter_OR = {}
+				b_fox_hollow_OR = {}
+				b_oakridge_OR = {}
+				b_latham_OR = {}
+			}
+			c_santiam = {
+				color = { 5 96 89 }
+				color2 = { 122 135 168 }
+				
+				haida = "Gijaawaang" #giving out food
+				
+				b_stayton_OR = {}
+				b_lyons_OR = {}
+				b_mehama_OR = {}
+				b_mill_city_OR = {}
+				b_gates_OR = {}
+				b_sublimity_OR = {}
+				b_niagara_OR = {}
+			}
+		}
+		d_umpqua = {
+			color = { 213 30 59 }
+			color2 = { 220 220 220}
+			
+			capital = 528
 			
 			c_coos_bay = {
 				color = { 244 194 4 }
@@ -83,44 +253,40 @@ e_cascadia = {
 				b_galesville_OR = {}
 				b_azalea_OR = {}
 			}
-			c_eugene_OR = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
+		}
+		d_yamhill = {
+			color = { 32 59 66 }
+			color2 = { 220 220 220 }
 			
-				b_eugene_OR = {}
-				b_halsey_OR = {}
-				b_springfield_OR = {}
-				b_harrisburg_OR = {}
-				b_thurston_OR = {}
-				b_coburg_OR = {}
-				b_lorane_OR = {}
-			}
-			c_lane = {
-				color = { 209 226 237 }
-				color2 = { 0 90 119 }
-				
-				haida = "Sgaan"	#saced whistle
-				holy_site = raven_tales
-				
-				b_veneta_OR = {}
-				b_irving_OR = {}
-				b_linslaw_OR = {}
-				b_walton_OR = {}
-				b_vaughn_OR = {}
-				b_elmira_OR = {}
-				b_alvadore_OR = {}
-			}
-			c_willamette_OR = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
+			capital = 533
 			
-				b_lowell_OR = {}
-				b_cottage_grove_OR = {}
-				b_creswell_OR = {}
-				b_dexter_OR = {}
-				b_fox_hollow_OR = {}
-				b_oakridge_OR = {}
-				b_latham_OR = {}
+			c_caltsop = {
+				color = { 0 130 74 }
+				color2 = { 255 255 255 }
+				
+				haida = "Waluugdas"	#for air to bubble out with a glug glug sound
+				
+				b_astoria_OR = {}
+				b_warrenton_OR = {}
+				b_cannon_beach_OR = {}
+				b_gearhart_OR = {}
+				b_seaside_OR = {}
+				b_manzanita_OR = {}
+				b_birkenfeld_OR = {}
+			}
+			c_tillamook = {
+				color = { 203 16 61 }
+				color2 = { 253 194 74 }
+				
+				haida = "Giihliid"	#the tide coming in
+				
+				b_netarts_OR = {}
+				b_tillamook_OR = {}
+				b_hebo_OR = {}
+				b_rockaway_beach_OR = {}
+				b_pacific_city_OR = {}
+				b_garibaldi_OR = {}
+				b_newberg_OR = {}
 			}
 			c_lincoln_OR = {
 				color={ 255 255 255 }
@@ -148,152 +314,7 @@ e_cascadia = {
 				b_siltcoos_OR = {}
 				b_mapleton_OR = {}
 			}
-			c_polk_OR = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_dallas_OR = {}
-				b_monmouth_OR = {}
-				b_falls_city_OR = {}
-				b_west_salem_OR = {}
-				b_north_albany_OR = {}
-				b_suver_OR = {}
-				b_rickreall_OR = {}
-			}
-			c_salem_OR = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_salem_OR = {}
-				b_silverton_OR = {}
-				b_marion_OR = {}
-				b_turner_OR = {}
-				b_brooks_OR = {}
-				b_jefferson_OR = {}
-				b_millersburg_OR = {}
-			}
-			c_santiam = {
-				color = { 5 96 89 }
-				color2 = { 122 135 168 }
-				
-				haida = "Gijaawaang" #giving out food
-				
-				b_stayton_OR = {}
-				b_lyons_OR = {}
-				b_mehama_OR = {}
-				b_mill_city_OR = {}
-				b_gates_OR = {}
-				b_sublimity_OR = {}
-				b_niagara_OR = {}
-			}
 		}
-		d_portlandia = {
-			color = { 42 110 64 }
-			color2 = { 0 0 0 }
-			
-			culture = portlander
-			
-			capital = 534 # Portland/Multnomah
-			
-			haida = "Gud K'ala"	#to be unwilling to leave
-			
-			c_tillamook = {
-				color = { 203 16 61 }
-				color2 = { 253 194 74 }
-				
-				haida = "Giihliid"	#the tide coming in
-				
-				b_netarts_OR = {}
-				b_tillamook_OR = {}
-				b_hebo_OR = {}
-				b_rockaway_beach_OR = {}
-				b_pacific_city_OR = {}
-				b_garibaldi_OR = {}
-				b_newberg_OR = {}
-			}
-			c_silicon_forest_OR = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_hillsboro_OR = {}
-				b_forest_grove_OR = {}
-				b_beaverton_OR = {}
-				b_tigard_OR = {}
-				b_aloha_OR = {}
-				b_hazeldale_OR = {}
-				b_sherwood_OR = {}
-			}
-			c_caltsop = {
-				color = { 0 130 74 }
-				color2 = { 255 255 255 }
-				
-				haida = "Waluugdas"	#for air to bubble out with a glug glug sound
-				
-				b_astoria_OR = {}
-				b_warrenton_OR = {}
-				b_cannon_beach_OR = {}
-				b_gearhart_OR = {}
-				b_seaside_OR = {}
-				b_manzanita_OR = {}
-				b_birkenfeld_OR = {}
-			}
-			c_columbia_OR = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_st_helens_OR = {}
-				b_clatskanie_OR = {}
-				b_vernonia_OR = {}
-				b_scappoose_OR = {}
-				b_treharne_OR = {}
-				b_buxton_OR = {}
-				b_mist_OR = {}
-			}
-			c_portland = {
-				color = { 254 196 70 }
-				color2 = { 0 55 45 }
-				
-				haida = "Gaayhldaa"	#fight, feud, raid
-				holy_site = cetic
-				holy_site = shinto
-				
-				b_portland_OR = {}
-				b_gresham_OR = {}
-				b_troutdale_OR = {}
-				b_milwaukie_OR = {}
-				b_clackamas_OR = {}
-				b_happy_valley_OR = {}
-				b_gladstone_OR = {}				
-			}
-			c_clackamas_OR = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_oregon_city_OR = {}
-				b_woodburn_OR = {}
-				b_canby_OR = {}
-				b_molalla_OR = {}
-				b_beavercreek_OR = {}
-				b_estacada_OR = {}
-				b_colton_OR = {}
-			}
-			c_mount_hood = {
-				color = { 125 88 51 }
-				color2 = { 31 106 159 }
-				
-				haida = "S'am"	#floating snow
-				
-				b_sandy_OR = {}
-				b_rockford_OR = {}
-				b_odell_OR = {}
-				b_ripplebrook_OR = {}
-				b_cherryville_OR = {}
-				b_dover_OR = {}
-				b_marmot_OR = {}
-			}
-			
-		}
-		
 	}
 	k_washington = {
 		color = { 25 105 11 }
