@@ -18713,7 +18713,22 @@
 3001648 = { name = "Pynchon" culture = massachusite }
 3001649 = { name = "Ward" culture = politan }
 3001650 = { name = "Naradi" culture = angeleno }
-3001651 = { name = "Aegina" culture = oregonite }
+
+3001651 = { 
+	name = "Aegina" culture = oregonite 
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16 #NENW_CoAs.tga
+			texture_internal = 335
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 3001652 = { name = "Babcock" culture = oregonite }
 
 5130831 = { 
