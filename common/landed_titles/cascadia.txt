@@ -328,24 +328,10 @@ e_cascadia = {
 			
 			culture = cascadian
 			
-			capital = 541 #Capitol
+			capital = 1783
 			
 			haida = "Kuunjaaw"	#a point of land
 			
-			c_willapa_bay = {
-				color = { 63 88 250 }
-				color2 = { 24 56 40 }
-				
-				haida = "Gadalayaay"	#the bay
-				
-				b_long_beach_WA = {}
-				b_ocean_park_WA = {}
-				b_rosburg_WA = {}
-				b_oysterville_WA = {}
-				b_naselle_WA = {}
-				b_frankfort_WA = {}
-				b_nemah_WA = {}
-			}
 			c_quinault = {
 				color = { 219 36 30 }
 				color2 = { 32 27 24 }
@@ -360,18 +346,6 @@ e_cascadia = {
 				b_copalis_beach_WA = {}
 				b_ocean_shores_WA = {}
 			}
-			c_grays_harbor_WA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_westport_WA = {}
-				b_grayland_WA = {}
-				b_tokeland_WA = {}
-				b_heather_WA = {}
-				b_markham_WA = {}
-				b_ocosta_WA = {}
-				b_artic_WA = {}
-			}
 			c_jefferson_WA = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -383,30 +357,6 @@ e_cascadia = {
 				b_hoh_valley_WA = {}
 				b_tacoma_creek_WA = {}
 				b_upper_queets_WA = {}	
-			}
-			c_skamania_WA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_cathlamet_WA = {}
-				b_skamokawa_WA = {}
-				b_grays_river_WA = {}
-				b_rosburg_WA1 = {}
-				b_brookfield_WA = {}
-				b_altoona_WA = {}
-				b_eden_WA = {}
-			}
-			c_cowlitz_WA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_longview_WA = {}
-				b_castle_rock_WA = {}
-				b_kalama_WA = {}
-				b_vader_WA = {}
-				b_winlock_WA = {}
-				b_st_helens_WA = {}
-				b_mayfield_WA = {}
 			}
 			c_cape_alava = {
 				color = { 24 132 137 }
@@ -422,6 +372,70 @@ e_cascadia = {
 				b_bell_hill_WA = {}
 				b_mora_WA = {}
 			}
+			c_clallam_WA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_port_angeles_WA = {}
+				b_blyn_WA = {}
+				b_sequim_WA = {}
+				b_carlsborg_WA = {}
+				b_jamestown_WA = {}
+				b_elwha_WA = {}
+				b_twin_WA = {}		
+			}
+		}
+		d_columbia_river = {
+			color = { 0 132 87 }
+			color2 = { 220 220 220 }
+			
+			capital = 1782
+			
+			c_skamania_WA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_cathlamet_WA = {}
+				b_skamokawa_WA = {}
+				b_grays_river_WA = {}
+				b_rosburg_WA1 = {}
+				b_brookfield_WA = {}
+				b_altoona_WA = {}
+				b_eden_WA = {}
+			}
+			c_willapa_bay = {
+				color = { 63 88 250 }
+				color2 = { 24 56 40 }
+				
+				haida = "Gadalayaay"	#the bay
+				
+				b_long_beach_WA = {}
+				b_ocean_park_WA = {}
+				b_rosburg_WA = {}
+				b_oysterville_WA = {}
+				b_naselle_WA = {}
+				b_frankfort_WA = {}
+				b_nemah_WA = {}
+			}
+			c_grays_harbor_WA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_westport_WA = {}
+				b_grayland_WA = {}
+				b_tokeland_WA = {}
+				b_heather_WA = {}
+				b_markham_WA = {}
+				b_ocosta_WA = {}
+				b_artic_WA = {}
+			}
+		}
+		d_kitsap = {
+			color = { 231 38 56 }
+			color2 = { 220 220 220 }
+			
+			capital = 540
+			
 			c_kitsap = {
 				color = { 232 200 216 }
 				color2 = { 112 6 13 }
@@ -446,18 +460,6 @@ e_cascadia = {
 				b_skokomish_WA = {}
 				b_grapeview_WA = {}
 			}
-			c_clallam_WA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_port_angeles_WA = {}
-				b_blyn_WA = {}
-				b_sequim_WA = {}
-				b_carlsborg_WA = {}
-				b_jamestown_WA = {}
-				b_elwha_WA = {}
-				b_twin_WA = {}		
-			}
 			c_mason_WA = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -469,6 +471,29 @@ e_cascadia = {
 				b_agate_WA = {}
 				b_grant_WA = {}
 				b_matlock_WA = {}
+			}
+		}
+		d_clarke = {
+			color = { 130 210 140 }
+			color2 = { 220 220 220 }
+			
+			capital = 541 #Capitol
+			
+			c_rainier = {
+				color = { 152 203 254 }
+				color2 = { 0 102 0 }
+				
+				haida = "Xanj 'Laas"	#holy spirit
+				
+				holy_site = raven_tales
+				
+				b_tacoma_WA = {}
+				b_paradise_WA = {}
+				b_federal_way_WA = {}
+				b_puyallup_WA = {}
+				b_lakewood_WA = {}
+				b_ashford_WA = {}
+				b_spanaway_WA = {}
 			}
 			c_capitol = {
 				color = { 0 102 0 }
@@ -498,6 +523,18 @@ e_cascadia = {
 				b_washougal_WA = {}
 				b_yacolt_WA = {}
 			}
+			c_cowlitz_WA = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_longview_WA = {}
+				b_castle_rock_WA = {}
+				b_kalama_WA = {}
+				b_vader_WA = {}
+				b_winlock_WA = {}
+				b_st_helens_WA = {}
+				b_mayfield_WA = {}
+			}
 		}
 		d_puget = {
 			color = { 158 36 59 }
@@ -509,23 +546,7 @@ e_cascadia = {
 			
 			haida = "Gii Tl'agang"	#anchor a fleet of boats
 			
-			c_rainier = {
-				color = { 152 203 254 }
-				color2 = { 0 102 0 }
-				
-				haida = "Xanj 'Laas"	#holy spirit
-				
-				holy_site = raven_tales
-				
-				b_tacoma_WA = {}
-				b_paradise_WA = {}
-				b_federal_way_WA = {}
-				b_puyallup_WA = {}
-				b_lakewood_WA = {}
-				b_ashford_WA = {}
-				b_spanaway_WA = {}
-
-			}
+			
 			c_eastside_WA = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -581,6 +602,5 @@ e_cascadia = {
 				b_whidbey_WA = {}
 			}
 		}
-	
 	}
 }
