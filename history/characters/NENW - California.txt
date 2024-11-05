@@ -131,10 +131,100 @@
 	dynasty = 3001651
 	culture = oregonite
 	religion = dianic
-	2178.8.31 = {
+	female = yes
+	2173.8.31 = {
 		birth = yes
 	}
+	2203.5.23 = {
+		add_consort = 3300010
+	}
 	2231.5.21 = {
+		death = yes
+	}
+}
+3300007 = { #child of Queen B's twink harem
+	name = "Dictynna"
+	dynasty = 3001651
+	culture = oregonite
+	religion = dianic
+	mother = 3300006
+	father = 3300010
+	trait = child_of_consort_male
+	female = yes
+	2207.4.21 = {
+		birth = yes
+	}
+	2266.7.2 = {
+		death = yes
+	}
+}
+3300008 = { #got got by rebels in Portland
+	name = "Aphaea"
+	dynasty = 3001651
+	culture = oregonite
+	religion = dianic
+	mother = 3300007
+	female = yes
+	2229.5.11 = {
+		birth = yes
+	}
+	2273.2.22 = {
+		death = yes
+	}
+}
+3300009 = { #pre-unification ruler of south oregon
+	name = "Lewis"
+	dynasty = 3001652
+	culture = oregonite
+	religion = thaddean
+	2167.3.22 = {
+		birth = yes
+	}
+	2203.5.23 = {
+		death = {
+			death_reason = death_battle 
+			killer = 3300006
+		} 
+	}
+}
+3300010 = { #boytoy
+	name = "Edmund"
+	dynasty = 3001652
+	culture = oregonite
+	religion = thaddean
+	father = 3300009
+	2186.9.3 = {
+		birth = yes
+	}
+	2232.4.21 = {
+		death = yes
+	}
+}
+3300011 = {
+	name = "Potnia"
+	dynasty = 3001651
+	culture = oregonite
+	religion = dianic
+	mother = 3300008
+	female = yes
+	2253.5.21 = {
+		birth = yes
+	}
+	2300.7.9 = {
+		death = yes
+	}
+}
+3300012 = {
+	name = "Oupis"
+	dynasty = 3001651
+	culture = oregonite
+	religion = dianic
+	mother = 3300011
+	female = yes
+	2294.7.13 = {
+		birth = yes
+	}
+	2666.1.1 = {
 		death = yes
 	}
 }

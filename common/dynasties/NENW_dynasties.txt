@@ -18714,6 +18714,7 @@
 3001649 = { name = "Ward" culture = politan }
 3001650 = { name = "Naradi" culture = angeleno }
 3001651 = { name = "Aegina" culture = oregonite }
+3001652 = { name = "Babcock" culture = oregonite }
 
 5130831 = { 
 	name="Seed" 
