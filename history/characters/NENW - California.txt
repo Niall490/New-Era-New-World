@@ -48,3 +48,15 @@
 		death = yes
 	}
 }
+3300002 = { #conqueror from Salem who spread the Dianic faith accross oregon, realm would collapsse from the Myriadic rebels
+	name = "Britomartis"
+	dynasty = 3001651
+	culture = oregonite
+	religion = dianic
+	2178.8.31 = {
+		birth = year
+	}
+	2231.5.21 = {
+		death = yes
+	}
+}
