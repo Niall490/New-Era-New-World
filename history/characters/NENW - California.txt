@@ -122,7 +122,6 @@
 			has_dlc = "Holy Fury"
 		}
 	}
-	}
 	2666.1.1 = {
 		death = yes
 	}
