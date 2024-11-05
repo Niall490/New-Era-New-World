@@ -591,6 +591,15 @@ sitting_bull = {
 	flags = { historical_bloodline }
 }
 
+norton_bloodline = {
+	californian_opinion = 10
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.25
+	inheritance = patrilineal
+	picture = GFX_bloodlines_symbol_roman
+	flags = { historical_bloodline }
+}
+
 armstrong_bloodline = {
 	inheritance = patrilineal
 	allow_bastards = yes

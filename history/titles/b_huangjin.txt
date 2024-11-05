@@ -1,4 +1,5 @@
 2311.3.12 = {
+	holding_dynasty = 3000896
 	holder = 3300002
 	liege = k_francisco
 }
