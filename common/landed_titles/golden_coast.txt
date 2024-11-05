@@ -10,6 +10,9 @@ e_golden_coast = {
 		
 		capital = 2031 # c_san_francisco
 		
+		chinafornian = "Jiujinshan"
+		nikkeiamerikajin = "Soko"
+		
 		d_goldengate = {
 			color={ 191 47 83 }
 			color2={ 255 255 255 }

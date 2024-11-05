@@ -8504,7 +8504,7 @@ tribal = {
 		
 		extra_tech_building_start = 0.8
 	}
-	tb_culture_group_arabic_3 = {
+	tb_culture_usa_camel_3 = {
 		desc = ca_culture_usa_camel_1_desc
 		potential = {
 			OR = {

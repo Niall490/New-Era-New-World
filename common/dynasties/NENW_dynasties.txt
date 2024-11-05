@@ -18247,7 +18247,25 @@
         }
     }
 }
-3000896 = { name = "Huangjin" culture = nutmegger }
+3000896 = { name = "Huangjin" culture = chinafornian }
+3000897 = { name = "Robotnik"
+    culture = nikkeiamerikajin 
+    religion = taoist
+    used_for_random = no
+    coat_of_arms = {
+        religion = taoist
+        template = 0
+        layer = {
+            texture = 5 #NENW_dynasties_chinese_frame.tga
+            texture_internal = 5
+            emblem = 0
+            color = 0
+            color = 0
+            color = 0
+        }
+    }
+}
+3000898 = { name = "Norton" culture = goldengater }
 
 #For Acadiana history
 3000787 = { name = "Vernon" culture = cajun used_for_random = no }
