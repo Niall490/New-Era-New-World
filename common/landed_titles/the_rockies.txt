@@ -11,13 +11,15 @@ e_the_rockies = {
 		capital = 1683 # c_the_area_NV
 	
 		d_black_desert_NV = {
-			color={ 255 255 255 }
+			color={ 45 64 102 }
 			color2={ 255 255 255 }
+			
+			short_name = yes
 			
 			capital = 1683 # c_the_area_NV
 		
 			c_the_area_NV = {
-				color={ 255 255 255 }
+				color={ 40 61 102 }
 				color2={ 255 255 255 }
 				
 				holy_site = trinitarian
@@ -31,7 +33,7 @@ e_the_rockies = {
 				b_alamo_NV = {}
 			}
 			c_tonopah_NV = {
-				color={ 255 255 255 }
+				color={ 20 30 51 }
 				color2={ 255 255 255 }
 			
 				b_fifty_two_NV = {}
@@ -43,7 +45,7 @@ e_the_rockies = {
 				b_blair_NV = {}
 			}
 			c_nye_pass = {
-				color={ 142 211 152 }
+				color={ 10 15 25 }
 				color2={ 255 255 255 }
 				
 				holy_site = trinitarian
@@ -58,13 +60,13 @@ e_the_rockies = {
 			}
 		}
 		d_black_rock = {
-			color = { 0 0 0 }
+			color = { 17 18 25 }
 			color2 = { 255 255 255 }
 			
 			capital = 1676 #elko
 			
 			c_wendover_UT = {
-				color={ 255 255 255 }
+				color={ 26 27 38 }
 				color2={ 255 255 255 }
 			
 				b_wendover_UT = {}
@@ -76,7 +78,7 @@ e_the_rockies = {
 				b_etna_UT = {}			
 			}
 			c_elko_NV = {
-				color={ 255 255 255 }
+				color={ 8 9 12 }
 				color2={ 255 255 255 }
 			
 				b_elko_NV = {}
@@ -88,7 +90,7 @@ e_the_rockies = {
 				b_jiggs_NV1 = {}		
 			}
 			c_lander_NV = {
-				color={ 255 255 255 }
+				color={ 35 36 51 }
 				color2={ 255 255 255 }
 			
 				b_battle_mountain_NV = {}
@@ -100,7 +102,7 @@ e_the_rockies = {
 				b_crescent_valley_NV = {}
 			}
 			c_black_rock = { # 2067
-				color={ 87 105 160 }
+				color={ 44 46 63 }
 				color2={ 255 255 255 }
 				
 				b_winnemucca_NV = {}
@@ -113,13 +115,13 @@ e_the_rockies = {
 			}
 		}
 		d_death_valley = {
-			color={ 238 217 135 }
+			color={ 23 14 73 }
 			color2={ 255 255 255 }
 			
 			capital = 2071 # c_inyo
 			
 			c_inyo = { # 2071
-				color={ 218 227 105 }
+				color={ 52 44 89 }
 				color2={ 255 255 255 }
 				
 				b_bishop_CA = {}
@@ -130,7 +132,7 @@ e_the_rockies = {
 				b_deep_springs_CA = {}
 			}
 			c_hawthorne = { # 2072
-				color={ 218 187 135 }
+				color={ 37 31 63 }
 				color2={ 255 255 255 }
 				
 				b_hawthorne_CA = {}
@@ -141,7 +143,7 @@ e_the_rockies = {
 				b_mammoth_lakes_CA = {}
 			}
 			c_fallon_NV = {
-				color={ 255 255 255 }
+				color={ 22 19 38 }
 				color2={ 255 255 255 }
 			
 				b_fallon_NV = {}
@@ -154,13 +156,13 @@ e_the_rockies = {
 			}
 		}
 		d_las_vegas = {
-			color = { 0 148 255 }
+			color = { 255 191 0 }
 			color2 = { 220 220 220 }
 			
 			capital = 2073 # Las Vegas
 			
 			c_las_vegas = { # 2073
-				color={ 201 215 144 }
+				color={ 229 172 0 }
 				color2={ 255 255 255 }
 				
 				b_las_vegas_NV = {}
@@ -180,7 +182,7 @@ e_the_rockies = {
 	}
 		
 	k_yuta = {
-		color={ 32 58 165 }
+		color={ 16 45 163 }
 		color2={ 255 255 255 }
 		
 
@@ -189,23 +191,19 @@ e_the_rockies = {
 		culture = utahn
 
 		d_great_salt_duchy = {
-			color = { 71 109 243 }
+			color = { 40 81 204 }
 			color2= { 255 255 255 }
 
 			capital = 430 # Salt Lake
 
-			short_name = yes
 
 			culture = utahn
 
 			
 			c_salt_lake = {
-				color = { 48 91 241 }
+				color = { 35 71 178 }
 				color2= { 255 255 255 }
 				holy_site = mormon
-				holy_site = bickertonite
-				holy_site = godbeite
-				holy_site = strangite
 				holy_site = brighamite
 
 				b_salt_lake_city_UT = {
@@ -222,7 +220,7 @@ e_the_rockies = {
 				b_draper_UT = {}
 			}
 			c_wasatch_back_UT = {
-				color={ 255 255 255 }
+				color={ 45 91 229 }
 				color2={ 255 255 255 }
 			
 				b_park_city_UT = {}
@@ -234,12 +232,9 @@ e_the_rockies = {
 				b_samak_UT = {}
 			}
 			c_provo = {
-				color = { 15 57 227 }
+				color = { 30 61 153 }
 				color2= { 255 255 255 }
 				holy_site = mormon
-				holy_site = bickertonite
-				holy_site = godbeite
-				holy_site = strangite
 				holy_site = brighamite
 
 				b_provo_UT = {}
@@ -256,7 +251,7 @@ e_the_rockies = {
 				b_salem_UT = {}
 			}
 			c_bonneville = {
-				color = { 68 149 247 }
+				color = { 50 101 255 }
 				color2= { 255 255 255 }
 
 				b_tooele_UT = {}
@@ -270,13 +265,13 @@ e_the_rockies = {
 			}
 		}
 		d_ogden = {
-			color = { 0 52 105 }
+			color = { 68 122 229 }
 			color2 = { 220 220 220 }
 			
 			capital = 1824
 			
 			c_bear_river = {
-				color = { 113 138 227 }
+				color = { 61 108 204 }
 				color2= { 255 255 255 }
 
 				b_logan_UT = {}
@@ -292,7 +287,7 @@ e_the_rockies = {
 				b_elwood_UT = {}
 			}
 			c_salt_flats = {
-				color = { 255 255 255}
+				color = { 76 135 255 }
 				color2 = { 85 85 170 }
 				
 				b_snowville_UT = {}
@@ -304,7 +299,7 @@ e_the_rockies = {
 				b_bally_UT = {}
 			}
 			c_ogden_UT = {
-				color={ 255 255 255 }
+				color={ 53 95 178 }
 				color2={ 255 255 255 }
 			
 				b_ogden_UT = {}
@@ -317,13 +312,13 @@ e_the_rockies = {
 			}
 		}
 		d_wasatch = {
-			color = { 188 24 86 }
+			color = { 41 62 165 }
 			color2= { 255 255 255 }
 
 			capital = 435 # Fishlake
 			
 			c_fishlake = {
-				color = { 163 39 61 }
+				color = { 61 73 204 }
 				color2= { 255 255 255 }
 
 				b_nephi_UT = {}
@@ -335,7 +330,7 @@ e_the_rockies = {
 				b_levan_UT = {}
 			}
 			c_sanpete_UT = {
-				color={ 255 255 255 }
+				color={ 45 54 153 }
 				color2={ 255 255 255 }
 			
 				b_manti_UT = {}
@@ -348,7 +343,7 @@ e_the_rockies = {
 			}
 			
 			c_parowan_UT = {
-				color={ 255 255 255 }
+				color={ 68 82 229 }
 				color2={ 255 255 255 }
 			
 				b_parowan_UT = {}
@@ -360,7 +355,7 @@ e_the_rockies = {
 				b_frisco_UT = {}		
 			}
 			c_white_pine_NV = {
-				color={ 255 255 255 }
+				color={ 38 45 127 }
 				color2={ 255 255 255 }
 			
 				b_ely_NV = {}
@@ -374,13 +369,13 @@ e_the_rockies = {
 			
 		}
 		d_canyonlands = {
-			color = { 213 93 59 }
+			color = { 76 76 191 }
 			color2 = { 220 220 220 }
 			
 			capital = 436
 			
 			c_grand_staircase = {
-				color = { 137 20 102 }
+				color = { 35 35 178 }
 				color2= { 255 255 255 }
 
 				b_kanab_UT = {}
@@ -392,7 +387,7 @@ e_the_rockies = {
 				b_tropic_UT = {}
 			}
 			c_piute_UT = {
-				color={ 255 255 255 }
+				color={ 25 25 127 }
 				color2={ 255 255 255 }
 			
 				b_junction_UT = {}
@@ -404,7 +399,7 @@ e_the_rockies = {
 				b_angle_UT = {}
 			}
 			c_manti_la_sal = {
-				color = { 205 24 56 }
+				color = { 40 40 204 }
 				color2= { 255 255 255 }
 
 				b_richfield_UT = {}
@@ -418,7 +413,7 @@ e_the_rockies = {
 				b_woodside_UT = {}
 			}
 			c_loa_UT = {
-				color={ 255 255 255 }
+				color={ 20 20 102 }
 				color2={ 255 255 255 }
 			
 				b_lyman_UT = {}
@@ -430,7 +425,7 @@ e_the_rockies = {
 				b_grover_UT = {}
 			}
 			c_zion = {
-				color = { 233 78 136 }
+				color = { 45 45 229 }
 				color2= { 255 255 255 }
 				holy_site = brighamite
 
