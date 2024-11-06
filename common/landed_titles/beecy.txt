@@ -6,6 +6,115 @@ e_beecy = {
 	
 	capital = 548 #Vancouver
 	
+	k_haida = {
+		color={ 212 78 119 }
+		color2={ 255 255 255 }
+	
+		capital = 3334 # c_port_clements
+	
+		d_haida = {
+			color={ 212 78 119 }
+			color2={ 255 255 255 }
+			
+			capital = 3334 # c_port_clements
+			
+			c_port_clements = { # 3334
+				color={ 222 68 124 }
+				color2={ 255 255 255 }
+				
+				b_port_clements_alsk = {
+				}
+				b_masset_alsk = {
+				}
+				b_chown_brook_alsk = {
+				}
+				b_taaw_tldaaw_alsk = {
+				}
+				b_white_creek_alsk = {
+				}
+				b_tow_hill_alsk = {
+				}
+				b_sangan_alsk = {
+				}
+			}
+			c_alliford_bay = { # 3335
+				color={ 253 158 53 }
+				color2={ 255 255 255 }
+				
+				b_alliford_bay_alsk = {
+				}
+				b_sandspit_alsk = {
+				}
+				b_cartwright_alsk = {
+				}
+				b_nadon_alsk = {
+				}
+				b_sunrise_alsk = {
+				}
+				b_hecate_alsk = {
+				}
+				b_louise_alsk = {
+				}
+			}
+			c_daajing_giids = { # 3338
+				color={ 205 159 255 }
+				color2={ 255 255 255 }
+				
+				b_daajing_giids_alsk = {
+				}
+				b_skidegate_alsk = {
+				}
+				b_charlie_hartie_alsk = {
+				}
+				b_blacktail_alsk = {
+				}
+				b_sea_raven_alsk = {
+				}
+				b_regier_alsk = {
+				}
+				b_skyfall_alsk = {
+				}
+			}
+			c_juskatla = { # 3339
+				color={ 185 128 34 }
+				color2={ 255 255 255 }
+				
+				b_juskatla_alsk = {
+				}
+				b_vladimir_alsk = {
+				}
+				b_mercer_alsk = {
+				}
+				b_krajina_alsk = {
+				}
+				b_langara_alsk = {
+				}
+				b_eden_alsk = {
+				}
+				b_ian_alsk = {
+				}
+			}
+			c_tlell = { # 3337
+				color={ 0 20 64 }
+				color2={ 255 255 255 }
+				
+				b_tlell_alsk = {
+				}
+				b_anvil_alsk = {
+				}
+				b_misty_meadows_alsk = {
+				}
+				b_pesuta_alsk = {
+				}
+				b_yellowhead_alsk = {
+				}
+				b_crows_nest_alsk = {
+				}
+				b_cacillia_alsk = {
+				}
+			}
+		}
+	}
 	k_grand_columbia = {
 		color = { 239 215 4 }
 		color2 = { 0 0 206 }
@@ -15,8 +124,7 @@ e_beecy = {
 		capital = 548 # Vancouver
 		
 		haida = "Haida Tlagaang"	#Tlagaang - One's own country
-
-				
+		
 		d_vancouver = {
 			color = { 51 153 255 }
 			color2 = { 14 0 102 }
@@ -40,6 +148,20 @@ e_beecy = {
 				b_stanwood_WA = {}
 				b_coupeville_WA = {}
 				b_lyman_WA = {}
+			}
+			c_harrison = {
+				color = { 0 135 66 }
+				color2 = { 255 255 255 }
+				
+				haida = "Suu Kaahlii"	#Súu Káahlii - Lake Valley
+				
+				b_chilliwack_BC = {}
+				b_deroche_BC = {}
+				b_bridal_falls_BC = {}
+				b_agassiz_BC = {}
+				b_hemlock_valley_BC = {}
+				b_sardis_BC = {}
+				b_popkum_BC = {}
 			}
 			c_golden_ears_BC = {
 				color={ 255 255 255 }
@@ -120,6 +242,17 @@ e_beecy = {
 				b_halfmoon_bay_BC = {}
 				b_porteau_BC = {}
 				b_woodfibre_BC = {}
+			}
+			c_sea_to_sky = {
+				color = { 170 75 78 }
+				color2 = { 6 112 223 }
+								
+				b_squamish_BC = {}
+				b_pemberton_BC = {}
+				b_whistler_BC = {}
+				b_birken_BC = {}
+				b_darcy_BC = {}
+				b_garibaldi_BC = {}
 			}
 		}
 		d_vancouver_strait = {
@@ -430,219 +563,15 @@ e_beecy = {
 				b_mahatta_BC = {}
 			}
 		}
-		d_cariboo = {
-			color = { 20 222 130 }
-			color2 = { 255 255 255 }
-			
-			culture = haida
-			
-			capital = 682 #Prince George
-			
-			c_cariboo = {
-				color = { 67 129 177 }
-				color2 = { 219 219 219 }
-				
-				haida = "K'agdaahl"	#K'agdáahl - Flat, open basket
-				
-				b_williams_lake_BC = {}
-				b_wright_BC = {}
-				b_horsefly_BC = {}
-				b_dugan_lake_BC = {}
-				b_forest_grove_BC = {}
-				b_enterprise_BC = {}
-				b_esler_BC = {}
-			}
-			c_itcha_ilgachuz = {
-				color = { 204 153 42 }
-				color2 = { 20 72 156 }
-				
-				haida = "Jaajii"	#Jáajii - Snowshoes
-				
-				b_alexis_creek_BC = {}
-				b_nemaiah_BC = {}
-				b_kleena_kleene_BC = {}
-				b_nimpo_BC = {}
-				b_anahim_BC = {}
-				b_chilanko_forks_BC = {}
-				b_redstone_BC = {}
-			}
-			c_prince_george = {
-				color = { 162 133 33 }
-				color2 = { 20 72 156 }
-								
-				b_prince_george_BC = {}
-				b_hixon_BC = {}
-				b_quesnal_BC = {}
-				b_nukko_lake_BC = {}
-				b_summit_lake_BC = {}
-				b_australian_BC = {}
-				b_punchaw_BC = {}
-			}
-			c_fraser_valley = {
-				color = { 101 155 42 }
-				color2 = { 20 72 156 }
-								
-				b_valemount_BC = {}
-				b_mcbride_BC = {}
-				b_goat_river_BC = {}
-				b_penny_BC = {}
-				b_crescent_spur_BC = {}
-				b_longworth_BC = {}
-				b_sinclair_mills_BC = {}
-			}
-		}
-		d_great_valleys = {
-			color = { 30 182 30 }
-			color2 = { 255 255 255 }
-			
-			culture = canuck
-			
-			capital = 565 #Beyond Hope
-			
-			haida = "Kaahlii"
-			
-			c_harrison = {
-				color = { 0 135 66 }
-				color2 = { 255 255 255 }
-				
-				haida = "Suu Kaahlii"	#Súu Káahlii - Lake Valley
-				
-				b_chilliwack_BC = {}
-				b_deroche_BC = {}
-				b_bridal_falls_BC = {}
-				b_agassiz_BC = {}
-				b_hemlock_valley_BC = {}
-				b_sardis_BC = {}
-				b_popkum_BC = {}
-			}
-			c_south_okanagan_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_oliver_BC = {}
-				b_osoyoos_BC = {}
-				b_cawston_BC = {}
-				b_keremeos_BC = {}
-				b_oroville_WA = {}
-				b_tonasket_WA = {}
-				b_hedley_BC = {}		
-			}
-			c_beyond_hope = {
-				color = { 255 240 0 }
-				color2 = { 0 144 48 }
-				
-				haida = "K'uhlgwaasgyaan"	#K'uhlgwáasgyaan - Trail across to the other side of something
-				
-				b_lillooet_BC = {}
-				b_boston_bar_BC = {}
-				b_lytton_BC = {}
-				b_keefers_BC = {}
-				b_hells_gate_BC = {}
-				b_hope_BC = {}
-				b_spuzzum_BC = {}
-			}
-			c_similkameen = {
-				color = { 144 210 50 }
-				color2 = { 0 144 48 }
-								
-				b_keremos_BC = {}
-				b_princeton_BC = {}
-				b_tulameen_BC = {}
-				b_allenby_BC = {}
-				b_coalmont_BC = {}
-				b_jura_BC = {}
-				b_eastgate_BC = {}
-				b_copper_mountain_BC = {}
-			}
-			c_kamloops = {
-				color = { 229 15 8 }
-				color2 = { 6 112 223 }
-				
-				haida = "Gyahgdaang"	#Gyahgdáang - Young spruce trees growing thickly together
-				
-				b_kamloops_BC = {}
-				b_sun_peaks_BC = {}
-				b_pritchard_BC = {}
-				b_barriere_BC = {}
-				b_walhachin_BC = {}
-				b_savona_BC = {}
-				b_ashcroft_BC = {}
-			}
-			c_sea_to_sky = {
-				color = { 170 75 78 }
-				color2 = { 6 112 223 }
-								
-				b_squamish_BC = {}
-				b_pemberton_BC = {}
-				b_whistler_BC = {}
-				b_birken_BC = {}
-				b_darcy_BC = {}
-				b_garibaldi_BC = {}
-			}
-		}
-		d_monashee = {
-			color = { 0 0 115 }
-			color2 = { 239 206 0 }
-			
-			culture = haida
-			
-			capital = 570 #Kelowna
-			
-			haida = "Uunaay"	#Úunaay - the interior or high part of a land mass
-				
-			c_shuswap = {
-				color = { 246 181 22 }
-				color2 = { 3 130 56 }
-				
-				haida = "Tl'aadaan"	#Tl'áadaan - Canyon/Gorge
-				
-				b_armstrong_BC = {}
-				b_vernon_BC = {}
-				b_enderby_BC = {}
-				b_westwold_BC = {}
-				b_falkland_BC = {}
-				b_tappen_BC = {}
-				b_malakwa_BC = {}
-			}
-			c_kelowna = {
-				color = { 14 126 91 }
-				color2 = { 147 63 3 }
-				
-				haida = "Gandl Kaahlii"	#Gándl Káahlii - River Valley
-				
-				b_kelowna_BC = {}
-				b_penicton_BC = {}
-				b_peachland_BC = {}
-				b_west_kelowna_BC = {}
-				b_lake_country_WA = {}
-				b_naramata_BC = {}
-				b_carmi_BC = {}
-			}
-			c_boundary_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_grand_forks_BC = {}
-				b_rock_creek_BC = {}
-				b_bridesville_BC = {}
-				b_midway_BC = {}
-				b_boundary_falls_BC = {}
-				b_zamora_BC = {}
-				b_westbridge_BC = {}			
-			}
-			c_nicola_BC = {
-				color={ 255 255 255 }
-				color={ 255 255 255 }
-			
-				b_merritt_BC = {}
-				b_nicola_BC = {}
-				b_lower_nicola_BC = {}
-				b_quilchena_BC = {}
-				b_beresford_BC = {}
-				b_kingsvale_BC = {}
-				b_agate_BC = {}	
-			}
-		}
+		
+	}
+	k_wrangelia = {
+		color={ 202 74 100 }
+		color2={ 255 255 255 }
+		
+		capital = 3319 # c_ecstew
+		culture = alaskan
+		
 		d_the_coast = {
 			color = { 20 70 155 }
 			color2 = { 239 206 0 }
@@ -702,7 +631,6 @@ e_beecy = {
 				b_owikeno_BC = {}
 				b_katil_BC = {}
 			}
-			
 			c_bella_coola = {
 				color = { 80 180 231 }
 				color2 = { 182 182 182 }
@@ -738,14 +666,6 @@ e_beecy = {
 				b_usk_BC = {}
 			}
 		}
-	}
-	k_wrangelia = {
-		color={ 202 74 100 }
-		color2={ 255 255 255 }
-		
-		capital = 3319 # c_ecstew
-		culture = alaskan
-		
 		d_kitimat = {
 			color={ 222 54 110 }
 			color2={ 255 255 255 }
@@ -809,150 +729,7 @@ e_beecy = {
 				b_doreen_alsk = {
 				}
 			}
-			c_hazelton_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
 			
-				b_hazelton_BC = {}
-				b_south_hazelton_BC = {}
-				b_carnaby_BC = {}
-				b_skeena_crossing_BC = {}
-				b_bulkley_canyon_BC = {}
-				b_kispiox_BC = {}
-				b_glen_vowell_BC = {}	
-			}
-			c_burns_lake_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_burns_lake_BC = {}
-				b_decker_lake_BC = {}
-				b_tintagel_BC = {}
-				b_wetsuweten_BC = {}
-				b_broman_lake_BC = {}
-				b_sheraton_BC = {}
-				b_tchesinkut_lake_BC = {}		
-			}
-			c_ulkatcho_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_ulkatcho_BC = {}
-				b_old_ulkatcho_BC = {}
-				b_yaledelassla_BC = {}
-				b_kuyakuz_BC = {}
-				b_tetachuck_BC = {}
-				b_moose_lake_BC = {}
-				b_nechako_BC = {}	
-			}
-			c_charlotte_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_charlotte_lake_BC = {}
-				b_towdystan_BC = {}
-				b_anahim_lake_BC = {}
-				b_nimpo_lake_BC = {}
-				b_kleena_kleene_BC1 = {}
-				b_tatla_lake_BC = {}
-				b_chilanko_forks_BC1 = {}		
-			}
-			c_mount_pope_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_fort_st_james_BC = {}
-				b_pinchi_BC = {}
-				b_pinchi_lake_BC = {}
-				b_tachie_BC = {}
-				b_grand_rapids_BC = {}
-				b_battleship_bay_BC = {}
-				b_sunnyside_BC = {}			
-			}
-			c_omineca_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_germansen_landing_BC = {}
-				b_old_hogem_BC = {}
-				b_twelve_mile_BC = {}
-				b_manson_creek_BC = {}
-				b_takia_landing_BC = {}
-				b_finlay_BC = {}
-				b_fort_graham_BC = {}
-			}
-			c_carp_lake_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_mcleod_lake_BC = {}
-				b_bear_lake_BC = {}
-				b_summit_lake_BC1 = {}
-				b_anzac_BC = {}
-				b_carlson_BC = {}
-				b_kennedy_BC = {}
-				b_mackenzie_BC = {}	
-			}
-			c_vanderhoof_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_vanderhoof_BC = {}
-				b_weneez_BC = {}
-				b_nulki_BC = {}
-				b_prairiedale_BC = {}
-				b_braeside_BC = {}
-				b_mapes_BC = {}
-				b_engen_BC = {}	
-			}
-			c_quesnel_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_quesnel_BC = {}
-				b_cottonwood_BC = {}
-				b_wingdam_BC = {}
-				b_stanley_BC = {}
-				b_wells_BC = {}
-				b_barkerville_BC = {}
-				b_strathnaver_BC = {}	
-			}
-			c_kluskoil_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_castle_rock_BC = {}
-				b_quesnel_view_BC = {}
-				b_alexandria_BC = {}
-				b_baker_creek_BC = {}
-				b_nazko_BC = {}
-				b_blackwater_BC = {}
-				b_punchaw_BC1 = {}		
-			}
-			c_rubyrock_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_old_fort_BC = {}
-				b_fort_babine_BC = {}
-				b_smithers_landing_BC = {}
-				b_middle_river_BC = {}
-				b_yekooche_BC = {}
-				b_leo_creek_BC = {}
-				b_west_landing_BC = {}		
-			}
-			c_uncha_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-				
-				b_southbank_BC = {}
-				b_danskin_BC = {}
-				b_tatalrose_BC = {}
-				b_mcdonalds_landing_BC = {}
-				b_takysie_lake_BC = {}
-				b_cheslatta_BC = {}
-				b_ootsa_lake_BC = {}
-			}
 		}
 		d_grizzly = {
 			color={ 245 253 154 }
@@ -1030,108 +807,7 @@ e_beecy = {
 				}
 			}
 		}
-		d_haida = {
-			color={ 212 78 119 }
-			color2={ 255 255 255 }
-			
-			capital = 3334 # c_port_clements
-			
-			c_port_clements = { # 3334
-				color={ 222 68 124 }
-				color2={ 255 255 255 }
-				
-				b_port_clements_alsk = {
-				}
-				b_masset_alsk = {
-				}
-				b_chown_brook_alsk = {
-				}
-				b_taaw_tldaaw_alsk = {
-				}
-				b_white_creek_alsk = {
-				}
-				b_tow_hill_alsk = {
-				}
-				b_sangan_alsk = {
-				}
-			}
-			c_alliford_bay = { # 3335
-				color={ 253 158 53 }
-				color2={ 255 255 255 }
-				
-				b_alliford_bay_alsk = {
-				}
-				b_sandspit_alsk = {
-				}
-				b_cartwright_alsk = {
-				}
-				b_nadon_alsk = {
-				}
-				b_sunrise_alsk = {
-				}
-				b_hecate_alsk = {
-				}
-				b_louise_alsk = {
-				}
-			}
-			c_daajing_giids = { # 3338
-				color={ 205 159 255 }
-				color2={ 255 255 255 }
-				
-				b_daajing_giids_alsk = {
-				}
-				b_skidegate_alsk = {
-				}
-				b_charlie_hartie_alsk = {
-				}
-				b_blacktail_alsk = {
-				}
-				b_sea_raven_alsk = {
-				}
-				b_regier_alsk = {
-				}
-				b_skyfall_alsk = {
-				}
-			}
-			c_juskatla = { # 3339
-				color={ 185 128 34 }
-				color2={ 255 255 255 }
-				
-				b_juskatla_alsk = {
-				}
-				b_vladimir_alsk = {
-				}
-				b_mercer_alsk = {
-				}
-				b_krajina_alsk = {
-				}
-				b_langara_alsk = {
-				}
-				b_eden_alsk = {
-				}
-				b_ian_alsk = {
-				}
-			}
-			c_tlell = { # 3337
-				color={ 0 20 64 }
-				color2={ 255 255 255 }
-				
-				b_tlell_alsk = {
-				}
-				b_anvil_alsk = {
-				}
-				b_misty_meadows_alsk = {
-				}
-				b_pesuta_alsk = {
-				}
-				b_yellowhead_alsk = {
-				}
-				b_crows_nest_alsk = {
-				}
-				b_cacillia_alsk = {
-				}
-			}
-		}
+		
 		d_skeena = {
 			color={ 59 63 12 }
 			color2={ 255 255 255 }
@@ -1356,4 +1032,354 @@ e_beecy = {
 			}
 		}
 	}	
+	k_nechako = {
+		color = { 120 23 12 }
+		color2 = { 220 220 220 }
+		
+		d_nechako = {
+			color = { 120 23 12 }
+			color2 = { 220 220 220 }
+		
+			c_hazelton_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_hazelton_BC = {}
+				b_south_hazelton_BC = {}
+				b_carnaby_BC = {}
+				b_skeena_crossing_BC = {}
+				b_bulkley_canyon_BC = {}
+				b_kispiox_BC = {}
+				b_glen_vowell_BC = {}	
+			}
+			c_burns_lake_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_burns_lake_BC = {}
+				b_decker_lake_BC = {}
+				b_tintagel_BC = {}
+				b_wetsuweten_BC = {}
+				b_broman_lake_BC = {}
+				b_sheraton_BC = {}
+				b_tchesinkut_lake_BC = {}		
+			}
+			c_ulkatcho_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_ulkatcho_BC = {}
+				b_old_ulkatcho_BC = {}
+				b_yaledelassla_BC = {}
+				b_kuyakuz_BC = {}
+				b_tetachuck_BC = {}
+				b_moose_lake_BC = {}
+				b_nechako_BC = {}	
+			}
+			c_mount_pope_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_fort_st_james_BC = {}
+				b_pinchi_BC = {}
+				b_pinchi_lake_BC = {}
+				b_tachie_BC = {}
+				b_grand_rapids_BC = {}
+				b_battleship_bay_BC = {}
+				b_sunnyside_BC = {}			
+			}
+			c_omineca_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_germansen_landing_BC = {}
+				b_old_hogem_BC = {}
+				b_twelve_mile_BC = {}
+				b_manson_creek_BC = {}
+				b_takia_landing_BC = {}
+				b_finlay_BC = {}
+				b_fort_graham_BC = {}
+			}
+			c_carp_lake_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_mcleod_lake_BC = {}
+				b_bear_lake_BC = {}
+				b_summit_lake_BC1 = {}
+				b_anzac_BC = {}
+				b_carlson_BC = {}
+				b_kennedy_BC = {}
+				b_mackenzie_BC = {}	
+			}
+			c_vanderhoof_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_vanderhoof_BC = {}
+				b_weneez_BC = {}
+				b_nulki_BC = {}
+				b_prairiedale_BC = {}
+				b_braeside_BC = {}
+				b_mapes_BC = {}
+				b_engen_BC = {}	
+			}
+			c_quesnel_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_quesnel_BC = {}
+				b_cottonwood_BC = {}
+				b_wingdam_BC = {}
+				b_stanley_BC = {}
+				b_wells_BC = {}
+				b_barkerville_BC = {}
+				b_strathnaver_BC = {}	
+			}
+			c_kluskoil_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_castle_rock_BC = {}
+				b_quesnel_view_BC = {}
+				b_alexandria_BC = {}
+				b_baker_creek_BC = {}
+				b_nazko_BC = {}
+				b_blackwater_BC = {}
+				b_punchaw_BC1 = {}		
+			}
+			c_rubyrock_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_old_fort_BC = {}
+				b_fort_babine_BC = {}
+				b_smithers_landing_BC = {}
+				b_middle_river_BC = {}
+				b_yekooche_BC = {}
+				b_leo_creek_BC = {}
+				b_west_landing_BC = {}		
+			}
+			c_uncha_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+				
+				b_southbank_BC = {}
+				b_danskin_BC = {}
+				b_tatalrose_BC = {}
+				b_mcdonalds_landing_BC = {}
+				b_takysie_lake_BC = {}
+				b_cheslatta_BC = {}
+				b_ootsa_lake_BC = {}
+			}
+			c_prince_george = {
+				color = { 162 133 33 }
+				color2 = { 20 72 156 }
+								
+				b_prince_george_BC = {}
+				b_hixon_BC = {}
+				b_quesnal_BC = {}
+				b_nukko_lake_BC = {}
+				b_summit_lake_BC = {}
+				b_australian_BC = {}
+				b_punchaw_BC = {}
+			}
+			c_fraser_valley = {
+				color = { 101 155 42 }
+				color2 = { 20 72 156 }
+								
+				b_valemount_BC = {}
+				b_mcbride_BC = {}
+				b_goat_river_BC = {}
+				b_penny_BC = {}
+				b_crescent_spur_BC = {}
+				b_longworth_BC = {}
+				b_sinclair_mills_BC = {}
+			}
+		}
+	}
+	k_okanagan = {
+		color = { 34 43 88 }
+		color2 = { 220 220 220 }
+		
+		capital = 570 #Kelowna
+		
+		d_cariboo = {
+			color = { 20 222 130 }
+			color2 = { 255 255 255 }
+			
+			culture = haida
+			
+			capital = 682 #Prince George
+			
+			c_cariboo = {
+				color = { 67 129 177 }
+				color2 = { 219 219 219 }
+				
+				haida = "K'agdaahl"	#K'agdáahl - Flat, open basket
+				
+				b_williams_lake_BC = {}
+				b_wright_BC = {}
+				b_horsefly_BC = {}
+				b_dugan_lake_BC = {}
+				b_forest_grove_BC = {}
+				b_enterprise_BC = {}
+				b_esler_BC = {}
+			}
+			c_itcha_ilgachuz = {
+				color = { 204 153 42 }
+				color2 = { 20 72 156 }
+				
+				haida = "Jaajii"	#Jáajii - Snowshoes
+				
+				b_alexis_creek_BC = {}
+				b_nemaiah_BC = {}
+				b_kleena_kleene_BC = {}
+				b_nimpo_BC = {}
+				b_anahim_BC = {}
+				b_chilanko_forks_BC = {}
+				b_redstone_BC = {}
+			}
+			c_charlotte_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_charlotte_lake_BC = {}
+				b_towdystan_BC = {}
+				b_anahim_lake_BC = {}
+				b_nimpo_lake_BC = {}
+				b_kleena_kleene_BC1 = {}
+				b_tatla_lake_BC = {}
+				b_chilanko_forks_BC1 = {}		
+			}
+		}
+		d_great_valleys = {
+			color = { 30 182 30 }
+			color2 = { 255 255 255 }
+			
+			culture = canuck
+			
+			capital = 565 #Beyond Hope
+			
+			haida = "Kaahlii"
+			
+			
+			c_south_okanagan_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_oliver_BC = {}
+				b_osoyoos_BC = {}
+				b_cawston_BC = {}
+				b_keremeos_BC = {}
+				b_oroville_WA = {}
+				b_tonasket_WA = {}
+				b_hedley_BC = {}		
+			}
+			c_beyond_hope = {
+				color = { 255 240 0 }
+				color2 = { 0 144 48 }
+				
+				haida = "K'uhlgwaasgyaan"	#K'uhlgwáasgyaan - Trail across to the other side of something
+				
+				b_lillooet_BC = {}
+				b_boston_bar_BC = {}
+				b_lytton_BC = {}
+				b_keefers_BC = {}
+				b_hells_gate_BC = {}
+				b_hope_BC = {}
+				b_spuzzum_BC = {}
+			}
+			c_similkameen = {
+				color = { 144 210 50 }
+				color2 = { 0 144 48 }
+								
+				b_keremos_BC = {}
+				b_princeton_BC = {}
+				b_tulameen_BC = {}
+				b_allenby_BC = {}
+				b_coalmont_BC = {}
+				b_jura_BC = {}
+				b_eastgate_BC = {}
+				b_copper_mountain_BC = {}
+			}
+			c_kamloops = {
+				color = { 229 15 8 }
+				color2 = { 6 112 223 }
+				
+				haida = "Gyahgdaang"	#Gyahgdáang - Young spruce trees growing thickly together
+				
+				b_kamloops_BC = {}
+				b_sun_peaks_BC = {}
+				b_pritchard_BC = {}
+				b_barriere_BC = {}
+				b_walhachin_BC = {}
+				b_savona_BC = {}
+				b_ashcroft_BC = {}
+			}
+		}
+		d_monashee = {
+			color = { 0 0 115 }
+			color2 = { 239 206 0 }
+			
+			culture = haida
+			
+			capital = 570 #Kelowna
+			
+			haida = "Uunaay"	#Úunaay - the interior or high part of a land mass
+				
+			c_shuswap = {
+				color = { 246 181 22 }
+				color2 = { 3 130 56 }
+				
+				haida = "Tl'aadaan"	#Tl'áadaan - Canyon/Gorge
+				
+				b_armstrong_BC = {}
+				b_vernon_BC = {}
+				b_enderby_BC = {}
+				b_westwold_BC = {}
+				b_falkland_BC = {}
+				b_tappen_BC = {}
+				b_malakwa_BC = {}
+			}
+			c_kelowna = {
+				color = { 14 126 91 }
+				color2 = { 147 63 3 }
+				
+				haida = "Gandl Kaahlii"	#Gándl Káahlii - River Valley
+				
+				b_kelowna_BC = {}
+				b_penicton_BC = {}
+				b_peachland_BC = {}
+				b_west_kelowna_BC = {}
+				b_lake_country_WA = {}
+				b_naramata_BC = {}
+				b_carmi_BC = {}
+			}
+			c_boundary_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_grand_forks_BC = {}
+				b_rock_creek_BC = {}
+				b_bridesville_BC = {}
+				b_midway_BC = {}
+				b_boundary_falls_BC = {}
+				b_zamora_BC = {}
+				b_westbridge_BC = {}			
+			}
+			c_nicola_BC = {
+				color={ 255 255 255 }
+				color={ 255 255 255 }
+			
+				b_merritt_BC = {}
+				b_nicola_BC = {}
+				b_lower_nicola_BC = {}
+				b_quilchena_BC = {}
+				b_beresford_BC = {}
+				b_kingsvale_BC = {}
+				b_agate_BC = {}	
+			}
+		}
+	}
 }
