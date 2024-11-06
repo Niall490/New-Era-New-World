@@ -393,6 +393,27 @@ character_event = {
 				}
 			}
 		}
+		
+		mult_modifier = { 
+			factor = 0.9
+			location = { num_of_settlements == 1 }
+		}
+		mult_modifier = { 
+			factor = 1.15
+			location = { num_of_settlements == 4 }
+		}
+		mult_modifier = { 
+			factor = 1.2
+			location = { num_of_settlements == 5 }
+		}
+		mult_modifier = { 
+			factor = 1.25
+			location = { num_of_settlements == 6 }
+		}
+		mult_modifier = { 
+			factor = 1.3
+			location = { num_of_settlements == 7 }
+		}
 		#The Lion, the Witch, and the Wardrobe makes it easier to convert Novelist provinces to your religion OR makes it easier to convert provinces to Novelism
 		mult_modifier = {
 			factor = 0.75
