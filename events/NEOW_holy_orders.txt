@@ -228,69 +228,69 @@ character_event = {
 		set_government_type = order_government
 	}
 }
-# character_event = {
-	# id = holyorder.4
-	# desc = "DEBUG"
-	# picture = GFX_evt_pagan_reformation
-	# hide_window = yes
-	# is_triggered_only = yes
-	# trigger = {
-		# OR = {
-			# has_landed_title = k_hospitaller_state
-			# has_landed_title = k_sepulchre_state
-			# has_landed_title = k_KGB_state
-		# }
-		# NOT = {
-			# realm_size = 10
-		# }
-	# }
+character_event = {
+	id = holyorder.4
+	desc = "DEBUG"
+	picture = GFX_evt_pagan_reformation
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_landed_title = k_hospitaller_state
+			has_landed_title = k_sepulchre_state
+			has_landed_title = k_KGB_state
+		}
+		NOT = {
+			realm_size = 10
+		}
+	}
 
-	# option = {
-		# trigger = { 
-			# has_landed_title = k_hospitaller_state
-		# }
-		# k_hospitaller_state = {
-			# unsafe_destroy_landed_title = k_hospitaller_state
-			# activate_title = { title = k_hospitaller_state status = no }
-		# }
-		# set_government_type = order_government
-		# d_knights_hospitaler = {
-			# gain_title_effect = yes
-			# show_scope_change = no
-			# make_primary_title = yes
-		# }
-	# }
-	# option = {
-		# trigger = { 
-			# has_landed_title = k_sepulchre_state
-		# }
-		# k_sepulchre_state = {
-			# unsafe_destroy_landed_title = k_sepulchre_state
-			# activate_title = { title = k_sepulchre_state status = no }
-		# }
-		# set_government_type = order_government
-		# d_holy_sepulchre = {
-			# gain_title_effect = yes
-			# show_scope_change = no
-			# make_primary_title = yes
-		# }
-	# }
-	# option = {
-		# trigger = { 
-			# has_landed_title = k_KGB_state
-		# }
-		# k_KGB_state = {
-			# unsafe_destroy_landed_title = k_KGB_state
-			# activate_title = { title = k_KGB_state status = no }
-		# }
-		# set_government_type = order_government
-		# d_hashshashin = {
-			# gain_title_effect = yes
-			# show_scope_change = no
-			# make_primary_title = yes
-		# }
-	# }
-# }
+	option = {
+		trigger = { 
+			has_landed_title = k_hospitaller_state
+		}
+		k_hospitaller_state = {
+			unsafe_destroy_landed_title = k_hospitaller_state
+			activate_title = { title = k_hospitaller_state status = no }
+		}
+		set_government_type = order_government
+		d_knights_hospitaler = {
+			gain_title_effect = yes
+			show_scope_change = no
+			make_primary_title = yes
+		}
+	}
+	option = {
+		trigger = { 
+			has_landed_title = k_sepulchre_state
+		}
+		k_sepulchre_state = {
+			unsafe_destroy_landed_title = k_sepulchre_state
+			activate_title = { title = k_sepulchre_state status = no }
+		}
+		set_government_type = order_government
+		d_holy_sepulchre = {
+			gain_title_effect = yes
+			show_scope_change = no
+			make_primary_title = yes
+		}
+	}
+	option = {
+		trigger = { 
+			has_landed_title = k_KGB_state
+		}
+		k_KGB_state = {
+			unsafe_destroy_landed_title = k_KGB_state
+			activate_title = { title = k_KGB_state status = no }
+		}
+		set_government_type = order_government
+		d_hashshashin = {
+			gain_title_effect = yes
+			show_scope_change = no
+			make_primary_title = yes
+		}
+	}
+}
 
 # The son of a ruler volunteers to join the Holy Order
 character_event = {
@@ -2045,265 +2045,265 @@ character_event = {
 	}
 }
 
-# narrative_event = { #The Rebirth of the Templars
-	# id = holyorder.24
-	# title = "EVTTITLE_HOLY_ORDER_24"
-	# desc = "EVTDESC_HOLY_ORDER_24"
-	# picture = "GFX_evt_crusaders"
-	# border = "GFX_event_narrative_frame_religion"
+narrative_event = { #The Rebirth of the Templars
+	id = holyorder.24
+	title = "EVTTITLE_HOLY_ORDER_24"
+	desc = "EVTDESC_HOLY_ORDER_24"
+	picture = "GFX_evt_crusaders"
+	border = "GFX_event_narrative_frame_religion"
 	
-	# major = yes
-	# only_playable = yes
+	major = yes
+	only_playable = yes
 		
-	# trigger = {
-		# has_landed_title = k_france
-		# 112 = { #Paris
-			# owner = {
-				# religion = ROOT
-				# OR = {
-					# same_realm = ROOT
-					# character = ROOT
-				# }
-			# }
-		# }
-		# is_heretic = no	
-		# OR = {
-			# religion = catholic
-			# religion = cadaverist
-			# religion = fraticelli
-			# religion = hussite
-		# }
-		# NOT = { is_title_active = d_knights_templar }
-	# }
+	trigger = {
+		has_landed_title = k_france
+		112 = { #Paris
+			owner = {
+				religion = ROOT
+				OR = {
+					same_realm = ROOT
+					character = ROOT
+				}
+			}
+		}
+		is_heretic = no	
+		OR = {
+			religion = catholic
+			religion = cadaverist
+			religion = fraticelli
+			religion = hussite
+		}
+		NOT = { is_title_active = d_knights_templar }
+	}
 		
-	# mean_time_to_happen = {
-		# months = 4
-	# }
+	mean_time_to_happen = {
+		months = 4
+	}
 	
-	# immediate = {
-		# activate_title = { title = d_knights_templar status = yes }
-		# create_character = {
-			# name = "Quasimodo"
-			# dynasty = random
-			# random_traits = yes
-			# trait = zealous
-			# trait = elusive_shadow
-			# religion = ROOT
-			# culture = french
-			# female = no
-		# }
-		# new_character = {
-			# d_knights_templar = {
-				# religion = ROOT
-				# grant_title = PREV
-			# }
-			# set_defacto_liege = ROOT
-			# new_order_effect = yes
-			# add_artifact = ring_of_elves
-		# }
+	immediate = {
+		activate_title = { title = d_knights_templar status = yes }
+		create_character = {
+			name = "Quasimodo"
+			dynasty = random
+			random_traits = yes
+			trait = zealous
+			trait = elusive_shadow
+			religion = ROOT
+			culture = french
+			female = no
+		}
+		new_character = {
+			d_knights_templar = {
+				religion = ROOT
+				grant_title = PREV
+			}
+			set_defacto_liege = ROOT
+			new_order_effect = yes
+			add_artifact = ring_of_elves
+		}
 		
-		# religion_authority = {
-			# modifier = religious_order_formed
-			# years = 10
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTA_HOLY_ORDER_24"
-		# trigger = {
-			# religion = ROOT
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTB_HOLY_ORDER_24"
-		# trigger = {
-			# NOT = { religion_group = christian }
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTC_HOLY_ORDER_24"
-		# trigger = {
-			# religion_group = christian
-			# NOT = { religion = ROOT }
-		# }
-	# }
-# }
+		religion_authority = {
+			modifier = religious_order_formed
+			years = 10
+		}
+	}
+	option = {
+		name = "EVTOPTA_HOLY_ORDER_24"
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = "EVTOPTB_HOLY_ORDER_24"
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+	option = {
+		name = "EVTOPTC_HOLY_ORDER_24"
+		trigger = {
+			religion_group = christian
+			NOT = { religion = ROOT }
+		}
+	}
+}
 
-# narrative_event = {#The Formation of the Egyptian Brotherhood in response to the collapse of Egypt
-	# id = holyorder.25
-	# title = "EVTNAME_EB_creation"
-	# desc = "EVTDESC_EB_creation"
-	# picture = "GFX_evt_Joust_muslim"
-	# border = "GFX_event_narrative_frame_religion"
+narrative_event = {#The Formation of the Egyptian Brotherhood in response to the collapse of Egypt
+	id = holyorder.25
+	title = "EVTNAME_EB_creation"
+	desc = "EVTDESC_EB_creation"
+	picture = "GFX_evt_Joust_muslim"
+	border = "GFX_event_narrative_frame_religion"
 	
-	# major = yes
-	# only_playable = yes
+	major = yes
+	only_playable = yes
 		
-	# trigger = {
-		# NOT = { #immersion-breaking
-			# has_alternate_start_parameter = { key = religion_names value = random }
-		# }
-		# religion = sunni
-		# is_heretic = no	
+	trigger = {
+		NOT = { #immersion-breaking
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		religion = sunni
+		is_heretic = no	
 		
-		# NOT = { is_title_active = d_egyptian_brotherhood }
-		# OR = {
-			# 802 = {#Alexandria
-				# NOR = { 
-					# owner = { top_liege = { religion_group = muslim } }
-					# owner = { top_liege = { religion = koptic }	}#The Copts get a pass						
-				# }
-			# }
-			# 794 = {#Aswan
-				# NOR = { 
-					# owner = { top_liege = { religion_group = muslim } }
-					# owner = { top_liege = { religion = koptic }	}#The Copts get a pass						
-				# }
-			# }
-			# 796 = {#Cairo
-				# NOR = { 
-					# owner = { top_liege = { religion_group = muslim } }
-					# owner = { top_liege = { religion = koptic }	}#The Copts get a pass						
-				# }
-			# }
-			# 800 = {#Giza
-				# NOR = { 
-					# owner = { top_liege = { religion_group = muslim } }
-					# owner = { top_liege = { religion = koptic }	}#The Copts get a pass						
-				# }
-			# }
-		# }
-	# }
+		NOT = { is_title_active = d_egyptian_brotherhood }
+		OR = {
+			802 = {#Alexandria
+				NOR = { 
+					owner = { top_liege = { religion_group = muslim } }
+					owner = { top_liege = { religion = koptic }	}#The Copts get a pass						
+				}
+			}
+			794 = {#Aswan
+				NOR = { 
+					owner = { top_liege = { religion_group = muslim } }
+					owner = { top_liege = { religion = koptic }	}#The Copts get a pass						
+				}
+			}
+			796 = {#Cairo
+				NOR = { 
+					owner = { top_liege = { religion_group = muslim } }
+					owner = { top_liege = { religion = koptic }	}#The Copts get a pass						
+				}
+			}
+			800 = {#Giza
+				NOR = { 
+					owner = { top_liege = { religion_group = muslim } }
+					owner = { top_liege = { religion = koptic }	}#The Copts get a pass						
+				}
+			}
+		}
+	}
 	
-	# mean_time_to_happen = {
-		# months = 4
-	# }
+	mean_time_to_happen = {
+		months = 4
+	}
 	
-	# immediate = {
-		# activate_title = { title = d_egyptian_brotherhood status = yes }
-		# create_character = {
-			# dynasty = random
-			# random_traits = yes
-			# trait = zealous
-			# trait = skilled_tactician
-			# religion = sunni
-			# culture = misri
-			# female = no
-		# }
-		# new_character = {
-			# d_egyptian_brotherhood = {
-				# grant_title = PREV
-			# }
-			# set_defacto_liege = THIS
-			# new_order_effect = yes
-		# }
+	immediate = {
+		activate_title = { title = d_egyptian_brotherhood status = yes }
+		create_character = {
+			dynasty = random
+			random_traits = yes
+			trait = zealous
+			trait = skilled_tactician
+			religion = sunni
+			culture = misri
+			female = no
+		}
+		new_character = {
+			d_egyptian_brotherhood = {
+				grant_title = PREV
+			}
+			set_defacto_liege = THIS
+			new_order_effect = yes
+		}
 		
-		# religion_authority = {
-			# modifier = religious_order_formed
-			# years = 10
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTA_EB_creation"
-		# trigger = {
-			# religion_group = muslim
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTB_EB_creation"
-		# trigger = {
-			# religion_group = jewish_group
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTC_EB_creation"
-		# trigger = {#Non-Jews and Non-Muslims
-			# NOR = {
-				# religion_group = jewish_group
-				# religion_group = muslim
-			# }
-		# }
-	# }
-# }
+		religion_authority = {
+			modifier = religious_order_formed
+			years = 10
+		}
+	}
+	option = {
+		name = "EVTOPTA_EB_creation"
+		trigger = {
+			religion_group = muslim
+		}
+	}
+	option = {
+		name = "EVTOPTB_EB_creation"
+		trigger = {
+			religion_group = jewish_group
+		}
+	}
+	option = {
+		name = "EVTOPTC_EB_creation"
+		trigger = {#Non-Jews and Non-Muslims
+			NOR = {
+				religion_group = jewish_group
+				religion_group = muslim
+			}
+		}
+	}
+}
 
-# narrative_event = { #Founding
-	# id = holyorder.26
-	# title = "EVTTITLE_ANGLICAN_HOLY_24"
-	# desc = "EVTDESC_ANGLICAN_HOLY_24"
-	# picture = "GFX_evt_crusaders"
-	# border = "GFX_event_narrative_frame_religion"
+narrative_event = { #Founding
+	id = holyorder.26
+	title = "EVTTITLE_ANGLICAN_HOLY_24"
+	desc = "EVTDESC_ANGLICAN_HOLY_24"
+	picture = "GFX_evt_crusaders"
+	border = "GFX_event_narrative_frame_religion"
 	
-	# major = yes
-	# only_playable = yes
+	major = yes
+	only_playable = yes
 		
-	# trigger = {
-		# OR = {
-			# has_landed_title = k_britannia
-			# has_landed_title = e_britannia
-		# }
-# #		2571 = { #London
-# #			owner = {
-# #				religion = ROOT
-# #				OR = {
-# #					same_realm = ROOT
-# #					character = ROOT
-# #				}
-# #			}
-# #		}
-# #		is_heretic = no
-		# religion = anglican
-		# NOT = { is_title_active = d_army_salvation }
-	# }
+	trigger = {
+		OR = {
+			has_landed_title = k_britannia
+			has_landed_title = e_britannia
+		}
+#		2571 = { #London
+#			owner = {
+#				religion = ROOT
+#				OR = {
+#					same_realm = ROOT
+#					character = ROOT
+#				}
+#			}
+#		}
+#		is_heretic = no
+		religion = anglican
+		NOT = { is_title_active = d_army_salvation }
+	}
 
-	# mean_time_to_happen = {
-		# months = 4
-	# }
+	mean_time_to_happen = {
+		months = 4
+	}
 	
-	# immediate = {
-		# activate_title = { title = d_army_salvation status = yes }
-		# create_character = {
-			# name = "William-Booth"
-			# dynasty = random
-			# random_traits = yes
-			# trait = zealous
-			# trait = charitable
-			# religion = ROOT
-			# culture = westlander
-			# female = no
-		# }
-		# new_character = {
-			# d_army_salvation = {
-				# religion = ROOT
-				# grant_title = PREV
-			# }
-			# set_defacto_liege = ROOT
-			# new_order_effect = yes
-		# }
+	immediate = {
+		activate_title = { title = d_army_salvation status = yes }
+		create_character = {
+			name = "William-Booth"
+			dynasty = random
+			random_traits = yes
+			trait = zealous
+			trait = charitable
+			religion = ROOT
+			culture = westlander
+			female = no
+		}
+		new_character = {
+			d_army_salvation = {
+				religion = ROOT
+				grant_title = PREV
+			}
+			set_defacto_liege = ROOT
+			new_order_effect = yes
+		}
 		
-		# religion_authority = {
-			# modifier = religious_order_formed
-			# years = 10
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTA_ANGLICAN_HOLY_24"
-		# trigger = {
-			# religion = ROOT
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTB_ANGLICAN_HOLY_24"
-		# trigger = {
-			# NOT = { religion_group = christian }
-		# }
-	# }
-	# option = {
-		# name = "EVTOPTC_ANGLICAN_HOLY_24"
-		# trigger = {
-			# religion_group = christian
-			# NOT = { religion = ROOT }
-		# }
-	# }
-# }
+		religion_authority = {
+			modifier = religious_order_formed
+			years = 10
+		}
+	}
+	option = {
+		name = "EVTOPTA_ANGLICAN_HOLY_24"
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = "EVTOPTB_ANGLICAN_HOLY_24"
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+	option = {
+		name = "EVTOPTC_ANGLICAN_HOLY_24"
+		trigger = {
+			religion_group = christian
+			NOT = { religion = ROOT }
+		}
+	}
+}
 # True Christian Knight Trait
 character_event = {
 	id = holyorder.27
