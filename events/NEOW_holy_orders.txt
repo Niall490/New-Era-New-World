@@ -3,150 +3,150 @@ namespace = holyorder
 
 
 
-narrative_event = {#The Formation of the Blue Stripes
-	id = holyorder.1
-	title = "EVTNAME_BS_creation"
-	desc = "EVTDESC_BS_creation"
-	picture = "GFX_evt_crusaders"
-	border = "GFX_event_narrative_frame_religion"
+# narrative_event = {#The Formation of the Blue Stripes
+	# id = holyorder.1
+	# title = "EVTNAME_BS_creation"
+	# desc = "EVTDESC_BS_creation"
+	# picture = "GFX_evt_crusaders"
+	# border = "GFX_event_narrative_frame_religion"
 	
-	major = yes
-	only_playable = yes
+	# major = yes
+	# only_playable = yes
 		
-	trigger = {
-		NOT = { #immersion-breaking
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-		religion = folklorist_reformed
-		is_heretic = no	
+	# trigger = {
+		# NOT = { #immersion-breaking
+			# has_alternate_start_parameter = { key = religion_names value = random }
+		# }
+		# religion = folklorist_reformed
+		# is_heretic = no	
 		
-		NOT = { is_title_active = d_blue_stripes }	
-			395 = { # North Dvina/Archangelsk
-				owner = { religion = folklorist_reformed }
-			}
-		}
+		# NOT = { is_title_active = d_blue_stripes }	
+			# 395 = { # North Dvina/Archangelsk
+				# owner = { religion = folklorist_reformed }
+			# }
+		# }
 		
-		mean_time_to_happen = {
-			months = 4
-		}
+		# mean_time_to_happen = {
+			# months = 6
+		# }
 		
-		immediate = {
-			activate_title = { title = d_blue_stripes status = yes }
-			create_character = {
-				dynasty = random
-				random_traits = yes
-				trait = zealous
-				trait = mastermind_theologian
-				religion = folklorist_reformed
-				culture = pomoran
-				female = no
-			}
-			new_character = {
-				d_blue_stripes = {
-					grant_title = PREV
-				}
-				set_defacto_liege = THIS
-				new_order_effect = yes
-			}
+		# immediate = {
+			# activate_title = { title = d_blue_stripes status = yes }
+			# create_character = {
+				# dynasty = random
+				# random_traits = yes
+				# trait = zealous
+				# trait = mastermind_theologian
+				# religion = folklorist_reformed
+				# culture = pomoran
+				# female = no
+			# }
+			# new_character = {
+				# d_blue_stripes = {
+					# grant_title = PREV
+				# }
+				# set_defacto_liege = THIS
+				# new_order_effect = yes
+			# }
 			
-			religion_authority = {
-				modifier = religious_order_formed
-				years = 10
-			}
-		}
-		option = {
-			name = "EVTOPTA_BS_creation"
-			trigger = {
-				religion = folklorist_reformed
-			}
-		}
-		option = {
-			name = "EVTOPTB_BS_creation"
-			trigger = {
-				NOT = { religion_group = pagan_group }
-			}
-		}
-		option = {
-			name = "EVTOPTC_BS_creation"
-			trigger = {
-				religion_group = pagan_group
-				NOT = { religion = folklorist_reformed }
-			}
-		}
-	}
+			# religion_authority = {
+				# modifier = religious_order_formed
+				# years = 10
+			# }
+		# }
+		# option = {
+			# name = "EVTOPTA_BS_creation"
+			# trigger = {
+				# religion = folklorist_reformed
+			# }
+		# }
+		# option = {
+			# name = "EVTOPTB_BS_creation"
+			# trigger = {
+				# NOT = { religion_group = pagan_group }
+			# }
+		# }
+		# option = {
+			# name = "EVTOPTC_BS_creation"
+			# trigger = {
+				# religion_group = pagan_group
+				# NOT = { religion = folklorist_reformed }
+			# }
+		# }
+	# }
 
-narrative_event = {#The Formation of the Strugglers
-	id = holyorder.2
-	title = "EVTNAME_STR_creation"
-	desc = "EVTDESC_STR_creation"
-	picture = "GFX_evt_crusaders"
-	border = "GFX_event_narrative_frame_religion"
+# narrative_event = {#The Formation of the Strugglers
+	# id = holyorder.2
+	# title = "EVTNAME_STR_creation"
+	# desc = "EVTDESC_STR_creation"
+	# picture = "GFX_evt_crusaders"
+	# border = "GFX_event_narrative_frame_religion"
 	
-	major = yes
-	only_playable = yes
-	only_men = yes
+	# major = yes
+	# only_playable = yes
+	# only_men = yes
 		
-	trigger = {
-		NOT = { #immersion-breaking
-			has_alternate_start_parameter = { key = religion_names value = random }
-		}
-		religion = maunaxite_reformed
-		is_heretic = no	
+	# trigger = {
+		# NOT = { #immersion-breaking
+			# has_alternate_start_parameter = { key = religion_names value = random }
+		# }
+		# religion = maunaxite_reformed
+		# is_heretic = no	
 		
-		NOT = { is_title_active = d_strugglers }	
-		1252 = { # Barasuru
-			owner = { religion = maunaxite_reformed }
-		}
-	}
+		# NOT = { is_title_active = d_strugglers }	
+		# 1252 = { # Barasuru
+			# owner = { religion = maunaxite_reformed }
+		# }
+	# }
 		
-	mean_time_to_happen = {
-		months = 4
-	}
+	# mean_time_to_happen = {
+		# months = 6
+	# }
 	
-	immediate = {
-		activate_title = { title = d_blue_stripes status = yes }
-		create_character = {
-			dynasty = random
-			random_traits = yes
-			trait = zealous
-			trait = mastermind_theologian
-			religion = maunaxite_reformed
-			culture=oriya
-			female = no
-		}
-		new_character = {
-			d_strugglers = {
-				grant_title = PREV
-			}
-			set_defacto_liege = THIS
-			new_order_effect = yes
-		}
+	# immediate = {
+		# activate_title = { title = d_strugglers status = yes }
+		# create_character = {
+			# dynasty = random
+			# random_traits = yes
+			# trait = zealous
+			# trait = mastermind_theologian
+			# religion = maunaxite_reformed
+			# culture=oriya
+			# female = no
+		# }
+		# new_character = {
+			# d_strugglers = {
+				# grant_title = PREV
+			# }
+			# set_defacto_liege = THIS
+			# new_order_effect = yes
+		# }
 		
-		religion_authority = {
-			modifier = religious_order_formed
-			years = 10
-		}
-	}
-	option = {
-		name = "EVTOPTA_STR_creation"
-		trigger = {
-			religion = maunaxite_reformed
-		}
-	}
-	option = {
-		name = "EVTOPTB_STR_creation"
-		trigger = {
-			NOT = { religion_group = indian_group }
-		}
-	}
-	option = {
-		name = "EVTOPTC_STR_creation"
-		trigger = {
-			religion_group = indian_group
-			NOT = { religion = maunaxite_reformed }
-		}
-	}
-}
+		# religion_authority = {
+			# modifier = religious_order_formed
+			# years = 10
+		# }
+	# }
+	# option = {
+		# name = "EVTOPTA_STR_creation"
+		# trigger = {
+			# religion = maunaxite_reformed
+		# }
+	# }
+	# option = {
+		# name = "EVTOPTB_STR_creation"
+		# trigger = {
+			# NOT = { religion_group = indian_group }
+		# }
+	# }
+	# option = {
+		# name = "EVTOPTC_STR_creation"
+		# trigger = {
+			# religion_group = indian_group
+			# NOT = { religion = maunaxite_reformed }
+		# }
+	# }
+# }
 
 character_event = {
 	id = holyorder.3
