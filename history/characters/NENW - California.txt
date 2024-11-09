@@ -299,7 +299,7 @@
 3300018 = { #Took the Cascades for the Arcadians while the kingdom fell apart
 	name = "Norman"
 	dynasty = 5001657
-	culture = oregon
+	culture = oregonite
 	religion = arcadian
 	female = yes
 	2248.2.12 = {
@@ -315,6 +315,106 @@
 	culture = oregonite
 	religion = dianic
 	2287.4.12 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300020 = { #familiy was big noblity in oregon
+	name = "Ephesia"
+	dynasty = 5001659
+	culture = oregonite
+	religion = dianic
+	female = yes
+	2283.1.23 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300021 = {
+	name = "Eileithyia"
+	dynasty = 5001660
+	culture = oregonite
+	religion = dianic
+	female = yes
+	2279.1.15 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300022 = {
+	name = "Heleia"
+	dynasty = 5001661
+	culture = redwood
+	religion = dianic
+	female = yes
+	2275.2.12 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300023 = {
+	name = "Peter"
+	dynasty = 5001662
+	culture = siletz
+	religion = indian_shaker
+	2281.4.25 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300024 = {
+	name = "Comcomly"
+	dynasty = 5001663
+	culture = chinook
+	religion = indian_shaker
+	2279.4.23 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300025 = { #MR on the mouth of the columbia river
+	name = "Tumulth"
+	dynasty = 5001664
+	culture = chinook
+	religion = indian_shaker
+	2266.5.23 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300026 = {
+	name = "Marie"
+	dynasty = 5001665
+	culture = oregonite
+	religion = arcadian
+	female = yes
+	2278.6.12 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300027 = {
+	name = "Ernest"
+	dynasty = 5001666
+	culture = oregonite
+	religion = arcadian
+	2281.3.30 = {
 		birth = yes
 	}
 	2666.1.1 = {

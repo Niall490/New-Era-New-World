@@ -430,3 +430,7 @@ b_cooper = {
 b_huangjin = {
 	culture = chinafornian
 }
+## Columbia River
+b_troeh = {
+	culture = chinook
+}
