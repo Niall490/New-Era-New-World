@@ -43,7 +43,18 @@ e_cascadia = {
 			
 			haida = "Kak'ahl"	#go up from the shore, into the woods
 			
+			c_salem_OR = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
 			
+				b_salem_OR = {}
+				b_silverton_OR = {}
+				b_marion_OR = {}
+				b_turner_OR = {}
+				b_brooks_OR = {}
+				b_jefferson_OR = {}
+				b_millersburg_OR = {}
+			}
 			c_eugene_OR = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -82,18 +93,6 @@ e_cascadia = {
 				b_north_albany_OR = {}
 				b_suver_OR = {}
 				b_rickreall_OR = {}
-			}
-			c_salem_OR = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_salem_OR = {}
-				b_silverton_OR = {}
-				b_marion_OR = {}
-				b_turner_OR = {}
-				b_brooks_OR = {}
-				b_jefferson_OR = {}
-				b_millersburg_OR = {}
 			}
 			c_clackamas_OR = {
 				color={ 255 255 255 }

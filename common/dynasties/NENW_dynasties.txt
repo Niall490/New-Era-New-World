@@ -18730,6 +18730,12 @@
 	}
 }
 3001652 = { name = "Babcock" culture = oregonite }
+3001653 = { name = "Equi" culture = roselander }
+5001654 = { name = "Moore" culture = roselander }
+5001655 = { name = "Mosier" culture = roselander }
+5001656 = { name = "Wy'east" culture = roselander }
+5001657 = { name = "Payne" culture = oregonite }
+5001658 = { name = "Flanders" culture = oregonite }
 
 5130831 = { 
 	name="Seed" 
