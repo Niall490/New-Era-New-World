@@ -678,6 +678,25 @@ e_prairieland = {
 		}
 	}
 }
+e_aztlan = {
+	color = { 211 41 39 }
+	color2= { 255 215 0 }		
+
+	capital = 2019 # c_los_angeles
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_aztlan = {
+					is_titular = yes
+				}
+			}
+			e_aztlan = {
+				is_titular = no
+			}
+		}
+	}
+}
 
 # NEOW LEFTOVERS
 

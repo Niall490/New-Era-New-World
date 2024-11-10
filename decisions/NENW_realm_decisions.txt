@@ -2324,7 +2324,129 @@ decisions = {
 			}
 		}
 	}
-
+	form_aztlan = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 24
+		potential = {
+			form_kingdom_potential = yes
+			OR = {
+				culture_group = californio_group
+				culture_group = chicano
+			}
+			e_aztlan = {
+				is_titular = yes
+				has_holder = no
+			}
+			prisoner = no
+			has_regent = no 
+		}
+		allow = {
+			custom_tooltip = {
+				text = all_relevant_titles_must_be_owned_or_owned_by_vassals_tt
+			}
+			form_empire_allow = yes
+			k_renoland = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_redwood = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_shasta = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_sacramento = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_the_valley = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_nevada = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_francisco = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_central_coast = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_allay = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_mojave = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_yuta = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_idaho = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_westslope = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_zuni = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_navajoland = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_arizona = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_dallas = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_houston = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_galveston = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_rio_grande = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_comancheria = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_new_mexico = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_mescalero = { show_scope_change = no province_completely_controls_trigger = yes }
+		}
+		effect = {
+			custom_tooltip = {
+				text = form_aztlan_tt
+				e_aztlan = {
+					gain_empire_effect = yes
+				}
+			}
+			hidden_tooltip = {
+				k_renoland = { de_jure_liege = e_aztlan  }
+				k_redwood = { de_jure_liege = e_aztlan  }
+				k_shasta = { de_jure_liege = e_aztlan  }
+				k_sacramento = { de_jure_liege = e_aztlan  }
+				k_the_valley = { de_jure_liege = e_aztlan  }
+				k_nevada = { de_jure_liege = e_aztlan  }
+				k_francisco = { de_jure_liege = e_aztlan  }
+				k_central_coast = { de_jure_liege = e_aztlan  }
+				k_allay = { de_jure_liege = e_aztlan  }
+				k_mojave = { de_jure_liege = e_aztlan  }
+				k_yuta = { de_jure_liege = e_aztlan  }
+				k_westslope = { de_jure_liege = e_aztlan  }
+				k_zuni = { de_jure_liege = e_aztlan  }
+				k_navajoland = { de_jure_liege = e_aztlan  }
+				k_arizona = { de_jure_liege = e_aztlan  }
+				k_dallas = { de_jure_liege = e_aztlan  }
+				k_houston = { de_jure_liege = e_aztlan  }
+				k_galveston = { de_jure_liege = e_aztlan  }
+				k_rio_grande = { de_jure_liege = e_aztlan  }
+				k_comancheria = { de_jure_liege = e_aztlan  }
+				k_new_mexico = { de_jure_liege = e_aztlan  }
+				k_mescalero = { de_jure_liege = e_aztlan  }
+				if = {
+					limit = { completely_controls = k_kansas }
+					k_kansas = { de_jure_liege = e_aztlan }
+				}
+				if = {
+					limit = { completely_controls = k_texlahoma }
+					k_texlahoma = { de_jure_liege = e_aztlan }
+				}
+				if = {
+					limit = { completely_controls = k_oklahoma }
+					k_oklahoma = { de_jure_liege = e_aztlan }
+				}
+				if = {
+					limit = { completely_controls = k_frontrange }
+					k_frontrange = { de_jure_liege = e_aztlan }
+				}
+				if = {
+					limit = { completely_controls = k_idaho }
+					k_idaho = { de_jure_liege = e_aztlan }
+				}
+				if = {
+					limit = { completely_controls = k_oregon }
+					k_oregon = { de_jure_liege = e_aztlan }
+				}
+				if = {
+					limit = { completely_controls = k_highdesert }
+					k_highdesert = { de_jure_liege = e_aztlan }
+				}
+				if = {
+					limit = { completely_controls = k_baja_california }
+					k_baja_california = { de_jure_liege = e_aztlan }
+				}
+				if = {
+					limit = { completely_controls = k_sonora }
+					k_sonora = { de_jure_liege = e_aztlan }
+				}
+				if = {
+					limit = { completely_controls = k_sierra_madre }
+					k_sierra_madre = { de_jure_liege = e_aztlan }
+				}
+				if = {
+					limit = { completely_controls = k_rio_bravo }
+					k_rio_bravo = { de_jure_liege = e_aztlan }
+				}
+			}
+		}
+	}
 	##REGIMENTS
 	organize_sixtyninth_infantry_regiment = {
 		only_independent = yes
