@@ -659,7 +659,25 @@ e_colorado = {
 	kanadoi = "Koloránto"
 	minoan = "Koloránto"
 }
+e_prairieland = {
+	color = { 0 14 59 }
+	color2= { 255 215 0 }		
 
+	capital = 2093 #Edmonton
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_prairieland = {
+					is_titular = yes
+				}
+			}
+			e_prairieland = {
+				is_titular = no
+			}
+		}
+	}
+}
 
 # NEOW LEFTOVERS
 
