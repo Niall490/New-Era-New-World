@@ -5,6 +5,7 @@ e_california = {
 	creation_requires_capital = no
 	capital = 2046 # c_sacramento	
 	
+	allow = { always = no }
 	k_death_valley = { #leftovers
 		color={ 60 60 60 }
 		color2={ 243 215 59 }
