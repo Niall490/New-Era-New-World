@@ -18730,6 +18730,20 @@
 	}
 }
 3001652 = { name = "Babcock" culture = oregonite }
+3001653 = { name = "Equi" culture = roselander }
+5001654 = { name = "Moore" culture = roselander }
+5001655 = { name = "Mosier" culture = roselander }
+5001656 = { name = "Wy'east" culture = roselander }
+5001657 = { name = "Payne" culture = oregonite }
+5001658 = { name = "Flanders" culture = oregonite }
+5001659 = { name = "Kalo" culture = oregonite }
+5001660 = { name = "Elaphebolos" culture = oregonite }
+5001661 = { name = "Ephesis" culture = redwood }
+5001662 = { name = "DePoe" culture = siletz }
+5001663 = { name = "Cultee" culture = chinook }
+5001664 = { name = "Troeh" culture = chinook }
+5001665 = { name = "Lemberg" culture = oregonite }
+5001666 = { name = "Hedgpeth" culture = oregonite }
 
 5130831 = { 
 	name="Seed" 

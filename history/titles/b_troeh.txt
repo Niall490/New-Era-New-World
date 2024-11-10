@@ -1,0 +1,5 @@
+2292.3.12 = {
+	holding_dynasty = 5001664		
+	holder = 3300025
+	liege = d_columbia_river
+}

@@ -6,7 +6,7 @@ title = c_willapa_bay
 # Settlements
 max_settlements = 3
 
-b_long_beach_WA = castle
+b_long_beach_WA = city
 
 # Misc
 culture = chinook

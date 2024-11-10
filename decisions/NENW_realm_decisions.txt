@@ -2263,8 +2263,69 @@ decisions = {
 			c_conejos_CO = { de_jure_liege = d_quay }
 		}
 	}
+	form_prarieland = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 24
+		potential = {
+			form_kingdom_potential = yes
+			culture_group = plains_canuck
+			e_prairieland = {
+				is_titular = yes
+				has_holder = no
+			}
+			prisoner = no
+			has_regent = no 
+		}
+		allow = {
+			custom_tooltip = {
+				text = all_relevant_titles_must_be_owned_or_owned_by_vassals_tt
+			}
+			form_empire_allow = yes
+			k_alberta = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_manitoba = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_saskatchewan = { show_scope_change = no province_completely_controls_trigger = yes }
+		}
+		effect = {
+			custom_tooltip = {
+				text = form_prarieland_tt
+				e_prairieland = {
+					gain_empire_effect = yes
+				}
+			}
+			hidden_tooltip = {
+				k_alberta = { de_jure_liege = e_prairieland }
+				k_manitoba = { de_jure_liege = e_prairieland }
+				k_saskatchewan = { de_jure_liege = e_prairieland }
+				if = {
+					limit = { completely_controls = k_kenora }
+					k_kenora = { de_jure_liege = e_prairieland }
+				}
+				if = {
+					limit = { completely_controls = k_haida }
+					k_haida = { de_jure_liege = e_prairieland }
+				}
+				if = {
+					limit = { completely_controls = k_grand_columbia }
+					k_grand_columbia = { de_jure_liege = e_prairieland }
+				}
+				if = {
+					limit = { completely_controls = k_wrangelia }
+					k_wrangelia = { de_jure_liege = e_prairieland }
+				}
+				if = {
+					limit = { completely_controls = k_nechako }
+					k_nechako = { de_jure_liege = e_prairieland }
+				}
+				if = {
+					limit = { completely_controls = k_okanagan }
+					k_okanagan = { de_jure_liege = e_prairieland }
+				}
+			}
+		}
+	}
 
-	
+	##REGIMENTS
 	organize_sixtyninth_infantry_regiment = {
 		only_independent = yes
 		ai_check_interval = 24

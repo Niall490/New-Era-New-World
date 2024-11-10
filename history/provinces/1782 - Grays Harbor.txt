@@ -5,8 +5,8 @@ title = c_grays_harbor_WA
 
 # Settlements
 max_settlements = 3
-b_westport_WA = castle
 b_grayland_WA = city
+b_westport_WA = castle
 #b_tokeland_WA = temple
 #b_heather_WA = castle
 #b_markham_WA = city
