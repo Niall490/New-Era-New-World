@@ -1823,7 +1823,10 @@ decisions = {
 		potential = {
 			form_empire_potential = yes
 			OR = {
-				religion = lone_star
+				AND = {
+					religion = lone_star
+					NOT = { has_landed_title = e_lone_star }
+				}
 				religion = rangerite
 				culture_group = east_texan
 				culture_group = west_texan
@@ -1831,6 +1834,12 @@ decisions = {
 				culture = texgerman
 				culture = teksaski
 				culture = czexan
+				AND = {
+					culture = farsi
+					capital_scope = {
+						region = world_texas
+					}
+				}
 			}
 			e_texas = {
 				has_holder = no

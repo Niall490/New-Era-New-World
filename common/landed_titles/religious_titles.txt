@@ -1562,7 +1562,7 @@ e_lone_star = {
 	color = { 0 32 91 }
 	color2 = { 0 0 0 }
 
-	capital = 983 # Texas City
+	capital = 1235 # Travis
 
 	creation_requires_capital = no
 
