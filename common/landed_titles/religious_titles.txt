@@ -1568,6 +1568,41 @@ e_lone_star = {
 
 	gain_effect = {
 		set_government_type = calvinist_government
+		hidden_tooltip = {
+			if = {
+				limit = {
+					is_female = yes
+					has_dlc = "Holy Fury"
+				}
+				create_bloodline = {
+					type = texas_female
+				}
+				new_bloodline = {
+					set_description = "texas_female_desc"
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+					has_dlc = "Holy Fury"
+				}
+				create_bloodline = {
+					type = texas_male
+				}
+				new_bloodline = {
+					set_description = "texas_male_desc"
+				}
+			}
+			hidden_tooltip = {
+				###Texas unites!
+				k_dallas = { de_jure_liege = e_lone_star }
+				k_houston = { de_jure_liege = e_lone_star }
+				k_galveston = { de_jure_liege = e_lone_star }
+				k_rio_grande = { de_jure_liege = e_lone_star }
+				k_comancheria = { de_jure_liege = e_lone_star }
+				d_amarillo = { de_jure_liege = k_comancheria }
+			}
+		}
 	}
 
 	allow = {

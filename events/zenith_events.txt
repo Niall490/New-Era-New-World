@@ -16,9 +16,47 @@ character_event = { #Sun Eater for killing the Sun King
 		}
 	}
 	mean_time_to_happen = {
-		days = 30
+		days = 15
 	}
 	immediate = {
 		add_trait = sun_eater
+	}
+}
+
+character_event = { #Destroys Sun Kingdom if held by a non-Zenith
+	id = zenith.101
+	hide_window = yes
+	only_rulers = yes
+	
+	trigger = {
+		has_landed_title = e_zenith
+		NOT = {
+			religion = zenith
+		}
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		e_zenith = {
+			show_scope_change = no
+			destroy_landed_title = THIS
+		}
+		any_player = {
+			narrative_event = { id = zenith.102 }
+		}
+	}
+}
+
+narrative_event = { #Announcement of the Sun Kingdom's collapse
+	id = zenith.102
+	title = EVTNAME_sun_kingdom_collapse
+	desc = EVTDESC_sun_kingdom_collapse
+	picture = GFX_evt_burning_house
+	border = GFX_event_narrative_frame_war
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
 	}
 }
