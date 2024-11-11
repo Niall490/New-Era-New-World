@@ -1822,11 +1822,9 @@ decisions = {
 		ai_check_interval = 24
 		potential = {
 			form_empire_potential = yes
+			NOT = { has_landed_title = e_lone_star }
 			OR = {
-				AND = {
-					religion = lone_star
-					NOT = { has_landed_title = e_lone_star }
-				}
+				religion = lone_star
 				religion = rangerite
 				culture_group = east_texan
 				culture_group = west_texan
