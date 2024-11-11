@@ -1564,6 +1564,9 @@ e_lone_star = {
 
 	capital = 1235 # Travis
 
+	farsi = "Teksas"
+	czexan = "Czexas"
+
 	creation_requires_capital = no
 
 	gain_effect = {
