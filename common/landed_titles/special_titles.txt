@@ -72,6 +72,10 @@ e_texas = {
 
 	culture = houstonian
 	capital = 1235 # Travis
+
+	farsi = "Teksas"
+	czexan = "Czexas"
+
 	allow = {
 		conditional_tooltip = {
 			trigger = {
@@ -278,8 +282,6 @@ e_great_lakes = {
 	color = { 100 120 200 }
 	color2 = { 255 255 255 }
 	capital = 170 #Chicago
-	
-	
 	
 	allow = {
 		conditional_tooltip = {
