@@ -66,6 +66,7 @@ texas_male = {
 			culture = texgerman
 			culture = teksaski
 			culture = czexan
+			culture = farsi
 		}
 	}
 }
@@ -89,6 +90,7 @@ texas_female = {
 			culture = texgerman
 			culture = teksaski
 			culture = czexan
+			culture = farsi
 		}
 	}
 }
