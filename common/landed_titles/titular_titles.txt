@@ -320,6 +320,7 @@ e_grand_council_oklahoma = {
 	title_prefix = "GRAND_COUNCIL"
 
 	capital = 940 #Cleveland
+	assimilate = no
 	title = "High Chief"
 }
 

@@ -94,6 +94,7 @@ e_grand_orient_host = {
 	color = { 240 240 240 }
 	color2 = { 152 196 21 }
 	capital = 118 # Detroit
+	assimilate = no
 	short_name = yes
 	
 	title = "CONDUCTOR_GENERAL"
