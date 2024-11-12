@@ -1909,6 +1909,105 @@ decisions = {
 			factor = 1
 		}
 	}
+	form_california = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 24
+		potential = {
+			form_empire_potential = yes
+			OR = {
+				culture_group = californian
+				culture_group = californio_group
+				culture_group = yokutian
+				culture_group = yurokan
+				culture = chinafornian
+				culture = hupa
+				culture = pomo
+				culture = kailiphornai
+				culture = nikkeiamerikajin
+				culture = pinoy
+				culture = viet_kieu
+				culture = armenifornian
+				culture = mojavean
+			}
+			e_california = {
+				has_holder = no
+			}
+			prisoner = no
+			has_regent = no
+		}
+
+		allow = {
+			custom_tooltip = {
+				text = all_relevant_titles_must_be_owned_or_owned_by_vassals_tt
+			}
+			form_empire_allow = yes
+			#Control Californian Kingdoms
+			k_redwood = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_shasta = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_renoland = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_sacramento = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_francisco = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_central_coast = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_the_valley = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_mojave = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_allay = { show_scope_change = no province_completely_controls_trigger = yes }
+			k_baja_california = { show_scope_change = no province_completely_controls_trigger = yes }
+		}
+
+		effect = {
+			custom_tooltip = {
+				text = form_california_tt
+				e_california = {
+					gain_empire_effect = yes
+				}
+			}
+			
+			if = {
+				limit = {
+					is_female = yes
+					has_dlc = "Holy Fury"
+				}
+				create_bloodline = {
+					type = california_female
+				}
+				new_bloodline = {
+					set_description = "california_female_desc"
+				}
+			}
+			if = {
+				limit = {
+					is_female = no
+					has_dlc = "Holy Fury"
+				}
+				create_bloodline = {
+					type = california_male
+				}
+				new_bloodline = {
+					set_description = "california_male_desc"
+				}
+			}
+			hidden_tooltip = {
+				###California unites!
+				k_sacramento = { de_jure_liege = e_california }
+				k_redwood = { de_jure_liege = e_california }
+				k_shasta = { de_jure_liege = e_california }
+				k_renoland = { de_jure_liege = e_california }
+				k_francisco = { de_jure_liege = e_california }
+				k_central_coast = { de_jure_liege = e_california }
+				k_the_valley = { de_jure_liege = e_california }
+				k_mojave = { de_jure_liege = e_california }
+				k_allay = { de_jure_liege = e_california }
+				k_baja_california = { de_jure_liege = e_california }
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	reorganize_usa = {
 		is_high_prio = yes
 		only_playable = yes

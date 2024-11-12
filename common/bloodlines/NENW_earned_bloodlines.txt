@@ -92,6 +92,58 @@ texas_female = {
 		}
 	}
 }
+california_male = {
+	monthly_character_prestige = 0.5
+	californian_opinion = 5
+	californio_group_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	flags = { created_bloodline }
+	picture = GFX_bloodlines_symbol_roman
+	active = {
+		OR = {
+			culture_group = californian
+			culture_group = californio_group
+			culture_group = yokutian
+			culture_group = yurokan
+			culture = chinafornian
+			culture = hupa
+			culture = pomo
+			culture = kailiphornai
+			culture = nikkeiamerikajin
+			culture = pinoy
+			culture = viet_kieu
+			culture = armenifornian
+			culture = mojavean
+		}
+	}
+}
+california_female = {
+	monthly_character_prestige = 0.5
+	californian_opinion = 5
+	californio_group_opinion = 5
+	inheritance = matrilineal
+	allow_bastards = yes
+	flags = { created_bloodline }
+	picture = GFX_bloodlines_symbol_roman
+	active = {
+		OR = {
+			culture_group = californian
+			culture_group = californio_group
+			culture_group = yokutian
+			culture_group = yurokan
+			culture = chinafornian
+			culture = hupa
+			culture = pomo
+			culture = kailiphornai
+			culture = nikkeiamerikajin
+			culture = pinoy
+			culture = viet_kieu
+			culture = armenifornian
+			culture = mojavean
+		}
+	}
+}
 new_afrika_male = {
 	monthly_character_prestige = 0.5
 	afrosoutherner_opinion = 10

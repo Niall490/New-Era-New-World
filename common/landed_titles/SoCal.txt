@@ -475,7 +475,7 @@ e_socal = {
 		color={ 215 91 210 }		
 		color2={ 255 255 255 }		
 				
-		capital = 2002 #TJ
+		capital = 2000 #c_la_paz
 		
 		catholic = 5000
 				
