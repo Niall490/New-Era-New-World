@@ -18713,7 +18713,6 @@
 3001648 = { name = "Pynchon" culture = massachusite }
 3001649 = { name = "Ward" culture = politan }
 3001650 = { name = "Naradi" culture = angeleno }
-
 3001651 = { 
 	name = "Aegina" culture = oregonite 
 	used_for_random = no
@@ -18744,6 +18743,7 @@
 5001664 = { name = "Troeh" culture = chinook }
 5001665 = { name = "Lemberg" culture = oregonite }
 5001666 = { name = "Hedgpeth" culture = oregonite }
+5001667 = { name = "Preston" culture = pugetian }
 
 5130831 = { 
 	name="Seed" 

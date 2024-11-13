@@ -14,7 +14,7 @@ e_cascadia = {
 		
 		capital = 2059 # c_redding
 		
-		
+		allow = { always = no }
 	}
 	k_cascadia = { #leftovers
 		color = { 19 88 193 }
@@ -25,7 +25,7 @@ e_cascadia = {
 		capital = 543 #Seattle
 		
 		haida = "Taagwaa"	#Down South
-		
+		allow = { always = no }
 	}
 	k_oregon = {
 		color = { 12 39 134 }
@@ -600,6 +600,14 @@ e_cascadia = {
 				b_index_WA = {}
 				b_whidbey_WA = {}
 			}
+		}
+		d_fort_lewis = {
+			color = { 105 5 6 }
+			color2 = { 220 220 220 }
+			
+			capital = 541 #Capitol
+			
+			allow = { always = no }
 		}
 	}
 }
