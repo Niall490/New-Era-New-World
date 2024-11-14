@@ -18744,6 +18744,12 @@
 5001665 = { name = "Lemberg" culture = oregonite }
 5001666 = { name = "Hedgpeth" culture = oregonite }
 5001667 = { name = "Preston" culture = pugetian }
+5001668 = { name = "Tauria" culture = olympian }
+5001669 = { name = "Neuneker" culture = makah }
+5001670 = { name = "Mowitch" culture = quinault }
+5001671 = { name = "Fryer" culture = olympian }
+5001672 = { name = "Johnson" culture = pugetian }
+5001673 = { name = "Needham" culture = olympian }
 
 5130831 = { 
 	name="Seed" 
