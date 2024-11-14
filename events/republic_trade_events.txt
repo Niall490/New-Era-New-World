@@ -394,217 +394,217 @@ character_event = {
 }
 
 # Set up Patricians
-character_event = {
-	id = REP.65
+# character_event = {
+	# id = REP.65
 
-	is_triggered_only = yes
-	hide_window = yes
+	# is_triggered_only = yes
+	# hide_window = yes
 
-	immediate = {
-		set_variable = {
-			which = local_patrician
-			value = 1
-		}
+	# immediate = {
+		# set_variable = {
+			# which = local_patrician
+			# value = 1
+		# }
 
-		any_vassal = {
-			limit = { is_patrician = yes }
+		# any_vassal = {
+			# limit = { is_patrician = yes }
 
-			count = 4
+			# count = 4
 
-			wealth = 1000
+			# wealth = 1000
 
-			if = {
-				limit = {
-					check_variable = {
-						which = local_patrician
-						value == 1
-					}
-				}
+			# if = {
+				# limit = {
+					# check_variable = {
+						# which = local_patrician
+						# value == 1
+					# }
+				# }
 
-				save_event_target_as = trade_post_usurper
+				# save_event_target_as = trade_post_usurper
 
-				c_skagen = {
-					location = {
-						if = {
-							limit = { has_trade_post = yes }
+				# c_skagen = {
+					# location = {
+						# if = {
+							# limit = { has_trade_post = yes }
 
-							save_event_target_as = lost_trade_post_province
+							# save_event_target_as = lost_trade_post_province
 
-							trade_post_owner = {
-								character_event = { id = REP.70 }
-							}
+							# trade_post_owner = {
+								# character_event = { id = REP.70 }
+							# }
 
-							seize_trade_post = PREVPREV
-						}
-					}
-				}
+							# seize_trade_post = PREVPREV
+						# }
+					# }
+				# }
 
-				c_baahuslen = {
-					location = {
-						if = {
-							limit = { has_trade_post = yes }
+				# c_baahuslen = {
+					# location = {
+						# if = {
+							# limit = { has_trade_post = yes }
 
-							save_event_target_as = lost_trade_post_province
+							# save_event_target_as = lost_trade_post_province
 
-							trade_post_owner = {
-								character_event = { id = REP.70 }
-							}
+							# trade_post_owner = {
+								# character_event = { id = REP.70 }
+							# }
 
-							seize_trade_post = PREVPREV
-						}
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					check_variable = {
-						which = local_patrician
-						value == 2
-					}
-				}
+							# seize_trade_post = PREVPREV
+						# }
+					# }
+				# }
+			# }
+			# else_if = {
+				# limit = {
+					# check_variable = {
+						# which = local_patrician
+						# value == 2
+					# }
+				# }
 
-				save_event_target_as = trade_post_usurper
+				# save_event_target_as = trade_post_usurper
 
-				c_friesland = {
-					location = {
-						if = {
-							limit = { has_trade_post = yes }
+				# c_friesland = {
+					# location = {
+						# if = {
+							# limit = { has_trade_post = yes }
 
-							save_event_target_as = lost_trade_post_province
+							# save_event_target_as = lost_trade_post_province
 
-							trade_post_owner = {
-								character_event = { id = REP.70 }
-							}
+							# trade_post_owner = {
+								# character_event = { id = REP.70 }
+							# }
 
-							seize_trade_post = PREVPREV
-						}
-					}
-				}
+							# seize_trade_post = PREVPREV
+						# }
+					# }
+				# }
 
-				c_ostfriesland = {
-					location = {
-						if = {
-							limit = { has_trade_post = yes }
+				# c_ostfriesland = {
+					# location = {
+						# if = {
+							# limit = { has_trade_post = yes }
 
-							save_event_target_as = lost_trade_post_province
+							# save_event_target_as = lost_trade_post_province
 
-							trade_post_owner = {
-								character_event = { id = REP.70 }
-							}
+							# trade_post_owner = {
+								# character_event = { id = REP.70 }
+							# }
 
-							seize_trade_post = PREVPREV
-						}
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					check_variable = {
-						which = local_patrician
-						value == 3
-					}
-				}
+							# seize_trade_post = PREVPREV
+						# }
+					# }
+				# }
+			# }
+			# else_if = {
+				# limit = {
+					# check_variable = {
+						# which = local_patrician
+						# value == 3
+					# }
+				# }
 
-				save_event_target_as = trade_post_usurper
+				# save_event_target_as = trade_post_usurper
 
-				c_middlesex = {
-					location = {
-						if = {
-							limit = { has_trade_post = yes }
+				# c_middlesex = {
+					# location = {
+						# if = {
+							# limit = { has_trade_post = yes }
 
-							save_event_target_as = lost_trade_post_province
+							# save_event_target_as = lost_trade_post_province
 
-							trade_post_owner = {
-								character_event = { id = REP.70 }
-							}
+							# trade_post_owner = {
+								# character_event = { id = REP.70 }
+							# }
 
-							seize_trade_post = PREVPREV
-						}
-					}
-				}
+							# seize_trade_post = PREVPREV
+						# }
+					# }
+				# }
 
-				c_guines = {
-					location = {
-						if = {
-							limit = { has_trade_post = yes }
+				# c_guines = {
+					# location = {
+						# if = {
+							# limit = { has_trade_post = yes }
 
-							save_event_target_as = lost_trade_post_province
+							# save_event_target_as = lost_trade_post_province
 
-							trade_post_owner = {
-								character_event = { id = REP.70 }
-							}
+							# trade_post_owner = {
+								# character_event = { id = REP.70 }
+							# }
 
-							seize_trade_post = PREVPREV
-						}
-					}
-				}
-			}
-			else = {
-				save_event_target_as = trade_post_usurper
+							# seize_trade_post = PREVPREV
+						# }
+					# }
+				# }
+			# }
+			# else = {
+				# save_event_target_as = trade_post_usurper
 
-				c_danzig = {
-					location = {
-						if = {
-							limit = { has_trade_post = yes }
+				# c_danzig = {
+					# location = {
+						# if = {
+							# limit = { has_trade_post = yes }
 
-							save_event_target_as = lost_trade_post_province
+							# save_event_target_as = lost_trade_post_province
 
-							trade_post_owner = {
-								character_event = { id = REP.70 }
-							}
+							# trade_post_owner = {
+								# character_event = { id = REP.70 }
+							# }
 
-							seize_trade_post = PREVPREV
-						}
-					}
-				}
+							# seize_trade_post = PREVPREV
+						# }
+					# }
+				# }
 
-				c_marienburg = {
-					location = {
-						if = {
-							limit = { has_trade_post = yes }
+				# c_marienburg = {
+					# location = {
+						# if = {
+							# limit = { has_trade_post = yes }
 
-							save_event_target_as = lost_trade_post_province
+							# save_event_target_as = lost_trade_post_province
 
-							trade_post_owner = {
-								character_event = { id = REP.70 }
-							}
+							# trade_post_owner = {
+								# character_event = { id = REP.70 }
+							# }
 
-							seize_trade_post = PREVPREV
-						}
-					}
-				}
-			}
+							# seize_trade_post = PREVPREV
+						# }
+					# }
+				# }
+			# }
 
-			change_variable = {
-				which = local_patrician
-				value = 1
-			}
-		}
-	}
-}
+			# change_variable = {
+				# which = local_patrician
+				# value = 1
+			# }
+		# }
+	# }
+# }
 
-# Former Trade Post Owner Informed
-character_event = {
-	id = REP.70
-	desc = EVTDESC_REP_070
-	picture = GFX_evt_trade_post_republic
+# # Former Trade Post Owner Informed
+# character_event = {
+	# id = REP.70
+	# desc = EVTDESC_REP_070
+	# picture = GFX_evt_trade_post_republic
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	ai = no
+	# ai = no
 
-	option = {
-		name = EVTOPTA_REP_070
+	# option = {
+		# name = EVTOPTA_REP_070
 
-		tooltip = {
-			event_target:lost_trade_post_province = {
-				show_scope_change = no
+		# tooltip = {
+			# event_target:lost_trade_post_province = {
+				# show_scope_change = no
 
-				seize_trade_post = event_target:trade_post_usurper
-			}
-		}
-	}
-}
+				# seize_trade_post = event_target:trade_post_usurper
+			# }
+		# }
+	# }
+# }
 
 
 ### Seize Trade Post Plot

@@ -636,11 +636,11 @@ province_event = {
 		has_heresies = yes
 		owner = { is_heretic = no }
 
-		NOR = {
-			province_id = c_roma
-			province_id = c_thrake
-			province_id = c_mecca
-		}
+		# NOR = {
+			# province_id = c_roma
+			# province_id = c_thrake
+			# province_id = c_mecca
+		# }
 
 		any_neighbor_province = {
 			has_owner = yes
@@ -5140,8 +5140,10 @@ narrative_event = {
 	option = {
 		name = EVTOPTC39660
 		trigger = {
+			OR = {
 				religion = sedevacantist
 				religion = ultramontain
+			}
 		}
 	}
 	option = {

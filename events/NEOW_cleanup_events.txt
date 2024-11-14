@@ -192,49 +192,49 @@ character_event = {
 			10 = { create_random_soldier = {
 				random_traits = yes
 				religion = gaian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 30
 			} }
 			10 = { create_random_soldier = {
 				random_traits = yes
 				religion = gaian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 35
 			} }
 			10 = { create_random_soldier = {
 				random_traits = yes
 				religion = gaian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 40
 			} }
 			20 = { create_random_soldier = {
 				random_traits = yes
 				religion = gaian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 45
 			} }
 			20 = { create_random_soldier = {
 				random_traits = yes
 				religion = gaian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 50
 			} }
 			20 = { create_random_soldier = {
 				random_traits = yes
 				religion = gaian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 55
 			} }
 			10 = { create_random_soldier = {
 				random_traits = yes
 				religion = gaian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 60
 			} }
@@ -942,72 +942,72 @@ character_event = {
 		remove_trait = tyrant
 	}
 }
-character_event = {
-	id = cleanup.9993
-	desc = "replacegrandmistress"
-	is_triggered_only = yes
-	hide_window = yes
+# character_event = {
+	# id = cleanup.9993
+	# desc = "replacegrandmistress"
+	# is_triggered_only = yes
+	# hide_window = yes
 
-	trigger = {
-		has_landed_title = d_gaian_order
-	}
+	# trigger = {
+		# has_landed_title = d_gaian_order
+	# }
 	
-	option = {
-		# Make sure they're a good age
-		random_list = {
-			10 = { create_random_soldier = {
-				random_traits = yes
-				religion = gaian
-				culture = laikhman
-				female = yes
-				age = 30
-			} }
-			10 = { create_random_soldier = {
-				random_traits = yes
-				religion = gaian
-				culture = laikhman
-				female = yes
-				age = 35
-			} }
-			10 = { create_random_soldier = {
-				random_traits = yes
-				religion = gaian
-				culture = laikhman
-				female = yes
-				age = 40
-			} }
-			20 = { create_random_soldier = {
-				random_traits = yes
-				religion = gaian
-				culture = laikhman
-				female = yes
-				age = 45
-			} }
-			20 = { create_random_soldier = {
-				random_traits = yes
-				religion = gaian
-				culture = laikhman
-				female = yes
-				age = 50
-			} }
-			20 = { create_random_soldier = {
-				random_traits = yes
-				religion = gaian
-				culture = laikhman
-				female = yes
-				age = 55
-			} }
-			10 = { create_random_soldier = {
-				random_traits = yes
-				religion = gaian
-				culture = laikhman
-				female = yes
-				age = 60
-			} }
-		}
-		new_character = { ROOT = { any_demesne_title = { gain_title = PREVPREV } } }
-	}
-}
+	# option = {
+		# # Make sure they're a good age
+		# random_list = {
+			# 10 = { create_random_soldier = {
+				# random_traits = yes
+				# religion = gaian
+				# culture = laikmahn
+				# female = yes
+				# age = 30
+			# } }
+			# 10 = { create_random_soldier = {
+				# random_traits = yes
+				# religion = gaian
+				# culture = laikmahn
+				# female = yes
+				# age = 35
+			# } }
+			# 10 = { create_random_soldier = {
+				# random_traits = yes
+				# religion = gaian
+				# culture = laikmahn
+				# female = yes
+				# age = 40
+			# } }
+			# 20 = { create_random_soldier = {
+				# random_traits = yes
+				# religion = gaian
+				# culture = laikmahn
+				# female = yes
+				# age = 45
+			# } }
+			# 20 = { create_random_soldier = {
+				# random_traits = yes
+				# religion = gaian
+				# culture = laikmahn
+				# female = yes
+				# age = 50
+			# } }
+			# 20 = { create_random_soldier = {
+				# random_traits = yes
+				# religion = gaian
+				# culture = laikmahn
+				# female = yes
+				# age = 55
+			# } }
+			# 10 = { create_random_soldier = {
+				# random_traits = yes
+				# religion = gaian
+				# culture = laikmahn
+				# female = yes
+				# age = 60
+			# } }
+		# }
+		# new_character = { ROOT = { any_demesne_title = { gain_title = PREVPREV } } }
+	# }
+# }
 character_event = { 
 	id = cleanup.99928
 	hide_window = yes
@@ -1371,49 +1371,49 @@ character_event = {
 			10 = { create_random_soldier = {
 				random_traits = yes
 				religion = raelian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 30
 			} }
 			10 = { create_random_soldier = {
 				random_traits = yes
 				religion = raelian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 35
 			} }
 			10 = { create_random_soldier = {
 				random_traits = yes
 				religion = raelian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 40
 			} }
 			20 = { create_random_soldier = {
 				random_traits = yes
 				religion = raelian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 45
 			} }
 			20 = { create_random_soldier = {
 				random_traits = yes
 				religion = raelian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 50
 			} }
 			20 = { create_random_soldier = {
 				random_traits = yes
 				religion = raelian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 55
 			} }
 			10 = { create_random_soldier = {
 				random_traits = yes
 				religion = raelian
-				culture = laikhman
+				culture = laikmahn
 				female = yes
 				age = 60
 			} }

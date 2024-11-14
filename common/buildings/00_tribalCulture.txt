@@ -350,8 +350,8 @@ tribal = {
 				culture = quebecois
 				culture = montrealais
 				culture = ontarois
-				has_building = tb_culture__1
-				has_building = tb_culture__2
+				has_building = tb_culture_upper_quebecois_1
+				has_building = tb_culture_upper_quebecois_2
 			}
 		}
 		is_active_trigger = {
@@ -547,8 +547,8 @@ tribal = {
 				culture = rivierois
 				culture = nordien
 				culture = caillouvian
-				has_building = tb_culture__1
-				has_building = tb_culture__2
+				has_building = tb_culture_lower_quebecois_1
+				has_building = tb_culture_lower_quebecois_2
 			}
 		}
 		is_active_trigger = {
@@ -3195,8 +3195,8 @@ tribal = {
 		potential = {
 			OR = {
 				culture = mikmaq
-				has_building = tb_culture__1
-				has_building = tb_culture__2
+				has_building = tb_culture_mikmaq_1
+				has_building = tb_culture_mikmaq_2
 			}
 		}
 		is_active_trigger = {
@@ -3340,8 +3340,8 @@ tribal = {
 		potential = {
 			OR = {
 				culture = penobscot
-				has_building = tb_culture__1
-				has_building = tb_culture__2
+				has_building = tb_culture_penobscot_1
+				has_building = tb_culture_penobscot_2
 			}
 		}
 		is_active_trigger = {
@@ -3488,8 +3488,8 @@ tribal = {
 		potential = {
 			OR = {
 				culture = wampanoag
-				has_building = tb_culture__1
-				has_building = tb_culture__2
+				has_building = tb_culture_wampanoag_1
+				has_building = tb_culture_wampanoag_2
 			}
 		}
 		is_active_trigger = {
@@ -3642,8 +3642,8 @@ tribal = {
 		potential = {
 			OR = {
 				culture = mohican
-				has_building = tb_culture__1
-				has_building = tb_culture__2
+				has_building = tb_culture_mohican_1
+				has_building = tb_culture_mohican_2
 			}
 		}
 		is_active_trigger = {
@@ -3790,8 +3790,8 @@ tribal = {
 		potential = {
 			OR = {
 				culture = lenape
-				has_building = tb_culture__1
-				has_building = tb_culture__2
+				has_building = tb_culture_lenape_1
+				has_building = tb_culture_lenape_2
 			}
 		}
 		is_active_trigger = {
