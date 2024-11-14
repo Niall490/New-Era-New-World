@@ -8,7 +8,7 @@ e_the_rockies = {
 		color={ 34 37 51 }
 		color2={ 255 255 255 }
 		
-		capital = 1683 # c_the_area_NV
+		capital = 2073 # Las Vegas
 	
 		d_black_desert_NV = {
 			color={ 45 64 102 }
@@ -1023,7 +1023,5 @@ e_the_rockies = {
 				b_phippsburg_CO = {}
 			}
 		}
-		
 	}
-	
 }
