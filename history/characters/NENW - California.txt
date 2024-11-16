@@ -421,3 +421,88 @@
 		death = yes
 	}
 }
+3300028 = {
+	name = "Archibald"
+	dynasty = 5001667
+	culture = pugetian
+	religion = custodite
+	2292.4.5 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300029 = {
+	name = "Agrotera"
+	dynasty = 5001668
+	culture = olympian
+	religion = dianic
+	2287.4.11 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300030 = {
+	name = "Vance"
+	dynasty = 5001669
+	culture = makah
+	religion = raven_tales
+	2278.4.2 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300031 = {
+	name = "Taholah"
+	dynasty = 5001670
+	culture = quinault
+	religion = indian_shaker
+	2283.4.12 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300032 = {
+	name = "Robin"
+	dynasty = 5001671
+	culture = olympian
+	religion = arcadian
+	2287.6.25 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300033 = {
+	name = "Russel"
+	dynasty = 5001672
+	culture = pugetian
+	religion = myriadic
+	2285.6.12 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300034 = {
+	name = "Mary"
+	dynasty = 5001673
+	culture = olympian
+	religion = myriadic
+	female = yes
+	2279.3.23 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}

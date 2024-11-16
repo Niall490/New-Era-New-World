@@ -66,6 +66,7 @@ texas_male = {
 			culture = texgerman
 			culture = teksaski
 			culture = czexan
+			culture = farsi
 		}
 	}
 }
@@ -89,6 +90,59 @@ texas_female = {
 			culture = texgerman
 			culture = teksaski
 			culture = czexan
+			culture = farsi
+		}
+	}
+}
+california_male = {
+	monthly_character_prestige = 0.5
+	californian_opinion = 5
+	californio_group_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	flags = { created_bloodline }
+	picture = GFX_bloodlines_symbol_roman
+	active = {
+		OR = {
+			culture_group = californian
+			culture_group = californio_group
+			culture_group = yokutian
+			culture_group = yurokan
+			culture = chinafornian
+			culture = hupa
+			culture = pomo
+			culture = kailiphorani
+			culture = nikkeiamerikajin
+			culture = pinoy
+			culture = viet_kieu
+			culture = armenifornian
+			culture = mojavean
+		}
+	}
+}
+california_female = {
+	monthly_character_prestige = 0.5
+	californian_opinion = 5
+	californio_group_opinion = 5
+	inheritance = matrilineal
+	allow_bastards = yes
+	flags = { created_bloodline }
+	picture = GFX_bloodlines_symbol_roman
+	active = {
+		OR = {
+			culture_group = californian
+			culture_group = californio_group
+			culture_group = yokutian
+			culture_group = yurokan
+			culture = chinafornian
+			culture = hupa
+			culture = pomo
+			culture = kailiphorani
+			culture = nikkeiamerikajin
+			culture = pinoy
+			culture = viet_kieu
+			culture = armenifornian
+			culture = mojavean
 		}
 	}
 }

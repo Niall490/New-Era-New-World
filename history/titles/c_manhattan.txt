@@ -1,6 +1,3 @@
-2200.1.1={
-    holder=800003 # Mario Mario
-}
 2310.1.1={
 	liege = e_columbia
     holder=800001 # Mario Mario

@@ -1008,7 +1008,7 @@ d_stewardess = {
 	
 	short_name = yes
 	
-	culture = laikhman
+	culture = laikmahn
 	
 	# Parent Religion 
 	religion = gaian

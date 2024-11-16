@@ -8921,10 +8921,26 @@ empire_of_karulaynasi;Shahanshahiye of;Shahanshahiye;Shahanshahiye;Shahanshahiye
 emperor_karulaynasi;Shahanshah;Shahanshah;Shahanshah;;Shahanshah;;;;;;;;;x
 emperor_female_karulaynasi;Shahbanu;Shahbanu;Shahbanu;;Shahbanu;;;;;;;;;x
 
+count_farsi;Bakhshdar;Bakhshdar;Bakhshdar;;Bakhshdar;;;;;;;;;x
+count_female_farsi;Bakhshdar;Bakhshdar;Bakhshdar;;Bakhshdar;;;;;;;;;x
+county_of_farsi;Bakhsh of;Bakhsh de;Bakhsh von;;Bakhsh de;;;;;;;;;x
+duke_farsi;Farmandar;Farmandar;Farmandar;;Farmandar;;;;;;;;;x
+duke_female_farsi;Farmandar;Farmandar;Farmandar;;Farmandar;;;;;;;;;x
+duchy_of_farsi;Ostan of;Ostan de;Ostan von;;Ostan de;;;;;;;;;x
+county_farsi;Bakhsh;Bakhsh;Bakhsh;;Bakhsh;;;;;;;;;x
+duchy_farsi;Ostan;Ostan;Ostan;;Ostan;;;;;;;;;x
+kingdom_farsi;Shahdom;Royaume;Shahtum;;Shahdom;;;;;;;;;x
+kingdom_of_farsi;Shahdom of;Royaume de;Schahtum von;;Shahdom de;;;;;;;;;x
+king_farsi;Shah;Shah;Shah;;Shah;;;;;;;;;x
+king_female_farsi;Shahbanu;Shahbanu;Shahbanu;;Shahbanu;;;;;;;;;x
+empire_of_farsi;Shahanshahiye of;Shahanshahiye;Shahanshahiye;Shahanshahiye;;;;;;;x;;;
+emperor_farsi;Shahanshah;Shahanshah;Shahanshah;;Shahanshah;;;;;;;;;x
+emperor_female_farsi;Shahbanu;Shahbanu;Shahbanu;;Shahbanu;;;;;;;;;x
+
 count_moghol;Bakhshdar;Bakhshdar;Bakhshdar;;Bakhshdar;;;;;;;;;x
 count_female_moghol;Bakhshdar;Bakhshdar;Bakhshdar;;Bakhshdar;;;;;;;;;x
 county_of_moghol;Bakhsh of;Bakhsh de;Bakhsh von;;Bakhsh de;;;;;;;;;x
-duke_persian;Farmandar;Farmandar;Farmandar;;Farmandar;;;;;;;;;x
+duke_moghol;Farmandar;Farmandar;Farmandar;;Farmandar;;;;;;;;;x
 duke_female_moghol;Farmandar;Farmandar;Farmandar;;Farmandar;;;;;;;;;x
 duchy_of_moghol;Ostan of;Ostan de;Ostan von;;Ostan de;;;;;;;;;x
 county_moghol;Bakhsh;Bakhsh;Bakhsh;;Bakhsh;;;;;;;;;x
