@@ -2062,11 +2062,6 @@ feudal_governments = {
 			primary_title = { has_title_flag = pretender_chinese_empire }
 			OR = {
 				culture_group = niger_congolese
-				culture_group = chadic
-				culture_group = senegambian
-				culture_group = mande
-				culture_group = francacfrique
-				culture_group = afroatlantic
 				has_character_flag = chinese_imperial_government_preserve #keeps government when player is given culture change opton
 			}
 			is_patrician = no
@@ -2527,7 +2522,6 @@ feudal_governments = {
 			chinese_imperial_government
 			eastern_feudal
 			muslim_government
-			divan
 			makhzen_government
 			neoziamet_government
 			calvinist_government

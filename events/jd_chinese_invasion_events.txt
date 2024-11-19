@@ -3648,13 +3648,8 @@ character_event = {
 	trigger = {
 		government = chinese_imperial_government
 		current_heir = { 
-			NOR = {
+			NOT = {
 				culture_group = niger_congolese
-				culture_group = chadic
-				culture_group = senegambian
-				culture_group = mande
-				culture_group = francacfrique
-				culture_group = afroatlantic
 			}
 		}
 	}

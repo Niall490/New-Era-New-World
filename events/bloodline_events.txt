@@ -1,592 +1,592 @@
-namespace=bloodlines
+# namespace=bloodlines
 
-#########################################
-#
-#	Bloodline Events
-#
-#########################################
-narrative_event = {##Recreating Ottoman Empire
-	id = bloodlines.1
-	title = bloodlines1Title
-	desc = bloodlines1Desc
-	picture = GFX_event_Hagia_sofia_muslim
+# #########################################
+# #
+# #	Bloodline Events
+# #
+# #########################################
+# narrative_event = {##Recreating Ottoman Empire
+	# id = bloodlines.1
+	# title = bloodlines1Title
+	# desc = bloodlines1Desc
+	# picture = GFX_event_Hagia_sofia_muslim
 
-	major = yes
-	show_ROOT = yes
-	hide_from = yes
+	# major = yes
+	# show_ROOT = yes
+	# hide_from = yes
 	
-	only_playable = yes
+	# only_playable = yes
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	trigger = {
-		NOT = {
-			has_global_flag = ottomans_refounded
-		}
-		religion_group = muslim
-		e_ottoman = {
-			title = FROM
-		}
-	}
+	# trigger = {
+		# NOT = {
+			# has_global_flag = ottomans_refounded
+		# }
+		# religion_group = muslim
+		# e_ottoman = {
+			# title = FROM
+		# }
+	# }
 
-	immediate = {
+	# immediate = {
 
-		give_nickname = nick_the_glorious
-        if = {
-            limit = {
-                is_female = yes
-                has_landed_title = e_ottoman
-            }
-            create_bloodline = {
-                type = osman
-                inheritance = matrilineal
-            }
-        }
-        else_if = {
-            limit = {
-                is_female = no
-                has_landed_title = e_ottoman
-            }
-            create_bloodline = {
-                type = osman
-            }
-        }
+		# give_nickname = nick_the_glorious
+        # if = {
+            # limit = {
+                # is_female = yes
+                # has_landed_title = e_ottoman
+            # }
+            # create_bloodline = {
+                # type = osman
+                # inheritance = matrilineal
+            # }
+        # }
+        # else_if = {
+            # limit = {
+                # is_female = no
+                # has_landed_title = e_ottoman
+            # }
+            # create_bloodline = {
+                # type = osman
+            # }
+        # }
 		
-		set_global_flag = ottomans_refounded
-		prestige = 500
-		piety = 250
-	}
+		# set_global_flag = ottomans_refounded
+		# prestige = 500
+		# piety = 250
+	# }
 	
-	weight_multiplier = {
-		factor = 1
-	}
+	# weight_multiplier = {
+		# factor = 1
+	# }
 
-	option = {
-		name = bloodlines1A
-		trigger = {
-			culture_group = oghuz
-		}
-	}
-	option = {
-		name = bloodlines1B
-		trigger = {
-			NOT = {
-				culture_group = oghuz
-			}
-			religion_group = muslim
-		}
-	}
-	option = {
-		name = bloodlines1C
-		trigger = {
-			culture_group = byzantine
-			NOT = {
-				religion_group = muslim
-			}
-		}
-	}
-	option = {
-		name = bloodlines1D
-		trigger = {
-			OR = {
-				culture = polish
-				culture = mazovian
-				culture = greater_polish
-			}
-		}
-	}
-	option = {
-		name = bloodlines1C
-		trigger = {
-			OR = {
-				culture = serbian
-				culture = bosnian
-				culture = croatian
-				culture = slovenian
-				culture = bulgarian				
-			}
-		}
-	}	
-	option = {#None of the above
-		name = bloodlines1F
-		trigger = {
-			NOR = {
-				culture_group = oghuz
-				culture_group = byzantine
-				culture = polish
-				culture = mazovian
-				culture = greater_polish
-				culture = serbian
-				culture = bosnian
-				culture = croatian
-				culture = slovenian
-				culture = bulgarian
-			}
-		}
-	}	
+	# option = {
+		# name = bloodlines1A
+		# trigger = {
+			# culture_group = oghuz
+		# }
+	# }
+	# option = {
+		# name = bloodlines1B
+		# trigger = {
+			# NOT = {
+				# culture_group = oghuz
+			# }
+			# religion_group = muslim
+		# }
+	# }
+	# option = {
+		# name = bloodlines1C
+		# trigger = {
+			# culture_group = byzantine
+			# NOT = {
+				# religion_group = muslim
+			# }
+		# }
+	# }
+	# option = {
+		# name = bloodlines1D
+		# trigger = {
+			# OR = {
+				# culture = polish
+				# culture = mazovian
+				# culture = greater_polish
+			# }
+		# }
+	# }
+	# option = {
+		# name = bloodlines1C
+		# trigger = {
+			# OR = {
+				# culture = serbian
+				# culture = bosnian
+				# culture = croatian
+				# culture = slovenian
+				# culture = bulgarian				
+			# }
+		# }
+	# }	
+	# option = {#None of the above
+		# name = bloodlines1F
+		# trigger = {
+			# NOR = {
+				# culture_group = oghuz
+				# culture_group = byzantine
+				# culture = polish
+				# culture = mazovian
+				# culture = greater_polish
+				# culture = serbian
+				# culture = bosnian
+				# culture = croatian
+				# culture = slovenian
+				# culture = bulgarian
+			# }
+		# }
+	# }	
 
-}
+# }
 
-##Form Byzantium
+# ##Form Byzantium
 
-narrative_event = {
-	id = bloodlines.2
-	title = bloodlines2Title
-	desc = bloodlines2Desc
-	picture = GFX_event_Hagia_sofia
+# narrative_event = {
+	# id = bloodlines.2
+	# title = bloodlines2Title
+	# desc = bloodlines2Desc
+	# picture = GFX_event_Hagia_sofia
 
-	major = yes
-	show_ROOT = yes
-	hide_from = yes
+	# major = yes
+	# show_ROOT = yes
+	# hide_from = yes
 	
-	only_playable = yes
+	# only_playable = yes
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	trigger = {
-		NOT = {
-			has_global_flag = byzantium_refounded
-		}
-		AND = {
-			religion_group = christian	
-			NOR = {
-				religion = catholic
-				religion = sevillian
-				religion = penitente
-				religion = cadaverist
-				religion = hussite
-				religion = fraticelli
-				religion = transatlantic
-			}
-		}
-		e_byzantium = {
-			title = FROM
-		}
-	}
+	# trigger = {
+		# NOT = {
+			# has_global_flag = byzantium_refounded
+		# }
+		# AND = {
+			# religion_group = christian	
+			# NOR = {
+				# religion = catholic
+				# religion = sevillian
+				# religion = penitente
+				# religion = cadaverist
+				# religion = hussite
+				# religion = fraticelli
+				# religion = transatlantic
+			# }
+		# }
+		# e_byzantium = {
+			# title = FROM
+		# }
+	# }
 
-	immediate = {
+	# immediate = {
 
-		give_nickname = nick_the_glorious
-        if = {
-            limit = {
-                is_female = yes
-                has_landed_title = e_byzantium
-            }
-            create_bloodline = {
-                type = constantine
-                inheritance = matrilineal
-            }
-        }
-        else_if = {
-            limit = {
-                is_female = no
-                has_landed_title = e_byzantium
-            }
-            create_bloodline = {
-                type = constantine
-            }
-        }
+		# give_nickname = nick_the_glorious
+        # if = {
+            # limit = {
+                # is_female = yes
+                # has_landed_title = e_byzantium
+            # }
+            # create_bloodline = {
+                # type = constantine
+                # inheritance = matrilineal
+            # }
+        # }
+        # else_if = {
+            # limit = {
+                # is_female = no
+                # has_landed_title = e_byzantium
+            # }
+            # create_bloodline = {
+                # type = constantine
+            # }
+        # }
 		
-		set_global_flag = byzantium_refounded
-		prestige = 500
-		piety = 250
-	}
+		# set_global_flag = byzantium_refounded
+		# prestige = 500
+		# piety = 250
+	# }
 	
-	weight_multiplier = {
-		factor = 1
-	}
+	# weight_multiplier = {
+		# factor = 1
+	# }
 
-	option = {
-		name = bloodlines2A
-		trigger = {
-			OR = {
-				culture_group = byzantine
-				culture_group = armenian_group
-				culture_group = caucasian
-			}
-			religion_group = christian
-		}
-	}
-	option = {
-		name = bloodlines2B
-		trigger = {
-			culture_group = oghuz
-		}
-	}
-	option = {
-		name = bloodlines2C
-		trigger = {
-			OR = {
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-	}
-	option = {#Orthodox are happy
-		name = bloodlines2D
-		trigger = {
-			religion = orthodox
-			NOR = {
-				culture_group = byzantine
-				culture_group = armenian_group
-				culture_group = caucasian
-			}
-		}
-	}
-	option = {
-		name = bloodlines2E
-		trigger = {
-			religion = catholic
-			NOR = {
-				culture_group = byzantine
-				culture_group = armenian_group
-				culture_group = caucasian
-			}			
-		}
-	}
-	option = {
-		name = bloodlines2F
-		trigger = {
-			religion_group = muslim
-		}
-	}		
-	option = {#None of the above
-		name = bloodlines3G
-		trigger = {
-			NOR = {
-				religion_group = christian
-				religion_group = muslim
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-				culture_group = oghuz
-				culture_group = byzantine
-				culture_group = armenian_group
-				culture_group = caucasian
-			}
-		}
-	}
-}
+	# option = {
+		# name = bloodlines2A
+		# trigger = {
+			# OR = {
+				# culture_group = byzantine
+				# culture_group = armenian_group
+				# culture_group = caucasian
+			# }
+			# religion_group = christian
+		# }
+	# }
+	# option = {
+		# name = bloodlines2B
+		# trigger = {
+			# culture_group = oghuz
+		# }
+	# }
+	# option = {
+		# name = bloodlines2C
+		# trigger = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = hellenic_pagan_reformed
+			# }
+		# }
+	# }
+	# option = {#Orthodox are happy
+		# name = bloodlines2D
+		# trigger = {
+			# religion = orthodox
+			# NOR = {
+				# culture_group = byzantine
+				# culture_group = armenian_group
+				# culture_group = caucasian
+			# }
+		# }
+	# }
+	# option = {
+		# name = bloodlines2E
+		# trigger = {
+			# religion = catholic
+			# NOR = {
+				# culture_group = byzantine
+				# culture_group = armenian_group
+				# culture_group = caucasian
+			# }			
+		# }
+	# }
+	# option = {
+		# name = bloodlines2F
+		# trigger = {
+			# religion_group = muslim
+		# }
+	# }		
+	# option = {#None of the above
+		# name = bloodlines3G
+		# trigger = {
+			# NOR = {
+				# religion_group = christian
+				# religion_group = muslim
+				# religion = hellenic_pagan
+				# religion = hellenic_pagan_reformed
+				# culture_group = oghuz
+				# culture_group = byzantine
+				# culture_group = armenian_group
+				# culture_group = caucasian
+			# }
+		# }
+	# }
+# }
 
-##Form Makedon
+# ##Form Makedon
 
-narrative_event = {
-	id = bloodlines.3
-	title = bloodlines3Title
-	desc = bloodlines3Desc
-	picture = GFX_evt_hellenic_temple
+# narrative_event = {
+	# id = bloodlines.3
+	# title = bloodlines3Title
+	# desc = bloodlines3Desc
+	# picture = GFX_evt_hellenic_temple
 
-	major = yes
-	show_ROOT = yes
-	hide_from = yes
+	# major = yes
+	# show_ROOT = yes
+	# hide_from = yes
 	
-	only_playable = yes
+	# only_playable = yes
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	trigger = {
-		NOT = {
-			has_global_flag = makedon_refounded
-		}
-		religion_openly_hellenic_or_reformed_trigger = yes		
-		e_macedonia = {
-			title = FROM
-		}
-	}
+	# trigger = {
+		# NOT = {
+			# has_global_flag = makedon_refounded
+		# }
+		# religion_openly_hellenic_or_reformed_trigger = yes		
+		# e_macedonia = {
+			# title = FROM
+		# }
+	# }
 
-	immediate = {
+	# immediate = {
 
-		give_nickname = nick_the_glorious
+		# give_nickname = nick_the_glorious
 		
-        if = {
-            limit = {
-                is_female = yes
-                has_landed_title = e_macedonia
-            }
-            create_bloodline = {
-                type = anaxorgi
-                inheritance = matrilineal
-            }
-        }
-        else_if = {
-            limit = {
-                is_female = no
-                has_landed_title = e_macedonia
-            }
-            create_bloodline = {
-                type = anaxorgi
-            }
-        }
-		set_global_flag = makedon_refounded
-		prestige = 500
-		piety = 250
-	}
+        # if = {
+            # limit = {
+                # is_female = yes
+                # has_landed_title = e_macedonia
+            # }
+            # create_bloodline = {
+                # type = anaxorgi
+                # inheritance = matrilineal
+            # }
+        # }
+        # else_if = {
+            # limit = {
+                # is_female = no
+                # has_landed_title = e_macedonia
+            # }
+            # create_bloodline = {
+                # type = anaxorgi
+            # }
+        # }
+		# set_global_flag = makedon_refounded
+		# prestige = 500
+		# piety = 250
+	# }
 	
-	weight_multiplier = {
-		factor = 1
-	}
+	# weight_multiplier = {
+		# factor = 1
+	# }
 
-	option = {
-		name = bloodlines3C
-		trigger = {
-			OR = {
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-	}
-	option = {#Orthodox are unhappy
-		name = bloodlines3D
-		trigger = {
-			religion = orthodox
-		}
-	}
-	option = {
-		name = bloodlines3E
-		trigger = {
-			religion_group = christian
-			NOT = {
-				religion = orthodox
-			}
-		}
-	}
-	option = {
-		name = bloodlines3F
-		trigger = {
-			religion_group = muslim			
-		}
-	}		
-	option = {#None of the above
-		name = bloodlines2G
-		trigger = {
-			NOR = {
-				religion_group = christian
-				religion_group = muslim
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-	}
-}
+	# option = {
+		# name = bloodlines3C
+		# trigger = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = hellenic_pagan_reformed
+			# }
+		# }
+	# }
+	# option = {#Orthodox are unhappy
+		# name = bloodlines3D
+		# trigger = {
+			# religion = orthodox
+		# }
+	# }
+	# option = {
+		# name = bloodlines3E
+		# trigger = {
+			# religion_group = christian
+			# NOT = {
+				# religion = orthodox
+			# }
+		# }
+	# }
+	# option = {
+		# name = bloodlines3F
+		# trigger = {
+			# religion_group = muslim			
+		# }
+	# }		
+	# option = {#None of the above
+		# name = bloodlines2G
+		# trigger = {
+			# NOR = {
+				# religion_group = christian
+				# religion_group = muslim
+				# religion = hellenic_pagan
+				# religion = hellenic_pagan_reformed
+			# }
+		# }
+	# }
+# }
 
-##Form Marble Empire
+# ##Form Marble Empire
 
-narrative_event = {
-	id = bloodlines.4
-	title = bloodlines4Title
-	desc = bloodlines4Desc
-	picture = GFX_event_Hagia_sofia
+# narrative_event = {
+	# id = bloodlines.4
+	# title = bloodlines4Title
+	# desc = bloodlines4Desc
+	# picture = GFX_event_Hagia_sofia
 
-	major = yes
-	show_ROOT = yes
-	hide_from = yes
+	# major = yes
+	# show_ROOT = yes
+	# hide_from = yes
 	
-	only_playable = yes
+	# only_playable = yes
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	trigger = {
-		NOT = {
-			has_global_flag = marblists_refounded
-		}
-		religion = marblists
-		primary_title = { title = e_marblists }
-	}
+	# trigger = {
+		# NOT = {
+			# has_global_flag = marblists_refounded
+		# }
+		# religion = marblists
+		# primary_title = { title = e_marblists }
+	# }
 
-	immediate = {
+	# immediate = {
 
-		give_nickname = nick_the_marble_emperor
-        if = {
-            limit = {
-                is_female = yes
-                has_landed_title = e_marblists
-            }
-            create_bloodline = {
-                type = marble_emperor
-                inheritance = matrilineal
-            }
-        }
-        else_if = {
-            limit = {
-                is_female = no
-                has_landed_title = e_marblists
-            }
-            create_bloodline = {
-                type = marble_emperor
-            }
-        }
-		set_global_flag = marblists_refounded
-		prestige = 500
-		piety = 250
-	}
+		# give_nickname = nick_the_marble_emperor
+        # if = {
+            # limit = {
+                # is_female = yes
+                # has_landed_title = e_marblists
+            # }
+            # create_bloodline = {
+                # type = marble_emperor
+                # inheritance = matrilineal
+            # }
+        # }
+        # else_if = {
+            # limit = {
+                # is_female = no
+                # has_landed_title = e_marblists
+            # }
+            # create_bloodline = {
+                # type = marble_emperor
+            # }
+        # }
+		# set_global_flag = marblists_refounded
+		# prestige = 500
+		# piety = 250
+	# }
 	
-	weight_multiplier = {
-		factor = 1
-	}
+	# weight_multiplier = {
+		# factor = 1
+	# }
 
-	option = {
-		name = bloodlines4A
-		trigger = {
-			OR = {
-				culture_group = byzantine
-				culture_group = armenian_group
-				culture_group = caucasian
-			}
-			religion_group = christian
-		}
-	}
-	option = {
-		name = bloodlines4B
-		trigger = {
-			culture_group = oghuz
-		}
-	}
-	option = {
-		name = bloodlines4C
-		trigger = {
-			OR = {
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-	}
-	option = {#Marblists are happy
-		name = bloodlines4D
-		trigger = {
-			religion = marblists
-			NOR = {
-				culture_group = byzantine
-				culture_group = armenian_group
-				culture_group = caucasian
-			}
-		}
-	}
-	option = {
-		name = bloodlines4E
-		trigger = {
-			religion = catholic
-			NOR = {
-				culture_group = byzantine
-				culture_group = armenian_group
-				culture_group = caucasian
-			}			
-		}
-	}
-	option = {
-		name = bloodlines4F
-		trigger = {
-			religion_group = muslim
-		}
-	}		
-	option = {#None of the above
-		name = bloodlines4G
-		trigger = {
-			NOR = {
-				religion_group = christian
-				religion_group = muslim
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-				culture_group = oghuz
-				culture_group = byzantine
-				culture_group = armenian_group
-				culture_group = caucasian
-			}
-		}
-	}
-}
+	# option = {
+		# name = bloodlines4A
+		# trigger = {
+			# OR = {
+				# culture_group = byzantine
+				# culture_group = armenian_group
+				# culture_group = caucasian
+			# }
+			# religion_group = christian
+		# }
+	# }
+	# option = {
+		# name = bloodlines4B
+		# trigger = {
+			# culture_group = oghuz
+		# }
+	# }
+	# option = {
+		# name = bloodlines4C
+		# trigger = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = hellenic_pagan_reformed
+			# }
+		# }
+	# }
+	# option = {#Marblists are happy
+		# name = bloodlines4D
+		# trigger = {
+			# religion = marblists
+			# NOR = {
+				# culture_group = byzantine
+				# culture_group = armenian_group
+				# culture_group = caucasian
+			# }
+		# }
+	# }
+	# option = {
+		# name = bloodlines4E
+		# trigger = {
+			# religion = catholic
+			# NOR = {
+				# culture_group = byzantine
+				# culture_group = armenian_group
+				# culture_group = caucasian
+			# }			
+		# }
+	# }
+	# option = {
+		# name = bloodlines4F
+		# trigger = {
+			# religion_group = muslim
+		# }
+	# }		
+	# option = {#None of the above
+		# name = bloodlines4G
+		# trigger = {
+			# NOR = {
+				# religion_group = christian
+				# religion_group = muslim
+				# religion = hellenic_pagan
+				# religion = hellenic_pagan_reformed
+				# culture_group = oghuz
+				# culture_group = byzantine
+				# culture_group = armenian_group
+				# culture_group = caucasian
+			# }
+		# }
+	# }
+# }
 
-##Form Latin Empire
+# ##Form Latin Empire
 
-narrative_event = {
-	id = bloodlines.5
-	title = bloodlines5Title
-	desc = bloodlines5Desc
-	picture = GFX_event_Hagia_sofia
+# narrative_event = {
+	# id = bloodlines.5
+	# title = bloodlines5Title
+	# desc = bloodlines5Desc
+	# picture = GFX_event_Hagia_sofia
 
-	major = yes
-	show_ROOT = yes
-	hide_from = yes
+	# major = yes
+	# show_ROOT = yes
+	# hide_from = yes
 	
-	only_playable = yes
+	# only_playable = yes
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	trigger = {
-		NOT = {
-			has_global_flag = latinites_refounded
-		}
-		OR = {
-			religion = catholic
-			religion = sevillian
-			religion = penitente
-			religion = cadaverist
-			religion = hussite
-			religion = fraticelli
-			religion = transatlantic
-		}
-		primary_title = { title = e_latin_empire }
-	}
+	# trigger = {
+		# NOT = {
+			# has_global_flag = latinites_refounded
+		# }
+		# OR = {
+			# religion = catholic
+			# religion = sevillian
+			# religion = penitente
+			# religion = cadaverist
+			# religion = hussite
+			# religion = fraticelli
+			# religion = transatlantic
+		# }
+		# primary_title = { title = e_latin_empire }
+	# }
 
-	immediate = {
+	# immediate = {
 
-		give_nickname = nick_the_glorious
-		if = {
-            limit = {
-                is_female = yes
-                has_landed_title = e_latin_empire
-            }
-            create_bloodline = {
-                type = latin_empire_blood
-                inheritance = matrilineal
-            }
-        }
-        else_if = {
-            limit = {
-                is_female = no
-                has_landed_title = e_latin_empire
-            }
-            create_bloodline = {
-                type = latin_empire_blood
-            }
-        }
-		set_global_flag = latinites_refounded
-		prestige = 500
-		piety = 250
-	}
+		# give_nickname = nick_the_glorious
+		# if = {
+            # limit = {
+                # is_female = yes
+                # has_landed_title = e_latin_empire
+            # }
+            # create_bloodline = {
+                # type = latin_empire_blood
+                # inheritance = matrilineal
+            # }
+        # }
+        # else_if = {
+            # limit = {
+                # is_female = no
+                # has_landed_title = e_latin_empire
+            # }
+            # create_bloodline = {
+                # type = latin_empire_blood
+            # }
+        # }
+		# set_global_flag = latinites_refounded
+		# prestige = 500
+		# piety = 250
+	# }
 	
-	weight_multiplier = {
-		factor = 1
-	}
+	# weight_multiplier = {
+		# factor = 1
+	# }
 
-	option = {
-		name = bloodlines5A
-		trigger = {
-			religion_group = christian
-		}
-	}
-	option = {
-		name = bloodlines5C
-		trigger = {
-			OR = {
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-	}
-	option = {
-		name = bloodlines5F
-		trigger = {
-			religion_group = muslim
-		}
-	}		
-	option = {#None of the above
-		name = bloodlines5G
-		trigger = {
-			NOR = {
-				religion_group = christian
-				religion_group = muslim
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-	}
-}
+	# option = {
+		# name = bloodlines5A
+		# trigger = {
+			# religion_group = christian
+		# }
+	# }
+	# option = {
+		# name = bloodlines5C
+		# trigger = {
+			# OR = {
+				# religion = hellenic_pagan
+				# religion = hellenic_pagan_reformed
+			# }
+		# }
+	# }
+	# option = {
+		# name = bloodlines5F
+		# trigger = {
+			# religion_group = muslim
+		# }
+	# }		
+	# option = {#None of the above
+		# name = bloodlines5G
+		# trigger = {
+			# NOR = {
+				# religion_group = christian
+				# religion_group = muslim
+				# religion = hellenic_pagan
+				# religion = hellenic_pagan_reformed
+			# }
+		# }
+	# }
+# }
