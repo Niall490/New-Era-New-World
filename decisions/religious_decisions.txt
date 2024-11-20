@@ -1950,11 +1950,7 @@ decisions = {
 			}
 		}
 		allow = {
-			OR = {
-				any_vassal = { has_landed_title = c_jan_mayen }
-				has_landed_title = c_jan_mayen
-				trait = lunatic
-		}				
+			trait = lunatic
 		}
 		effect = {
 			character_event = { id = nobelian.7777 }
@@ -2125,348 +2121,348 @@ decisions = {
 		}
 	}
 
-	balkaner_secret_religion = {
+	# balkaner_secret_religion = {
 		
-		is_high_prio = yes
-		ai_check_interval = 36
+		# is_high_prio = yes
+		# ai_check_interval = 36
 	
-		potential = {
-			NOR = {
-				has_global_flag = yugoslavism_triumphant
-				has_global_flag = yugoslavism_survives
-				has_global_flag = yugoslavism_dead
-				has_secret_religion = yes
-				has_landed_title = e_yugoslavia
-			}
-			religion = jugoslavist
-			age = 12
-		}
+		# potential = {
+			# NOR = {
+				# has_global_flag = yugoslavism_triumphant
+				# has_global_flag = yugoslavism_survives
+				# has_global_flag = yugoslavism_dead
+				# has_secret_religion = yes
+				# has_landed_title = e_yugoslavia
+			# }
+			# religion = jugoslavist
+			# age = 12
+		# }
 		
-		allow = {
-			NOR = {
-				trait = content
-				trait = cynical
-				trait = zealous
-				trait = idolizer
-			}
-		}
+		# allow = {
+			# NOR = {
+				# trait = content
+				# trait = cynical
+				# trait = zealous
+				# trait = idolizer
+			# }
+		# }
 		
-		effect = {
-			if = {
-				limit = {
-					OR = {
-						culture = croatian
-						culture = slovenian
-					}
-				}
-				set_secret_religion = catholic
-			}
-			else_if = {
-				limit = {
-						culture = bosnian
-				}
-				set_secret_religion = sunni
-			}
-			else_if = {
-				limit = {
-					OR = {
-						culture = serbian
-						culture = bulgarian
-					}
-				}
-				set_secret_religion = orthodox
-			}
-			else = {
-				random_list = {
-					40 = {
-						set_secret_religion = catholic
-					}
-					40 = {
-						set_secret_religion = orthodox
-					}
-					20 = {
-						set_secret_religion = sunni
-					}
-				}
-			}
-		}
+		# effect = {
+			# if = {
+				# limit = {
+					# OR = {
+						# culture = croatian
+						# culture = slovenian
+					# }
+				# }
+				# set_secret_religion = catholic
+			# }
+			# else_if = {
+				# limit = {
+						# culture = bosnian
+				# }
+				# set_secret_religion = sunni
+			# }
+			# else_if = {
+				# limit = {
+					# OR = {
+						# culture = serbian
+						# culture = bulgarian
+					# }
+				# }
+				# set_secret_religion = orthodox
+			# }
+			# else = {
+				# random_list = {
+					# 40 = {
+						# set_secret_religion = catholic
+					# }
+					# 40 = {
+						# set_secret_religion = orthodox
+					# }
+					# 20 = {
+						# set_secret_religion = sunni
+					# }
+				# }
+			# }
+		# }
 		
-		revoke_allowed = {
-			always = no
-		}
+		# revoke_allowed = {
+			# always = no
+		# }
 		
-		ai_will_do = {
-			factor = 0.05#This becomes more and more likely the lower Yugoslavist MA is, starts at 5% chance
-			modifier = {#7.5%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.7 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#11%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.6 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#17%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.5 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#25%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.4 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#38%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.3 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#56% at 1.5, more with 1.75
-				factor = 1.75
-				NOT = {
-					religion_authority = 0.2 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#85% at 1,5m more with 1.75
-				factor = 1.75
-				NOT = {
-					religion_authority = 0.1 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#The emperor abandoning Yugoslavist makes this far more likely
-				factor = 4
-				top_liege = {
-					NOT = {
-						religion = jugoslavist
-					}
-				}
-			}
-		}
-	}
+		# ai_will_do = {
+			# factor = 0.05#This becomes more and more likely the lower Yugoslavist MA is, starts at 5% chance
+			# modifier = {#7.5%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.7 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#11%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.6 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#17%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.5 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#25%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.4 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#38%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.3 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#56% at 1.5, more with 1.75
+				# factor = 1.75
+				# NOT = {
+					# religion_authority = 0.2 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#85% at 1,5m more with 1.75
+				# factor = 1.75
+				# NOT = {
+					# religion_authority = 0.1 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#The emperor abandoning Yugoslavist makes this far more likely
+				# factor = 4
+				# top_liege = {
+					# NOT = {
+						# religion = jugoslavist
+					# }
+				# }
+			# }
+		# }
+	# }
 
-	balkaner_abandon_jugo = {
-		only_playable = yes
+	# balkaner_abandon_jugo = {
+		# only_playable = yes
 		
-		is_high_prio = yes
-		ai_check_interval = 36
+		# is_high_prio = yes
+		# ai_check_interval = 36
 	
-		potential = {
-			NOR = {
-				has_landed_title = e_yugoslavia
-				AND = {
-					any_demesne_title = {
-						temporary = yes
-					}
-					independent = yes
-				}
-			}
-			controls_religion = no # The Propiciater shouldn't be able to, obviously
+		# potential = {
+			# NOR = {
+				# has_landed_title = e_yugoslavia
+				# AND = {
+					# any_demesne_title = {
+						# temporary = yes
+					# }
+					# independent = yes
+				# }
+			# }
+			# controls_religion = no # The Propiciater shouldn't be able to, obviously
 
-			NOR = {#can't do it if Jugo has won
-				has_global_flag = yugoslavism_triumphant
-				has_global_flag = yugoslavism_survives
-			}
+			# NOR = {#can't do it if Jugo has won
+				# has_global_flag = yugoslavism_triumphant
+				# has_global_flag = yugoslavism_survives
+			# }
 			
-			is_playable = yes
-			religion = jugoslavist
-		}
+			# is_playable = yes
+			# religion = jugoslavist
+		# }
 		
-		allow = {
-			OR = {#outright defiance requires either the Car having apostasised, or not being his vassal
-				top_liege = {
-					NOT = {
-						religion = jugoslavist
-					}
-				}
-				independent = yes
-				has_global_flag = yugoslavism_dead
-			}
-			NOR = {
-				trait = content
-				AND = {
-					trait = zealous
-					has_secret_religion = no
-				}
-			}
-		}
+		# allow = {
+			# OR = {#outright defiance requires either the Car having apostasised, or not being his vassal
+				# top_liege = {
+					# NOT = {
+						# religion = jugoslavist
+					# }
+				# }
+				# independent = yes
+				# has_global_flag = yugoslavism_dead
+			# }
+			# NOR = {
+				# trait = content
+				# AND = {
+					# trait = zealous
+					# has_secret_religion = no
+				# }
+			# }
+		# }
 		
-		effect = {
-			abandon_jugo_effect = yes
-			hidden_tooltip = {
-				any_courtier = {
-					limit = {
-						has_landed_title = no
-					}
-					abandon_jugo_effect = yes
-				}
-			}
-		}
+		# effect = {
+			# abandon_jugo_effect = yes
+			# hidden_tooltip = {
+				# any_courtier = {
+					# limit = {
+						# has_landed_title = no
+					# }
+					# abandon_jugo_effect = yes
+				# }
+			# }
+		# }
 		
-		revoke_allowed = {
-			always = no
-		}
+		# revoke_allowed = {
+			# always = no
+		# }
 		
-		ai_will_do = {
-			factor = 0.05#This becomes more and more likely the lower Yugoslavist MA is, starts at 5% chance
-			modifier = {#7.5%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.7 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#11%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.6 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#17%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.5 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#25%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.4 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#38%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.3 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#56%
-				factor = 1.75
-				NOT = {
-					religion_authority = 0.2 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#85%
-				factor = 1.75
-				NOT = {
-					religion_authority = 0.1 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#The emperor abandoning Yugoslavist makes this far more likely
-				factor = 4
-				top_liege = {
-					NOT = {
-						religion = jugoslavist
-					}
-				}
-			}
-		}
-	}
+		# ai_will_do = {
+			# factor = 0.05#This becomes more and more likely the lower Yugoslavist MA is, starts at 5% chance
+			# modifier = {#7.5%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.7 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#11%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.6 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#17%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.5 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#25%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.4 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#38%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.3 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#56%
+				# factor = 1.75
+				# NOT = {
+					# religion_authority = 0.2 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#85%
+				# factor = 1.75
+				# NOT = {
+					# religion_authority = 0.1 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#The emperor abandoning Yugoslavist makes this far more likely
+				# factor = 4
+				# top_liege = {
+					# NOT = {
+						# religion = jugoslavist
+					# }
+				# }
+			# }
+		# }
+	# }
 	
-	emperor_abandon_jugo = {
-		only_playable = yes
+	# emperor_abandon_jugo = {
+		# only_playable = yes
 		
-		is_high_prio = yes
-		ai_check_interval = 36
+		# is_high_prio = yes
+		# ai_check_interval = 36
 	
-		potential = {
-			has_landed_title = e_yugoslavia
-			controls_religion = no # The Propiciater shouldn't be able to, obviously
-			is_playable = yes
-			religion = jugoslavist
-			has_global_flag = yugoslav_crisis_started
-			NOR = {
-				has_global_flag = yugoslavism_triumphant
-				has_global_flag = yugoslavism_survives
-			}
-		}
+		# potential = {
+			# has_landed_title = e_yugoslavia
+			# controls_religion = no # The Propiciater shouldn't be able to, obviously
+			# is_playable = yes
+			# religion = jugoslavist
+			# has_global_flag = yugoslav_crisis_started
+			# NOR = {
+				# has_global_flag = yugoslavism_triumphant
+				# has_global_flag = yugoslavism_survives
+			# }
+		# }
 		
-		allow = {
-			NAND = {
-				trait = zealous
-				has_secret_religion = no
-			}
-		}
+		# allow = {
+			# NAND = {
+				# trait = zealous
+				# has_secret_religion = no
+			# }
+		# }
 		
-		effect = {
-			abandon_jugo_effect = yes
-			hidden_tooltip = {
-				any_courtier = {
-					limit = {
-						has_landed_title = no
-					}
-					abandon_jugo_effect = yes
-				}
-			}
-			custom_tooltip = {
-				text = yugo_crisis_abandon_tt
-				jugoslavist = { religion_authority = { modifier = yugo_crisis_abandoned } }
-				any_realm_province = {
-					limit = { religion = jugoslavist }
-					ROOT = { yugo_crisis_bad_effect = yes }
-				}
-				any_realm_province = {
-					limit = { religion = ROOT }
-					ROOT = { yugo_crisis_good_effect = yes }
-				}
-				calc_yugo_crisis_effect = yes
-			}
-		}
+		# effect = {
+			# abandon_jugo_effect = yes
+			# hidden_tooltip = {
+				# any_courtier = {
+					# limit = {
+						# has_landed_title = no
+					# }
+					# abandon_jugo_effect = yes
+				# }
+			# }
+			# custom_tooltip = {
+				# text = yugo_crisis_abandon_tt
+				# jugoslavist = { religion_authority = { modifier = yugo_crisis_abandoned } }
+				# any_realm_province = {
+					# limit = { religion = jugoslavist }
+					# ROOT = { yugo_crisis_bad_effect = yes }
+				# }
+				# any_realm_province = {
+					# limit = { religion = ROOT }
+					# ROOT = { yugo_crisis_good_effect = yes }
+				# }
+				# calc_yugo_crisis_effect = yes
+			# }
+		# }
 		
-		revoke_allowed = {
-			always = no
-		}
+		# revoke_allowed = {
+			# always = no
+		# }
 		
-		ai_will_do = {
-			factor = 0.02#This becomes more and more likely the lower Yugoslavist MA is, starts at 5% chance
-			modifier = {#7.5%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.7 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#11%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.6 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#17%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.5 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#25%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.4 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#38%
-				factor = 1.5
-				NOT = {
-					religion_authority = 0.3 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#56%
-				factor = 1.75
-				NOT = {
-					religion_authority = 0.2 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-			modifier = {#85%
-				factor = 1.75
-				NOT = {
-					religion_authority = 0.1 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
-				}
-			}
-		}
-	}
+		# ai_will_do = {
+			# factor = 0.02#This becomes more and more likely the lower Yugoslavist MA is, starts at 5% chance
+			# modifier = {#7.5%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.7 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#11%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.6 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#17%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.5 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#25%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.4 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#38%
+				# factor = 1.5
+				# NOT = {
+					# religion_authority = 0.3 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#56%
+				# factor = 1.75
+				# NOT = {
+					# religion_authority = 0.2 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+			# modifier = {#85%
+				# factor = 1.75
+				# NOT = {
+					# religion_authority = 0.1 #If the MA is below 70, every 10 points of MA lost increases the chance of the AI doing this
+				# }
+			# }
+		# }
+	# }
 	
 	strengthen_jugoslavism = {
 		only_playable = yes
@@ -2510,127 +2506,127 @@ decisions = {
 		}
 	}
 	
-	create_fraticelli_papacy = {
-		only_playable = yes
+	# create_fraticelli_papacy = {
+		# only_playable = yes
 		
-		is_high_prio = yes
-		ai_check_interval = 36
+		# is_high_prio = yes
+		# ai_check_interval = 36
 	
-		potential = {
-			is_playable = yes
-			religion = fraticelli
-			NOT = { is_title_active = d_fraticelli }
-			has_dlc = "Sons of Abraham"
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
+		# potential = {
+			# is_playable = yes
+			# religion = fraticelli
+			# NOT = { is_title_active = d_fraticelli }
+			# has_dlc = "Sons of Abraham"
+			# NOT = {
+				# has_alternate_start_parameter = { key = religion_names value = random }
+			# }
+		# }
 		
-		allow = {
-			piety = 1000
-			OR = {
-				owns = 333 # Rome
-				any_realm_lord = {
-					owns = 333
-				}
-			}
-		}
+		# allow = {
+			# piety = 1000
+			# OR = {
+				# owns = 333 # Rome
+				# any_realm_lord = {
+					# owns = 333
+				# }
+			# }
+		# }
 		
-		effect = {
-			activate_title = { title = d_fraticelli status = yes }
-			hidden_tooltip = {
-				create_random_priest = {
-					dynasty = none
-					random_traits = yes
-				}
-				new_character = {
-					d_fraticelli = {
-						grant_title = PREV
-					}
-					wealth = 500
-					opinion = {
-						who = ROOT
-						modifier = opinion_creator_of_rel_heal
-					}
-				}
+		# effect = {
+			# activate_title = { title = d_fraticelli status = yes }
+			# hidden_tooltip = {
+				# create_random_priest = {
+					# dynasty = none
+					# random_traits = yes
+				# }
+				# new_character = {
+					# d_fraticelli = {
+						# grant_title = PREV
+					# }
+					# wealth = 500
+					# opinion = {
+						# who = ROOT
+						# modifier = opinion_creator_of_rel_heal
+					# }
+				# }
 				
-				religion_authority = {
-					modifier = papacy_instituted
-					years = 20
-				}
-			}
-			hidden_effect = {
-				character_event = { id = 39703 }
-			}
-			piety = 1000
-		}
+				# religion_authority = {
+					# modifier = papacy_instituted
+					# years = 20
+				# }
+			# }
+			# hidden_effect = {
+				# character_event = { id = 39703 }
+			# }
+			# piety = 1000
+		# }
 		
-		revoke_allowed = {
-			always = no
-		}
+		# revoke_allowed = {
+			# always = no
+		# }
 		
-		ai_will_do = {
-			factor = 1
-		}
-	}
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
 
-	form_the_majlis = {
-		is_high_prio = yes
-		only_playable = yes
-		ai_check_interval = 24
-		potential = {
-			religion = shiite
-			d_shiite = {
-				has_holder = no
-			}
-			prisoner = no
-			has_regent = no
-		}
+	# form_the_majlis = {
+		# is_high_prio = yes
+		# only_playable = yes
+		# ai_check_interval = 24
+		# potential = {
+			# religion = shiite
+			# d_shiite = {
+				# has_holder = no
+			# }
+			# prisoner = no
+			# has_regent = no
+		# }
 
-		allow = {
-			any_demesne_title = {
-				tier = EMPEROR
-			}
-			piety = 1000			
-		}
+		# allow = {
+			# any_demesne_title = {
+				# tier = EMPEROR
+			# }
+			# piety = 1000			
+		# }
 
-		effect = {
-			custom_tooltip = {
-				text = form_the_majlis_TT
-				}
-			hidden_tooltip = {
-				create_random_priest = {
-					dynasty = none
-					random_traits = yes
-				}
-				new_character = {
-					d_shiite = {
-						grant_title = PREV
-					}
-					wealth = 500
-					opinion = {
-						who = ROOT
-						modifier = opinion_creator_of_rel_heal
-					}
-				}
+		# effect = {
+			# custom_tooltip = {
+				# text = form_the_majlis_TT
+				# }
+			# hidden_tooltip = {
+				# create_random_priest = {
+					# dynasty = none
+					# random_traits = yes
+				# }
+				# new_character = {
+					# d_shiite = {
+						# grant_title = PREV
+					# }
+					# wealth = 500
+					# opinion = {
+						# who = ROOT
+						# modifier = opinion_creator_of_rel_heal
+					# }
+				# }
 				
-				religion_authority = {
-					modifier = papacy_instituted
-					years = 20
-					}
-				}
-				religion_head = {
-					show_scope_change = no
-					set_defacto_liege = ROOT
-				}			
-			}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+				# religion_authority = {
+					# modifier = papacy_instituted
+					# years = 20
+					# }
+				# }
+				# religion_head = {
+					# show_scope_change = no
+					# set_defacto_liege = ROOT
+				# }			
+			# }
+		# revoke_allowed = {
+			# always = no
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
 	
 	form_episcopal = {
 		is_high_prio = yes
@@ -2674,408 +2670,408 @@ decisions = {
 	}
 		
 
-	form_betah_israel = {
-		is_high_prio = yes
-		only_playable = yes
-		ai_check_interval = 24
-		potential = {
-			religion = haymanot
-			d_haymanot = {
-				has_holder = no
-			}
-			prisoner = no
-			has_regent = no
-		}
+	# form_betah_israel = {
+		# is_high_prio = yes
+		# only_playable = yes
+		# ai_check_interval = 24
+		# potential = {
+			# religion = haymanot
+			# d_haymanot = {
+				# has_holder = no
+			# }
+			# prisoner = no
+			# has_regent = no
+		# }
 
-		allow = {
-			form_kingdom_potential = yes
-			piety = 3000
-			realm_size = 50
-			culture = beta_israeli
-			religion = haymanot
-		}
+		# allow = {
+			# form_kingdom_potential = yes
+			# piety = 3000
+			# realm_size = 50
+			# culture = beta_israeli
+			# religion = haymanot
+		# }
 
-		effect = {
-			custom_tooltip = {
-				text = form_betah_israel_TT
-				}
-			hidden_tooltip = {
-				create_random_priest = {
-					dynasty = none
-					random_traits = yes
-				}
-				new_character = {
-					d_haymanot = {
-						grant_title = PREV
-					}
-					wealth = 500
-					opinion = {
-						who = ROOT
-						modifier = opinion_creator_of_rel_heal
-					}
-				}
+		# effect = {
+			# custom_tooltip = {
+				# text = form_betah_israel_TT
+				# }
+			# hidden_tooltip = {
+				# create_random_priest = {
+					# dynasty = none
+					# random_traits = yes
+				# }
+				# new_character = {
+					# d_haymanot = {
+						# grant_title = PREV
+					# }
+					# wealth = 500
+					# opinion = {
+						# who = ROOT
+						# modifier = opinion_creator_of_rel_heal
+					# }
+				# }
 				
-				religion_authority = {
-					modifier = papacy_instituted
-					years = 20
-					}
-				k_betah_israel = {
-					gain_empire_effect = yes
-				}
-				any_demesne_title = {
-					limit = { tier = DUKE }
-					de_jure_liege = k_betah_israel
-					}
-				}
-				religion_head = {
-					show_scope_change = no
-					set_defacto_liege = ROOT
-				}		
-			}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+				# religion_authority = {
+					# modifier = papacy_instituted
+					# years = 20
+					# }
+				# k_betah_israel = {
+					# gain_empire_effect = yes
+				# }
+				# any_demesne_title = {
+					# limit = { tier = DUKE }
+					# de_jure_liege = k_betah_israel
+					# }
+				# }
+				# religion_head = {
+					# show_scope_change = no
+					# set_defacto_liege = ROOT
+				# }		
+			# }
+		# revoke_allowed = {
+			# always = no
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
 	
-	restore_pope_in_rome = {
-		only_independent = yes
-		is_high_prio = yes
-		ai_check_interval = 36
+	# restore_pope_in_rome = {
+		# only_independent = yes
+		# is_high_prio = yes
+		# ai_check_interval = 36
 	
-		potential = {
-			is_playable = yes
-			independent = yes
-			has_dlc = "Sons of Abraham"
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-			OR = {
-				religion = catholic
-				AND = {
-					religion = fraticelli
-					is_title_active = d_fraticelli
-				}
-			}
+		# potential = {
+			# is_playable = yes
+			# independent = yes
+			# has_dlc = "Sons of Abraham"
+			# NOT = {
+				# has_alternate_start_parameter = { key = religion_names value = random }
+			# }
+			# OR = {
+				# religion = catholic
+				# AND = {
+					# religion = fraticelli
+					# is_title_active = d_fraticelli
+				# }
+			# }
 			
-			controls_religion = no
+			# controls_religion = no
 			
-			c_roma = {
-				holder_scope = {
-					OR = {
-						character = ROOT
-						is_liege_or_above = ROOT
-					}
-					OR = {
-						AND = {
-							ROOT = { religion = catholic }
-							k_papacy = {
-								holder_scope = {
-									NOT = { character = PREVPREV }
-									NOT = { is_vassal_or_below = PREVPREV }
-								}
-							}
-						}
-						AND = {
-							ROOT = { religion = fraticelli }
-							d_fraticelli = {
-								holder_scope = {
-									NOT = { character = PREVPREV }
-									NOT = { is_vassal_or_below = PREVPREV }
-								}
-							}
-						}
-					}
-				}
-			}
-			prisoner = no
-			has_regent = no
-		}
+			# c_roma = {
+				# holder_scope = {
+					# OR = {
+						# character = ROOT
+						# is_liege_or_above = ROOT
+					# }
+					# OR = {
+						# AND = {
+							# ROOT = { religion = catholic }
+							# k_papacy = {
+								# holder_scope = {
+									# NOT = { character = PREVPREV }
+									# NOT = { is_vassal_or_below = PREVPREV }
+								# }
+							# }
+						# }
+						# AND = {
+							# ROOT = { religion = fraticelli }
+							# d_fraticelli = {
+								# holder_scope = {
+									# NOT = { character = PREVPREV }
+									# NOT = { is_vassal_or_below = PREVPREV }
+								# }
+							# }
+						# }
+					# }
+				# }
+			# }
+			# prisoner = no
+			# has_regent = no
+		# }
 		
-		effect = {		
-			if = {
-				limit = {
-					religion = catholic
-				}
-				k_papacy = {
-					holder_scope = {
-						c_roma = {
-							grant_title = PREV
-							any_de_jure_vassal_title = {
-								limit = {
-									holder_scope = { 
-										OR = {
-											character = ROOT
-											is_liege_or_above = ROOT
-										}
-									}
-								}
-								grant_title = PREVPREV
-							}
-						}
-						save_event_target_as = restored_pope
-					}
-				}
-			}
-			if = {
-				limit = {
-					religion = catholic
-					NOT = { has_character_flag = restored_catholic_pope_in_rome }
-				}
-				k_papacy = {
-					holder_scope = {
-						opinion = {
-							who = ROOT
-							modifier = opinion_restored_to_rome
-						}
-					}
-				}
-				piety = 1000
-				set_character_flag = restored_catholic_pope_in_rome
-			}
+		# effect = {		
+			# if = {
+				# limit = {
+					# religion = catholic
+				# }
+				# k_papacy = {
+					# holder_scope = {
+						# c_roma = {
+							# grant_title = PREV
+							# any_de_jure_vassal_title = {
+								# limit = {
+									# holder_scope = { 
+										# OR = {
+											# character = ROOT
+											# is_liege_or_above = ROOT
+										# }
+									# }
+								# }
+								# grant_title = PREVPREV
+							# }
+						# }
+						# save_event_target_as = restored_pope
+					# }
+				# }
+			# }
+			# if = {
+				# limit = {
+					# religion = catholic
+					# NOT = { has_character_flag = restored_catholic_pope_in_rome }
+				# }
+				# k_papacy = {
+					# holder_scope = {
+						# opinion = {
+							# who = ROOT
+							# modifier = opinion_restored_to_rome
+						# }
+					# }
+				# }
+				# piety = 1000
+				# set_character_flag = restored_catholic_pope_in_rome
+			# }
 			
-			if = {
-				limit = {
-					religion = fraticelli
-				}
-				d_fraticelli = {
-					holder_scope = {
-						c_roma = {
-							grant_title = PREV
-							any_de_jure_vassal_title = {
-								limit = {
-									holder_scope = { 
-										OR = {
-											character = ROOT
-											is_liege_or_above = ROOT
-										}
-									}
-								}
-								grant_title = PREVPREV
-							}
-						}
-						save_event_target_as = restored_pope
-					}
-				}
-			}
-			if = {
-				limit = {
-					religion = fraticelli
-					NOT = { has_character_flag = restored_fraticelli_pope_in_rome }
-				}
-				piety = 1000
-				set_character_flag = restored_fraticelli_pope_in_rome
-			}
-			hidden_effect = {
-				character_event = { id = 39705 }
-				set_character_flag = testflagrome
-			}
-		}
+			# if = {
+				# limit = {
+					# religion = fraticelli
+				# }
+				# d_fraticelli = {
+					# holder_scope = {
+						# c_roma = {
+							# grant_title = PREV
+							# any_de_jure_vassal_title = {
+								# limit = {
+									# holder_scope = { 
+										# OR = {
+											# character = ROOT
+											# is_liege_or_above = ROOT
+										# }
+									# }
+								# }
+								# grant_title = PREVPREV
+							# }
+						# }
+						# save_event_target_as = restored_pope
+					# }
+				# }
+			# }
+			# if = {
+				# limit = {
+					# religion = fraticelli
+					# NOT = { has_character_flag = restored_fraticelli_pope_in_rome }
+				# }
+				# piety = 1000
+				# set_character_flag = restored_fraticelli_pope_in_rome
+			# }
+			# hidden_effect = {
+				# character_event = { id = 39705 }
+				# set_character_flag = testflagrome
+			# }
+		# }
 		
-		revoke_allowed = {
-			always = no
-		}
+		# revoke_allowed = {
+			# always = no
+		# }
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					any_demesne_province = {
-						NOT = { province_id = 333 }
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				c_roma = {
-					holder_scope = {
-						OR = {
-							ai = no
-							any_liege = { ai = no }  # AI will never take Rome province away from a player
-						}
-					}
-				}
-			}
-		}
-	}
-	restore_pope_in_sevilla = {
-		only_independent = yes
-		is_high_prio = yes
-		ai_check_interval = 36
+		# ai_will_do = {
+			# factor = 1
+			# modifier = {
+				# factor = 0
+				# NOT = {
+					# any_demesne_province = {
+						# NOT = { province_id = 333 }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0
+				# c_roma = {
+					# holder_scope = {
+						# OR = {
+							# ai = no
+							# any_liege = { ai = no }  # AI will never take Rome province away from a player
+						# }
+					# }
+				# }
+			# }
+		# }
+	# }
+	# restore_pope_in_sevilla = {
+		# only_independent = yes
+		# is_high_prio = yes
+		# ai_check_interval = 36
 	
-		potential = {
-			is_playable = yes
-			independent = yes
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-			piety = 250
-			religion = sevillian
-			controls_religion = no
-			c_sevilla = {
-				holder_scope = {
-					OR = {
-						character = ROOT
-						is_liege_or_above = ROOT
-					}
-					AND = {
-						ROOT = { religion = sevillian }
-						k_sevillian_pope = {
-							holder_scope = {
-								NOT = { character = PREVPREV }
-								NOT = { is_vassal_or_below = PREVPREV }
-							}
-						}
-					}
-				}
-			}
-			prisoner = no
-			has_regent = no
-		}
-		allow = {
-			piety = 1000
-			OR = {
-				owns = 182 # sevilla
-				any_realm_lord = {
-					owns = 182
-				}
-			}
-		}
-		effect = {		
-			piety = 1000
-			prestige = 500
-			hidden_tooltip = {
-				if = {
-					limit = {
-						NOT = { is_title_active = k_sevillian_pope }
-					}
-					activate_title = { title = k_sevillian_pope status = yes }
-					create_random_priest = {
-						random_traits = yes
-						religion = ROOT
-						female = no
-						dynasty = none
-					}
-					new_character = {
-						k_sevillian_pope = {
-							grant_title = PREV
-						}
-						c_sevilla = {
-							grant_title = PREV
-						}
-						wealth = 500
-					}
-					k_sevillian_pope = {
-						set_preferred_capital = c_sevilla
-					}
-					k_sevillian_pope = {
-						holder_scope = {
-							opinion = {
-								who = ROOT
-								modifier = opinion_restored_to_sevilla
-							}
-						}
-					}
-				}
-				else = {
-					k_sevillian_pope ={
-						holder_scope = { 
-							grant_title_no_opinion = k_sevillian_pope
-							wealth = 500
-						}
-						set_preferred_capital = c_sevilla
-					}
-					k_sevillian_pope = {
-						holder_scope = {
-							opinion = {
-								who = ROOT
-								modifier = opinion_restored_to_sevilla
-							}
-						}
-					}
-				}
-			}
-		}
+		# potential = {
+			# is_playable = yes
+			# independent = yes
+			# NOT = {
+				# has_alternate_start_parameter = { key = religion_names value = random }
+			# }
+			# piety = 250
+			# religion = sevillian
+			# controls_religion = no
+			# c_sevilla = {
+				# holder_scope = {
+					# OR = {
+						# character = ROOT
+						# is_liege_or_above = ROOT
+					# }
+					# AND = {
+						# ROOT = { religion = sevillian }
+						# k_sevillian_pope = {
+							# holder_scope = {
+								# NOT = { character = PREVPREV }
+								# NOT = { is_vassal_or_below = PREVPREV }
+							# }
+						# }
+					# }
+				# }
+			# }
+			# prisoner = no
+			# has_regent = no
+		# }
+		# allow = {
+			# piety = 1000
+			# OR = {
+				# owns = 182 # sevilla
+				# any_realm_lord = {
+					# owns = 182
+				# }
+			# }
+		# }
+		# effect = {		
+			# piety = 1000
+			# prestige = 500
+			# hidden_tooltip = {
+				# if = {
+					# limit = {
+						# NOT = { is_title_active = k_sevillian_pope }
+					# }
+					# activate_title = { title = k_sevillian_pope status = yes }
+					# create_random_priest = {
+						# random_traits = yes
+						# religion = ROOT
+						# female = no
+						# dynasty = none
+					# }
+					# new_character = {
+						# k_sevillian_pope = {
+							# grant_title = PREV
+						# }
+						# c_sevilla = {
+							# grant_title = PREV
+						# }
+						# wealth = 500
+					# }
+					# k_sevillian_pope = {
+						# set_preferred_capital = c_sevilla
+					# }
+					# k_sevillian_pope = {
+						# holder_scope = {
+							# opinion = {
+								# who = ROOT
+								# modifier = opinion_restored_to_sevilla
+							# }
+						# }
+					# }
+				# }
+				# else = {
+					# k_sevillian_pope ={
+						# holder_scope = { 
+							# grant_title_no_opinion = k_sevillian_pope
+							# wealth = 500
+						# }
+						# set_preferred_capital = c_sevilla
+					# }
+					# k_sevillian_pope = {
+						# holder_scope = {
+							# opinion = {
+								# who = ROOT
+								# modifier = opinion_restored_to_sevilla
+							# }
+						# }
+					# }
+				# }
+			# }
+		# }
 		
-		revoke_allowed = {
-			always = no
-		}
+		# revoke_allowed = {
+			# always = no
+		# }
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					any_demesne_province = {
-						NOT = { province_id = 182 }
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				c_sevilla = {
-					holder_scope = {
-						OR = {
-							ai = no
-							any_liege = { ai = no }  # AI will never take Rome province away from a player
-						}
-					}
-				}
-			}
-		}
-	}
+		# ai_will_do = {
+			# factor = 1
+			# modifier = {
+				# factor = 0
+				# NOT = {
+					# any_demesne_province = {
+						# NOT = { province_id = 182 }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0
+				# c_sevilla = {
+					# holder_scope = {
+						# OR = {
+							# ai = no
+							# any_liege = { ai = no }  # AI will never take Rome province away from a player
+						# }
+					# }
+				# }
+			# }
+		# }
+	# }
 	
-	osvicenism_tolerate_buddhists = {
-		only_playable = yes
-		ai_check_interval = 36
+	# osvicenism_tolerate_buddhists = {
+		# only_playable = yes
+		# ai_check_interval = 36
 
-		potential = {
-			OR = {
-				religion = osvicenism
-				religion = kirishitan
-				religion = isukirian
-				religion = buddhoshinto
-			}
-			NOT = {
-				trait = sympathy_buddhism
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-		allow = {
-			NOT = {
-				trait = zealous
-			}
-			custom_tooltip = {
-				text = osvicenism_sympathy_buddhist
-				hidden_tooltip = {
-					OR = {
-						any_vassal = {
-							religion_group = buddhist_group
-						}
-						any_liege = {
-							religion_group = buddhist_group
-						}
-						any_realm_province = {
-							religion_group = buddhist_group
-						}
-					}
-				}
-			}
-			piety = 50
-		}
-		effect = {
-			add_trait = sympathy_buddhism
-			piety = -50
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+		# potential = {
+			# OR = {
+				# religion = osvicenism
+				# religion = kirishitan
+				# religion = isukirian
+				# religion = buddhoshinto
+			# }
+			# NOT = {
+				# trait = sympathy_buddhism
+			# }
+			# NOT = {
+				# has_alternate_start_parameter = { key = religion_names value = random }
+			# }
+		# }
+		# allow = {
+			# NOT = {
+				# trait = zealous
+			# }
+			# custom_tooltip = {
+				# text = osvicenism_sympathy_buddhist
+				# hidden_tooltip = {
+					# OR = {
+						# any_vassal = {
+							# religion_group = buddhist_group
+						# }
+						# any_liege = {
+							# religion_group = buddhist_group
+						# }
+						# any_realm_province = {
+							# religion_group = buddhist_group
+						# }
+					# }
+				# }
+			# }
+			# piety = 50
+		# }
+		# effect = {
+			# add_trait = sympathy_buddhism
+			# piety = -50
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
 	isukirian_tolerate_shinto = {
 		only_playable = yes
 		ai_check_interval = 36
@@ -3238,42 +3234,42 @@ decisions = {
 			factor = 1
 		}
 	}
-	choose_jewish_school = {
-		only_playable = yes
-		ai_check_interval = 3
-		is_high_prio = yes
+	# choose_jewish_school = {
+		# only_playable = yes
+		# ai_check_interval = 3
+		# is_high_prio = yes
 		
-		potential = {
-			OR = {
-				religion = jewish 
-				religion = mikraist
-			}
-			NOR = {
-				has_character_flag = picking_jewish_school
-				has_character_modifier = hidden_timer_modif
-			}
-			prisoner = no
-			has_regent = no
-		}
-		allow = {
-			piety = 20
-		}
-		effect = {
-			set_character_flag = picking_jewish_school
-			if = {
-				limit = { ai = no }
-				hidden_tooltip = { character_event = { id = israelstuff.6 } }
-			}
-			else = {
-				hidden_tooltip = { letter_event = { id = israelstuff.8 } }
-			}
-			piety = -20		
-			hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+		# potential = {
+			# OR = {
+				# religion = jewish 
+				# religion = mikraist
+			# }
+			# NOR = {
+				# has_character_flag = picking_jewish_school
+				# has_character_modifier = hidden_timer_modif
+			# }
+			# prisoner = no
+			# has_regent = no
+		# }
+		# allow = {
+			# piety = 20
+		# }
+		# effect = {
+			# set_character_flag = picking_jewish_school
+			# if = {
+				# limit = { ai = no }
+				# hidden_tooltip = { character_event = { id = israelstuff.6 } }
+			# }
+			# else = {
+				# hidden_tooltip = { letter_event = { id = israelstuff.8 } }
+			# }
+			# piety = -20		
+			# hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
 	choose_maaravi_sect = {
 		only_playable = yes
 		ai_check_interval = 3
@@ -3458,37 +3454,37 @@ decisions = {
 			factor = 1
 		}
 	}
-	choose_jadidist_sympathy = {
-		only_playable = yes
-		ai_check_interval = 3
-		is_high_prio = yes
+	# choose_jadidist_sympathy = {
+		# only_playable = yes
+		# ai_check_interval = 3
+		# is_high_prio = yes
 		
-		potential = {
-			OR = {
-				religion = jadidist
-			}
-			NOR = {
-				has_character_flag = picking_jadidist
-				has_character_modifier = hidden_timer_modif
-			}
-			prisoner = no
-			has_regent = no
-		}
-		allow = {
-			piety = 20
-		}
-		effect = {
-			set_character_flag = picking_jadidist
-			if = {
-				hidden_tooltip = { character_event = { id = jadidist.1 } }
-			}
-			piety = -20	
-			hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+		# potential = {
+			# OR = {
+				# religion = jadidist
+			# }
+			# NOR = {
+				# has_character_flag = picking_jadidist
+				# has_character_modifier = hidden_timer_modif
+			# }
+			# prisoner = no
+			# has_regent = no
+		# }
+		# allow = {
+			# piety = 20
+		# }
+		# effect = {
+			# set_character_flag = picking_jadidist
+			# if = {
+				# hidden_tooltip = { character_event = { id = jadidist.1 } }
+			# }
+			# piety = -20	
+			# hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
 	
 	choose_britjews_sect = {
 		only_playable = yes
@@ -3511,9 +3507,7 @@ decisions = {
 		}
 		effect = {
 			set_character_flag = picking_britjews
-			if = {
-				hidden_tooltip = { character_event = { id = britjews.1 } }
-			}
+			hidden_tooltip = { character_event = { id = britjews.1 } }
 			piety = -20	
 			hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
 		}
@@ -3522,70 +3516,70 @@ decisions = {
 		}
 	}
 	
-	choose_koranist_sect = {
-		only_playable = yes
-		ai_check_interval = 3
-		is_high_prio = yes
+	# choose_koranist_sect = {
+		# only_playable = yes
+		# ai_check_interval = 3
+		# is_high_prio = yes
 		
-		potential = {
-			religion = koranist
-			NOR = {
-				has_character_flag = picking_koranist
-				has_character_modifier = hidden_timer_modif
-				trait = koranist_conservative
-				trait = koranist_moderate
-				trait = koranist_progressive
-			}
-			prisoner = no
-			has_regent = no
-		}
-		allow = {
-			piety = 50
-		}
-		effect = {
-			set_character_flag = picking_koranist
-			if = {
-				hidden_tooltip = { character_event = { id = koranist.1 } }
-			}
-			piety = -500
-			hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+		# potential = {
+			# religion = koranist
+			# NOR = {
+				# has_character_flag = picking_koranist
+				# has_character_modifier = hidden_timer_modif
+				# trait = koranist_conservative
+				# trait = koranist_moderate
+				# trait = koranist_progressive
+			# }
+			# prisoner = no
+			# has_regent = no
+		# }
+		# allow = {
+			# piety = 50
+		# }
+		# effect = {
+			# set_character_flag = picking_koranist
+			# if = {
+				# hidden_tooltip = { character_event = { id = koranist.1 } }
+			# }
+			# piety = -500
+			# hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
 	
-	choose_jadid_study = {
-		only_playable = yes
-		ai_check_interval = 3
-		is_high_prio = yes
+	# choose_jadid_study = {
+		# only_playable = yes
+		# ai_check_interval = 3
+		# is_high_prio = yes
 		
-		potential = {
-			OR = {
-				religion = jadidist
-			}
-			NOR = {
-				has_character_flag = picking_jadidist2
-				has_character_modifier = hidden_timer_modif
-			}
-			prisoner = no
-			has_regent = no
-		}
-		allow = {
-			piety = 20
-		}
-		effect = {
-			set_character_flag = picking_jadidist2
-			if = {
-				hidden_tooltip = { character_event = { id = jadidist.2 } }
-			}
-			piety = -20	
-			hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+		# potential = {
+			# OR = {
+				# religion = jadidist
+			# }
+			# NOR = {
+				# has_character_flag = picking_jadidist2
+				# has_character_modifier = hidden_timer_modif
+			# }
+			# prisoner = no
+			# has_regent = no
+		# }
+		# allow = {
+			# piety = 20
+		# }
+		# effect = {
+			# set_character_flag = picking_jadidist2
+			# if = {
+				# hidden_tooltip = { character_event = { id = jadidist.2 } }
+			# }
+			# piety = -20	
+			# hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
 	
 	choose_congregationist_sect = {
 		only_playable = yes
@@ -3608,9 +3602,7 @@ decisions = {
 		}
 		effect = {
 			set_character_flag = picking_congregationist
-			if = {
-				hidden_tooltip = { character_event = { id = britjews.2 } }
-			}
+			hidden_tooltip = { character_event = { id = britjews.2 } }
 			piety = -50
 			hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
 		}
@@ -3640,9 +3632,7 @@ decisions = {
 		}
 		effect = {
 			set_character_flag = picking_federationist
-			if = {
-				hidden_tooltip = { character_event = { id = britjews.3 } }
-			}
+			hidden_tooltip = { character_event = { id = britjews.3 } }
 			piety = -50
 			hidden_tooltip = { add_character_modifier = { name = hidden_timer_modif duration = 1825 hidden = yes} }
 		}
@@ -3665,7 +3655,7 @@ decisions = {
 				has_character_modifier = studied_pragmatism
 				has_character_modifier = studied_jingoism
 				has_character_modifier = studied_transcendantalism
-				 has_character_modifier = studied_foundationalism
+				has_character_modifier = studied_foundationalism
 			}
 			is_adult = yes
 			is_incapable = no
@@ -3677,9 +3667,7 @@ decisions = {
 		}
 		effect = {
 			set_character_flag = picking_study_america
-			if = {
-				hidden_tooltip = { character_event = { id = america.26 } }
-			}
+			hidden_tooltip = { character_event = { id = america.26 } }
 			piety = -10	
 		}
 		ai_will_do = {
@@ -3723,41 +3711,41 @@ decisions = {
 		}
 	}
 	
-	choose_zarist_cult = {
-		only_playable = yes
-		ai_check_interval = 48
-		is_high_prio = yes
+	# choose_zarist_cult = {
+		# only_playable = yes
+		# ai_check_interval = 48
+		# is_high_prio = yes
 		
-		potential = {
-			OR = {
-				religion = zarist
-			}
-			NOT = {
-				has_character_flag = picking_zarist_cult
-			}
-			is_adult = yes
-			is_incapable = no
-			prisoner = no
-			has_regent = no
-		}
-		allow = {
-			piety = 20
-		}
-		effect = {
-			set_character_flag = picking_zarist_cult
-			if = {
-				limit = { ai = no }
-				hidden_tooltip = { character_event = { id = zarist.300 } }
-			}
-			else = {
-				hidden_tooltip = { letter_event = { id = zarist.302 } }
-			}
-			piety = -20	
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+		# potential = {
+			# OR = {
+				# religion = zarist
+			# }
+			# NOT = {
+				# has_character_flag = picking_zarist_cult
+			# }
+			# is_adult = yes
+			# is_incapable = no
+			# prisoner = no
+			# has_regent = no
+		# }
+		# allow = {
+			# piety = 20
+		# }
+		# effect = {
+			# set_character_flag = picking_zarist_cult
+			# if = {
+				# limit = { ai = no }
+				# hidden_tooltip = { character_event = { id = zarist.300 } }
+			# }
+			# else = {
+				# hidden_tooltip = { letter_event = { id = zarist.302 } }
+			# }
+			# piety = -20	
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
 	
 	choose_calvinist_sect = {
 		only_playable = yes
@@ -4098,87 +4086,87 @@ decisions = {
 			factor = 0.5
 		}
 	}	
-	jacobinist_sacrifice_peasant = {
-		only_playable = yes
+	# jacobinist_sacrifice_peasant = {
+		# only_playable = yes
 		
-		is_high_prio = yes
-		ai_check_interval = 6
+		# is_high_prio = yes
+		# ai_check_interval = 6
 	
-		potential = {
-			is_playable = yes
-			religion = jacobinist
-			prisoner = no
-			has_regent = no
-			NOT = { wealth = 300 }
-		}
+		# potential = {
+			# is_playable = yes
+			# religion = jacobinist
+			# prisoner = no
+			# has_regent = no
+			# NOT = { wealth = 300 }
+		# }
 		
-		allow = {
-			religion = jacobinist
-			prestige = 150
-			custom_tooltip = {
-				text = JACOBINIST_HAVENT_SACRIFICED
-				ruled_years = 4
-				NOT = { has_character_modifier = madame_sacrifice_timer_2 }
-			}
-		}
+		# allow = {
+			# religion = jacobinist
+			# prestige = 150
+			# custom_tooltip = {
+				# text = JACOBINIST_HAVENT_SACRIFICED
+				# ruled_years = 4
+				# NOT = { has_character_modifier = madame_sacrifice_timer_2 }
+			# }
+		# }
 		
-		effect = {
-			prestige = -150
-			#character_event = { id = yugoslav.8 tooltip = JACOBINIST_GONNA_SACRIFICE_EM}
-			custom_tooltip = {
-				text = JACOBINIST_GONNA_SACRIFICE_EM
-			}
-			scaled_wealth = { value = 0.75 min = 10 max = 500 }
-			jacobinist_madame_timer_effect = yes
-		}
+		# effect = {
+			# prestige = -150
+			# #character_event = { id = yugoslav.8 tooltip = JACOBINIST_GONNA_SACRIFICE_EM}
+			# custom_tooltip = {
+				# text = JACOBINIST_GONNA_SACRIFICE_EM
+			# }
+			# scaled_wealth = { value = 0.75 min = 10 max = 500 }
+			# jacobinist_madame_timer_effect = yes
+		# }
 		
-		revoke_allowed = {
-			always = no
-		}
+		# revoke_allowed = {
+			# always = no
+		# }
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.3 #slow down a bit
-			}
-			modifier = {
-				factor = 0
-				NOT = {
-					scaled_wealth = { value = 0.25 min = 10 max = 500 }
-				}
-			}
-			modifier = {
-				factor = 0.5
-				war = yes
-			}
-			modifier = {
-				factor = 0.5
-				any_courtier = {
-					prisoner = yes
-					host = { character = ROOT }
-					NOT = { diplomatic_immunity = yes }
-				}
-			}
-			modifier = {
-				factor = 0.5
-				any_courtier = {
-					count = 2
-					prisoner = yes
-					host = { character = ROOT }
-					NOT = { diplomatic_immunity = yes }
-				}
-			}
-			modifier = {
-				factor = 0.5
-				any_courtier = {
-					count = 3
-					prisoner = yes
-					host = { character = ROOT }
-					NOT = { diplomatic_immunity = yes }
-				}
-			}
-		}
-	}
+		# ai_will_do = {
+			# factor = 1
+			# modifier = {
+				# factor = 0.3 #slow down a bit
+			# }
+			# modifier = {
+				# factor = 0
+				# NOT = {
+					# scaled_wealth = { value = 0.25 min = 10 max = 500 }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# war = yes
+			# }
+			# modifier = {
+				# factor = 0.5
+				# any_courtier = {
+					# prisoner = yes
+					# host = { character = ROOT }
+					# NOT = { diplomatic_immunity = yes }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# any_courtier = {
+					# count = 2
+					# prisoner = yes
+					# host = { character = ROOT }
+					# NOT = { diplomatic_immunity = yes }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# any_courtier = {
+					# count = 3
+					# prisoner = yes
+					# host = { character = ROOT }
+					# NOT = { diplomatic_immunity = yes }
+				# }
+			# }
+		# }
+	# }
 	discern_your_future = {
 		only_playable = yes
 		ai_check_interval = 6
@@ -4187,11 +4175,11 @@ decisions = {
 		potential = {
 			OR = {
 				religion = thelemic_reformed
-				religion = theosophy
-				religion = espiritista
-				religion = summer_queen
+				#religion = theosophy
+				#religion = espiritista
+				#religion = summer_queen
 				religion = thelemic
-				religion = orange_king
+				#religion = orange_king
 				religion = islamity
 				religion = voodun
 				religion = haiti_voodoo
