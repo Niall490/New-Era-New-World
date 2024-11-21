@@ -132,6 +132,26 @@ character_event = {
 		}
 	}
 }
+
+character_event = { 
+	id = cleanup.5588
+	hide_window = yes
+	only_rulers = yes
+	is_triggered_only = yes
+	immediate = {
+		set_the_kings_peace = no
+		set_the_kings_full_peace = no
+	}
+}
+character_event = { 
+	id = cleanup.5589
+	hide_window = yes
+	only_rulers = yes
+	is_triggered_only = yes
+	immediate = {
+		set_the_kings_full_peace = no
+	}
+}
 character_event = { 
 	id = cleanup.6677
 	hide_window = yes
