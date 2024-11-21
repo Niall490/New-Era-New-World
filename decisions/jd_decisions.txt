@@ -12,14 +12,7 @@ decisions = {
 		is_high_prio = yes
 		ai_check_interval = 60
 		potential = {
-			OR = {
-				culture_group = niger_congolese
-				culture_group = chadic
-				culture_group = senegambian
-				culture_group = mande
-				culture_group = francacfrique
-				culture_group = afroatlantic
-			}
+			culture_group = niger_congolese
 			is_nomadic = no
 			is_feudal = yes
 			NOT = { government = chinese_imperial_government }

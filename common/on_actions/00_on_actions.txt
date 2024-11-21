@@ -3117,11 +3117,11 @@ on_create_title = {
 # FROMFROM is the old holder
 on_new_holder = {
 	events = {
-		bloodlines.1#Give the Osman bloodline if the appropriate title was created
-		bloodlines.2#Give the Constantine bloodline if the appropriate title was created
-		bloodlines.3#Give the Anaxorgos bloodline if the appropriate title was created
-		bloodlines.4#Give the Marblist bloodline if the appropriate title was created
-		bloodlines.5#Give the Latinite bloodline if the appropriate title was created
+		# bloodlines.1#Give the Osman bloodline if the appropriate title was created
+		# bloodlines.2#Give the Constantine bloodline if the appropriate title was created
+		# bloodlines.3#Give the Anaxorgos bloodline if the appropriate title was created
+		# bloodlines.4#Give the Marblist bloodline if the appropriate title was created
+		# bloodlines.5#Give the Latinite bloodline if the appropriate title was created
 		cleanup.444
 		#60504 # Landless status clean-up for e_mongol_empire
 		533   # Powerful vassals overthrow their liege - faction

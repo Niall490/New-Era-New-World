@@ -18750,6 +18750,8 @@
 5001671 = { name = "Fryer" culture = olympian }
 5001672 = { name = "Johnson" culture = pugetian }
 5001673 = { name = "Needham" culture = olympian }
+5001674 = { name = "Cohen" culture = valleyan }
+5001675 = { name = "Dadehar" culture = kailiphorani }
 
 5130831 = { 
 	name="Seed" 

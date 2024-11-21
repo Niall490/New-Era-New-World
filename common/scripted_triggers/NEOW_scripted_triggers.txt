@@ -21,16 +21,16 @@ is_real_offmap_governor = {
 
 is_anti_caliph = {
 	OR = {
-		has_claim = d_sunni
+		#has_claim = d_sunni
 		has_claim = d_salihi
-		has_claim = d_wahhabi
-		has_claim = d_deobandi
-		has_claim = d_maliki
-		has_claim = d_mesopotamian
-		has_claim = d_ismaili
+		#has_claim = d_wahhabi
+		#has_claim = d_deobandi
+		#has_claim = d_maliki
+		#has_claim = d_mesopotamian
+		#has_claim = d_ismaili
 		has_claim = d_ahmadiyya
 		has_claim = e_sufi
-		has_claim = e_ovlatii
+		#has_claim = e_ovlatii
 	}
 }
 uses_agrarian_feudal = {

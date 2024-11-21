@@ -44,6 +44,11 @@ decisions = {
 					has_character_modifier = holding_large_feast
 				}
 			}
+			OR = {
+				NOT = { has_dlc = "Way of Life" }
+				has_focus = focus_carousing
+				has_focus = focus_family
+			}
 		}
 
 		allow = {
@@ -96,6 +101,37 @@ decisions = {
 							value = 8
 						}
 					}
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_0
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_peace = yes
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5588
+					months = 3
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_1
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5589
+					months = 3
 				}
 			}
 		}
@@ -158,6 +194,11 @@ decisions = {
 					days >= 60
 				}
 			}
+			OR = {
+				NOT = { has_dlc = "Way of Life" }
+				has_focus = focus_carousing
+				has_focus = focus_family
+			}
 		}
 
 		allow = {
@@ -214,6 +255,37 @@ decisions = {
 							value = 8
 						}
 					}
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_0
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_peace = yes
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5588
+					months = 2
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_1
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5589
+					months = 2
 				}
 			}
 		}
@@ -313,6 +385,37 @@ decisions = {
 					}
 				}
 			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_0
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_peace = yes
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5588
+					months = 1
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_1
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5589
+					months = 1
+				}
+			}
 		}
 		revoke_allowed = {
 			always = no
@@ -351,7 +454,6 @@ decisions = {
 			}
 		}
 	}
-	
 	hold_tiger_hunt = {
 		only_playable = yes
 		ai_check_interval = 7
@@ -364,6 +466,10 @@ decisions = {
 			num_of_vassals = 1
 			capital_scope = {
 				region = world_india
+			}
+			OR = {
+				NOT = { has_dlc = "Way of Life" }
+				has_focus = focus_hunting
 			}
 		}
 		allow = {
@@ -411,6 +517,37 @@ decisions = {
 							change_variable = { which = prosperity_value value = 8 }
 						}
 					}
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_0
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_peace = yes
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5588
+					months = 2
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_1
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5589
+					months = 2
 				}
 			}
 		}
@@ -1586,6 +1723,11 @@ decisions = {
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
+			OR = {
+				NOT = { has_dlc = "Way of Life" }
+				has_focus = focus_carousing
+				has_focus = focus_family
+			}
 		}
 		allow = {
 			war = no
@@ -1631,6 +1773,37 @@ decisions = {
 							change_variable = { which = prosperity_value value = 8 }
 						}
 					}
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_0
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_peace = yes
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5588
+					months = 2
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_1
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5589
+					months = 2
 				}
 			}
 		}
@@ -2355,6 +2528,37 @@ decisions = {
 				text = is_not_busy_trigger_tooltip
 				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
 			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_0
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_peace = yes
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5588
+					months = 2
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_1
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5589
+					months = 2
+				}
+			}
 		}
 		effect = {
 			scaled_wealth = -0.2
@@ -2462,6 +2666,11 @@ decisions = {
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
+			OR = {
+				NOT = { has_dlc = "Way of Life" }
+				has_focus = focus_carousing
+				has_focus = focus_family
+			}
 		}
 		allow = {
 			war = no
@@ -2507,6 +2716,37 @@ decisions = {
 							change_variable = { which = prosperity_value value = 8 }
 						}
 					}
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_0
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_peace = yes
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5588
+					months = 2
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_1
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5589
+					months = 2
 				}
 			}
 		}
@@ -2588,6 +2828,11 @@ decisions = {
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
+			OR = {
+				NOT = { has_dlc = "Way of Life" }
+				has_focus = focus_carousing
+				has_focus = focus_family
+			}
 		}
 		allow = {
 			war = no
@@ -2633,6 +2878,37 @@ decisions = {
 							change_variable = { which = prosperity_value value = 8 }
 						}
 					}
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_0
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_peace = yes
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5588
+					months = 2
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_1
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5589
+					months = 2
 				}
 			}
 		}
@@ -2885,6 +3161,11 @@ decisions = {
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
+			OR = {
+				NOT = { has_dlc = "Way of Life" }
+				has_focus = focus_carousing
+				has_focus = focus_family
+			}
 		}
 		allow = {
 			war = no
@@ -2913,6 +3194,37 @@ decisions = {
 				hidden_tooltip = { 
 					character_event = { id = 39820 } 
 					add_character_modifier = { name = held_sadah_feast_timer hidden = yes years = 5 } 
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_0
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_peace = yes
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5588
+					months = 2
+				}
+			}
+			conditional_tooltip = {
+				trigger = { 
+					primary_title = {
+						has_law = vassal_wars_law_1
+					}
+					independent = yes
+					is_landed = yes
+				}
+				set_council_malcontent = no
+				set_the_kings_full_peace = yes
+				character_event = {
+					id = cleanup.5589
+					months = 2
 				}
 			}
 		}

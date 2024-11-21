@@ -132,6 +132,26 @@ character_event = {
 		}
 	}
 }
+
+character_event = { 
+	id = cleanup.5588
+	hide_window = yes
+	only_rulers = yes
+	is_triggered_only = yes
+	immediate = {
+		set_the_kings_peace = no
+		set_the_kings_full_peace = no
+	}
+}
+character_event = { 
+	id = cleanup.5589
+	hide_window = yes
+	only_rulers = yes
+	is_triggered_only = yes
+	immediate = {
+		set_the_kings_full_peace = no
+	}
+}
 character_event = { 
 	id = cleanup.6677
 	hide_window = yes
@@ -2743,11 +2763,6 @@ character_event = {
 				culture_group = amerohellene
 				culture_group = caucasian
 				culture_group = niger_congolese
-				culture_group = chadic
-				culture_group = senegambian
-				culture_group = mande
-				culture_group = francacfrique
-				culture_group = afroatlantic
 				culture_group = armenian_group
 				culture_group = amero_armenian
 				culture_group = albanian
@@ -2801,10 +2816,6 @@ character_event = {
 				culture_group = amerohellene
 				culture_group = caucasian
 				culture_group = niger_congolese
-				culture_group = senegambian
-				culture_group = mande
-				culture_group = francacfrique
-				culture_group = afroatlantic
 				culture_group = armenian_group
 				culture_group = amero_armenian
 				culture_group = albanian
@@ -4501,12 +4512,9 @@ character_event = {
 					culture_group = east_african
 					culture_group = cushitic
 					culture_group = berber
-					culture_group = mande
-					culture_group = afroatlantic
 					culture_group = abbala_arabic
 					culture_group = nilotic
 					culture_group = saharan
-					culture_group = senegambian
 					culture_group = niger_congolese
 				}
 			}
