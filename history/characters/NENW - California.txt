@@ -438,6 +438,7 @@
 	dynasty = 5001668
 	culture = olympian
 	religion = dianic
+	female = yes
 	2287.4.11 = {
 		birth = yes
 	}
