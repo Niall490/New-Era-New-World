@@ -1,0 +1,17 @@
+#c_pasadena
+
+# County Title
+title = c_pasadena
+
+# Settlements
+max_settlements = 3
+
+b_pasadena_CA = castle
+b_el_monte_CA = city
+b_glendale_CA = temple
+
+# Misc
+culture = angeleno
+religion = amaitist
+
+#History

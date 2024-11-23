@@ -1,0 +1,17 @@
+# c_tehrangeles
+
+# County Title
+title = c_tehrangeles
+
+# Settlements
+max_settlements = 3
+
+b_beverley_hills_CA = castle
+b_santa_monica_CA = city
+b_calabasas_CA = temple
+
+# Misc
+culture = farsi #CHANGE ONCE TEHRAGELOS ARE IN GAME
+religion = amaitist
+
+#History

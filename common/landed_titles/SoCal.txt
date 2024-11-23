@@ -25,11 +25,11 @@ e_socal = {
 				
 				b_hollywood_CA = {}
 				b_los_angeles_CA = {}
-				b_santa_monica_CA = {}
-				b_pasadena_CA = {}
-				b_el_monte_CA = {}
 				b_inglewood_CA = {}
 				b_burbank_CA = {}
+				b_culver_city_CA = {}
+				b_el_segundo_CA = {}
+				b_lawndale_CA = {}
 			}
 			c_long_beach_CA = {
 				color={ 0 118 178 }
@@ -66,6 +66,30 @@ e_socal = {
 				b_simi_valley_CA = {}
 				b_moorpark_CA = {}
 				b_santa_rosa_valley_CA = {}
+			}
+			c_pasadena = {
+				color = { 0 127 193 }
+				color2 = { 255 225 255 }
+				
+				b_pasadena_CA = {}
+				b_el_monte_CA = {}
+				b_glendale_CA = {}
+				b_alhambra_CA = {}
+				b_rosemead_CA = {}
+				b_alinda_CA = {}
+				b_city_of_industry_CA = {}
+			}
+			c_tehrangeles = {
+				color = { 0 132 206 }
+				color2 = { 255 255 255 }
+				
+				b_beverley_hills_CA = {}
+				b_santa_monica_CA = {}
+				b_calabasas_CA = {}
+				b_lake_balboa_CA = {}
+				b_chatsworth_CA = {}
+				b_van_nuts_CA = {}
+				b_tarzana_CA = {}
 			}
 		}
 		d_orange = {
