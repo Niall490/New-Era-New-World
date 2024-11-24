@@ -438,6 +438,7 @@
 	dynasty = 5001668
 	culture = olympian
 	religion = dianic
+	female = yes
 	2287.4.11 = {
 		birth = yes
 	}
@@ -524,6 +525,18 @@
 	culture = kailiphorani
 	religion = sikh
 	2276.1.3 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300037 = {
+	name = "Roberto"
+	dynasty = 5001676
+	culture = arizonense
+	religion = gambler
+	2280.9.1 = {
 		birth = yes
 	}
 	2666.1.1 = {

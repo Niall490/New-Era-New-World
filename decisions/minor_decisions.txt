@@ -112,8 +112,10 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_peace = yes
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_peace = yes
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5588
 					months = 3
@@ -128,7 +130,9 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5589
 					months = 3
@@ -266,8 +270,10 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_peace = yes
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_peace = yes
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5588
 					months = 2
@@ -282,7 +288,9 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5589
 					months = 2
@@ -394,8 +402,10 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_peace = yes
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_peace = yes
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5588
 					months = 1
@@ -410,7 +420,9 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5589
 					months = 1
@@ -528,8 +540,10 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_peace = yes
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_peace = yes
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5588
 					months = 2
@@ -544,7 +558,9 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5589
 					months = 2
@@ -1784,8 +1800,10 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_peace = yes
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_peace = yes
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5588
 					months = 2
@@ -1800,7 +1818,9 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5589
 					months = 2
@@ -2537,8 +2557,10 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_peace = yes
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_peace = yes
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5588
 					months = 2
@@ -2553,7 +2575,9 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5589
 					months = 2
@@ -2727,8 +2751,10 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_peace = yes
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_peace = yes
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5588
 					months = 2
@@ -2743,7 +2769,9 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5589
 					months = 2
@@ -2889,8 +2917,10 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_peace = yes
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_peace = yes
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5588
 					months = 2
@@ -2905,7 +2935,9 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5589
 					months = 2
@@ -3205,8 +3237,10 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_peace = yes
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_peace = yes
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5588
 					months = 2
@@ -3221,7 +3255,9 @@ decisions = {
 					is_landed = yes
 				}
 				set_council_malcontent = no
-				set_the_kings_full_peace = yes
+				primary_title = {
+					set_the_kings_full_peace = yes
+				}
 				character_event = {
 					id = cleanup.5589
 					months = 2

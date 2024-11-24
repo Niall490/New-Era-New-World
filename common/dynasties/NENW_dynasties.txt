@@ -12348,6 +12348,47 @@
 5226839 = { name="Zandi" culture=karulaynasi  }
 5226840 = { name="Zanjani" culture=karulaynasi  }
 
+5226841 = { name="Osbourn" culture=renoite  }
+5226842 = { name="Turrittin" culture=renoite  }
+5226843 = { name="Kirman" culture=renoite  }
+5226844 = { name="O'Connor" culture=renoite  }
+5226845 = { name="Byington" culture=renoite  }
+5226846 = { name="Stewart" culture=renoite  }
+5226847 = { name="Roberts" culture=renoite  }
+5226848 = { name="Frank" culture=renoite  }
+5226849 = { name="Frohlich" culture=renoite  }
+5226850 = { name="Harris" culture=renoite  }
+5226851 = { name="Bennett" culture=renoite  }
+5226852 = { name="Griffin" culture=renoite  }
+5226853 = { name="Ault" culture=renoite  }
+5226854 = { name="Bader" culture=renoite  }
+5226855 = { name="Boyd" culture=renoite  }
+5226856 = { name="Callister" culture=renoite  }
+5226857 = { name="Clifford" culture=renoite  }
+5226858 = { name="Flanigan" culture=renoite  }
+5226859 = { name="Gibbons" culture=renoite  }
+5226860 = { name="Hanson" culture=renoite  }
+5226861 = { name="Jepsen" culture=renoite  }
+5226862 = { name="Lane" culture=renoite  }
+5226863 = { name="McCarran" culture=renoite  }
+5226864 = { name="Norman" culture=renoite  }
+5226865 = { name="Singleton" culture=renoite  }
+5226866 = { name="Schierholtz" culture=renoite  }
+5226867 = { name="Stadler" culture=renoite  }
+5226868 = { name="Weiss" culture=renoite  }
+5226869 = { name="Williams" culture=renoite  }
+5226870 = { name="Hayes" culture=renoite  }
+5226871 = { name="Martin" culture=renoite  }
+5226872 = { name="Snyder" culture=renoite  }
+5226873 = { name="Richardson" culture=renoite  }
+5226874 = { name="Tracy" culture=renoite  }
+5226875 = { name="Harman" culture=renoite  }
+5226876 = { name="Burton" culture=renoite  }
+5226877 = { name="Damon" culture=renoite  }
+5226878 = { name="Rivers" culture=renoite  }
+5226879 = { name="Wade" culture=renoite  }
+5226880 = { name="Frierson" culture=renoite  }
+
 4023000 = {
     name = "Krouskos"
 	culture = kolorantoi
@@ -18752,6 +18793,21 @@
 5001673 = { name = "Needham" culture = olympian }
 5001674 = { name = "Cohen" culture = valleyan }
 5001675 = { name = "Dadehar" culture = kailiphorani }
+5001676 = { 
+	name = "De Las Casas" culture = arizonense 
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 16 #NENW_CoAs.tga
+			texture_internal = 336
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 5130831 = { 
 	name="Seed" 

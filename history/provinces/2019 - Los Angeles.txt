@@ -6,9 +6,9 @@ title = c_los_angeles
 # Settlements
 max_settlements = 7
 
-b_pasadena_CA = castle
+b_los_angeles_CA = castle
 b_hollywood_CA = city
-b_santa_monica_CA = temple
+b_inglewood_CA = temple
 b_burbank_CA = city
 
 # Misc
