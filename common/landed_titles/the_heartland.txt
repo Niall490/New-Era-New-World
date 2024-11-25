@@ -15,8 +15,8 @@ e_the_heartland = {
 		
 		# Crusade target weight
 		constitutional = 5
-		thelemic_reformed = 5
-		salihi = 250	
+		thelemic_reformed = 5	
+		salihi = 250
 
 		culture = badgerlander
 		
@@ -848,6 +848,9 @@ e_the_heartland = {
 		# Crusade target weight
 		salihi = 500
 	
+		#GHW weights
+		salihi = 500
+
 		d_minnesota = {
 			color = { 75 0 130 }
 			color2= { 110 22 132 }

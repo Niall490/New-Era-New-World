@@ -30,7 +30,7 @@ wealth = 20			# Total base wealth of silk route
 		1050
 	}
 	start = {
-		376
+		252
 		1050
 	}
 	start = { 

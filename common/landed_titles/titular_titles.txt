@@ -19,6 +19,16 @@ e_buccaneer = {
 	creation_requires_capital = no	
 }
 
+e_grand_council_oklahoma = {
+	color = { 235 193 56 }
+	color2= { 255 255 20 }
+
+	title_prefix = "GRAND_COUNCIL"
+
+	capital = 940 #Cleveland
+	title = "High Chief"
+}
+
 ### titular kingdoms
 
 k_dinetah = {
@@ -72,6 +82,18 @@ k_the_banks = {
 	}
 }
 
+k_interlake_hetmanate = {
+	color = { 0 91 187 }
+	color2={ 255 255 255 }	
+
+	allow = {
+		always = no
+	}
+	short_name = yes
+	title = Hetman
+	
+	capital = 584 #Winnipeg
+}
 ### titular duchies
 
 d_erie = {
@@ -313,17 +335,6 @@ d_la_gallega = {
 	title_prefix = "THE"
 }
 
-e_grand_council_oklahoma = {
-	color = { 235 193 56 }
-	color2= { 255 255 20 }
-
-	title_prefix = "GRAND_COUNCIL"
-
-	capital = 940 #Cleveland
-	assimilate = no
-	title = "High Chief"
-}
-
 d_fortcarson = {
 	color = { 0 122 0 }
 	color2={ 255 255 255 }
@@ -337,15 +348,156 @@ d_fortcarson = {
 	capital = 398 #Denver
 }
 
-k_interlake_hetmanate = {
-	color = { 0 91 187 }
-	color2={ 255 255 255 }	
+## plains nomads
 
-	allow = {
-		always = no
-	}
-	short_name = yes
-	title = Hetman
-	
-	capital = 584 #Winnipeg
+e_siksika = {
+	color = { 102 6 51 }
+	color2= { 255 255 20 }
+
+	capital = 573 #Newell
+	title = "High Horselord"
+}
+
+e_kainaa = {
+	color = { 17 60 45 }
+	color2= { 255 255 20 }
+
+	capital = 496 #Warner
+	title = "High Horselord"
+}
+
+e_piikani = {
+	color = { 214 56 44 }
+	color2= { 255 255 20 }
+
+	capital = 492 #Freezeout
+	title = "High Horselord"
+}
+
+e_hebina = {
+	color = { 223 223 73 }
+	color2= { 255 255 20 }
+
+	capital = 575 #Piapot
+	title = "High Horselord"
+}
+
+e_ahsiniiwin = {
+	color = { 237 226 121 }
+	color2= { 255 255 20 }
+
+	capital = 494 #Milk River
+	title = "High Horselord"
+}
+
+e_fort_belknap = {
+	color = { 0 162 97 }
+	color2= { 255 255 20 }
+
+	capital = 489 #Belknap
+	title = "High Horselord"
+}
+
+e_waxchica_oyate = {
+	color = { 213 85 0 }
+	color2= { 255 255 20 }
+
+	capital = 483 #McCone
+	title = "High Horselord"
+}
+
+e_hudam_wicasta = {
+	color = { 52 122 131 }
+	color2= { 255 255 20 }
+
+	capital = 486 #Fort Peck
+	title = "High Horselord"
+}
+
+e_apsaalooke = {
+	color = { 221 136 38 }
+	color2= { 255 255 20 }
+
+	capital = 481 #Powder River
+	title = "High Horselord"
+}
+
+e_hinterland = {
+	color = { 101 105 32 }
+	color2= { 255 255 20 }
+
+	capital = 1699 #Musselshell
+	title = "High Horselord"
+}
+
+e_nank_haanseine_nan = {
+	color = { 204 0 0 }
+	color2= { 255 255 20 }
+
+	capital = 455 #Bighorn
+	title = "High Horselord"
+}
+
+e_kutsinduka = {
+	color = { 65 10 17 }
+	color2= { 255 255 20 }
+
+	capital = 454 #Wind River
+	title = "High Horselord"
+}
+
+e_the_range = {
+	color = { 213 117 53 }
+	color2= { 255 255 20 }
+
+	capital = 475 #Medicine Bow
+	title = "High Horselord"
+}
+
+e_tsehestano = {
+	color = { 0 83 255 }
+	color2= { 255 255 20 }
+
+	capital = 482 #Fallon Prarie
+	title = "High Horselord"
+}
+
+e_hiraaca = {
+	color = { 85 44 44 }
+	color2= { 255 255 20 }
+
+	capital = 1695 #Dunn
+	title = "High Horselord"
+}
+
+e_sahnis = {
+	color = { 153 63 62 }
+	color2= { 255 255 20 }
+
+	capital = 405 #Fort Berthold
+	title = "High Horselord"
+}
+
+e_inyan_woslal_han = {
+	color = { 0 168 199 }
+	color2= { 255 255 20 }
+
+	capital = 378 #Cheyenne River
+	title = "High Horselord"
+}
+
+e_wakpa_waste = {
+	color = { 45 23 85 }
+	color2= { 255 255 20 }
+
+	capital = 380 #Lyman
+	title = "High Horselord"
+}
+
+e_wazi_ahanhan = {
+	color = { 165 0 33 }
+	color2= { 255 255 20 }
+
+	capital = 382 #Porcupine
+	title = "High Horselord"
 }

@@ -2098,6 +2098,262 @@ e_great_planes = {
 			}
 		}
 	}
+}
+e_colorado = {
+	color = { 191 10 48 }
+	color2= { 255 215 0 }		
+
+	capital = 389 # Denver
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_colorado = {
+					is_titular = yes
+				}
+			}
+			e_colorado = {
+				is_titular = no
+			}
+		}
+	}
+	k_westslope = {
+		color={ 0 160 154 }
+		color2={ 255 255 255 }
+		
+		capital = 424 # Mesa
+		
+		d_green_river = {
+			color = { 34 170 96 }
+			color2= { 255 255 255 }
+
+			capital = 434 # Canyonlands
+			
+			c_uintah = {
+				color = { 30 147 83 }
+				color2= { 255 255 255 }
+
+				b_vernal_UT = {}
+				b_roosevelt_UT = {}
+				b_duchesne_UT = {}
+				b_whiterocks_UT = {}
+				b_randlett_UT = {}
+				b_fruitland_UT = {}
+				b_maeser_UT = {}
+				b_tridell_UT = {}
+			}
+			c_grand_UT = {
+				color={ 34 170 96 }
+				color2={ 255 255 255 }
+			
+				b_moab_UT = {}
+				b_spanish_valley_UT = {}
+				b_dewey_UT = {}
+				b_thompson_springs_UT = {}
+				b_cisco_UT = {}
+				b_agate_UT = {}
+				b_westwater_UT = {}
+			}
+			c_canyonlands = {
+				color = { 53 200 126 }
+				color2= { 255 255 255 }
+
+				b_la_sal_UT = {}
+				b_monticello_UT = {}
+				b_blanding_UT = {}
+				b_bedrock_UT = {}
+				b_mexican_hat_UT = {
+					used_for_dynasty_names = no
+				}
+				b_aneth_UT = {}
+				b_paradox_UT = {}
+			}
+		}
+		d_western_slope = {
+			color = { 193 74 40 }
+			color2= { 255 255 255 }
+
+			capital = 424 # Mesa / Grand Junction
+
+			c_mesa = {
+				color = { 226 89 50 }
+				color2= { 255 255 255 }
+				
+				holy_site = zenith
+
+				b_grand_junction_CO = {}
+				b_fruita_CO = {}
+				b_delta_CO = {}
+				b_montrose_CO = {}
+				b_collbran_CO = {}
+				b_palisade_CO = {}
+				b_redlands_CO = {}
+				b_fruitvale_CO = {}
+			}
+			c_silverton_CO = {
+				color={ 193 74 90 }
+				color2={ 255 255 255 }
+			
+				b_silverton_CO = {}
+				b_hermosa_CO = {}
+				b_howardsville_CO = {}
+				b_ironton_CO = {}
+				b_middleton_CO = {}
+				b_eureka_CO = {}
+				b_ophir_CO = {}
+			}						
+			c_ouray_CO = {
+				color={ 193 74 40 }
+				color2={ 255 255 255 }
+			
+				b_ouray_CO = {}
+				b_portland_CO = {}
+				b_ridgway_CO = {}
+				b_dallas_CO = {}
+				b_loghill_CO = {}
+				b_vernal_CO = {}
+				b_colona_CO = {}	
+			}			
+		}
+		
+		d_mineral_belt = {
+			color = { 255 233 127 }
+			color2= { 255 255 255 }
+
+			capital = 427 #Mineral Belt
+
+			c_breckenridge_CO = {
+				color={ 255 203 127 }
+				color2={ 255 255 255 }
+				
+				holy_site = zenith
+			
+				b_breckenridge_CO = {}
+				b_frisco_CO = {}
+				b_granite_CO = {}
+				b_twin_lakes_CO = {}
+				b_americus_CO = {}
+				b_salida_CO = {}
+				b_vail_CO = {}
+			}
+			c_grand_CO = { #Grand Junction
+				color={ 255 233 127 }
+				color2={ 255 255 255 }
+			
+				b_hot_sulphur_springs_CO = {}
+				b_grand_lake_CO = {}
+				b_granby_CO = {}
+				b_tabernash_CO = {}
+				b_fraser_CO = {}
+				b_winter_park_CO = {}
+				b_parshall_CO = {}
+			}
+			c_gunnison = {
+				color = { 226 142 118 }
+				color2= { 255 255 255 }
+
+				b_gunnison_CO = {}
+				b_powderhorn_CO = {}
+				b_marble_CO = {}
+				b_pitkin_CO = {}
+				b_almont_CO = {}
+				b_sapinero_CO = {}
+				b_tincup_CO = {}
+			}
+			c_mineral_belt = {
+				color = { 210 91 40 }
+				color2= { 255 255 255 }
+
+				b_leadville_CO = {}
+				b_aspen_CO = {}
+				b_edwards_CO = {}
+				b_glenwood_springs_CO = {}
+				b_eagle_CO = {}
+				b_ashcroft_CO = {}
+				b_climax_CO = {}
+				b_buena_vista_CO = {}
+			}			
+		}
+		
+		d_mesa_verde = {
+			color = { 199 126 34 }
+			color2= { 255 255 255 }
+
+			capital = 426 # Mesa Verde
+
+			c_mesa_verde = {
+				color = { 163 64 35 }
+				color2= { 255 255 255 }
+
+				b_durango_CO = {}
+				b_cortez_CO = {}
+				b_mancos_CO = {}
+				b_dolores_CO = {}
+				b_dove_creek_CO = {}
+				b_hesperus_CO = {}
+				b_towaoc_CO = {}
+			}
+			c_pagosa_CO = {
+				color={ 199 126 34 }
+				color2={ 255 255 255 }
+			
+				b_pagosa_springs_CO = {}
+				b_bayfield_CO = {}
+				b_arboles_CO = {}
+				b_piedra_CO = {}
+				b_chimney_rock_CO = {}
+				b_altura_CO = {}
+				b_chromo_CO = {}
+			}			
+		}
+		
+		d_moffat = {
+			color = { 87 0 116 }
+			color2= { 255 255 255 }
+
+			capital = 953 # Moffat
+
+			c_meeker_CO = {
+				color={ 87 35 116 }
+				color2={ 255 255 255 }
+			
+				b_meeker_CO = {}
+				b_buford_CO = {}
+				b_axial_CO = {}
+				b_white_river_city_CO = {}
+				b_angora_CO = {}
+				b_rangely_CO = {}
+				b_pagoda_CO = {}		
+			}
+			c_moffat_CO = {
+				color={ 87 0 116 }
+				color2={ 255 255 255 }
+			
+				b_craig_CO = {}
+				b_hayden_CO = {}
+				b_milner_CO = {}
+				b_lay_CO = {}
+				b_sunbeam_CO = {}
+				b_elk_springs_CO = {}
+				b_massadona_CO = {}
+			}			
+			c_yampa = {
+				color = { 116 45 24 }
+				color2= { 255 255 255 }
+
+				b_steamboat_springs_CO = {	
+				}
+				b_yampa_CO = {}
+				b_toponas_CO = {}
+				b_dinosaur_CO = {}
+				b_maybell_CO = {}
+				b_rio_blanco_CO = {					
+				}
+				b_phippsburg_CO = {}
+			}
+		}
+		
+	}
 	k_frontrange = {
 		color={ 12 38 71 }
 		color2={ 255 255 255 }

@@ -11,7 +11,243 @@ e_old_texas = {
 			has_holder = no
 		}
 	}
+	k_rio_grande = {
+		color = { 229 76 45 }
+		culture = tejano
+		
+		capital = 313 # El Paso
 
+		# Crusade target weight
+		catholic = 3000
+		constitutional = 5
+		
+		d_alamo = {
+			color = { 255 127 102 }
+			
+			capital = 1234 # Uvalde
+			
+			c_uvalde = {
+				color = { 240 100 80 }
+				b_uvalde_TX = {}
+				b_hondo_TX = {}
+				b_castroville_TX = {}
+				b_la_pryor_TX = {}
+				b_dabney_TX = {}
+				b_batesville_TX = {}
+				b_frio_town_TX = {}
+			}
+			c_crockett = {
+				color = { 223 107 44 }
+				color2= { 255 255 255 }
+
+				b_ozona_TX = {}
+				b_eldorado_TX = {}
+				b_sonora_TX = {}
+				b_comstock_TX = {}
+				b_emerald_TX = {}
+				b_corner_windmill_TX = {}
+				b_juno_TX = {}
+			}
+			c_val_verde = {
+				color = { 255 127 61 }
+				b_laughlin_TX = {}
+				b_del_rio_TX = {}
+				b_brackettville_TX = {}
+				b_spofford_TX = {}
+				b_quemado_TX = {}
+				b_carta_valley_TX = {}
+				b_amanda_TX = {}
+			}
+			c_maverick = {
+				color = { 244 137 77 }
+				b_eagle_pass_TX = {}
+				b_carrizo_springs_TX = {}
+				b_crystal_city_TX = {}
+				b_rosita_TX = {}
+				b_asherton_TX = {}
+				b_las_colonias_TX = {}
+				b_big_wells_TX = {}
+			}
+		}
+		
+		d_corpus_christi = {
+			color = { 191 19 19 }
+			capital = 1224 # Nueces
+
+			c_nueces = {
+				color = { 255 30 0 }
+				holy_site = sacred_heart
+				
+				b_corpus_christi_TX = {}
+				b_port_aransas_TX = {
+					used_for_dynasty_names = no
+				}
+				b_rockport_TX = {}
+				b_aransas_pass_TX = {
+					used_for_dynasty_names = no
+				}
+				b_robstown_TX = {}
+				b_orange_grove_TX = {}
+				b_padre_island_TX = {}
+			}
+			c_duval = {
+				color = { 225 30 30 }
+				b_san_diego_TX = {}
+				b_fowlerton_TX = {}
+				b_benavides_TX = {}
+				b_freer_TX = {}
+				b_seven_sisters_TX = {}
+				b_realitos_TX = {}
+				b_cruz_calle_TX = {}
+			}
+			c_kenedy_TX = {
+				color={ 240 60 60 }
+				color2={ 0 220 220 }
+
+				b_kingsville_TX = {}
+				b_encino_TX = {}
+				b_falfurrias_TX = {}
+				b_flowella_TX = {}
+				b_alice_TX = {}
+				b_bishop_TX = {}
+				b_driscoll_TX = {}
+			}
+			c_live_oak = {
+				color = { 220 70 60 }
+				b_george_west_TX = {}
+				b_three_rivers_TX = {}
+				b_calliham_TX = {}
+				b_beeville_TX = {}
+				b_pawnee_TX = {}
+				b_ray_point_TX = {}
+				b_dinero_TX = {}
+			}
+		}
+		
+		d_rio_grande_valley = {
+			color = { 226 39 22 }
+			capital = 1227 # Webb
+			
+			c_cameron = {
+				color = { 230 50 50 }
+				b_brownsville_TX = {}
+				b_harlingen_TX = {}
+				b_raymondville_TX = {}
+				b_port_isabel_TX = {}
+				b_port_mansfield_TX = {}
+				b_rio_hondo_TX = {}
+			}
+			c_falfumas_TX = {
+				color={ 225 50 25 }
+				color2={ 0 220 220 }
+
+				b_hebbronville_TX = {}
+				b_las_lomitas_TX = {}
+				b_mirando_city_TX = {}
+				b_bruni_TX = {}
+				b_linn_TX = {}
+				b_san_isidro_TX = {}
+				b_guerra_TX = {}
+			}
+			c_webb = {
+				color = { 255 60 10 }
+				b_laredo_TX = {}
+				b_rio_bravo_TX = {}
+				b_zapata_TX = {}
+				b_nye_TX = {}
+				b_randado_TX = {}
+				b_aguilares_TX = {}
+			}
+			c_starr = {
+				color = { 240 40 0 }
+				b_edinburg_TX = {}
+				b_mcallen_TX = {}
+				b_rio_grande_city_TX = {}
+				b_mission_TX = {}
+				b_san_manuel_linn_TX = {}
+				b_weslaco_TX = {}
+				b_moraida_TX = {}
+			}
+		}
+		d_transpecos = {
+			color = { 229 107 45 }
+			color2= { 255 255 255 }
+
+			culture = tejano
+
+			capital = 313 # El Paso
+
+
+			c_pecos = {
+				color = { 255 120 40 }
+				color2= { 255 255 255 }
+
+				b_fort_stockton_TX = {
+					used_for_dynasty_names = no
+				}
+				b_iraan_TX = {}
+				b_sanderson_TX = {}
+				b_bakersfield_TX = {}
+				b_dryden_TX = {}
+				b_coyanosa_TX = {}
+				b_girvin_TX = {}
+				b_grandfalls_TX = {}
+			}
+			c_reeves_TX = {
+				color={ 232 120 0 }
+				color2={ 0 220 220 }
+				
+				b_pecos_TX = {}
+				b_mentone_TX = {}
+				b_angeles_TX = {}
+				b_barstow_TX = {}
+				b_lindsay_TX = {}
+				b_hermosa_TX = {}
+				b_oria_TX = {}
+			}
+			c_big_bend = {
+				color = { 220 100 50 }
+				color2= { 255 255 255 }
+
+				b_alpine_TX = {}
+				b_terlingua_TX = {}
+				b_marfa_TX = {}
+				b_presidio_TX = {}
+				b_marathon_TX = {}
+				b_study_butte_TX = {
+					used_for_dynasty_names = no
+				}
+				b_lajitas_TX = {}
+			}
+			c_livermore = {
+				color = { 255 150 60 }
+				color2= { 255 255 255 }
+
+				b_fort_davis_TX = {}
+				b_van_horn_TX = {}
+				b_ryan_TX = {}
+				b_lobo_TX = {}
+				b_valentine_TX = {}
+				b_kent_TX = {}
+			}
+			c_el_paso = {
+				color = { 255 118 25 }
+				color2= { 255 255 255 }
+				
+				holy_site = penitente
+
+				b_el_paso_TX = {}
+				b_juarez_TX = {}
+				b_socorro_TX = {}
+				b_fort_bliss_TX = {}
+				b_chaparral_TX = {}
+				b_canutillo_TX = {}
+				b_anthony_TX = {}
+				b_fabens_TX = {}
+				b_sierra_blanca_TX = {}
+			}
+		}
+	}
 	k_dallas = {
 		color = { 0 127 100 }
 		color2 = { 0 220 220 }
