@@ -3585,3 +3585,132 @@
 		death = yes
 	}
 }
+500200 = {
+	name = "Sawyer" 
+	dynasty = 1200120
+	religion = raven_tales
+	culture = haida
+	trait = tough_soldier
+	trait = quick
+	trait = sturdy
+	trait = patient
+	trait = brave
+	trait = slothful
+	trait = fisher
+	trait = charitable
+	2299.8.22 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500201 = {
+	name = "Lewis" 
+	dynasty = 1200092
+	religion = raven_tales
+	culture = haida
+	trait = naive_appeaser
+	trait = weak
+	trait = trusting
+	trait = gregarious
+	trait = kind
+	trait = greedy
+	2303.1.8 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500202 = {
+	name = "Henry" 
+	dynasty = 5225876
+	religion = aurorean
+	culture = alaskan
+	trait = thrifty_clerk
+	trait = temperate
+	trait = gardener
+	trait = lefthanded
+	trait = honest
+	trait = stubborn
+	2281.8.26 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500203  = {
+	name = "Lucas" 
+	dynasty = 5225885
+	religion = aurorean
+	culture = alaskan
+	trait = intricate_webweaver
+	trait = deceitful
+	trait = zealous
+	trait = wroth
+	trait = humble
+	trait = falconer
+	2302.11.3 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500204  = {
+	name = "Oliver" 
+	dynasty = 5225862
+	religion = aurorean
+	culture = alaskan
+	trait = skilled_tactician
+	trait = brave
+	trait = robust
+	trait = hunter
+	trait = drunkard
+	trait = cynical
+	trait = charitable
+	2278.4.19 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500205  = {
+	name = "Theodore" 
+	dynasty = 5225849
+	religion = aurorean
+	culture = alaskan
+	trait = martial_cleric
+	trait = kind
+	trait = charitable
+	trait = erudite
+	trait = mystic
+	trait = poet
+	2263.7.5 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500206  = {
+	name = "Arthur" 
+	dynasty = 2039052
+	religion = aurorean
+	culture = tlingit
+	trait = midas_touched
+	trait = stubborn
+	trait = greedy
+	trait = patient
+	trait = cruel
+	trait = ambitious
+	2269.3.16 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}

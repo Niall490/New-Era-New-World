@@ -1,0 +1,4 @@
+2322.4.13 = {
+	holder = 500201
+	set_tribute_suzerain = { who = c_alliford_bay type = default }
+}

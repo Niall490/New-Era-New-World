@@ -18968,22 +18968,101 @@
 1200117 = { name="Yatza" culture=haida }
 1200118 = { name="Youahnoe" culture=haida }
 1200119 = { name="Sulustins" culture=haida }
-#1200120 = { name = "Gakyaals Kiiqawaay" 
-			culture = haida
-#			coat_of_arms = {
-#				religion = raven_tales
-#				template = 0
-#					layer = {
-#					texture = 1 #neow_dynasties_indian_frame.tga
-#					texture_internal = 41
-#					emblem = 0
-#					color = 0
-#					color = 0
-#					color = 0
-#		}
-#	}
-#	used_for_random=no
-#}
+1200120 = { name = "Gakyaals Kiiqawaay"
+			culture = haida	
+			religion = raven_tales
+			coat_of_arms = {
+			religion = sikh
+			template = 0
+			layer = {
+				texture = 4 #NENW_dynasties_indian_frame.tga
+				texture_internal = 2
+				emblem = 0
+				color = 0
+				color = 0
+				color = 0
+		}
+	}
+	used_for_random = no
+}
+
+2039000 = { name="Galyáx" culture=tlingit }
+2039001 = { name="Xunaa" culture=tlingit }
+2039002 = { name="S'awdáan" culture=tlingit }
+2039003 = { name="T'akjikaan" culture=tlingit }
+2039004 = { name="Laaxaayík" culture=tlingit }
+2039005 = { name="T'aaku" culture=tlingit }
+2039006 = { name="Xutsnoowú" culture=tlingit }
+2039007 = { name="Hinyaa" culture=tlingit }
+2039008 = { name="Gunaaxoo" culture=tlingit }
+2039009 = { name="Deisleen" culture=tlingit }
+2039010 = { name="Shee T'iká" culture=tlingit }
+2039011 = { name="Shtax'héen" culture=tlingit }
+2039012 = { name="Jilkáat" culture=tlingit }
+2039013 = { name="Áa Tlein" culture=tlingit }
+2039014 = { name="Kéex'" culture=tlingit }
+2039015 = { name="Taant'a" culture=tlingit }
+2039016 = { name="Jilkoot" culture=tlingit }
+2039017 = { name="Áak'w" culture=tlingit }
+2039018 = { name="Kooyu" culture=tlingit }
+2039019 = { name="Saanyaa" culture=tlingit }
+2039020 = { name="Thlunaut" culture=tlingit }
+2039021 = { name="Anotklosh" culture=tlingit }
+2039022 = { name="Kaagwaantaan" culture=tlingit }
+2039023 = { name="Kasakan" culture=tlingit }
+2039024 = { name="Ganaxteidee" culture=tlingit }
+2039025 = { name="Lkweidí" culture=tlingit }
+2039026 = { name="Yanyeidí" culture=tlingit }
+2039027 = { name="Dagisdinaa" culture=tlingit }
+2039028 = { name="Teikweidí" culture=tlingit }
+2039029 = { name="Jishkweidí" culture=tlingit }
+2039030 = { name="Dakl'aweidí" culture=tlingit }
+2039031 = { name="Shangukeidí" culture=tlingit }
+2039032 = { name="Wooshkeetaan" culture=tlingit }
+2039033 = { name="Chookaneidí" culture=tlingit }
+2039034 = { name="Kadakwtádi" culture=tlingit }
+2039035 = { name="Tsaateeneidí" culture=tlingit }
+2039036 = { name="S'eet'kweidí" culture=tlingit }
+2039037 = { name="Kookhittaan" culture=tlingit }
+2039038 = { name="Tsaagweidí" culture=tlingit }
+2039039 = { name="Neestídi" culture=tlingit }
+2039040 = { name="Was'ineidí" culture=tlingit }
+2039041 = { name="Naasteidí" culture=tlingit }
+2039042 = { name="Kayaashkeiditaan" culture=tlingit }
+2039043 = { name="Naanyaataayí" culture=tlingit }
+2039044 = { name="Sik'naxtádi" culture=tlingit }
+2039045 = { name="Xook'eidí" culture=tlingit }
+2039046 = { name="Kaax'oosthittaan" culture=tlingit }
+2039047 = { name="Neixtádi" culture=tlingit }
+2039048 = { name="Táakwaaneidí" culture=tlingit }
+2039049 = { name="L'uknaxádi" culture=tlingit }
+2039050 = { name="T'éex'adi" culture=tlingit }
+2039051 = { name="Ishkeetaan" culture=tlingit }
+2039052 = { name="X'at'kataayí" culture=tlingit }
+2039053 = { name="Koosk'eidí" culture=tlingit }
+2039054 = { name="X'alchaneidí" culture=tlingit }
+2039055 = { name="Kiksádi" culture=tlingit }
+2039056 = { name="Teeyineidí" culture=tlingit }
+2039057 = { name="Deisheetaan" culture=tlingit }
+2039058 = { name="Aanx'aakíttaan" culture=tlingit }
+2039059 = { name="L'eeneidi" culture=tlingit }
+2039060 = { name="T'akdeintaan" culture=tlingit }
+2039061 = { name="L'ukwaaxádi" culture=tlingit }
+2039062 = { name="Noowshakataayí" culture=tlingit }
+2039063 = { name="Kwáashk'ikwáan" culture=tlingit }
+2039064 = { name="Weix'hineidí" culture=tlingit }
+2039065 = { name="Yéeskaneidí" culture=tlingit }
+2039066 = { name="L'ookwhineidí" culture=tlingit }
+2039067 = { name="Kuyeidí" culture=tlingit }
+2039068 = { name="Téel'híttaan" culture=tlingit }
+2039069 = { name="Sakwteeneidí" culture=tlingit }
+2039070 = { name="Kijookw'híttaan" culture=tlingit }
+2039071 = { name="Taneidí" culture=tlingit }
+2039072 = { name="Kayaatádi" culture=tlingit }
+2039073 = { name="Tukwyeidí" culture=tlingit }
+2039074 = { name="Kaasx'agweidí" culture=tlingit }
+2039075 = { name="Taalkweidí" culture=tlingit }
+2039076 = { name="Kuyéik'ádi" culture=tlingit }
 
 2239000 = { name="Galyáx" culture=tsimshian }
 2239001 = { name="Xunaa" culture=tsimshian }

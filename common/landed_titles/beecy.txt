@@ -6,19 +6,22 @@ e_beecy = {
 	
 	capital = 548 #Vancouver
 	
-	k_haida = {
-		color={ 212 78 119 }
-		color2={ 255 255 255 }
-	
-		capital = 3334 # c_port_clements
-	
-		d_haida = {
+		k_haida = {
+			color={ 133 9 13 }
+			color2={ 255 255 255 }
+			
+			capital = 3335 # Alliford Bay
+			culture = haida
+			title = "Gidansda"
+			
+			
+			d_haida = {
 			color={ 212 78 119 }
 			color2={ 255 255 255 }
 			
-			capital = 3334 # c_port_clements
+			capital = 3335 # Alliford Bay
 			
-			c_port_clements = { # 3334
+			c_port_clements = {
 				color={ 222 68 124 }
 				color2={ 255 255 255 }
 				
@@ -37,9 +40,11 @@ e_beecy = {
 				b_sangan_alsk = {
 				}
 			}
-			c_alliford_bay = { # 3335
+			c_alliford_bay = {
 				color={ 253 158 53 }
 				color2={ 255 255 255 }
+				holy_site = raven_tales
+				holy_site = raven_tales_reformed
 				
 				b_alliford_bay_alsk = {
 				}
@@ -56,7 +61,7 @@ e_beecy = {
 				b_louise_alsk = {
 				}
 			}
-			c_daajing_giids = { # 3338
+			c_daajing_giids = {
 				color={ 205 159 255 }
 				color2={ 255 255 255 }
 				
@@ -75,10 +80,11 @@ e_beecy = {
 				b_skyfall_alsk = {
 				}
 			}
-			c_juskatla = { # 3339
+			c_juskatla = {
 				color={ 185 128 34 }
 				color2={ 255 255 255 }
-				
+				holy_site = raven_tales
+				holy_site = raven_tales_reformed
 				b_juskatla_alsk = {
 				}
 				b_vladimir_alsk = {
@@ -94,9 +100,11 @@ e_beecy = {
 				b_ian_alsk = {
 				}
 			}
-			c_tlell = { # 3337
+			c_tlell = {
 				color={ 0 20 64 }
 				color2={ 255 255 255 }
+				holy_site = raven_tales
+				holy_site = raven_tales_reformed
 				
 				b_tlell_alsk = {
 				}
