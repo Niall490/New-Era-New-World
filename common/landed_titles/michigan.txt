@@ -14,9 +14,10 @@ e_michigan = {
 	k_upnord = {
 		color={ 48 113 224 }
 		color2={ 220 220 20 }
-		capital = 186 
-		salihi = 250
+		capital = 186
 
+		# Crusade target weight
+		salihi = 250
 
 		d_houghton = {
 			color={ 80 85 212 }
@@ -190,6 +191,7 @@ e_michigan = {
 		color={ 72 185 219 }
 		color2={ 220 220 20 }
 		capital = 176 #St. Joseph
+
 		# Crusade target weight
 		salihi = 250
 
@@ -314,6 +316,7 @@ e_michigan = {
 		color={ 21 118 171 }
 		color2={ 220 220 20 }
 		capital = 177 #Lansing
+
 		# Crusade target weight
 		salihi = 250
 
@@ -783,6 +786,7 @@ e_michigan = {
 		
 		# Crusade target weight
 		salihi = 100
+		
 		capital = 1139
 			
 		d_mackinac = {

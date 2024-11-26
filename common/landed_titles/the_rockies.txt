@@ -1,0 +1,1027 @@
+e_the_rockies = {
+	color = { 108 32 85 }
+	color2= { 255 255 255 }
+
+	capital = 430 # Salt Lake
+	
+	k_nevada = {
+		color={ 34 37 51 }
+		color2={ 255 255 255 }
+		
+		capital = 2073 # Las Vegas
+	
+		d_black_desert_NV = {
+			color={ 45 64 102 }
+			color2={ 255 255 255 }
+			
+			short_name = yes
+			
+			capital = 1683 # c_the_area_NV
+		
+			c_the_area_NV = {
+				color={ 40 61 102 }
+				color2={ 255 255 255 }
+				
+				holy_site = trinitarian
+			
+				b_the_area_NV = {}
+				b_caliente_NV = {}
+				b_pioche_NV = {}
+				b_panaca_NV = {}
+				b_bennett_springs_NV = {}
+				b_hiko_NV = {}
+				b_alamo_NV = {}
+			}
+			c_tonopah_NV = {
+				color={ 20 30 51 }
+				color2={ 255 255 255 }
+			
+				b_fifty_two_NV = {}
+				b_tonopah_NV = {}
+				b_goldfield_NV = {}
+				b_warm_springs_NV = {}
+				b_silver_peak_NV = {}
+				b_gemfield_NV = {}
+				b_blair_NV = {}
+			}
+			c_nye_pass = {
+				color={ 10 15 25 }
+				color2={ 255 255 255 }
+				
+				holy_site = trinitarian
+				
+				b_amargosa_valley_CA = {}
+				b_beatty_CA = {}
+				b_rhyolite_CA = {}
+				b_bonnie_claire_CA = {}
+				b_goldcenter_CA = {}
+				b_mercury_CA = {}
+				b_lida_CA = {}
+			}
+		}
+		d_black_rock = {
+			color = { 17 18 25 }
+			color2 = { 255 255 255 }
+			
+			capital = 1676 #elko
+			
+			c_wendover_UT = {
+				color={ 26 27 38 }
+				color2={ 255 255 255 }
+			
+				b_wendover_UT = {}
+				b_barro_UT = {}
+				b_aragonite_UT = {}
+				b_gold_hill_UT = {}
+				b_ibapah_UT = {}
+				b_lucin_UT = {}
+				b_etna_UT = {}			
+			}
+			c_elko_NV = {
+				color={ 8 9 12 }
+				color2={ 255 255 255 }
+			
+				b_elko_NV = {}
+				b_spring_creek_NV = {}
+				b_carlin_NV1 = {}
+				b_wells_NV = {}
+				b_currie_NV1 = {}
+				b_ruby_valley_NV = {}
+				b_jiggs_NV1 = {}		
+			}
+			c_lander_NV = {
+				color={ 35 36 51 }
+				color2={ 255 255 255 }
+			
+				b_battle_mountain_NV = {}
+				b_austin_NV = {}
+				b_kingston_NV = {}
+				b_pittsburg_NV = {}
+				b_argenta_NV = {}
+				b_valmy_NV = {}
+				b_crescent_valley_NV = {}
+			}
+			c_black_rock = { # 2067
+				color={ 44 46 63 }
+				color2={ 255 255 255 }
+				
+				b_winnemucca_NV = {}
+				b_golconda_NV = {}
+				b_quinn_NV = {}
+				b_mill_city_NV = {}
+				b_imlay_NV = {}
+				b_grass_valley_NV = {}
+				b_unionville_NV = {}
+			}
+		}
+		d_death_valley = {
+			color={ 23 14 73 }
+			color2={ 255 255 255 }
+			
+			capital = 2071 # c_inyo
+			
+			c_inyo = { # 2071
+				color={ 52 44 89 }
+				color2={ 255 255 255 }
+				
+				b_bishop_CA = {}
+				b_lone_pine_CA = {}
+				b_independence_CA = {}
+				b_big_pine_CA = {}
+				b_aberdeen_CA = {}
+				b_deep_springs_CA = {}
+			}
+			c_hawthorne = { # 2072
+				color={ 37 31 63 }
+				color2={ 255 255 255 }
+				
+				b_hawthorne_CA = {}
+				b_yerington_CA = {}
+				b_lee_vining_CA = {}
+				b_bridgeport_CA = {}
+				b_june_lake_CA = {}
+				b_mammoth_lakes_CA = {}
+			}
+			c_fallon_NV = {
+				color={ 22 19 38 }
+				color2={ 255 255 255 }
+			
+				b_fallon_NV = {}
+				b_fallon_station_NV = {}
+				b_salt_wells_NV = {}
+				b_middlegate_NV = {}
+				b_stillwater_NV = {}
+				b_hazen_NV = {}
+				b_eastgate_NV = {}		
+			}
+		}
+		d_las_vegas = {
+			color = { 255 191 0 }
+			color2 = { 220 220 220 }
+			
+			capital = 2073 # Las Vegas
+			
+			c_las_vegas = { # 2073
+				color={ 229 172 0 }
+				color2={ 255 255 255 }
+				
+				b_las_vegas_NV = {}
+				b_mccarren_NV = {}
+				b_henderson_NV = {}
+				b_paradise2_NV = {}
+				b_goodsprings_NV = {}
+				b_boulder_city_NV = {}
+				b_blue_diamond_NV = {}
+			}
+		}
+	}
+	k_deseret = { # we will be back for you
+		color = { 116 170 252 }
+		color2= { 255 255 255 }
+		
+	}
+		
+	k_yuta = {
+		color={ 16 45 163 }
+		color2={ 255 255 255 }
+		
+
+		capital = 430 # Salt Lake
+
+		culture = utahn
+
+		d_great_salt_duchy = {
+			color = { 40 81 204 }
+			color2= { 255 255 255 }
+
+			capital = 430 # Salt Lake
+
+
+			culture = utahn
+
+			
+			c_salt_lake = {
+				color = { 35 71 178 }
+				color2= { 255 255 255 }
+				holy_site = mormon
+				holy_site = brighamite
+
+				b_salt_lake_city_UT = {
+					used_for_dynasty_names = no
+				}
+				b_bluffdale_UT = {}
+				b_west_jordan_UT = {
+					used_for_dynasty_names = no
+				}
+				b_sandy_UT = {}
+				b_oquirrh_UT = {}
+				b_taylorsville_UT = {}
+				b_magna_UT = {}
+				b_draper_UT = {}
+			}
+			c_wasatch_back_UT = {
+				color={ 45 91 229 }
+				color2={ 255 255 255 }
+			
+				b_park_city_UT = {}
+				b_oakley_UT = {}
+				b_kamas_UT = {}
+				b_hideout_UT = {}
+				b_atkinson_UT = {}
+				b_heber_city_UT = {}
+				b_samak_UT = {}
+			}
+			c_provo = {
+				color = { 30 61 153 }
+				color2= { 255 255 255 }
+				holy_site = mormon
+				holy_site = brighamite
+
+				b_provo_UT = {}
+				b_orem_UT = {}
+				b_santaquin_UT = {}
+				b_lehi_UT = {}
+				b_american_fork_UT = {
+					used_for_dynasty_names = no
+				}
+				b_spanish_fork_UT = {
+					used_for_dynasty_names = no
+				}
+				b_springville_UT = {}
+				b_salem_UT = {}
+			}
+			c_bonneville = {
+				color = { 50 101 255 }
+				color2= { 255 255 255 }
+
+				b_tooele_UT = {}
+				b_grantsville_UT = {}
+				b_ophir_UT = {}
+				b_erda_UT = {}
+				b_dugway_UT = {}
+				b_stockton_UT = {}
+				b_flux_UT = {}
+				b_knolls_UT = {}
+			}
+		}
+		d_ogden = {
+			color = { 68 122 229 }
+			color2 = { 220 220 220 }
+			
+			capital = 1824
+			
+			c_bear_river = {
+				color = { 61 108 204 }
+				color2= { 255 255 255 }
+
+				b_logan_UT = {}
+				b_brigham_city_UT = {
+					used_for_dynasty_names = no
+				}
+				b_bear_river_city_UT = {}
+				b_roy_UT = {}
+				b_tremonton_UT = {}
+				b_smithfield_UT = {}
+				b_hyrum_UT = {}
+				b_honeyville_UT = {}
+				b_elwood_UT = {}
+			}
+			c_salt_flats = {
+				color = { 76 135 255 }
+				color2 = { 85 85 170 }
+				
+				b_snowville_UT = {}
+				b_blue_creek_UT = {}
+				b_graham_UT = {}
+				b_red_butte_UT = {}
+				b_rosette_UT = {}
+				b_mahogany_UT = {}
+				b_bally_UT = {}
+			}
+			c_ogden_UT = {
+				color={ 53 95 178 }
+				color2={ 255 255 255 }
+			
+				b_ogden_UT = {}
+				b_layton_UT = {}
+				b_farmington_UT = {}
+				b_clearfield_UT = {}
+				b_harrisville_UT = {}
+				b_huntsville_UT = {}
+				b_north_ogden_UT = {}			
+			}
+		}
+		d_wasatch = {
+			color = { 41 62 165 }
+			color2= { 255 255 255 }
+
+			capital = 435 # Fishlake
+			
+			c_fishlake = {
+				color = { 61 73 204 }
+				color2= { 255 255 255 }
+
+				b_nephi_UT = {}
+				b_fillmore_UT = {}
+				b_delta_UT = {}
+				b_deseret_UT = {}
+				b_eureka_UT = {}
+				b_partoun_UT = {}
+				b_levan_UT = {}
+			}
+			c_sanpete_UT = {
+				color={ 45 54 153 }
+				color2={ 255 255 255 }
+			
+				b_manti_UT = {}
+				b_ephraim_UT = {}
+				b_sterling_UT = {}
+				b_gunnison_UT = {}
+				b_spring_city_UT = {}
+				b_centerfield_UT = {}
+				b_fayette_UT = {}	
+			}
+			
+			c_parowan_UT = {
+				color={ 68 82 229 }
+				color2={ 255 255 255 }
+			
+				b_parowan_UT = {}
+				b_cedar_city_UT = {}
+				b_enoch_UT = {}
+				b_new_harmony_UT = {}
+				b_beaver_UT = {}
+				b_milford_UT = {}
+				b_frisco_UT = {}		
+			}
+			c_white_pine_NV = {
+				color={ 38 45 127 }
+				color2={ 255 255 255 }
+			
+				b_ely_NV = {}
+				b_baker_NV = {}
+				b_garrison_UT = {}
+				b_burbank_UT = {}
+				b_eskdale_UT = {}
+				b_osceola_NV = {}
+				b_atlanta_NV = {}
+			}
+			
+		}
+		d_canyonlands = {
+			color = { 76 76 191 }
+			color2 = { 220 220 220 }
+			
+			capital = 436
+			
+			c_grand_staircase = {
+				color = { 35 35 178 }
+				color2= { 255 255 255 }
+
+				b_kanab_UT = {}
+				b_panguitch_UT = {}
+				b_cannonville_UT = {}
+				b_escalante_UT = {}
+				b_orderville_UT = {}
+				b_mt_carmel_UT = {}
+				b_tropic_UT = {}
+			}
+			c_piute_UT = {
+				color={ 25 25 127 }
+				color2={ 255 255 255 }
+			
+				b_junction_UT = {}
+				b_circleville_UT = {}
+				b_kingston_UT = {}
+				b_marysvale_UT = {}
+				b_spry_UT = {}
+				b_antimony_UT = {}
+				b_angle_UT = {}
+			}
+			c_manti_la_sal = {
+				color = { 40 40 204 }
+				color2= { 255 255 255 }
+
+				b_richfield_UT = {}
+				b_castle_dale_UT = {
+					used_for_dynasty_names = no
+				}
+				b_huntington_UT = {}
+				b_elmo_UT = {}
+				b_cleveland_UT = {}
+				b_mohrland_UT = {}
+				b_woodside_UT = {}
+			}
+			c_loa_UT = {
+				color={ 20 20 102 }
+				color2={ 255 255 255 }
+			
+				b_lyman_UT = {}
+				b_loa_UT = {}
+				b_bicknell_UT = {}
+				b_teasdale_UT = {}
+				b_torrey_UT = {}
+				b_fremont_UT = {}
+				b_grover_UT = {}
+			}
+			c_zion = {
+				color = { 45 45 229 }
+				color2= { 255 255 255 }
+				holy_site = brighamite
+
+				b_st_george_UT = {}
+				b_enterprise_UT = {}
+				b_virgin_UT = {}
+				b_washington_UT = {}
+				b_adventure_UT = {}
+				b_kanarraville_UT = {}
+				b_lund_UT = {}
+				b_paragonah_UT = {}
+			}
+		}
+	}
+	k_yellowstone = {
+		color = { 252 216 0 }
+		color2= { 1 132 88 }
+
+		capital = 448
+
+		culture = mountainer
+
+		d_sweetwater = {
+			color = { 152 26 38 }
+			color2= { 214 239 246 }
+
+			capital = 443 #Bridger
+
+			culture = mountainer
+
+			c_bridger = {
+				color = { 137 194 201 }
+				color2= { 84 89 57 }
+
+				b_paris_ID = {}
+				b_alton_ID ={
+				}
+				b_montpelier_ID = {}
+				b_fish_haven_ID = {}
+				b_pine_spring_ID = {}
+				b_garden_city_UT = {
+					used_for_dynasty_names = no
+				}
+				b_rendezvous_UT = {		
+				}
+				
+			}
+			c_carbon = {
+				color = { 113 25 37 }
+				color2 = { 165 154 152 }
+			
+				b_rawlins_WY = {}
+				b_walcott_WY1 = {}
+				b_sinclair_WY = {}
+				b_wamsutter_WY = {}
+				b_table_rock_WY = {}
+				b_bitter_creek_WY = {}
+				b_fort_steele_WY = {}
+			}
+			c_caribou_ID = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_soda_springs_ID = {}
+				b_grace_ID = {}
+				b_conda_ID = {}
+				b_niter_ID = {}
+				b_lago_ID = {}
+				b_thatcher_ID = {}
+				b_alexander_ID = {}
+			}
+			c_summit = {
+				color = { 185 117 0 }
+				color2= { 255 255 255 }
+				
+				holy_site = zenith
+
+				b_evanston_WY = {}
+				b_morgan_UT = {}
+				b_lyman_WY = {}
+				b_coalville_UT = {}
+				b_henefer_UT = {}
+				b_stag_canyon_UT = {}
+				b_echo_UT = {}
+			}
+			c_flaming_gorge = {
+				color = { 205 108 65 }
+				color2= { 255 255 255 }
+
+				b_rock_springs_WY = {
+					used_for_dynasty_names = no
+				}
+				b_manila_UT = {}
+				b_reliance_WY = {}
+				b_dutch_john_UT = {}
+				b_goslin_UT = {}
+				b_tolvers_creek_UT = {}
+				b_antelope_flat_UT = {}
+			}
+		}
+		d_highland_springs = {
+			color = { 118 190 213 }
+			color2= { 33 41 38 }
+
+			capital = 448 #yellowstone
+
+			culture = mountainer
+			
+			c_sublette = {
+				color = { 246 213 116 }
+				color2= { 56 44 20 }
+				
+				b_pinedale_WY = {}
+				b_glover_WY = {}
+				b_hennick_draw_WY = {}
+				b_fremont_lake_WY = {}
+				b_cora_WY = {}
+				b_daniel_WY = {}
+				b_marbleton = {}
+			}
+			c_idaho_falls = {
+				color = { 150 106 43 }
+				color2= { 151 199 206 }			
+			
+				b_idaho_falls_ID = {
+					used_for_dynasty_names = no
+				}
+				b_rexburg_ID1 = {}
+				b_shelley_ID = {}
+				b_ammon_ID = {}
+				b_rigby_ID1 = {}
+				b_st_anthony_ID1 = {}
+				b_ashton_ID = {}
+			}
+			c_jefferson_ID = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_rigby_ID = {}
+				b_ucon_ID = {}
+				b_rexburg_ID = {}
+				b_sugar_city_ID = {}
+				b_st_anthony_ID = {}
+				b_hamer_ID = {}
+				b_terreton_ID = {}
+			}
+			c_teton = {
+				color = { 45 127 58 }
+				color2= { 175 222 255 }
+				
+				b_jackson_WY = {}
+				b_driggs_ID = {}
+				b_victor_ID = {}
+				b_teton_village_WY = {}
+				b_south_park_WY = {}
+				b_chapin_ID = {}
+				b_tetonia_ID = {}
+			}
+			c_kemmerer_WY = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_kemmerer_WY = {}
+				b_oakley_WY = {}
+				b_opal_WY = {}
+				b_la_barge_WY = {}
+				b_fontenelle_WY = {}
+				b_big_piney_WY = {}
+				b_hamsfork_WY = {}
+			}
+			c_yellowstone = {
+				color = { 204 149 0 }
+				color2= { 255 255 255 }
+				
+				holy_site = sun_dance
+				holy_site = crow_way
+				holy_site = crow_way_reformed
+				
+				b_fishing_bridge_WY = {}
+				b_heart_lake_WY = {
+					used_for_dynasty_names = no
+				}
+				b_geyser_WY = {}
+				b_frank_island_WY = {
+					used_for_dynasty_names = no
+				}
+				b_west_thumb_WY = {
+					used_for_dynasty_names = no
+				}
+				b_carrington_WY = {}
+				b_alder_WY = {}
+			}
+		}	
+	}
+	k_idaho = {
+		color = { 127 31 55 }
+		color2= { 255 237 27 }
+
+		capital = 460 #Gem Canyon
+
+		culture = mountainer
+
+		d_east_snake = {
+			color = { 2 167 91 }
+			color2= { 243 207 181 }
+			
+			capital = 451 #Idaho Falls
+
+			culture = mountainer
+					
+			c_bingham = {
+				color = { 0 102 52 }
+				color2= { 204 255 154 }
+				
+				b_blackfoot_ID = {}			
+				b_moreland_ID = {}
+				b_groveland_ID = {}
+				b_fort_hall_ID = {
+					used_for_dynasty_names = no
+				}				
+				b_aberdeen_ID = {}
+				b_american_falls_ID = {
+					used_for_dynasty_names = no
+				}
+				b_watson_slough_ID = {}
+			}
+			c_bannock = {
+				color = { 94 0 136 }
+				color2= { 255 255 255 }	
+				
+				b_pocatello_ID = {}
+				b_preston_ID = {}
+				b_malad_city_ID = {
+					used_for_dynasty_names = no
+				}
+				b_mccammon_ID = {}
+				b_chubbuck_ID = {}
+				b_tyhee_ID = {}
+				b_downey_ID = {}
+			}
+			c_shoshone_falls = {
+				color = { 38 46 98 }
+				color2= { 219 189 119 }
+				
+				b_twin_falls_ID = {
+					used_for_dynasty_names = no
+				}
+				b_burley_ID = {}
+				b_jerome_ID = {}
+				b_kimberly_ID = {}
+				b_filer_ID = {}
+				b_buhl_ID = {}
+				b_heyburn_ID = {}
+			}
+		}
+		d_west_snake = {
+			color = { 255 201 49 }
+			color2= { 205 0 44 }
+
+			capital = 460 #Gem Canyon
+
+			culture = mountainer
+			
+			haida = "Saa Tlagaasd"	#from the east
+
+			c_gem_canyon = {
+				color = { 44 77 156 }
+				color2 = { 235 117 45 }
+				
+				haida = "Gyaa Dah"	#trade with
+
+				b_boise_ID = {}
+				b_nampa_ID = {}
+				b_caldwell_ID = {}
+				b_meridian_ID = {}
+				b_eagle_ID = {}
+				b_mora_ID = {}
+				b_kuna_ID = {}			
+			}
+			c_payette_ID = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_payette_ID = {}
+				b_emmett_ID = {}
+				b_new_plymouth_ID = {}
+				b_horseshoe_band_ID = {}
+				b_banks_ID = {}
+				b_letha_ID = {}
+				b_little_rock_ID = {}
+			}
+		}
+		d_northern_basin = {
+			color = { 101 45 138}
+			color2= { 243 150 50 }
+
+			capital = 456 #Elmore
+
+			culture = mountainer
+			
+			c_elmore = {
+				color = { 139 140 144}
+				color2 = { 28 48 119 }
+				
+				b_mountain_home_ID = {}
+				b_bruneau_ID = {}
+				b_hammett_ID = {}
+				b_glenns_ferry_ID = {}
+				b_bennett_ID = {}
+				b_danskin_ID = {}
+				b_bliss_ID = {}
+			}
+			c_mcdermitt_NV = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_mcdermitt_NV = {}
+				b_platora_NV = {}
+				b_cordero_NV = {}
+				b_basque_OR = {}
+				b_rebel_creek_NV = {}
+				b_paradise_valley_NV = {}
+				b_rome_NV = {}
+			}
+			c_owyhee = {
+				color = { 93 82 147 }
+				color2 = { 255 235 0 }
+				
+				b_dickshooter_ID = {}
+				b_marsing_ID = {}
+				b_murphy_ID = {}
+				b_riddle_ID = {}
+				b_dewey_ID = {}
+				b_homedale_ID = {}
+				b_grand_view_ID = {}
+			}
+			c_cassia = {
+				color = { 156 77 46 }
+				color2 = { 229 166 51 }
+				
+				b_jackpot_NV = {}
+				b_albion_ID = {}
+				b_elba_ID = {}
+				b_malta_ID = {}
+				b_oakley_ID = {}
+				b_declo_ID = {}
+				b_raft_river_ID = {}
+			}
+			c_duck_valley = {
+				color = { 0 128 255 }
+				color2 = { 1 129 2 }
+				
+				b_owyhee_NV = {}
+				b_pequop_NV = {}
+				b_currie_NV = {}
+				b_carlin_NV = {}
+				b_lamoille_NV = {}
+				b_jiggs_NV = {}
+				b_tusacarora_NV = {}
+			}
+		}
+	}
+	k_westslope = {
+		color={ 153 102 30 }
+		color2={ 255 255 255 }
+		
+		capital = 424 # Mesa
+		
+		d_green_river = {
+			color = { 34 170 96 }
+			color2= { 255 255 255 }
+
+			capital = 434 # Canyonlands
+			
+			c_uintah = {
+				color = { 30 147 83 }
+				color2= { 255 255 255 }
+
+				b_vernal_UT = {}
+				b_roosevelt_UT = {}
+				b_duchesne_UT = {}
+				b_whiterocks_UT = {}
+				b_randlett_UT = {}
+				b_fruitland_UT = {}
+				b_maeser_UT = {}
+				b_tridell_UT = {}
+			}
+			c_grand_UT = {
+				color={ 34 170 96 }
+				color2={ 255 255 255 }
+			
+				b_moab_UT = {}
+				b_spanish_valley_UT = {}
+				b_dewey_UT = {}
+				b_thompson_springs_UT = {}
+				b_cisco_UT = {}
+				b_agate_UT = {}
+				b_westwater_UT = {}
+			}
+			c_canyonlands = {
+				color = { 53 200 126 }
+				color2= { 255 255 255 }
+
+				b_la_sal_UT = {}
+				b_monticello_UT = {}
+				b_blanding_UT = {}
+				b_bedrock_UT = {}
+				b_mexican_hat_UT = {
+					used_for_dynasty_names = no
+				}
+				b_aneth_UT = {}
+				b_paradox_UT = {}
+			}
+		}
+		d_western_slope = {
+			color = { 193 74 40 }
+			color2= { 255 255 255 }
+
+			capital = 424 # Mesa / Grand Junction
+
+			c_mesa = {
+				color = { 226 89 50 }
+				color2= { 255 255 255 }
+				
+				holy_site = zenith
+
+				b_grand_junction_CO = {}
+				b_fruita_CO = {}
+				b_delta_CO = {}
+				b_montrose_CO = {}
+				b_collbran_CO = {}
+				b_palisade_CO = {}
+				b_redlands_CO = {}
+				b_fruitvale_CO = {}
+			}
+			c_silverton_CO = {
+				color={ 193 74 90 }
+				color2={ 255 255 255 }
+			
+				b_silverton_CO = {}
+				b_hermosa_CO = {}
+				b_howardsville_CO = {}
+				b_ironton_CO = {}
+				b_middleton_CO = {}
+				b_eureka_CO = {}
+				b_ophir_CO = {}
+			}						
+			c_ouray_CO = {
+				color={ 193 74 40 }
+				color2={ 255 255 255 }
+			
+				b_ouray_CO = {}
+				b_portland_CO = {}
+				b_ridgway_CO = {}
+				b_dallas_CO = {}
+				b_loghill_CO = {}
+				b_vernal_CO = {}
+				b_colona_CO = {}	
+			}			
+		}
+		
+		d_mineral_belt = {
+			color = { 255 233 127 }
+			color2= { 255 255 255 }
+
+			capital = 427 #Mineral Belt
+
+			c_breckenridge_CO = {
+				color={ 255 203 127 }
+				color2={ 255 255 255 }
+				
+				holy_site = zenith
+			
+				b_breckenridge_CO = {}
+				b_frisco_CO = {}
+				b_granite_CO = {}
+				b_twin_lakes_CO = {}
+				b_americus_CO = {}
+				b_salida_CO = {}
+				b_vail_CO = {}
+			}
+			c_grand_CO = { #Grand Junction
+				color={ 255 233 127 }
+				color2={ 255 255 255 }
+			
+				b_hot_sulphur_springs_CO = {}
+				b_grand_lake_CO = {}
+				b_granby_CO = {}
+				b_tabernash_CO = {}
+				b_fraser_CO = {}
+				b_winter_park_CO = {}
+				b_parshall_CO = {}
+			}
+			c_gunnison = {
+				color = { 226 142 118 }
+				color2= { 255 255 255 }
+
+				b_gunnison_CO = {}
+				b_powderhorn_CO = {}
+				b_marble_CO = {}
+				b_pitkin_CO = {}
+				b_almont_CO = {}
+				b_sapinero_CO = {}
+				b_tincup_CO = {}
+			}
+			c_mineral_belt = {
+				color = { 210 91 40 }
+				color2= { 255 255 255 }
+
+				b_leadville_CO = {}
+				b_aspen_CO = {}
+				b_edwards_CO = {}
+				b_glenwood_springs_CO = {}
+				b_eagle_CO = {}
+				b_ashcroft_CO = {}
+				b_climax_CO = {}
+				b_buena_vista_CO = {}
+			}			
+		}
+		
+		d_mesa_verde = {
+			color = { 199 126 34 }
+			color2= { 255 255 255 }
+
+			capital = 426 # Mesa Verde
+
+			c_mesa_verde = {
+				color = { 163 64 35 }
+				color2= { 255 255 255 }
+
+				b_durango_CO = {}
+				b_cortez_CO = {}
+				b_mancos_CO = {}
+				b_dolores_CO = {}
+				b_dove_creek_CO = {}
+				b_hesperus_CO = {}
+				b_towaoc_CO = {}
+			}
+			c_pagosa_CO = {
+				color={ 199 126 34 }
+				color2={ 255 255 255 }
+			
+				b_pagosa_springs_CO = {}
+				b_bayfield_CO = {}
+				b_arboles_CO = {}
+				b_piedra_CO = {}
+				b_chimney_rock_CO = {}
+				b_altura_CO = {}
+				b_chromo_CO = {}
+			}			
+		}
+		
+		d_moffat = {
+			color = { 87 0 116 }
+			color2= { 255 255 255 }
+
+			capital = 953 # Moffat
+
+			c_meeker_CO = {
+				color={ 87 35 116 }
+				color2={ 255 255 255 }
+			
+				b_meeker_CO = {}
+				b_buford_CO = {}
+				b_axial_CO = {}
+				b_white_river_city_CO = {}
+				b_angora_CO = {}
+				b_rangely_CO = {}
+				b_pagoda_CO = {}		
+			}
+			c_moffat_CO = {
+				color={ 87 0 116 }
+				color2={ 255 255 255 }
+			
+				b_craig_CO = {}
+				b_hayden_CO = {}
+				b_milner_CO = {}
+				b_lay_CO = {}
+				b_sunbeam_CO = {}
+				b_elk_springs_CO = {}
+				b_massadona_CO = {}
+			}			
+			c_yampa = {
+				color = { 116 45 24 }
+				color2= { 255 255 255 }
+
+				b_steamboat_springs_CO = {	
+				}
+				b_yampa_CO = {}
+				b_toponas_CO = {}
+				b_dinosaur_CO = {}
+				b_maybell_CO = {}
+				b_rio_blanco_CO = {					
+				}
+				b_phippsburg_CO = {}
+			}
+		}
+	}
+}

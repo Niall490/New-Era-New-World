@@ -1,4 +1,0 @@
-2318.9.21 = {
-	holder = 2720063
-	historical_nomad = yes
-}

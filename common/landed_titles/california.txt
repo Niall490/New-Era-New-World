@@ -1,0 +1,37 @@
+e_california = {
+	color={ 255 223 0 }
+	color2={ 50 49 99 }
+
+	creation_requires_capital = no
+	capital = 2046 # c_sacramento	
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_california = {
+					is_titular = yes
+				}
+			}
+			e_california = {
+				is_titular = no
+			}
+		}
+	}
+	k_death_valley = { #leftovers
+		color={ 60 60 60 }
+		color2={ 243 215 59 }
+		
+		capital = 2071 # c_inyo
+		
+		allow = { always = no }
+	}
+	
+	k_socal = { #leftovers
+		color={ 241 233 144 }
+		color2={ 255 255 255 }
+		
+		capital = 2019 # c_los_angeles
+		
+		allow = { always = no }
+	}
+}

@@ -72,6 +72,10 @@ e_texas = {
 
 	culture = houstonian
 	capital = 1235 # Travis
+
+	farsi = "Teksas"
+	czexan = "Czexas"
+
 	allow = {
 		conditional_tooltip = {
 			trigger = {
@@ -90,6 +94,7 @@ e_grand_orient_host = {
 	color = { 240 240 240 }
 	color2 = { 152 196 21 }
 	capital = 118 # Detroit
+	assimilate = no
 	short_name = yes
 	
 	title = "CONDUCTOR_GENERAL"
@@ -278,8 +283,6 @@ e_great_lakes = {
 	color = { 100 120 200 }
 	color2 = { 255 255 255 }
 	capital = 170 #Chicago
-	
-	
 	
 	allow = {
 		conditional_tooltip = {
@@ -633,6 +636,70 @@ d_exovedate_invaders = {
 	}
 }
 
+e_colorado = {
+	color = { 191 10 48 }
+	color2= { 255 215 0 }		
+
+	capital = 389 # Denver
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_colorado = {
+					is_titular = yes
+				}
+			}
+			e_colorado = {
+				is_titular = no
+			}
+		}
+	}
+	
+	kolorantoi = "Koloránto"
+	westerosi_valyrian = "Koloránto"
+	florintoi = "Koloránto"
+	intianoi = "Koloránto"
+	kanadoi = "Koloránto"
+	minoan = "Koloránto"
+}
+e_prairieland = {
+	color = { 0 14 59 }
+	color2= { 255 215 0 }		
+
+	capital = 2093 #Edmonton
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_prairieland = {
+					is_titular = yes
+				}
+			}
+			e_prairieland = {
+				is_titular = no
+			}
+		}
+	}
+}
+e_aztlan = {
+	color = { 211 41 39 }
+	color2= { 255 215 0 }		
+
+	capital = 2019 # c_los_angeles
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				e_aztlan = {
+					is_titular = yes
+				}
+			}
+			e_aztlan = {
+				is_titular = no
+			}
+		}
+	}
+}
 
 # NEOW LEFTOVERS
 

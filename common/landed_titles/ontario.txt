@@ -1355,9 +1355,6 @@ e_ontario = {
 		color = { 229 195 22 }
 		color2 = { 210 190 0 }
 
-		#GHW weights
-		salihi = 50
-
 		capital = 1010
 
 		# Crusade target weight

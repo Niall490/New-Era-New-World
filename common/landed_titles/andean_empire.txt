@@ -1,0 +1,1117 @@
+e_andean_empire = {
+	color={ 249 233 54 }
+	color2={ 255 255 20 }
+	
+	capital = 3367 # c_zamora
+	culture = ecuadorean
+	
+	k_ecuador = {
+		color={ 80 242 72 }
+		color2={ 255 255 255 }
+		
+		capital = 3367 # c_zamora
+		culture = ecuadorean
+		
+		d_chinchipe = {
+			color={ 100 222 82 }
+			color2={ 255 255 255 }
+			
+			capital = 3367 # c_zamora
+			
+			c_zamora2 = { # 3367
+				color={ 110 212 87 }
+				color2={ 255 255 255 }
+				
+				b_zamora_ecua = {
+				}
+				b_guayzimi_ecua = {
+				}
+				b_cumbaratza_ecua = {
+				}
+				b_nuevo_paraiso_ecua = {
+				}
+				b_yantzaza_ecua = {
+				}
+				b_paquisha_ecua = {
+				}
+				b_el_dorado_ecua = {
+				}
+			}
+			c_macas = { # 3368
+				color={ 125 63 224 }
+				color2={ 255 255 255 }
+				
+				b_macas_ecua = {
+				}
+				b_sucua_ecua = {
+				}
+				b_gualaquiza_ecua = {
+				}
+				b_bomboiza_ecua = {
+				}
+				b_coangos_ecua = {
+				}
+				b_san_juan_bosco_ecua = {
+				}
+				b_milagro_ecua = {
+				}
+			}
+			c_puyo = { # 3369
+				color={ 204 22 171 }
+				color2={ 255 255 255 }
+				
+				b_puyo_ecua = {
+				}
+				b_teniente_hugo_ortiz_ecua = {
+				}
+				b_santa_clara_ecua = {
+				}
+				b_diez_de_agosto_ecua = {
+				}
+				b_parroquia_tarqui_ecua = {
+				}
+				b_pomona_ecua = {
+				}
+				b_canelos_ecua = {
+				}
+			}
+		}
+		d_azuay = {
+			color={ 213 233 251 }
+			color2={ 255 255 255 }
+			
+			capital = 3373 # c_loja
+			
+			c_loja = { # 3373
+				color={ 223 223 0 }
+				color2={ 255 255 255 }
+				
+				b_loja_ecua = {
+				}
+				b_catamayo_ecua = {
+				}
+				b_el_tambo_ecua = {
+				}
+				b_malacatos_ecua = {
+				}
+				b_vilcabamba_ecua = {
+				}
+				b_palmira_ecua = {
+				}
+				b_yangana_ecua = {
+				}
+			}
+			c_alausi = { # 3375
+				color={ 240 180 77 }
+				color2={ 255 255 255 }
+				
+				b_alausi_ecua = {
+				}
+				b_palmira_ecua_2 = {
+				}
+				b_tixan_ecua = {
+				}
+				b_san_nicolas_ecua = {
+				}
+				b_pallatanga_ecua = {
+				}
+				b_juan_de_velasco_ecua = {
+				}
+				b_columbe_ecua = {
+				}
+			}
+			c_ambato = { # 3376
+				color={ 0 191 124 }
+				color2={ 255 255 255 }
+				
+				b_ambato_ecua = {
+				}
+				b_picaihua_ecua = {
+				}
+				b_pillaro_ecua = {
+				}
+				b_patate_ecua = {
+				}
+				b_cevallos_ecua = {
+				}
+				b_quero_ecua = {
+				}
+				b_mocha_ecua = {
+				}
+			}
+			c_cuenca = { # 3374
+				color={ 113 251 140 }
+				color2={ 255 255 255 }
+				
+				b_cuenca_ecua = {
+				}
+				b_gualaceo_ecua = {
+				}
+				b_chordeleg_ecua = {
+				}
+				b_quillualpa_ecua = {
+				}
+				b_turi_ecua = {
+				}
+				b_cumbe_ecua = {
+				}
+				b_jima_ecua = {
+				}
+			}
+		}
+		d_guayas = {
+			color={ 75 113 157 }
+			color2={ 255 255 255 }
+			
+			capital = 3380 # c_machala
+			
+			c_machala = { # 3380
+				color={ 65 123 152 }
+				color2={ 255 255 255 }
+				
+				b_machala_ecua = {
+				}
+				b_el_cambio_ecua = {
+				}
+				b_arenillas_ecua = {
+				}
+				b_huaquillas_ecua = {
+				}
+				b_atahualpa_ecua = {
+				}
+				b_ayapamba_ecua = {
+				}
+				b_moromoro_ecua = {
+				}
+			}
+			c_aguapiedra = { # 3382
+				color={ 240 222 120 }
+				color2={ 255 255 255 }
+				
+				b_aguapiedra_ecua = {
+				}
+				b_el_limbo_ecua = {
+				}
+				b_zapote_ecua = {
+				}
+				b_concordia_ecua = {
+				}
+				b_las_lojas_ecua = {
+				}
+				b_campo_alegre_ecua = {
+				}
+				b_subida_alta_ecua = {
+				}
+			}
+			c_guayaquil = { # 3381
+				color={ 235 69 243 }
+				color2={ 255 255 255 }
+				
+				b_guayaquil_ecua = {
+				}
+				b_duran_ecua = {
+				}
+				b_bastion_popular_ecua = {
+				}
+				b_samborondon_ecua = {
+				}
+				b_la_aurora_ecua = {
+				}
+				b_puerto_coquito_ecua = {
+				}
+				b_nobol_ecua = {
+				}
+			}
+			c_quevedo = { # 3383
+				color={ 117 57 45 }
+				color2={ 255 255 255 }
+				
+				b_quevedo_ecua = {
+				}
+				b_ana_mara_ecua = {
+				}
+				b_pisagua_ecua = {
+				}
+				b_san_carlos_ecua = {
+				}
+				b_montoya_ecua = {
+				}
+				b_mocache_ecua = {
+				}
+				b_achiote_ecua = {
+				}
+			}
+		}
+		d_manabi = {
+			color={ 114 186 84 }
+			color2={ 255 255 255 }
+			
+			capital = 3384 # c_salinas
+			
+			c_salinas = { # 3384
+				color={ 104 196 79 }
+				color2={ 255 255 255 }
+				
+				b_salinas_ecua = {
+				}
+				b_la_libertad_ecua = {
+				}
+				b_ballenita_ecua = {
+				}
+				b_cerro_alto_ecua = {
+				}
+				b_atahualpa_ecua_2 = {
+				}
+				b_ancon_ecua = {
+				}
+				b_anconcito_ecua = {
+				}
+			}
+			c_esmeraldas = { # 3386
+				color={ 168 52 132 }
+				color2={ 255 255 255 }
+				
+				b_esmeraldas_ecua = {
+				}
+				b_vuelta_larga_ecua = {
+				}
+				b_tabuche_ecua = {
+				}
+				b_chinca_ecua = {
+				}
+				b_atacames_ecua = {
+				}
+				b_san_enrique_ecua = {
+				}
+				b_carlos_concha_torres_ecua = {
+				}
+			}
+			c_manta = { # 3385
+				color={ 207 156 54 }
+				color2={ 255 255 255 }
+				
+				b_manta_ecua = {
+				}
+				b_la_pila_ecua = {
+				}
+				b_montecristi_ecua = {
+				}
+				b_santa_rosa_ecua = {
+				}
+				b_san_lorenzo_ecua = {
+				}
+				b_aromo_ecua = {
+				}
+				b_liguiqui_ecua = {
+				}
+			}
+		}
+		d_orellana = {
+			color={ 140 246 196 }
+			color2={ 255 255 255 }
+			
+			capital = 3370 # c_puerto_francisco_de_orellana
+			
+			c_puerto_francisco_de_orellana = { # 3370
+				color={ 130 0 191 }
+				color2={ 255 255 255 }
+				
+				b_puerto_francisco_de_orellana_ecua = {
+				}
+				b_loreto_ecua = {
+				}
+				b_dayuma_ecua = {
+				}
+				b_joya_de_los_sachas_ecua = {
+				}
+				b_quiroz_ecua = {
+				}
+				b_san_miguel_ecua = {
+				}
+				b_limoncocha_ecua = {
+				}
+			}
+			c_baeza = { # 3372
+				color={ 155 229 69 }
+				color2={ 255 255 255 }
+				
+				b_baeza_ecua = {
+				}
+				b_san_fransisco_de_borja_ecua = {
+				}
+				b_sardinas_ecua = {
+				}
+				b_el_chaco_ecua = {
+				}
+				b_santa_rosa_de_quijos_ecua = {
+				}
+				b_diaz_de_pineda_ecua = {
+				}
+				b_salado_ecua = {
+				}
+			}
+			c_shushufindi = { # 3371
+				color={ 76 95 87 }
+				color2={ 255 255 255 }
+				
+				b_shushufindi_ecua = {
+				}
+				b_cushmas_ecua = {
+				}
+				b_el_eno_ecua = {
+				}
+				b_pacayacu_ecua = {
+				}
+				b_nueva_loja_ecua = {
+				}
+				b_jivino_verde_ecua = {
+				}
+				b_providencia_ecua = {
+				}
+			}
+		}
+		d_tsachilas = {
+			color={ 209 135 65 }
+			color2={ 255 255 255 }
+			
+			capital = 3377 # c_santo_domingo
+			
+			c_santo_domingo2 = { # 3377
+				color={ 219 125 70 }
+				color2={ 255 255 255 }
+				
+				b_santo_domingo_ecua = {
+				}
+				b_libertad_del_toachi_ecua = {
+				}
+				b_julio_moreno_ecua = {
+				}
+				b_el_cisne_ecua = {
+				}
+				b_telegrafistas_ecua = {
+				}
+				b_valle_hermoso_ecua = {
+				}
+				b_puerto_naranjo_ecua = {
+				}
+			}
+			c_ibarra = { # 3379
+				color={ 255 66 0 }
+				color2={ 255 255 255 }
+				
+				b_ibarra_ecua = {
+				}
+				b_cotacachi_ecua = {
+				}
+				b_otavalo_ecua = {
+				}
+				b_angochagua_ecua = {
+				}
+				b_san_antonio_de_ibarra_ecua = {
+				}
+				b_atuntaqui_ecua = {
+				}
+				b_apuela_ecua = {
+				}
+			}
+			c_quito = { # 3378
+				color={ 149 153 116 }
+				color2={ 255 255 255 }
+				
+				b_quito_ecua = {
+				}
+				b_tumbaco_ecua = {
+				}
+				b_calderon_ecua = {
+				}
+				b_carcelen_ecua = {
+				}
+				b_nono_ecua = {
+				}
+				b_el_condado_ecua = {
+				}
+				b_solanda_ecua = {
+				}
+			}
+		}
+	}
+	k_peru = {
+		color={ 35 248 230 }
+		color2={ 255 255 255 }
+		
+		capital = 3391 # c_caballococha
+		culture = peruviano
+		
+		d_mariscal_ramon_castilla = {
+			color={ 15 12 220 }
+			color2={ 255 255 255 }
+			
+			capital = 3391 # c_caballococha
+			
+			c_caballococha = { # 3391
+				color={ 5 22 215 }
+				color2={ 255 255 255 }
+				
+				b_caballococha_peru = {
+				}
+				b_bellavista_peru = {
+				}
+				b_estiron_peru = {
+				}
+				b_shiringueros_peru = {
+				}
+				b_san_pablo_de_loreto_peru = {
+				}
+				b_puerto_monpot_peru = {
+				}
+				b_san_nicolas_peru = {
+				}
+			}
+			c_el_estrecho = { # 3393
+				color={ 225 149 123 }
+				color2={ 255 255 255 }
+				
+				b_el_estrecho_peru = {
+				}
+				b_flor_de_agosto_peru = {
+				}
+				b_san_vicente_de_los_lagos_peru = {
+				}
+				b_puerto_tumaco_peru = {
+				}
+				b_santa_clotilda_peru = {
+				}
+				b_huana_peru = {
+				}
+				b_yaguas_peru_2 = {
+				}
+			}
+			c_iquitos = { # 3394
+				color={ 148 147 123 }
+				color2={ 255 255 255 }
+				
+				b_iquitos_peru = {
+				}
+				b_ninarumi_peru = {
+				}
+				b_varillal_peru = {
+				}
+				b_san_miguel_peru = {
+				}
+				b_san_juan_bautista_peru = {
+				}
+				b_moronacocha_peru = {
+				}
+				b_punchana_peru = {
+				}
+			}
+			c_tambo_yaguas = { # 3392
+				color={ 180 191 115 }
+				color2={ 255 255 255 }
+				
+				b_tambo_yaguas_peru = {
+				}
+				b_yaguas_peru = {
+				}
+				b_ampiyacu_peru = {
+				}
+				b_chambira_peru = {
+				}
+				b_veron_peru = {
+				}
+				b_rames_peru = {
+				}
+				b_seran_peru = {
+				}
+			}
+		}
+		d_acre = {
+			color={ 245 74 202 }
+			color2={ 255 255 255 }
+			
+			capital = 3399 # c_rio_branco
+			
+			c_rio_branco = { # 3399
+				color={ 255 64 207 }
+				color2={ 255 255 255 }
+				
+				b_rio_branco_peru = {
+				}
+				b_senador_guiomard_peru = {
+				}
+				b_pui_peru = {
+				}
+				b_santa_maria_peru = {
+				}
+				b_alvorada_peru = {
+				}
+				b_nova_olinda_peru = {
+				}
+				b_guarani_peru = {
+				}
+			}
+			c_cruzeiro_do_sul = { # 3401
+				color={ 195 223 0 }
+				color2={ 255 255 255 }
+				
+				b_cruzeiro_do_sul_peru = {
+				}
+				b_boa_hora_peru = {
+				}
+				b_recanto_peru = {
+				}
+				b_tauare_peru = {
+				}
+				b_serra_do_moa_peru = {
+				}
+				b_monte_alegre_peru = {
+				}
+				b_pedernal_peru = {
+				}
+			}
+			c_manoel_urbano = { # 3400
+				color={ 0 96 90 }
+				color2={ 255 255 255 }
+				
+				b_manoel_urbano_peru = {
+				}
+				b_triumfo_peru = {
+				}
+				b_funil_peru = {
+				}
+				b_manaus_peru = {
+				}
+				b_sobral_peru = {
+				}
+				b_aparecida_peru = {
+				}
+				b_macapa_peru = {
+				}
+			}
+		}
+		d_cajamarca = {
+			color={ 233 125 228 }
+			color2={ 255 255 255 }
+			
+			capital = 3412 # c_cajamarca
+			
+			c_cajamarca = { # 3412
+				color={ 243 115 233 }
+				color2={ 255 255 255 }
+				
+				b_cajamarca_peru = {
+				}
+				b_la_paccha_peru = {
+				}
+				b_shudal_peru = {
+				}
+				b_cruz_blanca_peru = {
+				}
+				b_san_sebastian_peru = {
+				}
+				b_rosa_mayopata_peru = {
+				}
+				b_plan_porconcillo_peru = {
+				}
+			}
+			c_celendin = { # 3413
+				color={ 168 215 60 }
+				color2={ 255 255 255 }
+				
+				b_celendin_peru = {
+				}
+				b_huasmin_peru = {
+				}
+				b_el_tingo_peru = {
+				}
+				b_sorochuco_peru = {
+				}
+				b_jose_galvez_peru = {
+				}
+				b_sucre_peru = {
+				}
+				b_el_limon_peru = {
+				}
+			}
+			c_chachapoyas = { # 3414
+				color={ 223 154 89 }
+				color2={ 255 255 255 }
+				
+				b_chachapoyas_peru = {
+				}
+				b_caclic_peru = {
+				}
+				b_nuevo_tingo_peru = {
+				}
+				b_mayno_peru = {
+				}
+				b_molinopampa_peru = {
+				}
+				b_soloco_peru = {
+				}
+				b_lonya_chico_peru = {
+				}
+			}
+			c_indio_nashipa = { # 3415
+				color={ 204 15 89 }
+				color2={ 255 255 255 }
+				
+				b_indio_nashipa_peru = {
+				}
+				b_chipe_peru = {
+				}
+				b_nazareth_peru = {
+				}
+				b_chiriaco_peru = {
+				}
+				b_santa_maria_peru_2 = {
+				}
+				b_tahuahua_peru = {
+				}
+				b_tambo_peru = {
+				}
+			}
+		}
+		d_huaranchal = {
+			color={ 66 249 191 }
+			color2={ 255 255 255 }
+			
+			capital = 3409 # c_huamachuco
+			
+			c_huamachuco = { # 3409
+				color={ 76 239 196 }
+				color2={ 255 255 255 }
+				
+				b_huamachuco_peru = {
+				}
+				b_sausacocha_peru = {
+				}
+				b_shiracmaca_peru = {
+				}
+				b_yamobamba_peru = {
+				}
+				b_chaquilbamba_peru = {
+				}
+				b_agocas_peru = {
+				}
+				b_conga_peru = {
+				}
+			}
+			c_cascas = { # 3411
+				color={ 123 5 65 }
+				color2={ 255 255 255 }
+				
+				b_cascas_peru = {
+				}
+				b_cojitambo_peru = {
+				}
+				b_puerto_morena_peru = {
+				}
+				b_algarrobal_peru = {
+				}
+				b_san_benito_peru = {
+				}
+				b_guzmango_peru = {
+				}
+				b_altamisa_peru = {
+				}
+			}
+			c_otuzco = { # 3410
+				color={ 67 170 215 }
+				color2={ 255 255 255 }
+				
+				b_otuzco_peru = {
+				}
+				b_pango_peru = {
+				}
+				b_sanchique_peru = {
+				}
+				b_agallpampa_peru = {
+				}
+				b_chota_peru = {
+				}
+				b_tres_rios_peru = {
+				}
+				b_samne_peru = {
+				}
+			}
+		}
+		d_magdalena_de_cao = {
+			color={ 15 44 224 }
+			color2={ 255 255 255 }
+			
+			capital = 3416 # c_trujillo2
+			
+			c_trujillo2 = { # 3416
+				color={ 5 54 219 }
+				color2={ 255 255 255 }
+				
+				b_trujillo_peru = {
+				}
+				b_la_esperanza_peru = {
+				}
+				b_el_milagro_peru = {
+				}
+				b_laredo_peru = {
+				}
+				b_moche_peru = {
+				}
+				b_salaverry_peru = {
+				}
+				b_caray_peru = {
+				}
+			}
+			c_chiclayo = { # 3417
+				color={ 74 8 64 }
+				color2={ 255 255 255 }
+				
+				b_chiclayo_peru = {
+				}
+				b_galito_peru = {
+				}
+				b_pimentel_peru = {
+				}
+				b_santa_rosa_peru = {
+				}
+				b_reque_peru = {
+				}
+				b_ciudad_eten_peru = {
+				}
+				b_rama_receptor_peru = {
+				}
+			}
+			c_parachique = { # 3418
+				color={ 15 136 130 }
+				color2={ 255 255 255 }
+				
+				b_parachique_peru = {
+				}
+				b_constante_peru = {
+				}
+				b_mata_caballo_peru = {
+				}
+				b_salina_peru = {
+				}
+				b_la_mina_peru = {
+				}
+				b_angostura_peru = {
+				}
+				b_ficuar_peru = {
+				}
+			}
+		}
+		d_marcavelica = {
+			color={ 49 119 156 }
+			color2={ 255 255 255 }
+			
+			capital = 3419 # c_san_ignacio
+			
+			c_san_ignacio = { # 3419
+				color={ 39 129 151 }
+				color2={ 255 255 255 }
+				
+				b_san_ignacio_peru = {
+				}
+				b_los_cuyes_peru = {
+				}
+				b_chirinos_peru = {
+				}
+				b_la_coipa_peru = {
+				}
+				b_potrero_peru = {
+				}
+				b_tamborapa_pueblo_peru = {
+				}
+				b_namballe_peru = {
+				}
+			}
+			c_ayabaca = { # 3420
+				color={ 242 255 228 }
+				color2={ 255 255 255 }
+				
+				b_ayabaca_peru = {
+				}
+				b_chinchin_peru = {
+				}
+				b_montero_peru = {
+				}
+				b_sicchez_peru = {
+				}
+				b_yanchala_peru = {
+				}
+				b_lagunas_peru = {
+				}
+				b_aypate_peru = {
+				}
+			}
+			c_sullana = { # 3421
+				color={ 129 183 122 }
+				color2={ 255 255 255 }
+				
+				b_sullana_peru = {
+				}
+				b_marcavelica_peru = {
+				}
+				b_salitral_peru = {
+				}
+				b_jibito_peru = {
+				}
+				b_parales_peru = {
+				}
+				b_huangala_peru = {
+				}
+				b_querecotillo_peru = {
+				}
+			}
+			c_tumbes = { # 3422
+				color={ 103 46 48 }
+				color2={ 255 255 255 }
+				
+				b_tumbes_peru = {
+				}
+				b_zarumilla_peru = {
+				}
+				b_papayal_peru = {
+				}
+				b_san_jacinto_peru = {
+				}
+				b_caleta_cruz_peru = {
+				}
+				b_zorritos_peru = {
+				}
+				b_cardalito_peru = {
+				}
+			}
+		}
+		d_padre_abad = {
+			color={ 82 51 12 }
+			color2={ 255 255 255 }
+			
+			capital = 3405 # c_pucallpa
+			
+			c_pucallpa = { # 3405
+				color={ 72 61 7 }
+				color2={ 255 255 255 }
+				
+				b_pucallpa_peru = {
+				}
+				b_honoria_peru = {
+				}
+				b_campoverde_peru = {
+				}
+				b_nueva_requena_peru = {
+				}
+				b_isla_san_francisco_peru = {
+				}
+				b_tre_unidos_peru = {
+				}
+				b_nueva_juantia_peru = {
+				}
+			}
+			c_aguaytia = { # 3406
+				color={ 255 168 32 }
+				color2={ 255 255 255 }
+				
+				b_aguaytia_peru = {
+				}
+				b_yamino_peru = {
+				}
+				b_huipoca_peru = {
+				}
+				b_previsto_peru = {
+				}
+				b_san_alejandro_peru = {
+				}
+				b_campemento_neshuya_peru = {
+				}
+				b_curimana_peru = {
+				}
+			}
+			c_puerto_diaz = { # 3408
+				color={ 162 83 51 }
+				color2={ 255 255 255 }
+				
+				b_puerto_diaz_peru = {
+				}
+				b_dos_de_mayo_peru = {
+				}
+				b_san_lorenzo_peru = {
+				}
+				b_barranca_peru = {
+				}
+				b_papayacu_peru = {
+				}
+				b_puerto_industrial_peru = {
+				}
+				b_san_isidro_peru = {
+				}
+			}
+			c_tocache = { # 3407
+				color={ 0 127 49 }
+				color2={ 255 255 255 }
+				
+				b_tocache_peru = {
+				}
+				b_st_lucia_peru = {
+				}
+				b_uchiza_peru = {
+				}
+				b_paraiso_peru = {
+				}
+				b_nuevo_progreso_peru = {
+				}
+				b_shilco_peru = {
+				}
+				b_la_victoria_peru = {
+				}
+			}
+		}
+		d_sarayacu = {
+			color={ 11 87 135 }
+			color2={ 255 255 255 }
+			
+			capital = 3402 # c_contamana
+			
+			c_contamana = { # 3402
+				color={ 1 97 130 }
+				color2={ 255 255 255 }
+				
+				b_contamana_peru = {
+				}
+				b_libertad_peru = {
+				}
+				b_betania_peru = {
+				}
+				b_holanda_peru = {
+				}
+				b_hermosa_peru = {
+				}
+				b_pampa_fermosa_peru = {
+				}
+				b_orellana_peru = {
+				}
+			}
+			c_cumaseba = { # 3403
+				color={ 7 225 77 }
+				color2={ 255 255 255 }
+				
+				b_cumaseba_peru = {
+				}
+				b_tamanco_peru = {
+				}
+				b_palizada_peru = {
+				}
+				b_juancito_peru = {
+				}
+				b_alianza_peru = {
+				}
+				b_republica_peru = {
+				}
+				b_jai_alay_peru = {
+				}
+			}
+			c_tarapoto = { # 3404
+				color={ 239 145 59 }
+				color2={ 255 255 255 }
+				
+				b_tarapoto_peru = {
+				}
+				b_san_pedro_de_cumbaza_peru = {
+				}
+				b_rumizapa_peru = {
+				}
+				b_cunumbuque_peru = {
+				}
+				b_zapatero_peru = {
+				}
+				b_san_francisco_del_rio_mayo_peru = {
+				}
+				b_huayco_peru = {
+				}
+			}
+		}
+		d_torres_causana = {
+			color={ 225 150 238 }
+			color2={ 255 255 255 }
+			
+			capital = 3395 # c_puerto_neque
+			
+			c_puerto_neque = { # 3395
+				color={ 235 140 243 }
+				color2={ 255 255 255 }
+				
+				b_puerto_neque_peru = {
+				}
+				b_puerto_carmen_peru = {
+				}
+				b_puerto_elvira_peru = {
+				}
+				b_clotilda_peru = {
+				}
+				b_flor_peru = {
+				}
+				b_agosto_peru = {
+				}
+				b_lagos_peru = {
+				}
+			}
+			c_andoas = { # 3398
+				color={ 175 168 133 }
+				color2={ 255 255 255 }
+				
+				b_andoas_peru = {
+				}
+				b_lisbon_peru = {
+				}
+				b_shiviyacu_peru = {
+				}
+				b_forestal_peru = {
+				}
+				b_rio_tigre_peru = {
+				}
+				b_el_tigre_peru = {
+				}
+				b_chichirata_peru = {
+				}
+			}
+			c_cabo_pantoja = { # 3396
+				color={ 162 242 53 }
+				color2={ 255 255 255 }
+				
+				b_cabo_pantoja_peru = {
+				}
+				b_ballesteros_peru = {
+				}
+				b_progreso_peru = {
+				}
+				b_angoteros_peru = {
+				}
+				b_campo_serio_peru = {
+				}
+				b_pandochicta_peru = {
+				}
+				b_aguarico_peru = {
+				}
+			}
+			c_intuto = { # 3397
+				color={ 210 12 95 }
+				color2={ 255 255 255 }
+				
+				b_intuto_peru = {
+				}
+				b_trompeteros_peru = {
+				}
+				b_copalyacu_peru = {
+				}
+				b_pavayacu_peru = {
+				}
+				b_san_pedro_peru = {
+				}
+				b_san_pablo_peru = {
+				}
+				b_san_stanislao_peru = {
+				}
+			}
+		}
+	}	
+}
