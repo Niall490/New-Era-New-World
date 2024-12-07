@@ -4,7 +4,10 @@ decisions = {
 		only_playable = no
 		ai_check_interval = 24
 		potential = {
-			form_empire_potential = yes
+			OR = {
+				form_empire_potential = yes
+				primary_title = e_columbia
+			}
 			capital_scope = {
 				region = custom_usa
 			}
