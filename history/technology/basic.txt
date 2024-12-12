@@ -311,6 +311,9 @@ technology = {
 		d_yucatan
 		d_zapata
 		d_chiapas
+		d_bulkley_valley
+		d_peace_river
+		d_fraser_fort_george
 	}
 
 	2325 = {

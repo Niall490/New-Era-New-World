@@ -25,7 +25,7 @@ world_central_canada = {
 
 world_western_canada = {
 	duchies = {
-		d_saskatchewan d_keeseekoowenin d_lesser_slave d_manitoulin d_kenora d_kootenay d_colville d_vancouver d_vancouver_strait d_north_end d_georgia_strait d_cariboo d_monashee d_alberta d_riverlands d_the_stampede d_great_valleys d_the_coast d_winnipeg d_albany d_patricia d_manto_sakahigan d_westman d_ghost_trail d_saskatoon d_perogy_belt d_lakeland d_calgary d_brazeau d_peace_AB
+		d_saskatchewan d_keeseekoowenin d_lesser_slave d_manitoulin d_kenora d_kootenay d_colville d_vancouver d_vancouver_strait d_north_end d_georgia_strait d_bulkley_valley d_fraser_fort_george d_peace_river d_cariboo d_monashee d_alberta d_riverlands d_the_stampede d_great_valleys d_the_coast d_winnipeg d_albany d_patricia d_manto_sakahigan d_westman d_ghost_trail d_saskatoon d_perogy_belt d_lakeland d_calgary d_brazeau d_peace_AB
 	}
 }
 

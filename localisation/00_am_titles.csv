@@ -21976,8 +21976,6 @@ k_haida_adj;Haida;;;;;;;;;;;;;x
 b_sumas_WA1;Sumas;;;;;;;;;;;;;x
 k_nechako;Nechako;;;;;;;;;;;;;x
 k_nechako_adj;Nechako;;;;;;;;;;;;;x
-d_nechako;Nechako;;;;;;;;;;;;;x
-d_nechako_adj;Nechako;;;;;;;;;;;;;x
 b_summit_lake_BC1;Summit Lake;;;;;;;;;;;;;x
 b_punchaw_BC1;Punchaw;;;;;;;;;;;;;x
 k_okanagan;Okanagan;;;;;;;;;;;;;x
@@ -22065,3 +22063,9 @@ b_houlton_NB;Houlton;;;;;;;;;;;;;x
 b_minto;Minto;;;;;;;;;;;;;x
 b_stanley_NSC;Stanley;;;;;;;;;;;;;x
 b_anguille;Anguille;;;;;;;;;;;;;x
+d_bulkley_valley;Bulkley Valley;;;;;;;;;;;;;x
+d_bulkley_valley_adj;Bulkler;;;;;;;;;;;;;x
+d_fraser_fort_george;Fraser Fort George;;;;;;;;;;;;;x
+d_fraser_fort_george_adj;Fraserian;;;;;;;;;;;;;x
+d_peace_river;Peace River;;;;;;;;;;;;;x
+d_peace_river_adj;Peace Riverian;;;;;;;;;;;;;x
