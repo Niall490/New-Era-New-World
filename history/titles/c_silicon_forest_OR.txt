@@ -2,5 +2,6 @@
 	holder = 3300016
 }
 2304.8.19 = {
+	liege = k_washington
 	holder = 3300013
 }

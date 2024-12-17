@@ -311,7 +311,7 @@
 700016 = {
 	name = "Homer"
 	dynasty = 5000010 #Simpson
-	religion = "columbian"
+	religion = "dianic"
 	culture = "roselander"
 	trait = "gluttonous"
 	trait = "is_fat"
