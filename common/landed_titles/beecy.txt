@@ -143,34 +143,6 @@ e_beecy = {
 			
 			haida = "Gyuu" 	#Gyúu - Fishing bank
 		
-			c_camano = {
-				color = { 249 247 226 }
-				color2 = { 0 0 0 }
-				
-				haida = "K'uhlgwaay"	#K'uhlgwáay - trail across spit, point or island
-				
-				b_mt_vernon_WA = {}
-				b_burlington_WA = {}
-				b_anacortes_WA = {}
-				b_sedro_woolley_WA = {}
-				b_stanwood_WA = {}
-				b_coupeville_WA = {}
-				b_lyman_WA = {}
-			}
-			c_harrison = {
-				color = { 0 135 66 }
-				color2 = { 255 255 255 }
-				
-				haida = "Suu Kaahlii"	#Súu Káahlii - Lake Valley
-				
-				b_chilliwack_BC = {}
-				b_deroche_BC = {}
-				b_bridal_falls_BC = {}
-				b_agassiz_BC = {}
-				b_hemlock_valley_BC = {}
-				b_sardis_BC = {}
-				b_popkum_BC = {}
-			}
 			c_golden_ears_BC = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -182,20 +154,6 @@ e_beecy = {
 				b_ruskin_BC = {}
 				b_whonnock_BC = {}
 				b_stave_falls_BC = {}		
-			}
-			c_bellingham_bay = {
-				color = { 143 143 143 }
-				color2 = { 97 97 97 }
-				
-				haida = "Tawk'aanaay" #Táwk'aanaay - Garden
-				
-				b_bellingham_WA = {}
-				b_cordata_WA = {}
-				b_ferndale_WA = {}
-				b_geneva_WA = {}
-				b_sumas_WA = {}
-				b_blaine_WA = {}
-				b_deming_WA = {}
 			}
 			c_vancouver = {
 				color = { 0 102 0 }
@@ -224,20 +182,6 @@ e_beecy = {
 				b_south_surrey_BC = {}
 				b_langley_BC = {}	
 			}
-			c_san_juan_islands = {
-				color = { 110 2 33 }
-				color2 = { 77 139 176 }
-				
-				haida = "Gwaayts'aa"	#Gwáayts'aa - a group of smaller islands
-				
-				b_roche_harbor_WA = {}
-				b_olga_WA = {}
-				b_orcas_WA = {}
-				b_friday_harbor_WA = {}
-				b_lopez_island_WA = {}
-				b_waldron_island_WA = {}
-				b_blakely_island_WA = {}
-			}
 			c_sunshine_coast = {
 				color = { 237 235 12 }
 				color2 = { 0 2 107 }
@@ -263,16 +207,80 @@ e_beecy = {
 				b_garibaldi_BC = {}
 			}
 		}
-		d_vancouver_strait = {
-			color = { 0 36 125 }
+		d_fraser_valley = {
+			color = { 95 114 183 }
 			color2 = { 255 255 255 }
 			
-			#culture = cascadian
+			capital = 547 #Bellingham Bay
+
+			culture = beesian
+		
+			c_camano = {
+				color = { 249 247 226 }
+				color2 = { 0 0 0 }
+				
+				haida = "K'uhlgwaay"	#K'uhlgwáay - trail across spit, point or island
+				
+				b_mt_vernon_WA = {}
+				b_burlington_WA = {}
+				b_anacortes_WA = {}
+				b_sedro_woolley_WA = {}
+				b_stanwood_WA = {}
+				b_coupeville_WA = {}
+				b_lyman_WA = {}
+			}
+			c_harrison = {
+				color = { 0 135 66 }
+				color2 = { 255 255 255 }
+				
+				haida = "Suu Kaahlii"	#Súu Káahlii - Lake Valley
+				
+				b_chilliwack_BC = {}
+				b_deroche_BC = {}
+				b_bridal_falls_BC = {}
+				b_agassiz_BC = {}
+				b_hemlock_valley_BC = {}
+				b_sardis_BC = {}
+				b_popkum_BC = {}
+			}
+			c_bellingham_bay = {
+				color = { 143 143 143 }
+				color2 = { 97 97 97 }
+				
+				haida = "Tawk'aanaay" #Táwk'aanaay - Garden
+				
+				b_bellingham_WA = {}
+				b_cordata_WA = {}
+				b_ferndale_WA = {}
+				b_geneva_WA = {}
+				b_sumas_WA = {}
+				b_blaine_WA = {}
+				b_deming_WA = {}
+			}
+		}
+		d_victoria_strait = {
+			color = { 116 96 150 }
+			color2 = { 255 255 255 }
+			
+			culture = cascadian
 			
 			capital = 550 #Victoria
 			
-			haida = "Jaaguusd"	#	Jaagúusd - west/seaward side of the island
-			
+
+			c_nanaimo = {
+				color = { 204 2 2 }
+				color2 = { 255 255 255}
+				
+				haida = "K'iijuuyaay"	#K'íijuuyaay - The hill/pile
+				
+				b_nanaimo_BC = {}
+				b_ladysmith_BC = {}
+				b_duncan_BC = {}
+				b_lantzville_BC = {}
+				b_crofton_BC = {}
+				b_cassidy_BC = {}
+				b_somenos_BC = {}
+			}
 			c_saanich = {
 				color = { 0 99 181 }
 				color2 = { 218 172 94 }
@@ -287,7 +295,57 @@ e_beecy = {
 				b_metchosin_BC = {}
 				b_maracaibo_BC = {}
 			}
+			c_san_juan_islands = {
+				color = { 110 2 33 }
+				color2 = { 77 139 176 }
+				
+				haida = "Gwaayts'aa"	#Gwáayts'aa - a group of smaller islands
+				
+				b_roche_harbor_WA = {}
+				b_olga_WA = {}
+				b_orcas_WA = {}
+				b_friday_harbor_WA = {}
+				b_lopez_island_WA = {}
+				b_waldron_island_WA = {}
+				b_blakely_island_WA = {}
+			}
+			c_southern_gulf_islands_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
 			
+				b_ganges_BC = {}
+				b_vesuvius_BC = {}
+				b_pender_island_BC = {}
+				b_fulford_harbour_BC = {}
+				b_fernwood_BC = {}
+				b_village_bay_BC = {}
+				b_lighthouse_point_BC = {}		
+
+			}
+			c_sooke_BC = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_sooke_BC = {}
+				b_east_sooke_BC = {}
+				b_milnes_landing_BC = {}
+				b_shirley_BC = {}
+				b_jordan_river_BC = {}
+				b_saseenos_BC = {}
+				b_leechtown_BC = {}		
+			}
+		}
+
+		d_vancouver_strait = {
+			color = { 0 36 125 }
+			color2 = { 255 255 255 }
+			
+			#culture = cascadian
+			
+			capital = 553 #Alberni
+			
+			haida = "Jaaguusd"	#	Jaagúusd - west/seaward side of the island
+				
 			c_carmanah = {
 				color = { 255 194 15 }
 				color2 = { 0 0 0 }
@@ -334,44 +392,6 @@ e_beecy = {
 				b_hot_springs_cove_BC = {}
 				b_kakawis_BC = {}
 				b_meares_BC = {}
-			}
-			c_nanaimo = {
-				color = { 204 2 2 }
-				color2 = { 255 255 255}
-				
-				haida = "K'iijuuyaay"	#K'íijuuyaay - The hill/pile
-				
-				b_nanaimo_BC = {}
-				b_ladysmith_BC = {}
-				b_duncan_BC = {}
-				b_lantzville_BC = {}
-				b_crofton_BC = {}
-				b_cassidy_BC = {}
-				b_somenos_BC = {}
-			}
-			c_southern_gulf_islands_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_ganges_BC = {}
-				b_vesuvius_BC = {}
-				b_pender_island_BC = {}
-				b_fulford_harbour_BC = {}
-				b_fernwood_BC = {}
-				b_village_bay_BC = {}
-				b_lighthouse_point_BC = {}		
-			}
-			c_sooke_BC = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_sooke_BC = {}
-				b_east_sooke_BC = {}
-				b_milnes_landing_BC = {}
-				b_shirley_BC = {}
-				b_jordan_river_BC = {}
-				b_saseenos_BC = {}
-				b_leechtown_BC = {}		
 			}
 			c_kennedy_BC = {
 				color={ 255 255 255 }

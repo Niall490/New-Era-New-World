@@ -14203,8 +14203,8 @@ d_upper_ohio;Upper Ohiyo;;;;;;;;;;;;;x
 d_vallecafe_adj;Vallecaféian;;vallecaféer;;;;;;;;;;;x
 d_vallecafe;Vallecafé;Vallecafé;Vallecafé;;Vallecafé;;;;;;;;;x
 d_vancouver_adj;Vancouverian;;;;;;;;;;;;;x
-d_vancouver_strait_adj;Vancouver Strait;;;;;;;;;;;;;x
-d_vancouver_strait;Vancouver Strait;;;;;;;;;;;;;x
+d_vancouver_strait_adj;Midlander;;;;;;;;;;;;;x
+d_vancouver_strait;The Midlands;;;;;;;;;;;;;x
 d_vancouver;Vancouver;;;;;;;;;;;;;x
 d_veracruz_adj;Veracruz;;;;;;;;;;;;;x
 d_veracruz;Veracruz;;;;;;;;;;;;;x
@@ -22069,3 +22069,7 @@ d_fraser_fort_george;Fraser Fort George;;;;;;;;;;;;;x
 d_fraser_fort_george_adj;Fraserian;;;;;;;;;;;;;x
 d_peace_river;Peace River;;;;;;;;;;;;;x
 d_peace_river_adj;Peace Riverian;;;;;;;;;;;;;x
+d_victoria_strait;The Victoria Straits;;;;;;;;;;;;;x
+d_victoria_strait_adj;Victorian;;;;;;;;;;;;;x
+d_fraser_valley;Fraser Valley;;;;;;;;;;;;;x
+d_fraser_valley_adj;Fraserian;;;;;;;;;;;;;x
