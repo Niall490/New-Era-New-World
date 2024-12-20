@@ -314,6 +314,8 @@ technology = {
 		d_bulkley_valley
 		d_peace_river
 		d_fraser_fort_george
+		d_victoria_strait
+		d_fraser_valley
 	}
 
 	2325 = {
