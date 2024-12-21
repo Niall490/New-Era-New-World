@@ -18808,7 +18808,8 @@
 		}
 	}
 }
-
+5001677 = { name = "Mercury" culture = renoite }
+5001678 = { name = "Curry" culture = renoite }
 5130831 = { 
 	name="Seed" 
 	culture=montane 

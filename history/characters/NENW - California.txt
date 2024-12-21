@@ -543,3 +543,27 @@
 		death = yes
 	}
 }
+3300038 = { #ruler of reno
+	name = "Alonzo"
+	dynasty = 5001677
+	culture = renoite
+	religion = gambler
+	2283.6.12 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+3300039 = {
+	name = "Kit"
+	dynasty = 5001678
+	culture = renoite
+	religion = gambler
+	2281.4.23 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
