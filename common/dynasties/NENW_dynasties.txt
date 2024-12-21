@@ -19151,3 +19151,93 @@
 2239075 = { name="Taalkweidí" culture=tsimshian }
 2239076 = { name="Kuyéik'ádi" culture=tsimshian }
 
+2239077 = { name = "Axdii Wil Luu-Gooda" culture = nisgaa }
+2239078 = { name = "Ksim Xsaan" culture = nisgaa }            
+2239079 = { name = "Wil Luu-Gaamiks Hloks" culture = nisgaa }
+2239080 = { name = "Txaatk'anlaxhatkw" culture = nisgaa }
+2239081 = { name = "Ni’isjoohl" culture = nisgaa }
+2239082 = { name = "Axhlaawaals" culture = nisgaa }
+2239083 = { name = "Haymaas" culture = nisgaa }
+2239084 = { name = "Laadax" culture = nisgaa }
+2239085 = { name = "Luuxhoon" culture = nisgaa }
+2239086 = { name = "Axdii'anxsmax" culture = nisgaa }
+2239087 = { name = "Wii Seeks" culture = nisgaa }
+2239088 = { name = "Wisin Xbiltkw" culture = nisgaa }
+2239089 = { name = "Daaxan" culture = nisgaa }
+2239090 = { name = "Ni'isýuus" culture = nisgaa }
+2239091 = { name = "Wii Laxha" culture = nisgaa }
+2239092 = { name = "Duuk" culture = nisgaa }
+2239093 = { name = "K'eexkw" culture = nisgaa }
+2239094 = { name = "Gwingyoo" culture = nisgaa }
+2239095 = { name = "Sgat'iin" culture = nisgaa }
+2239096 = { name = "Ni'isyok" culture = nisgaa }
+2239097 = { name = "Gwisk'aayn" culture = nisgaa }
+2239098 = { name = "Baxk'ap" culture = nisgaa }
+2239099 = { name = "Axdii Min'aajax" culture = nisgaa }
+2239100 = { name = "Wii Gadim Xsgaak" culture = nisgaa }
+2239101 = { name = "Nagwa'un" culture = nisgaa }
+2239102 = { name = "Ni'islisyaan" culture = nisgaa }
+2239103 = { name = "Kw'axsuu" culture = nisgaa }
+2239104 = { name = "Gints'aadax" culture = nisgaa }
+2239105 = { name = "Ksdiyaawak" culture = nisgaa }
+2239106 = { name = "Wii Litskw" culture = nisgaa }
+2239107 = { name = "Axgwindaskw" culture = nisgaa }
+2239108 = { name = "Aama Gat" culture = nisgaa }
+2239109 = { name = "Wii Gwisyaxw" culture = nisgaa }
+2239110 = { name = "Xsduutgum Laxha" culture = nisgaa }
+2239111 = { name = "Hleek" culture = nisgaa }
+2239112 = { name = "Bayt 'Neekhl" culture = nisgaa }
+2239113 = { name = "Luuya'as" culture = nisgaa }
+2239114 = { name = "Gwiix Maa'w" culture = nisgaa }
+2239115 = { name = "Minee'eskw" culture = nisgaa }
+2239116 = { name = "Laa'y" culture = nisgaa }
+2239117 = { name = "Gitxhoon" culture = nisgaa }
+2239118 = { name = "Txaalax_hatkw" culture = nisgaa }
+2239119 = { name = "Sga'nisim Sim'oogit" culture = nisgaa }
+2239120 = { name = "Gwakaans" culture = nisgaa }
+
+2239121 = { name = "Axdii Wil Luu-Gooda" culture = gitxsan }
+2239122 = { name = "Ksim Xsaan" culture = gitxsan }            
+2239123 = { name = "Wil Luu-Gaamiks Hloks" culture = gitxsan }
+2239124 = { name = "Txaatk'anlaxhatkw" culture = gitxsan }
+2239125 = { name = "Ni’isjoohl" culture = gitxsan }
+2239126 = { name = "Axhlaawaals" culture = gitxsan }
+2239127 = { name = "Haymaas" culture = gitxsan }
+2239128 = { name = "Laadax" culture = gitxsan }
+2239129 = { name = "Luuxhoon" culture = gitxsan }
+2239130 = { name = "Axdii'anxsmax" culture = gitxsan }
+2239131 = { name = "Wii Seeks" culture = gitxsan }
+2239132 = { name = "Wisin Xbiltkw" culture = gitxsan }
+2239133 = { name = "Daaxan" culture = gitxsan }
+2239134 = { name = "Ni'isýuus" culture = gitxsan }
+2239135 = { name = "Wii Laxha" culture = gitxsan }
+2239136 = { name = "Duuk" culture = gitxsan }
+2239137 = { name = "K'eexkw" culture = gitxsan }
+2239138 = { name = "Gwingyoo" culture = gitxsan }
+2239139 = { name = "Sgat'iin" culture = gitxsan }
+2239140 = { name = "Ni'isyok" culture = gitxsan }
+2239141 = { name = "Gwisk'aayn" culture = gitxsan }
+2239142 = { name = "Baxk'ap" culture = gitxsan }
+2239143 = { name = "Axdii Min'aajax" culture = gitxsan }
+2239144 = { name = "Wii Gadim Xsgaak" culture = gitxsan }
+2239145 = { name = "Nagwa'un" culture = gitxsan }
+2239146 = { name = "Ni'islisyaan" culture = gitxsan }
+2239147 = { name = "Kw'axsuu" culture = gitxsan }
+2239148 = { name = "Gints'aadax" culture = gitxsan }
+2239149 = { name = "Wii Litskw" culture = gitxsan }
+2239150 = { name = "Ksdiyaawak" culture = gitxsan }
+2239151 = { name = "Axgwindaskw" culture = gitxsan }
+2239152 = { name = "Aama Gat" culture = gitxsan }
+2239153 = { name = "Wii Gwisyaxw" culture = gitxsan }
+2239154 = { name = "Xsduutgum Laxha" culture = gitxsan }
+2239155 = { name = "Hleek" culture = gitxsan }
+2239156 = { name = "Bayt 'Neekhl" culture = gitxsan }
+2239157 = { name = "Luuya'as" culture = gitxsan }
+2239158 = { name = "Gwiix Maa'w" culture = gitxsan }
+2239159 = { name = "Minee'eskw" culture = gitxsan }
+2239160 = { name = "Gitxhoon" culture = gitxsan }
+2239161 = { name = "Laa'y" culture = gitxsan }
+2239162 = { name = "Txaalax_hatkw" culture = gitxsan }
+2239163 = { name = "Sga'nisim Sim'oogit" culture = gitxsan }
+2239164 = { name = "Gwakaans" culture = gitxsan }
+
