@@ -19318,3 +19318,29 @@
 2239238 = { name="Kaasx'agweidí" culture=south_tsimshian }
 2239239 = { name="Taalkweidí" culture=south_tsimshian }
 2239240 = { name="Kuyéik'ádi" culture=south_tsimshian }
+
+2239241 = { name = "Ahousaht" culture = nootka }
+2239242 = { name = "Chaicclesaht" culture = nootka }
+2239243 = { name = "Clayoquot" culture = nootka }
+2239244 = { name = "Cooptee" culture = nootka }
+2239245 = { name = "Ehatisaht" culture = nootka }
+2239246 = { name = "Ekoolthaht" culture = nootka }
+2239247 = { name = "Hachaath" culture = nootka }
+2239248 = { name = "Hesquiat" culture = nootka }
+2239249 = { name = "Kelsemaht" culture = nootka }
+2239250 = { name = "Klahosaht" culture = nootka }
+2239251 = { name = "Kwoneatshatka" culture = nootka }
+2239252 = { name = "Kyuquot" culture = nootka }
+2239253 = { name = "Makah" culture = nootka }
+2239254 = { name = "Manosaht" culture = nootka }
+2239255 = { name = "Mooachaht" culture = nootka }
+2239256 = { name = "Muchalat" culture = nootka }
+2239257 = { name = "Nitinat" culture = nootka }
+2239258 = { name = "Nuchatlitz" culture = nootka }
+2239259 = { name = "Oiaht" culture = nootka }
+2239260 = { name = "Opitchesaht" culture = nootka }
+2239261 = { name = "Pachenaht" culture = nootka }
+2239262 = { name = "Seshart" culture = nootka }
+2239263 = { name = "Toquart" culture = nootka }
+2239264 = { name = "Uchucklesit" culture = nootka }
+2239265 = { name = "Ucluelet" culture = nootka }
