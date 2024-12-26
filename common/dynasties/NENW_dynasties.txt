@@ -19344,3 +19344,54 @@
 2239263 = { name = "Toquart" culture = nootka }
 2239264 = { name = "Uchucklesit" culture = nootka }
 2239265 = { name = "Ucluelet" culture = nootka }
+
+2239266 = { name = "Wiisexs" culture = haisla }
+2239267 = { name = "Omacxalxinuxw" culture = haisla }
+2239268 = { name = "Oma" culture = haisla }
+2239269 = { name = "Legaix" culture = haisla }
+2239270 = { name = "Q'enxayaam" culture = haisla }
+2239271 = { name = "K'iselagelis" culture = haisla }
+2239272 = { name = "Dla'wa" culture = haisla }
+2239273 = { name = "Wedepxen" culture = haisla }
+2239274 = { name = "Gepsgiwasu" culture = haisla }
+2239275 = { name = "Nisnawaa" culture = haisla }
+2239276 = { name = "Gelaxad" culture = haisla }
+2239277 = { name = "C'esi" culture = haisla }
+2239278 = { name = "Gepsginais" culture = haisla }
+2239279 = { name = "Wiibalh" culture = haisla }
+2239280 = { name = "Gepslos" culture = haisla }
+2239281 = { name = "Gepsgu'lazii" culture = haisla }
+2239282 = { name = "Waksgemi'layu" culture = haisla }
+2239283 = { name = "Gadik'a'u" culture = haisla }
+2239284 = { name = "K'igo" culture = haisla }
+2239285 = { name = "Wakas" culture = haisla }
+2239286 = { name = "Gulidxa" culture = haisla }
+2239287 = { name = "Q'agwais" culture = haisla }
+2239288 = { name = "Dlaxwdlaxwaligizc Hai'mas" culture = haisla }
+2239289 = { name = "Hai'masaqa" culture = haisla }
+2239290 = { name = "Gepsgemala" culture = haisla }
+2239291 = { name = "To'yuwalic Aiksdukwi'yu" culture = haisla }
+2239292 = { name = "C'ip'ela" culture = haisla }
+2239293 = { name = "Bagwaiyas" culture = haisla }
+2239294 = { name = "Giyusti'yas" culture = haisla }
+2239295 = { name = "Umaklah" culture = haisla }
+2239296 = { name = "Gaya" culture = haisla }
+2239297 = { name = "Dla'wa" culture = haisla }
+2239298 = { name = "Hemzid" culture = haisla }
+2239299 = { name = "Sanaxaid" culture = haisla }
+2239300 = { name = "Nagamo'o" culture = haisla }
+2239301 = { name = "Gaditla" culture = haisla }
+2239302 = { name = "Lexlexagelis" culture = haisla }
+2239303 = { name = "Qwinuxw" culture = haisla }
+2239304 = { name = "Wiyaqi" culture = haisla }
+2239305 = { name = "Paq'ala" culture = haisla }
+2239306 = { name = "Wengulhamid" culture = haisla }
+2239307 = { name = "Wawinu'yuwa" culture = haisla }
+2239308 = { name = "Wiilemolhx" culture = haisla }
+2239309 = { name = "Ca'a" culture = haisla }
+2239310 = { name = "waxaid" culture = haisla }
+2239311 = { name = "C'ikwikas" culture = haisla }
+2239312 = { name = "Wakasu" culture = haisla }
+2239313 = { name = "Nismulax" culture = haisla }
+2239314 = { name = "Hai'mac Gax" culture = haisla }
+2239315 = { name = "Wiigwenakwelis" culture = haisla }
