@@ -624,6 +624,7 @@
 	trait = honest
 	trait = trusting
 	trait = celibate
+	trait = cat
 	disallow_random_traits = yes
 	2285.1.2 = {
 		birth = yes
@@ -674,6 +675,7 @@
 	trait = brave
 	trait = just
 	trait = celibate
+	trait = android
 	disallow_random_traits = yes
 	2285.1.2 = {
 		birth = yes
