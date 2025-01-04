@@ -31,6 +31,11 @@ dismantle_confederacy_cb_desc;The power and size of this confederacy must be hal
 CB_NAME_DISMANTLE_CONFEDERACY;Dismantle the threat of [Recipient.PrimaryTitle.GetFullName];;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;
 WAR_NAME_DISMANTLE_CONFEDERACY;War to Dismantle the threat of [Recipient.PrimaryTitle.GetFullName];;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;
 dismantle_confederacy_success_tt;[This.GetTitledName] will have [This.GetHerHis] Confederacy dismantled.;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;
+dismantle_mega_empire_cb;Dismantle Threat of [Recipient.PrimaryTitle.GetFullName];;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;
+dismantle_mega_empire_cb_desc;The power and size of this Empire must be halted before it can grow exponentially.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;
+CB_NAME_DISMANTLE_MEGA_EMPIRE;Dismantle the threat of [Recipient.PrimaryTitle.GetFullName];;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;
+WAR_NAME_DISMANTLE_MEGA_EMPIRE;War to Dismantle the threat of [Recipient.PrimaryTitle.GetFullName];;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;
+dismantle_mega_empire_success_tt;[This.GetTitledName] will have [This.GetHerHis] Empire dismantled.;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;
 #############################
 bhutan_diplo_reform;Reform the Senate;;;;;;;;;x
 bhutan_diplo_reform_desc;Centuries of relative idle have turned the Senate into little more than a useless talking-shop, whose members have more holidays than work days in the year. It desperately needs reforming, but only a highly persuasive President could do so, and it would require a lot of capital, both political and monetary.;;;;;;;;;x

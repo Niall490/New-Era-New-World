@@ -105,6 +105,7 @@ decisions = {
 			factor = 1
 		}
 	}
+	
 	choose_skirmisher_guard = {
 		is_high_prio = yes
 		ai_check_interval = 24
