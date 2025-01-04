@@ -3020,6 +3020,25 @@ HORDE_RETTYPE_CAV4 =
 	}
 }
 
+RETTYPE_SECRETARY_CAV =
+{
+	first_type = 4
+	first_amount = 100
+	
+	
+	
+	potential = {
+		higher_tier_than = BARON
+		government = federal_government
+		liege = {
+			government = federal_government
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.25
+	}
+}
 HORDE_RETTYPE_CAV5 =
 {
 	first_type = 3

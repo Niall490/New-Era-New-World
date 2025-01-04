@@ -209,6 +209,9 @@ city = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -217,6 +220,9 @@ city = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -228,6 +234,9 @@ city = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -236,6 +245,9 @@ city = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -248,6 +260,9 @@ city = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -256,6 +271,9 @@ city = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -279,6 +297,9 @@ city = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -287,6 +308,9 @@ city = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -298,6 +322,9 @@ city = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -306,6 +333,9 @@ city = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -318,6 +348,9 @@ city = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -326,6 +359,9 @@ city = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -351,6 +387,9 @@ city = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -359,6 +398,9 @@ city = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -370,6 +412,9 @@ city = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -378,6 +423,9 @@ city = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -390,6 +438,9 @@ city = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -398,6 +449,9 @@ city = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -424,6 +478,9 @@ castle = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -432,6 +489,9 @@ castle = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -443,6 +503,9 @@ castle = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -451,6 +514,9 @@ castle = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -463,6 +529,9 @@ castle = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -471,6 +540,9 @@ castle = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -494,6 +566,9 @@ castle = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -502,6 +577,9 @@ castle = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -513,6 +591,9 @@ castle = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -521,6 +602,9 @@ castle = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -533,6 +617,9 @@ castle = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -541,6 +628,9 @@ castle = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -566,6 +656,9 @@ castle = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -574,6 +667,9 @@ castle = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -585,6 +681,9 @@ castle = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -593,6 +692,9 @@ castle = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -605,6 +707,9 @@ castle = {
 			FROM = { 
 				OR = {
 					government = eastern_feudal
+					liege = {
+						government = eastern_feudal
+					}
 					government = chinese_imperial_government
 					government = bhutanese_decayed_government
 					government = bhutanese_restored_government
@@ -613,6 +718,9 @@ castle = {
 						government = roman_imperial_government
 					}
 					government = federal_government
+					liege = {
+						government = federal_government
+					}
 					government = neoziamet_government
 					government = oligarchic_republic
 					government = merchant_republic_government
@@ -633,4 +741,142 @@ castle = {
 		tax_income = -0.25
 	}
 
+	ca_secretariate_1 = {
+		potential = {
+			FROM = { 
+				OR = {
+					government = federal_government
+					liege = {
+						government = federal_government
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = { 
+				OR = {
+					government = federal_government
+					liege = {
+						government = federal_government
+					}
+				}
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 2 
+			FROM = { 
+				OR = {
+					government = federal_government
+					liege = {
+						government = federal_government
+					}
+				}
+			}
+		}
+		desc = secretariate_1_desc
+		gold_cost = 150
+		build_time = 730
+		retinuesize = 25
+		retinue_maintenence_cost = -0.005
+		local_tax_modifier = 0.01
+		levy_reinforce_rate = 0.05
+		knights = 15
+		knights_offensive = 0.075
+		ai_creation_factor = 95
+		extra_tech_building_start = 0.2
+		tax_income = -0.25
+	}
+	ca_secretariate_2 = {
+		potential = {
+			FROM = { 
+				OR = {
+					government = federal_government
+					liege = {
+						government = federal_government
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = { 
+				OR = {
+					government = federal_government
+					liege = {
+						government = federal_government
+					}
+				}
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 4 
+			FROM = { 
+				OR = {
+					government = federal_government
+					liege = {
+						government = federal_government
+					}
+				}
+			}
+		}
+		upgrades_from = ca_secretariate_1
+		desc = secretariate_1_desc
+		gold_cost = 200
+		build_time = 730
+		retinuesize = 25
+		retinue_maintenence_cost = -0.005
+		local_tax_modifier = 0.04
+		levy_reinforce_rate = 0.05
+		knights = 15
+		knights_offensive = 0.075
+		ai_creation_factor = 95
+
+		extra_tech_building_start = 0.2
+		tax_income = -0.25
+	}
+	ca_secretariate_3 = {
+		potential = {
+			FROM = { 
+				OR = {
+					government = federal_government
+					liege = {
+						government = federal_government
+					}
+				}
+			}
+		}
+		is_active_trigger = {
+			FROM = { 
+				OR = {
+					government = federal_government
+					liege = {
+						government = federal_government
+					}
+				}
+			}
+		} 
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 6 
+			FROM = { 
+				OR = {
+					government = federal_government
+					liege = {
+						government = federal_government
+					}
+				}
+			}
+		}
+		upgrades_from = ca_secretariate_2
+		desc = secretariate_1_desc
+		gold_cost = 300
+		build_time = 730
+		retinuesize = 50
+		retinue_maintenence_cost = -0.005
+		local_tax_modifier = 0.05
+		levy_reinforce_rate = 0.05
+		knights = 15
+		knights_offensive = 0.075
+		ai_creation_factor = 95
+		extra_tech_building_start = 0.2
+		tax_income = -0.25
+	}
 }
