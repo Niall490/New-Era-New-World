@@ -389,7 +389,7 @@ e_inland_empire = {
 		}
 	}
 	k_lincoln = {
-		color={ 13 104 38 }
+		color={ 191 0 15 }
 		color2={ 255 255 255 }
 
 		culture = portlander
@@ -400,7 +400,7 @@ e_inland_empire = {
 		
 		
 		d_colville = {
-			color = { 247 184 0 }
+			color = { 229 114 91 }
 			color2 = { 0 0 0 }
 			
 			capital = 505 #Spokane Valley
@@ -410,7 +410,7 @@ e_inland_empire = {
 			haida = "Git'awyaas" #the Salish language
 			
 			c_pend_oreille = {
-				color = { 0 51 127 }
+				color = { 204 102 81 }
 				color2 = { 255 153 64 }
 				
 				haida = "Ts'angaay"	#beaver
@@ -423,22 +423,8 @@ e_inland_empire = {
 				b_addy_WA = {}
 				b_coleville_WA = {}
 			}
-			c_spokane_valley = {
-				color = { 209 45 51 }
-				color2 = { 0 132 202 }
-				
-				haida = "Laam Naay"	#saloon, bar
-				
-				b_spokane_WA = {}
-				b_mead_WA = {}
-				b_colbert_WA = {}
-				b_cheney_WA = {}
-				b_fairchild_WA = {}
-				b_dishman_WA = {}
-				b_millwood_WA = {}
-			}
 			c_colville = {
-				color = { 255 127 17 }
+				color = { 255 127 102 }
 				color2 = { 10 16 70 }
 				
 				haida = "Taw'laa"	#good friends
@@ -451,8 +437,13 @@ e_inland_empire = {
 				b_elmer_city_WA = {}
 				b_omak_WA = {}
 			}
+		}
+		d_wenatchee = {
+			color={ 153 26 15 }
+			color2={ 255 255 255 }
+		
 			c_winthrop_WA = {
-				color={ 255 255 255 }
+				color={ 178 31 17 }
 				color2={ 255 255 255 }
 			
 				b_pateros_WA = {}
@@ -463,8 +454,22 @@ e_inland_empire = {
 				b_methow_WA = {}
 				b_paradise_hill_WA = {}	
 			}
+			c_kittitas = {
+				color = { 127 22 12 }
+				color2 = { 255 255 255 }
+				
+				haida = "Xashlgang"	#to move about
+				
+				b_ellensburg_WA = {}
+				b_cle_elum_WA = {}
+				b_thorp_WA = {}
+				b_kittitas_WA = {}
+				b_holmes_WA = {}
+				b_edgemont_WA = {}
+				b_vantage_WA = {}
+			}
 			c_okanogan = {
-				color = { 234 182 73 }
+				color = { 204 35 20 }
 				color2 = { 40 93 72 }
 				
 				haida = "Sdalaay"	#steep slope, cliff
@@ -478,110 +483,12 @@ e_inland_empire = {
 				b_manson_WA = {}
 			}
 		}
-		d_clearwater = {
-			color = { 29 191 241 }
-			color2= { 142 200 90 }
-
-			capital = 465 # Coeur d'Alene
-
-			culture = mountainer
+		d_spokane = {
+			color={ 153 0 38 }
+			color2={ 255 255 255 }
 			
-			haida = "Jaas Daanggaa"	#bufflehead duck
-			
-			c_coeur_dalene = {
-				color = { 4 128 48}
-				color2 = { 45 32 78 }
-				
-				haida = "jiingeehl"	#become distant
-				
-				b_post_falls_ID = {}
-				b_delta_gardens_ID = {}
-				b_rathdrum_ID = {}
-				b_fernan_ID = {}
-				b_hayden_ID = {}
-				b_harrison_slough_ID = {}
-				b_killarney_lake_ID = {}
-			}
-			c_latah_ID = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-				
-				b_moscow_ID = {}
-				b_troy_ID = {}
-				b_potlatch_ID = {}
-				b_onaway_ID = {}
-				b_genessee_ID = {}
-				b_cornwall_ID = {}
-				b_deary_ID = {}
-			}
-			c_silver_valley = {
-				color = { 120 17 38 }
-				color2 = { 255 255 255 }
-				
-				haida = "daalaay"	#silver, money
-				
-				b_kellogg_ID = {}
-				b_wallace_ID = {}
-				b_osburn_ID = {}
-				b_pinehurst_ID = {}
-				b_kingston_ID = {}
-				b_cataldo_ID = {}
-				b_prichard_creek_ID = {}
-			}
-		}
-		d_columbia_valley = {
-			color = { 206 114 15 }
-			color2 = { 33 30 37 }
-			
-			capital = 511 #franklin
-			
-			culture = portlander
-			
-			haida = "Januug Xaat'aay"	#the Canuck people
-			
-			c_douglas = {
-				color = { 218 144 25 }
-				color2 = { 73 41 38 }
-				
-				haida = "K'ay Gyaawaay"	#wild crabapple orchard
-				
-				b_wenachee_WA = {}
-				b_rock_island_WA = {}
-				b_palisades_WA = {}
-				b_orondo_WA = {}
-				b_waterville_WA = {}
-				b_withrow_WA = {}
-				b_farmer_WA = {}
-			}
-				
-			c_grant = {
-				color = { 62 93 158 }
-				color2 = { 237 216 183 }
-				
-				haida = "Lamduwaay"	#sheep
-				
-				b_ephrata_WA = {}
-				b_quincy_WA = {}
-				b_royal_city = {}
-				b_winchester_WA = {}
-				b_trinidad_WA = {}
-				b_mattawa_WA = {}
-				b_george_WA = {}
-			}
-			c_moses_lake_WA = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_moses_lake_WA = {}	
-				b_warden_WA = {}	
-				b_othello_WA = {}
-				b_ritzville_WA = {}
-				b_ralston_WA = {}
-				b_odessa_WA1 = {}
-				b_wilson_creek_WA = {}				
-			}
 			c_adams = {
-				color = { 204 153 51 }
+				color = { 178 0 44 }
 				color2 = { 0 0 0 }
 				
 				haida = "Sguusadaay"	#potatoes
@@ -596,7 +503,7 @@ e_inland_empire = {
 				b_moody_WA = {}
 			}
 			c_whitman = {
-				color = { 182 57 16 }
+				color = { 127 0 31 }
 				color2 = { 10 42 114 }
 				
 				haida = "Yaahl Tluwaay"	#Pea Pod
@@ -609,8 +516,125 @@ e_inland_empire = {
 				b_uniontown_WA = {}
 				b_steptoe_WA = {}
 			}
+			c_spokane_valley = {
+				color = { 204 0 51 }
+				color2 = { 0 132 202 }
+				
+				haida = "Laam Naay"	#saloon, bar
+				
+				b_spokane_WA = {}
+				b_mead_WA = {}
+				b_colbert_WA = {}
+				b_cheney_WA = {}
+				b_fairchild_WA = {}
+				b_dishman_WA = {}
+				b_millwood_WA = {}
+			}
+		}
+		d_clearwater = {
+			color = { 229 45 45 }
+			color2= { 142 200 90 }
+
+			capital = 465 # Coeur d'Alene
+
+			culture = mountainer
+			
+			haida = "Jaas Daanggaa"	#bufflehead duck
+			
+			c_coeur_dalene = {
+				color = { 204 40 40 }
+				color2 = { 45 32 78 }
+				
+				haida = "jiingeehl"	#become distant
+				
+				b_post_falls_ID = {}
+				b_delta_gardens_ID = {}
+				b_rathdrum_ID = {}
+				b_fernan_ID = {}
+				b_hayden_ID = {}
+				b_harrison_slough_ID = {}
+				b_killarney_lake_ID = {}
+			}
+			c_latah_ID = {
+				color={ 255 50 50 }
+				color2={ 255 255 255 }
+				
+				b_moscow_ID = {}
+				b_troy_ID = {}
+				b_potlatch_ID = {}
+				b_onaway_ID = {}
+				b_genessee_ID = {}
+				b_cornwall_ID = {}
+				b_deary_ID = {}
+			}
+			c_silver_valley = {
+				color = { 178 35 35 }
+				color2 = { 255 255 255 }
+				
+				haida = "daalaay"	#silver, money
+				
+				b_kellogg_ID = {}
+				b_wallace_ID = {}
+				b_osburn_ID = {}
+				b_pinehurst_ID = {}
+				b_kingston_ID = {}
+				b_cataldo_ID = {}
+				b_prichard_creek_ID = {}
+			}
+		}
+		d_columbia_valley = {
+			color = { 204 61 85 }
+			color2 = { 33 30 37 }
+			
+			capital = 511 #franklin
+			
+			culture = portlander
+			
+			haida = "Januug Xaat'aay"	#the Canuck people
+			
+			c_douglas = {
+				color = { 178 53 74 }
+				color2 = { 73 41 38 }
+				
+				haida = "K'ay Gyaawaay"	#wild crabapple orchard
+				
+				b_wenachee_WA = {}
+				b_rock_island_WA = {}
+				b_palisades_WA = {}
+				b_orondo_WA = {}
+				b_waterville_WA = {}
+				b_withrow_WA = {}
+				b_farmer_WA = {}
+			}
+				
+			c_grant = {
+				color = { 229 68 95 }
+				color2 = { 237 216 183 }
+				
+				haida = "Lamduwaay"	#sheep
+				
+				b_ephrata_WA = {}
+				b_quincy_WA = {}
+				b_royal_city = {}
+				b_winchester_WA = {}
+				b_trinidad_WA = {}
+				b_mattawa_WA = {}
+				b_george_WA = {}
+			}
+			c_moses_lake_WA = {
+				color={ 153 45 63 }
+				color2={ 255 255 255 }
+			
+				b_moses_lake_WA = {}	
+				b_warden_WA = {}	
+				b_othello_WA = {}
+				b_ritzville_WA = {}
+				b_ralston_WA = {}
+				b_odessa_WA1 = {}
+				b_wilson_creek_WA = {}				
+			}
 			c_franklin = {
-				color = { 136 3 20 }
+				color = { 255 76 106 }
 				color2 = { 207 207 207 }
 				
 				haida = "Inuuwaay"	#Rutabaga, Turnip
@@ -625,7 +649,7 @@ e_inland_empire = {
 			}
 		}
 		d_horse_heaven = {
-			color = { 138 97 67 }
+			color = { 229 74 22 }
 			color2 = { 252 221 175 }
 			
 			capital = 512 #Yakama
@@ -635,7 +659,7 @@ e_inland_empire = {
 			haida = "Iitl'gaay"	#a benefactor, member of the nobility
 			
 			c_yakama = {
-				color = { 156 196 226 }
+				color = { 204 66 20 }
 				color2 = { 255 255 255 }
 				
 				haida = "Jahlk'"	#Ceremonial Headdress
@@ -651,7 +675,7 @@ e_inland_empire = {
 				b_moxee_WA = {}
 			}
 			c_benton_WA = {
-				color={ 255 255 255 }
+				color={ 255 82 25 }
 				color2={ 255 255 255 }
 				
 				b_richland_WA = {}
@@ -663,7 +687,7 @@ e_inland_empire = {
 				b_zillah_WA = {}
 			}
 			c_kennewick_WA = {
-				color={ 255 255 255 }
+				color={ 178 58 17 }
 				color2={ 255 255 255 }
 			
 				b_kennewick_WA = {}		
@@ -674,22 +698,8 @@ e_inland_empire = {
 				b_plymouth_WA = {}
 				b_paterson_WA = {}
 			}
-			c_kittitas = {
-				color = { 143 183 159 }
-				color2 = { 255 255 255 }
-				
-				haida = "Xashlgang"	#to move about
-				
-				b_ellensburg_WA = {}
-				b_cle_elum_WA = {}
-				b_thorp_WA = {}
-				b_kittitas_WA = {}
-				b_holmes_WA = {}
-				b_edgemont_WA = {}
-				b_vantage_WA = {}
-			}
 			c_klickitat = {
-				color = { 16 116 164 }
+				color = { 153 49 15 }
 				color2 = { 173 113 16 }
 				
 				haida = "Xalt'as"	#be afraid
