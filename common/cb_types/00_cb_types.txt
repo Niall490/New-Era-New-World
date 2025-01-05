@@ -12941,15 +12941,8 @@ pagan_county_conquest = {
 	can_use = {
 		ROOT = {
 			mercenary = no
-			conditional_tooltip = {
-				trigger = {
-					NOT = {
-						trait = conqueror
-					}
-				}
-				NOT = {
-					has_character_modifier = county_conquest_timer
-				}
+			NOT = {
+				has_character_modifier = county_conquest_timer
 			}
 		}
 		NAND = {
@@ -13005,7 +12998,6 @@ pagan_county_conquest = {
 						religion = marapu
 						religion = alukta_pagan
 						religion = alukta_pagan_reformed
-						trait = conqueror 
 						primary_title = {
 						title = e_druze
 						}
@@ -13016,15 +13008,8 @@ pagan_county_conquest = {
 					}
 					NOT = { same_realm = FROM }
 				}
-				conditional_tooltip = {
-					trigger = {
-						NOT = {
-							trait = conqueror
-						}
-					}
-					FROM = {
-						NOT = { religion = ROOT }
-					}
+				FROM = {
+					NOT = { religion = ROOT }
 				}
 			}
 		}
@@ -13066,7 +13051,6 @@ pagan_county_conquest = {
 						religion = gnostic
 						religion = vagarna
 						religion = thelemic
-						trait = conqueror 
 						religion = kaharingan_pagan
 						religion = kaharingan_pagan_reformed
 						religion = bungan_pagan
@@ -13113,7 +13097,6 @@ pagan_county_conquest = {
 						religion = aurorean
 						religion = vagarna
 						religion = thelemic
-						trait = conqueror 
 						religion = kaharingan_pagan
 						religion = kaharingan_pagan_reformed
 						religion = bungan_pagan
@@ -13131,15 +13114,8 @@ pagan_county_conquest = {
 					}
 					NOT = { same_realm = FROM }
 				}
-				conditional_tooltip = {
-					trigger = {
-						NOT = {
-							trait = conqueror
-						}
-					}
-					FROM = {
-						NOT = { religion = ROOT }
-					}
+				FROM = {
+					NOT = { religion = ROOT }
 				}
 			}
 		}
