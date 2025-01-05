@@ -10,5 +10,5 @@ b_golinda_TX = castle
 b_reagan_TX = temple
 
 # Misc
-culture = texgerman
+culture = czexan
 religion = triumphant
