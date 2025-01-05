@@ -14,5 +14,5 @@ b_moody_gardens_TX = castle
 #b_south_galveston = city
 
 # Misc
-culture = czexan
+culture = houstonian
 religion = moravian
