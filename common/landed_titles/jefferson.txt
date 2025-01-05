@@ -155,20 +155,20 @@ e_jefferson = {
 		}
 	}
 	k_shasta = {
-		color = { 95 45 153 }
+		color = { 61 61 204 }
 		color2 = { 220 220 202 }
 		
 		capital = 2059 # c_redding
 		
 		d_shasta_cascade = { #split later maybe
-			color={ 59 25 127 }
+			color={ 33 55 165 }
 			color2={ 255 255 255 }
 			
 			capital = 2059 # c_redding
 			
 			
 			c_mount_shasta = { # 2060
-				color={ 71 30 153 }
+				color={ 38 63 191 }
 				color2={ 255 255 255 }
 				
 				b_shasta_CA = {}
@@ -181,7 +181,7 @@ e_jefferson = {
 				b_westwood_CA = {}
 			}
 			c_redding = { # 2059
-				color={ 47 20 102 }
+				color={ 28 46 140 }
 				color2={ 255 255 255 }
 				
 				b_redding_CA = {}
@@ -194,7 +194,7 @@ e_jefferson = {
 			}
 		}
 		d_north_jefferson = {
-			color = { 85 61 204 }
+			color = { 74 53 178 }
 			color2 = { 244 220 0 }
 			
 			culture = cascadian
@@ -205,7 +205,7 @@ e_jefferson = {
 			
 			
 			c_yreka = { # 2061
-				color={ 95 68 229 }
+				color={ 85 61 204 }
 				color2={ 255 255 255 }
 				
 				b_yreka_CA = {}
@@ -216,7 +216,7 @@ e_jefferson = {
 				b_lava_beds_CA = {}
 			}
 			c_rogue_valley = {
-				color = { 74 53 178 }
+				color = { 63 45 153 }
 				color2 = { 25 60 28 }
 				
 				haida = "hlkyeewjaa"	#the shade
@@ -230,7 +230,7 @@ e_jefferson = {
 				b_eagle_point_OR = {}
 			}
 			c_the_marbles_CA = {
-				color={ 106 76 255 }
+				color={ 95 68 229 }
 				color2={ 255 255 255 }
 			
 				b_happy_camp_CA = {}

@@ -1378,7 +1378,7 @@ succession_laws = {
 					culture_group = brythonic
 					culture_group = amero_goidelic
 					culture_group = appalachian_group
-					culture_group = yankee
+					culture_group = north_atlantic_anglophone
 					}
 					any_owned_bloodline = {
 						has_bloodline_flag = bloodline_tanistry

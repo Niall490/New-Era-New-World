@@ -24,17 +24,17 @@ gaian_opinion;Gaian Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ny_asian_opinion;Dongren Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 californian_opinion;Anglofornian Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 californio_group_opinion;Hispanifornian Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-celtic_pagan_opinion;Arboreal Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-celtic_pagan_reformed_opinion;Reformed Arboreal Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+celtic_pagan_opinion;Fogwatcher Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+celtic_pagan_reformed_opinion;Reformed Fogwatcher Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 mainline_opinion;Mainline Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 crawfisher_opinion;Crawfisher Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 antiquarianist_opinion;[antiquarianist.GetName] Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-antiquarianist_reformed_opinion;[antiquarianist_reformed.GetName] Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+antiquarianist_reformed_opinion;Reformed Industrialist Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 loyalist_opinion;Loyalist Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 sedevacantist_opinion;Gallicanist Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 raelian_opinion;[raelian.GetName] Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 delver_opinion;[delver.GetName] Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-delver_reformed_opinion;[delver_reformed.GetName] Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+delver_reformed_opinion;Reformed Delver Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 quaker_opinion;[quaker.GetName] Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 tquaker_opinion;[tquaker.GetName] Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 salihi_opinion;[salihi.GetName] Opinion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -336,6 +336,10 @@ ca_culture_mainer_2;Mainer Guardsmen Barracks;;;;;;;;;;;;;x
 ca_culture_mainer_3;Mainer Guardsmen Barracks;;;;;;;;;;;;;x
 ca_culture_mainer_4;Mainer Guardsmen Barracks;;;;;;;;;;;;;x
 ca_culture_mainer_1_desc;These barracks house the guardsmen who keep the peace in Maine. They are trained men who know the in and outs of their land, and can therefore assume any position against enemies with ease.;;;;;;;;;;;;;x
+ca_fog_wardens_1;Fog Wardens;;;;;;;;;;;;;x
+ca_fog_wardens_1_desc;These pre-Event lighthouses have been converted into outposts housing many soldiers and watchmen. They endlessly watch over the ocean before them, both to look out for danger and to guard those who venture out to fish and whale.;;;;;;;;;;;;;x
+tb_fog_wardens_1;Fog Wardens;;;;;;;;;;;;;x
+tb_fog_wardens_1_desc;These pre-Event lighthouses have been converted into outposts housing many soldiers and watchmen. They endlessly watch over the ocean before them, both to look out for danger and to guard those who venture out to fish and whale.;;;;;;;;;;;;;x
 tb_culture_mainer_1;Mainer Guardsmen Proving Grounds;;;;;;;;;;;;;x
 tb_culture_mainer_2;Mainer Guardsmen Proving Grounds;;;;;;;;;;;;;x
 tb_culture_mainer_3;Mainer Guardsmen Proving Grounds;;;;;;;;;;;;;x

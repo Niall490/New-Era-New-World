@@ -18403,7 +18403,7 @@ castle = {
 		upgrades_from = ca_culture_albmonter_2
 		gold_cost = 400
 		build_time = 2190
-		light_infantry = 45
+		light_infantry = 45 
 		light_infantry_offensive = 0.15
 		light_infantry_morale = 0.1
 		light_cavalry = 30
@@ -18483,11 +18483,11 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		light_infantry = 30
-		light_infantry_offensive = 0.15
+		light_infantry = 15
+		light_infantry_offensive = 0.1
 		light_infantry_defensive = 0.1
-		archers = 15
-		archers_offensive = 0.15
+		archers = 10
+		archers_offensive = 0.1
 		archers_defensive = 0.1
 		ai_creation_factor = 101
 		
@@ -18524,12 +18524,12 @@ castle = {
 		upgrades_from = ca_culture_mainer_1
 		gold_cost = 300
 		build_time = 1095
-		light_infantry = 40
-		light_infantry_offensive = 0.15
-		light_infantry_defensive = 0.1
-		archers = 25
-		archers_offensive = 0.15
-		archers_defensive = 0.1
+		light_infantry = 15
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		archers = 10
+		archers_offensive = 0.05
+		archers_defensive = 0.05
 		ai_creation_factor = 100
 		
 		extra_tech_building_start = 0.8
@@ -18566,12 +18566,12 @@ castle = {
 		upgrades_from = ca_culture_mainer_2
 		gold_cost = 400
 		build_time = 2190
-		light_infantry = 45
-		light_infantry_offensive = 0.15
-		light_infantry_defensive = 0.1
-		archers = 30
-		archers_offensive = 0.15
-		archers_defensive = 0.1
+		light_infantry = 15
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		archers = 10
+		archers_offensive = 0.05
+		archers_defensive = 0.05
 		ai_creation_factor = 99
 		
 		extra_tech_building_start = 0.8
@@ -18609,15 +18609,55 @@ castle = {
 		upgrades_from = ca_culture_mainer_3
 		gold_cost = 500
 		build_time = 2190
-		light_infantry = 45
-		light_infantry_offensive = 0.15
-		light_infantry_defensive = 0.1
-		archers = 30
-		archers_offensive = 0.15
-		archers_defensive = 0.1
+		light_infantry = 15
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		archers = 10
+		archers_offensive = 0.05
+		archers_defensive = 0.05
 		
 		extra_tech_building_start = 0.8
 		tax_income = -0.2
+	}
+	
+	ca_fog_wardens_1 = {
+		desc = ca_fog_wardens_1_desc
+		potential = {
+			port = yes
+			FROM = {
+				OR = {
+						religion = celtic_pagan
+						religion = celtic_pagan_reformed 
+					}
+				}
+			}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					religion = celtic_pagan
+					religion = celtic_pagan_reformed  
+				}
+			}
+		}
+		trigger = { 
+			TECH_NAVAL = 0 
+			ROOT = {
+				OR = {
+					religion = celtic_pagan
+					religion = celtic_pagan_reformed 
+				}
+			}
+		}
+		gold_cost = 200
+		build_time = 365
+		fort_level = 1
+		garrison_size = 0.15
+		tax_income = -0.1
+		disease_defence = 0.1
+		ai_creation_factor = 100
+		add_number_to_name = no
+		
+		extra_tech_building_start = 0.1
 	}
 	
 	ca_culture_angcarib_1 = {

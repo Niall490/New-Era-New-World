@@ -1945,7 +1945,7 @@ pagan_group = {
 		ai_convert_other_group = 2 # always try to convert
 		ai_convert_same_group = 2 # always try to convert
 
-		color = { 0.2 0.6 0.03 }
+		color = { 28 140 94 }
 		
 		interface_skin = { pagan_interface }
 		
@@ -1959,9 +1959,9 @@ pagan_group = {
 		}
 		
 		unit_modifier = {
-			levy_size = 0.3
+			levy_size = 0.15
 			
-			retinuesize_perc = 0.5
+			retinuesize_perc = 0.25
 			
 			key = "OFF_RELIGION"
 		}
@@ -2008,23 +2008,23 @@ pagan_group = {
 		icon = 19
 		heresy_icon = 20
 		
-		color = { 0.14 0.46 0.16 }
+		color = { 20 102 68 }
 		
 		interface_skin = { pagan_interface }
 		
-		high_god_name = GOD_ARCHITECT
+		high_god_name = GOD_ARCHITECT_PAGAN
 		
 		god_names = {
-			GOD_ARCHITECT GOD_MOTHER_GAIA GOD_PAUL_BUNYAN GOD_CAPTAIN_STORMALONG GOD_SMOKEY_BEAR
+			GOD_ARCHITECT_PAGAN GOD_THE_EARTH_MOTHER GOD_PAUL_BUNYAN GOD_CAPTAIN_STORMALONG GOD_SMOKEY_BEAR
 		}
 		evil_god_names = {
-			GOD_THE_OLD_ONES GOD_OLD_SCRATCH GOD_THE_KRAKEN GOD_THE_DEEP_ONES GOD_LOBSTER GOD_THE_CRAWLING_CHAOS GOD_THE_WENDIGO GOD_CHAMP GOD_CHESSIE
+			GOD_OLD_SCRATCH GOD_THE_MIST GOD_THE_DEEP_ONES GOD_THE_KRAKEN GOD_LOBSTER GOD_CHAMP GOD_CHESSIE
 		}
 		
 		unit_modifier = {
-			levy_size = 0.3
+			levy_size = 0.15
 			
-			retinuesize_perc = 0.5
+			retinuesize_perc = 0.25
 			
 			key = "OFF_RELIGION"
 		}

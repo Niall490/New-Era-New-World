@@ -9242,6 +9242,44 @@ tribal = {
 		extra_tech_building_start = 0.8
 	}
 	
+	tb_fog_wardens_1 = {
+		desc = tb_fog_wardens_1_desc
+		potential = {
+			port = yes
+			OR = {
+					religion = celtic_pagan
+					religion = celtic_pagan_reformed 
+				}
+			}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					religion = celtic_pagan
+					religion = celtic_pagan_reformed  
+				}
+			}
+		}
+		trigger = { 
+			TECH_NAVAL = 0 
+			ROOT = {
+				OR = {
+					religion = celtic_pagan
+					religion = celtic_pagan_reformed 
+				}
+			}
+		}
+		gold_cost = 200
+		build_time = 365
+		fort_level = 1
+		garrison_size = 0.15
+		tax_income = -0.1
+		disease_defence = 0.1
+		ai_creation_factor = 100
+		add_number_to_name = no
+		
+		extra_tech_building_start = 0.1
+	}
+	
 	tb_culture_mainer_1 = {
 		desc = tb_culture_mainer_1_desc
 		potential = {
