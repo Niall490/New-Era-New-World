@@ -414,6 +414,10 @@ character_event = {
 		name = EVTOPTA_GBC_73
 
 		add_friend = event_target:GBC_new_friend
+				add_alliance = {
+					who = event_target:GBC_new_friend
+					years = 100
+				}
 
 		character_event = {
 			id = GBC.8

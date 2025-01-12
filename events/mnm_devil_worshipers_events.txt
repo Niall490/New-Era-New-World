@@ -8007,6 +8007,10 @@ character_event = {
 				random = 75
 			}
 			add_friend = FROM
+				add_alliance = {
+					who = FROM
+					years = 100
+				}
 		}
 		if = {
 			limit = {
@@ -8649,6 +8653,10 @@ character_event = {
 					}
 				}
 				add_friend = FROMFROM
+				add_alliance = {
+					who = FROMFROM
+					years = 100
+				}
 			}
 			if = {
 				limit = {
@@ -8821,6 +8829,10 @@ character_event = {
 					}
 				}
 				add_friend = FROMFROM
+				add_alliance = {
+					who = FROMFROM
+					years = 100
+				}
 			}
 			if = {
 				limit = {
@@ -9193,6 +9205,10 @@ character_event = {
 					}
 				}
 				add_friend = FROM
+				add_alliance = {
+					who = FROM
+					years = 100
+				}
 			}
 			if = {
 				limit = {
@@ -9221,6 +9237,7 @@ character_event = {
 					is_friend = FROM
 				}
 				remove_friend = FROM
+		break_alliance = FROM
 			}
 		}
 		
@@ -10275,6 +10292,7 @@ narrative_event = {
 					is_friend = FROM
 				}
 				remove_friend = FROM
+		break_alliance = FROM
 			}
 		}
 		
@@ -10835,6 +10853,10 @@ character_event = {
 					}
 				}
 				add_friend = FROMFROMFROM
+				add_alliance = {
+					who = FROMFROMFROM
+					years = 100
+				}
 			}
 			if = {
 				limit = {
@@ -10918,6 +10940,10 @@ character_event = {
 				}
 			}
 			add_friend = FROM
+				add_alliance = {
+					who = FROM
+					years = 100
+				}
 		}
 		if = {
 			limit = {
@@ -11001,6 +11027,7 @@ character_event = {
 			character_event = { id = MNM.20053 days = 3 }
 			hidden_tooltip = {
 				remove_friend = ROOT
+		break_alliance = ROOT
 				remove_lover = ROOT
 			}
 		}
