@@ -1629,3 +1629,445 @@ character_event = {
 		prestige = -25
 	}
 }
+
+character_event = { #Gives the Novelist Title
+	id = novelist.100
+	is_triggered_only = yes
+	hide_window = yes
+	hide_from = yes
+
+	religion = catholic
+	only_playable = yes
+	min_age = 16
+
+	trigger = {
+		controls_religion = yes
+	}
+	immediate = {
+		e_quebec = {
+			save_persistent_event_target = { name = novelist_title scope = e_valinor }
+			save_persistent_event_target = { name = non_novelist_title scope = e_quebec_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_grand_montreal = {
+			save_persistent_event_target = { name = novelist_title scope = k_taniquetil }
+			save_persistent_event_target = { name = non_novelist_title scope = k_grand_montreal_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_quebec = {
+			save_persistent_event_target = { name = novelist_title scope = k_valmar }
+			save_persistent_event_target = { name = non_novelist_title scope = k_quebec_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_beauce_gaspe = {
+			save_persistent_event_target = { name = novelist_title scope = k_calacirya }
+			save_persistent_event_target = { name = non_novelist_title scope = k_beauce_gaspe_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_jamesie = {
+			save_persistent_event_target = { name = novelist_title scope = k_formenos }
+			save_persistent_event_target = { name = non_novelist_title scope = k_jamesie_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		e_maratimes = {
+			save_persistent_event_target = { name = novelist_title scope = e_eldamar }
+			save_persistent_event_target = { name = non_novelist_title scope = e_maratimes_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_new_brunswick = {
+			save_persistent_event_target = { name = novelist_title scope = k_alqualonde }
+			save_persistent_event_target = { name = non_novelist_title scope = k_new_brunswick_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_nova_scotia = {
+			save_persistent_event_target = { name = novelist_title scope = k_tuna }
+			save_persistent_event_target = { name = non_novelist_title scope = k_nova_scotia_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_prince_edward_island = {
+			save_persistent_event_target = { name = novelist_title scope = k_rlyeh }
+			save_persistent_event_target = { name = non_novelist_title scope = k_prince_edward_island_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_newfoundland = {
+			save_persistent_event_target = { name = novelist_title scope = k_tol_eressea }
+			save_persistent_event_target = { name = non_novelist_title scope = k_newfoundland_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_labrador = {
+			save_persistent_event_target = { name = novelist_title scope = k_araman }
+			save_persistent_event_target = { name = non_novelist_title scope = k_labrador_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+	}
+}
+
+character_event = { #cleanup
+	id = cleanup.23
+	hide_window = yes
+ 
+	only_rulers = yes
+ 
+	trigger = {
+		has_landed_title = k_papacy
+		OR = {
+			e_valinor = {
+				has_holder = yes
+			}
+			e_quebec_history = {
+				has_holder = yes
+			}
+			k_taniquetil = {
+				has_holder = yes
+			}
+			k_grand_montreal_history = {
+				has_holder = yes
+			}
+			k_valmar = {
+				has_holder = yes
+			}
+			k_quebec_history = {
+				has_holder = yes
+			}
+			k_calacirya = {
+				has_holder = yes
+			}
+			k_beauce_gaspe_history = {
+				has_holder = yes
+			}
+			k_formenos = {
+				has_holder = yes
+			}
+			k_jamesie_history = {
+				has_holder = yes
+			}
+			e_eldamar = {
+				has_holder = yes
+			}
+			e_maratimes_history = {
+				has_holder = yes
+			}
+			k_alqualonde = {
+				has_holder = yes
+			}
+			k_new_brunswick_history = {
+				has_holder = yes
+			}
+			k_tuna = {
+				has_holder = yes
+			}
+			k_nova_scotia_history = {
+				has_holder = yes
+			}
+			k_rlyeh = {
+				has_holder = yes
+			}
+			k_prince_edward_island_history = {
+				has_holder = yes
+			}
+			k_tol_eressea = {
+				has_holder = yes
+			}
+			k_newfoundland_history = {
+				has_holder = yes
+			}
+			k_araman = {
+				has_holder = yes
+			}
+			k_labrador_history = {
+				has_holder = yes
+			}
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+	immediate = {
+		if = {
+			limit = {	
+				e_valinor = {
+					has_holder = yes
+				}
+			}
+			e_valinor = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				e_quebec_history = {
+					has_holder = yes
+				}
+			}
+			e_quebec_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_taniquetil = {
+					has_holder = yes
+				}
+			}
+			k_taniquetil = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_grand_montreal_history = {
+					has_holder = yes
+				}
+			}
+			k_grand_montreal_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_valmar = {
+					has_holder = yes
+				}
+			}
+			k_valmar = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_quebec_history = {
+					has_holder = yes
+				}
+			}
+			k_quebec_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_calacirya = {
+					has_holder = yes
+				}
+			}
+			k_calacirya = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_beauce_gaspe_history = {
+					has_holder = yes
+				}
+			}
+			k_beauce_gaspe_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_formenos = {
+					has_holder = yes
+				}
+			}
+			k_formenos = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_jamesie_history = {
+					has_holder = yes
+				}
+			}
+			k_jamesie_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				e_eldamar = {
+					has_holder = yes
+				}
+			}
+			e_eldamar = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				e_maratimes_history = {
+					has_holder = yes
+				}
+			}
+			e_maratimes_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_alqualonde = {
+					has_holder = yes
+				}
+			}
+			k_alqualonde = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_new_brunswick_history = {
+					has_holder = yes
+				}
+			}
+			k_new_brunswick_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_tuna = {
+					has_holder = yes
+				}
+			}
+			k_tuna = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_nova_scotia_history = {
+					has_holder = yes
+				}
+			}
+			k_nova_scotia_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_rlyeh = {
+					has_holder = yes
+				}
+			}
+			k_rlyeh = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_prince_edward_island_history = {
+					has_holder = yes
+				}
+			}
+			k_prince_edward_island_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_tol_eressea = {
+					has_holder = yes
+				}
+			}
+			k_tol_eressea = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_newfoundland_history = {
+					has_holder = yes
+				}
+			}
+			k_newfoundland_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_araman = {
+					has_holder = yes
+				}
+			}
+			k_araman = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_labrador_history = {
+					has_holder = yes
+				}
+			}
+			k_labrador_history = {
+				destroy_landed_title = THIS
+			}
+		}
+	}
+}
+
+character_event = {
+	id = novelist.101
+	is_triggered_only = yes
+	hide_window = yes
+	hide_from = yes
+	
+	trigger = {
+		FROM = { novelist_switch_trigger = yes }
+	}
+	
+	immediate = {
+		FROM = { novelist_switch_effect = yes }
+	}
+}
+
+character_event = {
+	id = novelist.102
+	is_triggered_only = yes
+	hide_window = yes
+	hide_from = yes
+	only_playable = yes
+	
+	trigger = {
+		any_demesne_title = {
+			novelist_switch_trigger = yes
+		}
+	}
+	
+	immediate = {
+		any_demesne_title = {
+			novelist_switch_effect = yes
+		}
+	}
+}
