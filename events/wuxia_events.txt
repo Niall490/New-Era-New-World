@@ -646,6 +646,10 @@ long_character_event = {
 		name = EVTOPTAWX4
 		event_target:new_sect_friend = {
 			add_friend = ROOT
+				add_alliance = {
+					who = ROOT
+					years = 100
+				}
 		}
 		piety = 10
 	}

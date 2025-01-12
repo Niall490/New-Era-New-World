@@ -3291,6 +3291,10 @@ character_event = {
 			}
 
 			add_friend = ROOT
+				add_alliance = {
+					who = ROOT
+					years = 100
+				}
 		}
 	}
 }
@@ -3337,6 +3341,10 @@ character_event = {
 			}
 
 			add_friend = ROOT
+				add_alliance = {
+					who = ROOT
+					years = 100
+				}
 		}
 	}
 }
@@ -3383,6 +3391,10 @@ character_event = {
 			}
 
 			add_friend = ROOT
+				add_alliance = {
+					who = ROOT
+					years = 100
+				}
 		}
 	}
 }
@@ -3429,6 +3441,10 @@ character_event = {
 			}
 
 			add_friend = ROOT
+				add_alliance = {
+					who = ROOT
+					years = 100
+				}
 		}
 	}
 }
@@ -3475,6 +3491,10 @@ character_event = {
 			}
 
 			add_friend = ROOT
+				add_alliance = {
+					who = ROOT
+					years = 100
+				}
 		}
 	}
 }
