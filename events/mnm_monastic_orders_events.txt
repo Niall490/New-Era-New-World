@@ -1410,7 +1410,11 @@ character_event = {
 		hidden_effect = { character_event = { id = MNM.4411 days = 2 } }
 		random = {
 			chance = 50
-			tooltip = { add_friend = event_target:potential_friend }
+			tooltip = { add_friend = event_target:potential_friend 
+				add_alliance = {
+					who = event_target:potential_friend
+					years = 100
+				}}
 			set_character_flag = new_friend
 		}
 
@@ -1493,6 +1497,10 @@ character_event = {
 		if = {
 			limit = { has_character_flag = new_friend }
 			add_friend = event_target:potential_friend
+				add_alliance = {
+					who = event_target:potential_friend
+					years = 100
+				}
 			clr_character_flag = new_friend
 		}
 	}
@@ -1946,6 +1954,10 @@ character_event = {
 					is_friend = event_target:interrupting_child
 				}
 				add_friend = event_target:interrupting_child
+				add_alliance = {
+					who = event_target:interrupting_child
+					years = 100
+				}
 			}
 		}
 	}
@@ -2074,6 +2086,10 @@ character_event = {
 					is_friend = event_target:interrupting_child
 				}
 				add_friend = event_target:interrupting_child
+				add_alliance = {
+					who = event_target:interrupting_child
+					years = 100
+				}
 			}
 		}
 	}
@@ -4914,6 +4930,10 @@ character_event = {
 			}
 		}
 		add_friend = FROM
+				add_alliance = {
+					who = FROM
+					years = 100
+				}
 	}
 
 	option = { #Focus on monastic duties
@@ -4923,6 +4943,10 @@ character_event = {
 		}
 		tooltip = {
 			add_friend = FROM
+				add_alliance = {
+					who = FROM
+					years = 100
+				}
 		}
 		piety = 25
 		add_character_modifier = {
@@ -4952,6 +4976,10 @@ character_event = {
 		}
 		tooltip = {
 			add_friend = FROM
+				add_alliance = {
+					who = FROM
+					years = 100
+				}
 		}
 		custom_tooltip = {
 			text = monastic_may_lead_to_more
@@ -5122,6 +5150,7 @@ character_event = {
 		add_lover = FROM
 		hidden_effect = {
 			remove_friend = FROM
+		break_alliance = FROM
 		}
 	}
 }
@@ -7552,6 +7581,10 @@ character_event = {
 				}
         	}
         	add_friend = FROM
+				add_alliance = {
+					who = FROM
+					years = 100
+				}
         	break = yes
         }
         if = {
@@ -7651,6 +7684,7 @@ character_event = {
 				is_friend = FROM
         	}
         	remove_friend = FROM
+		break_alliance = FROM
         }
         hidden_effect = { character_event = { id = MNM.3270 } } #clean up
     }

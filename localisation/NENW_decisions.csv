@@ -24,6 +24,8 @@ form_acadia_desc;The time has come to unite the great Maritimes under one true c
 create_ultramontain_patriarch;Restore the Patriarchate;;;;;;;;;x
 create_ultramontain_patriarch_desc;We must tear down the false Popes of Québec and bring back the true Church into the fold.;;;;;;;;;x
 PARISH_OF;Parish of;;;;;;;;;x
+recruit_cavalier;Raise Gentlemen Cavaliers;;;;;;;;;;;;;;x
+recruit_cavalier_desc;Call upon the minor nobles within the realm to serve in an army;;;;;;;;;;;;;;x
 form_pennsylvania;Unite Pennsylvania;;;;;;;;;;;;;;x
 form_pennsylvania_desc;The time has come to unite the West and East kingdoms of old Pennsylvania under one crown.;;;;;;;;;;;;;;x
 form_new_england;Unite New England;;;;;;;;;;;;;;x

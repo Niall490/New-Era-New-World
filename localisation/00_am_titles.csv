@@ -13411,8 +13411,8 @@ d_cincy_adj;Cincian;;;;;;;;;;;;;x
 d_cincy;Cincy;;;;;;;;;;;;;x
 d_citriana_adj;Citrianan;;;;;;;;;;;;;x
 d_citriana;Citriana;;;;;;;;;;;;;x
-d_clearwater_adj;Clearwateran;;;;;;;;;;;;;x
-d_clearwater;Clearwater;;;;;;;;;;;;;x
+d_clearwater_adj;Coeur d'Alene;;;;;;;;;;;;;x
+d_clearwater;Coeur d'Alene;;;;;;;;;;;;;x
 d_cleveland_zoo_adj;Zoological;;;;;;;;;;;;;x
 d_cleveland_zoo;Zoological Society of Cleveland;;;;;;;;;;;;;x
 d_clinch_adj;Clinchite;;;;;;;;;;;;;x
@@ -13431,7 +13431,7 @@ d_colon_adj;Colón;;;;;;;;;;;;;x
 d_colon;Colón;;;;;;;;;;;;;x
 d_columbia_adj;Columbian;;;;;;;;;;;;;x
 d_columbia_valley_adj;Columbian;;;;;;;;;;;;;x
-d_columbia_valley;Columbia Valley;;;;;;;;;;;;;x
+d_columbia_valley;Columbia River;;;;;;;;;;;;;x
 d_colville_adj;Colviller;;;;;;;;;;;;;x
 d_colville;Colville;;;;;;;;;;;;;x
 d_confederated_adj;Confederated;;;;;;;;;;;;;x
@@ -13634,8 +13634,8 @@ d_hood_company_adj;Hood;;;;;;;;;;;;;x
 d_hood_company;Hood Company;;;;;;;;;;;;;x
 d_hopi_adj;Hopi;;;;;;;;;;;;;x
 d_hopi;Hopi;;;;;;;;;;;;;x
-d_horse_heaven_adj;Horse Heavener;;;;;;;;;;;;;x
-d_horse_heaven;Horse Heaven;;;;;;;;;;;;;x
+d_horse_heaven_adj;Yakiman;;;;;;;;;;;;;x
+d_horse_heaven;Yakima;;;;;;;;;;;;;x
 d_houston_adj;Houstonian;;;;;;;;;;;;;x
 d_houston;Houston;;;;;;;;;;;;;x
 d_huasteca_adj;Huasteca;;;;;;;;;;;;;x
@@ -22073,3 +22073,7 @@ d_victoria_strait;The Victoria Straits;;;;;;;;;;;;;x
 d_victoria_strait_adj;Victorian;;;;;;;;;;;;;x
 d_fraser_valley;Fraser Valley;;;;;;;;;;;;;x
 d_fraser_valley_adj;Fraserian;;;;;;;;;;;;;x
+d_wenatchee;Wenatchee;;;;;;;;;;;;;x
+d_wenatchee_adj;Wenatcheean;;;;;;;;;;;;;x
+d_spokane;Spokane;;;;;;;;;;;;;x
+d_spokane_adj;Spokanite;;;;;;;;;;;;;x
