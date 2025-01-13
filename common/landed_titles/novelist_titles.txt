@@ -261,3 +261,115 @@ k_labrador_history = {
 		always = no
 	}
 }
+k_kadath = {
+	color = { 230 230 255 }
+	color2 = { 255 255 255 }
+	capital = 72 #Concord
+	allow = {
+		always = no
+	}
+}
+k_new_hampshire_history = {
+	color = { 230 230 255 }
+	color2 = { 255 255 255 }
+	capital = 72 #Concord
+	allow = {
+		always = no
+	}
+}
+k_yuggoth = {
+	color={ 47 120 8 }
+	color2={ 220 220 0 }	
+	capital = 43 # Montpelier
+	allow = {
+		always = no
+	}
+}
+k_vermont_history = {
+	color={ 47 120 8 }
+	color2={ 220 220 0 }	
+	capital = 43 # Montpelier
+	allow = {
+		always = no
+	}
+}
+k_innsmouth = {
+	color={ 255 0 0 }
+	color2={ 220 220 0 }
+	capital = 128 # Kennebec
+	allow = {
+		always = no
+	}
+}
+k_lobsterland_history = {
+	color={ 255 0 0 }
+	color2={ 220 220 0 }
+	capital = 128 # Kennebec
+	allow = {
+		always = no
+	}
+}
+k_dunwich = {
+	color={ 0 153 51 }
+	color2={ 0 255 0 }
+	capital = 200
+	allow = {
+		always = no
+	}
+}
+k_aroostook_history = {
+	color={ 0 153 51 }
+	color2={ 0 255 0 }
+	capital = 200
+	allow = {
+		always = no
+	}
+}
+k_arkham = {
+	color = { 0 0 255 }
+	color2 = { 255 255 255 }
+	capital = 69 #Boston
+	allow = {
+		always = no
+	}
+}
+k_massachusets_history = {
+	color = { 0 0 255 }
+	color2 = { 255 255 255 }
+	capital = 69 #Boston
+	allow = {
+		always = no
+	}
+}
+k_chesuncook = {
+	color = { 75 255 75 }
+	color2= { 220 220 0 }
+	capital = 128 # Kennebec 
+	allow = {
+		always = no
+	}
+}
+k_maine_history = {
+	color = { 75 255 75 }
+	color2= { 220 220 0 }
+	capital = 128 # Kennebec 
+	allow = {
+		always = no
+	}
+}
+k_avathar = {
+	color = { 15 123 166 }
+	color2 = { 255 255 255 }
+	capital = 200
+	allow = {
+		always = no
+	}
+}
+k_new_acadia_history = {
+	color = { 15 123 166 }
+	color2 = { 255 255 255 }
+	capital = 200
+	allow = {
+		always = no
+	}
+}

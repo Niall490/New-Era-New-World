@@ -1724,9 +1724,57 @@ character_event = { #Gives the Novelist Title
 				copy_title_history = PREV
 			}
 		}
-		k_labrador = {
-			save_persistent_event_target = { name = novelist_title scope = k_araman }
-			save_persistent_event_target = { name = non_novelist_title scope = k_labrador_history }
+		k_new_hampshire = {
+			save_persistent_event_target = { name = novelist_title scope = k_kadath }
+			save_persistent_event_target = { name = non_novelist_title scope = k_new_hampshire_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_vermont = {
+			save_persistent_event_target = { name = novelist_title scope = k_yuggoth }
+			save_persistent_event_target = { name = non_novelist_title scope = k_vermont_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_lobsterland = {
+			save_persistent_event_target = { name = novelist_title scope = k_innsmouth }
+			save_persistent_event_target = { name = non_novelist_title scope = k_lobsterland_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_aroostook = {
+			save_persistent_event_target = { name = novelist_title scope = k_dunwich }
+			save_persistent_event_target = { name = non_novelist_title scope = k_aroostook_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_massachusets = {
+			save_persistent_event_target = { name = novelist_title scope = k_arkham }
+			save_persistent_event_target = { name = non_novelist_title scope = k_massachusets_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_maine = {
+			save_persistent_event_target = { name = novelist_title scope = k_chesuncook }
+			save_persistent_event_target = { name = non_novelist_title scope = k_maine_history }
+			persistent_event_target:non_novelist_title = {
+				set_name = PREV
+				copy_title_history = PREV
+			}
+		}
+		k_new_acadia = {
+			save_persistent_event_target = { name = novelist_title scope = k_avathar }
+			save_persistent_event_target = { name = non_novelist_title scope = k_new_acadia_history }
 			persistent_event_target:non_novelist_title = {
 				set_name = PREV
 				copy_title_history = PREV
@@ -1808,6 +1856,48 @@ character_event = { #cleanup
 				has_holder = yes
 			}
 			k_labrador_history = {
+				has_holder = yes
+			}
+			k_kadath = {
+				has_holder = yes
+			}
+			k_new_hampshire_history = {
+				has_holder = yes
+			}
+			k_yuggoth = {
+				has_holder = yes
+			}
+			k_vermont_history = {
+				has_holder = yes
+			}
+			k_innsmouth = {
+				has_holder = yes
+			}
+			k_lobsterland_history = {
+				has_holder = yes
+			}
+			k_dunwich = {
+				has_holder = yes
+			}
+			k_aroostook_history = {
+				has_holder = yes
+			}
+			k_arkham = {
+				has_holder = yes
+			}
+			k_massachusets_history = {
+				has_holder = yes
+			}
+			k_chesuncook = {
+				has_holder = yes
+			}
+			k_maine_history = {
+				has_holder = yes
+			}
+			k_avathar = {
+				has_holder = yes
+			}
+			k_new_acadia_history = {
 				has_holder = yes
 			}
 		}
@@ -2031,6 +2121,146 @@ character_event = { #cleanup
 				}
 			}
 			k_labrador_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_kadath = {
+					has_holder = yes
+				}
+			}
+			k_kadath = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_new_hampshire_history = {
+					has_holder = yes
+				}
+			}
+			k_new_hampshire_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_yuggoth = {
+					has_holder = yes
+				}
+			}
+			k_yuggoth = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_vermont_history = {
+					has_holder = yes
+				}
+			}
+			k_vermont_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_innsmouth = {
+					has_holder = yes
+				}
+			}
+			k_innsmouth = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_lobsterland_history = {
+					has_holder = yes
+				}
+			}
+			k_lobsterland_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_dunwich = {
+					has_holder = yes
+				}
+			}
+			k_dunwich = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_aroostook_history = {
+					has_holder = yes
+				}
+			}
+			k_aroostook_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_arkham = {
+					has_holder = yes
+				}
+			}
+			k_arkham = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_massachusets_history = {
+					has_holder = yes
+				}
+			}
+			k_massachusets_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_chesuncook = {
+					has_holder = yes
+				}
+			}
+			k_chesuncook = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_maine_history = {
+					has_holder = yes
+				}
+			}
+			k_maine_history = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_avathar = {
+					has_holder = yes
+				}
+			}
+			k_avathar = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {	
+				k_new_acadia_history = {
+					has_holder = yes
+				}
+			}
+			k_new_acadia_history = {
 				destroy_landed_title = THIS
 			}
 		}
