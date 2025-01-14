@@ -580,9 +580,9 @@ settlement_decisions = {
 					hidden_tooltip = {
 						FROM = {
 							random_list = {
-								10 = { military_techpoints = 7 }
-								10 = { economy_techpoints = 7 }
-								10 = { culture_techpoints = 7 }
+								10 = { military_techpoints = 10 }
+								10 = { economy_techpoints = 10 }
+								10 = { culture_techpoints = 10 }
 							}
 						}
 					}
@@ -844,9 +844,9 @@ settlement_decisions = {
 					hidden_tooltip = {
 						FROM = {
 							random_list = {
-								10 = { military_techpoints = 5 }
-								10 = { economy_techpoints = 5 }
-								10 = { culture_techpoints = 5 }
+								10 = { military_techpoints = 10 }
+								10 = { economy_techpoints = 10 }
+								10 = { culture_techpoints = 10 }
 							}
 						}
 					}
