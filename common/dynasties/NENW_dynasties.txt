@@ -19192,7 +19192,7 @@
 2239115 = { name = "Minee'eskw" culture = nisgaa }
 2239116 = { name = "Laa'y" culture = nisgaa }
 2239117 = { name = "Gitxhoon" culture = nisgaa }
-2239118 = { name = "Txaalax_hatkw" culture = nisgaa }
+2239118 = { name = "Txaalax hatkw" culture = nisgaa }
 2239119 = { name = "Sga'nisim Sim'oogit" culture = nisgaa }
 2239120 = { name = "Gwakaans" culture = nisgaa }
 

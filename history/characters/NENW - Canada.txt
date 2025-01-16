@@ -3714,3 +3714,142 @@
 		death = yes 
 	}
 }
+500207 = {
+	name = "Walton" 
+	dynasty = 5225865
+	religion = aurorean
+	culture = alaskan
+	trait = martial_cleric
+	trait = stubborn
+	trait = ugly
+	trait = wroth
+	trait = strong
+	trait = charitable
+	2265.2.20 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}	
+500208  = {
+	name = "Marlon" 
+	dynasty = 2239102
+	religion = raven_tales
+	culture = nisgaa
+	trait = tough_soldier
+	trait = kind
+	trait = patient
+	trait = hunter
+	trait = ambitious
+	2293.6.2 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500209 = {
+	name = "Garret" 
+	dynasty = 5225874
+	religion = aurorean
+	culture = alaskan
+	trait = intricate_webweaver
+	trait = shy
+	trait = dwarf
+	trait = deceitful
+	trait = shrewd
+	trait = greedy
+	2297.3.14 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500210  = {
+	name = "Corin" 
+	dynasty = 2239009
+	religion = raven_tales
+	culture = tsimshian
+	trait = skilled_tactician
+	trait = brave
+	trait = diligent
+	trait = just
+	trait = cruel
+	2279.9.28 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500211  = {
+	name = "Regier" 
+	dynasty = 2039024
+	religion = raven_tales
+	culture = tlingit
+	trait = thrifty_clerk
+	trait = kind
+	trait = greedy
+	trait = arbitrary
+	trait = honest
+	2288.9.25 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500212  = {
+	name = "Daniel" 
+	dynasty = 2239186
+	religion = raven_tales
+	culture = south_tsimshian
+	trait = charismatic_negotiator
+	trait = gregarious
+	trait = drunkard
+	trait = falconer
+	trait = chaste
+	2265.3.8 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500213  = {
+	name = "Sarah" 
+	dynasty = 5123702
+	female = yes
+	religion = aurorean
+	culture = wescoaster
+	trait = fortune_builder
+	trait = stubborn
+	trait = charitable
+	trait = sturdy
+	trait = brave
+	2297.2.12 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
+500214  = {
+	name = "Lorn" 
+	dynasty = 2239051
+	religion = raven_tales
+	culture = tsimshian
+	trait = midas_touched
+	trait = brave
+	trait = wroth
+	trait = temperate
+	trait = strategist
+	2283.3.9 = {
+		birth = yes
+	}
+	2666.1.1 = {
+		death = yes 
+	}
+}
