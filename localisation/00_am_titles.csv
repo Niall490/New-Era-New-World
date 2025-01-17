@@ -13501,8 +13501,8 @@ d_eagle_warriors_adj;Eaglean;;;;;;;;;;;;;x
 d_eagle_warriors;Eagle Warriors;;;;;;;;;;;;;x
 d_eagles_adj;Aquiline;;;;;;;;;;;;;x
 d_eagles;Philadelphian Eagles;;;;;;;;;;;;;x
-d_east_snake_adj;East Snake;;;;;;;;;;;;;x
-d_east_snake;East Snake;;;;;;;;;;;;;x
+d_east_snake_adj;Magic Valleyan;;;;;;;;;;;;;x
+d_east_snake;Magic Valley;;;;;;;;;;;;;x
 d_east_susquehanna_adj;Tripolitan;;;;;;;;;;;;;x
 d_east_susquehanna;Tripolis;;;;;;;;;;;;;x
 d_east_tennessee_adj;Knoxlander;;;;;;;;;;;;;x
@@ -13624,8 +13624,8 @@ d_high_church_adj;Kentish;;;;;;;;;;;;;x
 d_high_church;Canterbury;;;;;;;;;;;;;x
 d_highdesert_adj;Highdesert;;;;;;;;;;;;;x
 d_highdesert;Highdesert;;;;;;;;;;;;;x
-d_highland_springs_adj;Highlander;;;;;;;;;;;;;x
-d_highland_springs;Highland Springs;;;;;;;;;;;;;x
+d_highland_springs_adj;Tetonian;;;;;;;;;;;;;x
+d_highland_springs;Great Teton;;;;;;;;;;;;;x
 d_home_adj;Nipissian;;;;;;;;;;;;;x
 d_home;Nipissing;;;;;;;;;;;;;x
 d_hood_band_adj;Hood;;;;;;;;;;;;;x
@@ -14228,8 +14228,8 @@ d_west_florida_adj;Floridian;;;;;;;;;;;;;x
 d_west_florida;West Florda;;;;;;;;;;;;;x
 d_west_michigan_adj;West Mishigander;;;;;;;;;;;;;x
 d_west_michigan;West Mishigan;;;;;;;;;;;;;x
-d_west_snake_adj;West Snake;;;;;;;;;;;;;x
-d_west_snake;West Snake;;;;;;;;;;;;;x
+d_west_snake_adj;Treasure Valleyan;;;;;;;;;;;;;x
+d_west_snake;Treasure Valley;;;;;;;;;;;;;x
 d_penn_wilds_adj;Penn Wilder;;;;;;;;;;;;;x
 d_penn_wilds;Penn Wilds;;;;;;;;;;;;;x
 d_three_mile_island;Three Mile Island;;;;;;;;;;;;;x
@@ -22099,3 +22099,11 @@ k_tol_eressea;Tol Eressëa;;;;;;;;;;;;;x
 k_newfoundland_history;The Rock;;;;;;;;;;;;;x
 k_araman;Araman;;;;;;;;;;;;;x
 k_labrador_history;Labrador;;;;;;;;;;;;;x
+d_big_bend;Big Bend;;;;;;;;;;;;;x
+d_big_bend_adj;Big Bender;;;;;;;;;;;;;x
+d_nez_perce;Nez Perce;;;;;;;;;;;;;x
+d_nez_perce_adj;Nez Percean;;;;;;;;;;;;;x
+d_flathead;Flathead;;;;;;;;;;;;;x
+d_flathead_adj;Flatheader;;;;;;;;;;;;;x
+d_bear_river;Bear River;;;;;;;;;;;;;x
+d_bear_river_adj;Bear River;;;;;;;;;;;;;x

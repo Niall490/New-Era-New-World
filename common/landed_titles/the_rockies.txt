@@ -456,6 +456,87 @@ e_the_rockies = {
 
 			culture = mountainer
 
+			c_carbon = {
+				color = { 113 25 37 }
+				color2 = { 165 154 152 }
+			
+				b_rawlins_WY = {}
+				b_walcott_WY1 = {}
+				b_sinclair_WY = {}
+				b_wamsutter_WY = {}
+				b_table_rock_WY = {}
+				b_bitter_creek_WY = {}
+				b_fort_steele_WY = {}
+			}
+			c_summit = {
+				color = { 185 117 0 }
+				color2= { 255 255 255 }
+				
+				holy_site = zenith
+
+				b_evanston_WY = {}
+				b_morgan_UT = {}
+				b_lyman_WY = {}
+				b_coalville_UT = {}
+				b_henefer_UT = {}
+				b_stag_canyon_UT = {}
+				b_echo_UT = {}
+			}
+			c_sublette = {
+				color = { 246 213 116 }
+				color2= { 56 44 20 }
+				
+				b_pinedale_WY = {}
+				b_glover_WY = {}
+				b_hennick_draw_WY = {}
+				b_fremont_lake_WY = {}
+				b_cora_WY = {}
+				b_daniel_WY = {}
+				b_marbleton = {}
+			}
+			c_flaming_gorge = {
+				color = { 205 108 65 }
+				color2= { 255 255 255 }
+
+				b_rock_springs_WY = {
+					used_for_dynasty_names = no
+				}
+				b_manila_UT = {}
+				b_reliance_WY = {}
+				b_dutch_john_UT = {}
+				b_goslin_UT = {}
+				b_tolvers_creek_UT = {}
+				b_antelope_flat_UT = {}
+			}
+		}
+		d_bear_river = {
+			color={ 255 255 255 }
+			color2={ 255 255 255 }
+			
+			c_kemmerer_WY = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_kemmerer_WY = {}
+				b_oakley_WY = {}
+				b_opal_WY = {}
+				b_la_barge_WY = {}
+				b_fontenelle_WY = {}
+				b_big_piney_WY = {}
+				b_hamsfork_WY = {}
+			}
+			c_caribou_ID = {
+				color={ 255 255 255 }
+				color2={ 255 255 255 }
+			
+				b_soda_springs_ID = {}
+				b_grace_ID = {}
+				b_conda_ID = {}
+				b_niter_ID = {}
+				b_lago_ID = {}
+				b_thatcher_ID = {}
+				b_alexander_ID = {}
+			}
 			c_bridger = {
 				color = { 137 194 201 }
 				color2= { 84 89 57 }
@@ -473,58 +554,6 @@ e_the_rockies = {
 				}
 				
 			}
-			c_carbon = {
-				color = { 113 25 37 }
-				color2 = { 165 154 152 }
-			
-				b_rawlins_WY = {}
-				b_walcott_WY1 = {}
-				b_sinclair_WY = {}
-				b_wamsutter_WY = {}
-				b_table_rock_WY = {}
-				b_bitter_creek_WY = {}
-				b_fort_steele_WY = {}
-			}
-			c_caribou_ID = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_soda_springs_ID = {}
-				b_grace_ID = {}
-				b_conda_ID = {}
-				b_niter_ID = {}
-				b_lago_ID = {}
-				b_thatcher_ID = {}
-				b_alexander_ID = {}
-			}
-			c_summit = {
-				color = { 185 117 0 }
-				color2= { 255 255 255 }
-				
-				holy_site = zenith
-
-				b_evanston_WY = {}
-				b_morgan_UT = {}
-				b_lyman_WY = {}
-				b_coalville_UT = {}
-				b_henefer_UT = {}
-				b_stag_canyon_UT = {}
-				b_echo_UT = {}
-			}
-			c_flaming_gorge = {
-				color = { 205 108 65 }
-				color2= { 255 255 255 }
-
-				b_rock_springs_WY = {
-					used_for_dynasty_names = no
-				}
-				b_manila_UT = {}
-				b_reliance_WY = {}
-				b_dutch_john_UT = {}
-				b_goslin_UT = {}
-				b_tolvers_creek_UT = {}
-				b_antelope_flat_UT = {}
-			}
 		}
 		d_highland_springs = {
 			color = { 118 190 213 }
@@ -534,18 +563,6 @@ e_the_rockies = {
 
 			culture = mountainer
 			
-			c_sublette = {
-				color = { 246 213 116 }
-				color2= { 56 44 20 }
-				
-				b_pinedale_WY = {}
-				b_glover_WY = {}
-				b_hennick_draw_WY = {}
-				b_fremont_lake_WY = {}
-				b_cora_WY = {}
-				b_daniel_WY = {}
-				b_marbleton = {}
-			}
 			c_idaho_falls = {
 				color = { 150 106 43 }
 				color2= { 151 199 206 }			
@@ -584,18 +601,6 @@ e_the_rockies = {
 				b_chapin_ID = {}
 				b_tetonia_ID = {}
 			}
-			c_kemmerer_WY = {
-				color={ 255 255 255 }
-				color2={ 255 255 255 }
-			
-				b_kemmerer_WY = {}
-				b_oakley_WY = {}
-				b_opal_WY = {}
-				b_la_barge_WY = {}
-				b_fontenelle_WY = {}
-				b_big_piney_WY = {}
-				b_hamsfork_WY = {}
-			}
 			c_yellowstone = {
 				color = { 204 149 0 }
 				color2= { 255 255 255 }
@@ -629,7 +634,7 @@ e_the_rockies = {
 		culture = mountainer
 
 		d_east_snake = {
-			color = { 2 167 91 }
+			color = { 204 51 63 }
 			color2= { 243 207 181 }
 			
 			capital = 451 #Idaho Falls
@@ -637,7 +642,7 @@ e_the_rockies = {
 			culture = mountainer
 					
 			c_bingham = {
-				color = { 0 102 52 }
+				color = { 178 44 55 }
 				color2= { 204 255 154 }
 				
 				b_blackfoot_ID = {}			
@@ -653,7 +658,7 @@ e_the_rockies = {
 				b_watson_slough_ID = {}
 			}
 			c_cassia = {
-				color = { 156 77 46 }
+				color = { 229 57 71 }
 				color2 = { 229 166 51 }
 				
 				b_jackpot_NV = {}
@@ -665,7 +670,7 @@ e_the_rockies = {
 				b_raft_river_ID = {}
 			}
 			c_elmore = {
-				color = { 139 140 144}
+				color = { 153 38 47 }
 				color2 = { 28 48 119 }
 				
 				b_mountain_home_ID = {}
@@ -677,7 +682,7 @@ e_the_rockies = {
 				b_bliss_ID = {}
 			}
 			c_bannock = {
-				color = { 94 0 136 }
+				color = { 255 63 79 }
 				color2= { 255 255 255 }	
 				
 				b_pocatello_ID = {}
@@ -691,7 +696,7 @@ e_the_rockies = {
 				b_downey_ID = {}
 			}
 			c_shoshone_falls = {
-				color = { 38 46 98 }
+				color = { 127 31 39 }
 				color2= { 219 189 119 }
 				
 				b_twin_falls_ID = {
@@ -706,7 +711,7 @@ e_the_rockies = {
 			}
 		}
 		d_west_snake = {
-			color = { 255 201 49 }
+			color = { 127 19 37 }
 			color2= { 205 0 44 }
 
 			capital = 460 #Gem Canyon
@@ -716,7 +721,7 @@ e_the_rockies = {
 			haida = "Saa Tlagaasd"	#from the east
 
 			c_gem_canyon = {
-				color = { 44 77 156 }
+				color = { 153 22 44 }
 				color2 = { 235 117 45 }
 				
 				haida = "Gyaa Dah"	#trade with
@@ -730,7 +735,7 @@ e_the_rockies = {
 				b_kuna_ID = {}			
 			}
 			c_owyhee = {
-				color = { 93 82 147 }
+				color = { 102 15 29 }
 				color2 = { 255 235 0 }
 				
 				b_dickshooter_ID = {}
@@ -742,7 +747,7 @@ e_the_rockies = {
 				b_grand_view_ID = {}
 			}
 			c_malheur = {
-				color = { 125 254 176 }
+				color = { 178 26 52 }
 				color2 = { 55 39 10 }
 				
 				haida = "Giiyaa"	#dead spruce branch
@@ -756,7 +761,7 @@ e_the_rockies = {
 				b_rome_OR = {}
 			}
 			c_payette_ID = {
-				color={ 255 255 255 }
+				color={ 76 11 22 }
 				color2={ 255 255 255 }
 			
 				b_payette_ID = {}
@@ -769,14 +774,14 @@ e_the_rockies = {
 			}
 		}
 		d_northern_basin = {
-			color = { 101 45 138}
+			color = { 178 53 95 }
 			color2= { 243 150 50 }
 
 
 			culture = mountainer
 			
 			c_harney = {
-				color = { 231 213 192 }
+				color = { 204 61 108 }
 				color2 = { 54 30 15 }
 				
 				haida = "k'ihl"	#dry up
@@ -790,7 +795,7 @@ e_the_rockies = {
 				b_buchanan_OR = {}
 			}
 			c_mcdermitt_NV = {
-				color={ 255 255 255 }
+				color={ 153 45 81 }
 				color2={ 255 255 255 }
 			
 				b_mcdermitt_NV = {}
@@ -802,7 +807,7 @@ e_the_rockies = {
 				b_rome_NV = {}
 			}
 			c_duck_valley = {
-				color = { 0 128 255 }
+				color = { 229 68 122 }
 				color2 = { 1 129 2 }
 				
 				b_owyhee_NV = {}
