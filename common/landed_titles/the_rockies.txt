@@ -652,6 +652,30 @@ e_the_rockies = {
 				}
 				b_watson_slough_ID = {}
 			}
+			c_cassia = {
+				color = { 156 77 46 }
+				color2 = { 229 166 51 }
+				
+				b_jackpot_NV = {}
+				b_albion_ID = {}
+				b_elba_ID = {}
+				b_malta_ID = {}
+				b_oakley_ID = {}
+				b_declo_ID = {}
+				b_raft_river_ID = {}
+			}
+			c_elmore = {
+				color = { 139 140 144}
+				color2 = { 28 48 119 }
+				
+				b_mountain_home_ID = {}
+				b_bruneau_ID = {}
+				b_hammett_ID = {}
+				b_glenns_ferry_ID = {}
+				b_bennett_ID = {}
+				b_danskin_ID = {}
+				b_bliss_ID = {}
+			}
 			c_bannock = {
 				color = { 94 0 136 }
 				color2= { 255 255 255 }	
@@ -705,6 +729,32 @@ e_the_rockies = {
 				b_mora_ID = {}
 				b_kuna_ID = {}			
 			}
+			c_owyhee = {
+				color = { 93 82 147 }
+				color2 = { 255 235 0 }
+				
+				b_dickshooter_ID = {}
+				b_marsing_ID = {}
+				b_murphy_ID = {}
+				b_riddle_ID = {}
+				b_dewey_ID = {}
+				b_homedale_ID = {}
+				b_grand_view_ID = {}
+			}
+			c_malheur = {
+				color = { 125 254 176 }
+				color2 = { 55 39 10 }
+				
+				haida = "Giiyaa"	#dead spruce branch
+				
+				b_jordan_valley_OR = {}
+				b_mcdermitt_OR = {}
+				b_fields_OR = {}
+				b_andrews_OR = {}
+				b_crowley_OR = {}
+				b_princeton_OR = {}
+				b_rome_OR = {}
+			}
 			c_payette_ID = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -722,21 +772,22 @@ e_the_rockies = {
 			color = { 101 45 138}
 			color2= { 243 150 50 }
 
-			capital = 456 #Elmore
 
 			culture = mountainer
 			
-			c_elmore = {
-				color = { 139 140 144}
-				color2 = { 28 48 119 }
+			c_harney = {
+				color = { 231 213 192 }
+				color2 = { 54 30 15 }
 				
-				b_mountain_home_ID = {}
-				b_bruneau_ID = {}
-				b_hammett_ID = {}
-				b_glenns_ferry_ID = {}
-				b_bennett_ID = {}
-				b_danskin_ID = {}
-				b_bliss_ID = {}
+				haida = "k'ihl"	#dry up
+				
+				b_burns_OR = {}
+				b_lawen_OR = {}
+				b_drewsey_OR = {}
+				b_voltage_OR = {}
+				b_diamond_OR = {}
+				b_riley_OR = {}
+				b_buchanan_OR = {}
 			}
 			c_mcdermitt_NV = {
 				color={ 255 255 255 }
@@ -749,30 +800,6 @@ e_the_rockies = {
 				b_rebel_creek_NV = {}
 				b_paradise_valley_NV = {}
 				b_rome_NV = {}
-			}
-			c_owyhee = {
-				color = { 93 82 147 }
-				color2 = { 255 235 0 }
-				
-				b_dickshooter_ID = {}
-				b_marsing_ID = {}
-				b_murphy_ID = {}
-				b_riddle_ID = {}
-				b_dewey_ID = {}
-				b_homedale_ID = {}
-				b_grand_view_ID = {}
-			}
-			c_cassia = {
-				color = { 156 77 46 }
-				color2 = { 229 166 51 }
-				
-				b_jackpot_NV = {}
-				b_albion_ID = {}
-				b_elba_ID = {}
-				b_malta_ID = {}
-				b_oakley_ID = {}
-				b_declo_ID = {}
-				b_raft_river_ID = {}
 			}
 			c_duck_valley = {
 				color = { 0 128 255 }

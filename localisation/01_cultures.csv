@@ -1,9 +1,9 @@
 garde#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 caillouvian;Durocher;;;;;;;;;;;x
-north_atlantic_anglophone;North Atlantic Anglic;;;;;;;;;;;x
+north_atlantic_anglophone;North Atlantic;;;;;;;;;;;x
 lobsterfolk;Lobsterfolk;;;;;;;;;;;x
-mexicano;Mexic-Hispanic;;;;;;;;;;;x
-chilangos;Chilangos;;;;;;;;;;;x
+mexicano;Mexicano;;;;;;;;;;;x
+chilangos;Chilango;;;;;;;;;;;x
 ribereno;Ribereño;;;;;;;;;;;x
 norteabajeno;Norte-Abajeño;;;;;;;;;;;x
 sudabajeno;Sudabajeño;;;;;;;;;;;x
@@ -18,7 +18,7 @@ chinatec;Tsa ju jmí';;;;;;;;;;;x
 mazatec;Ha Shuta Enima;;;;;;;;;;;x
 uto-aztecal;Uto-Aztecal;;;;;;;;;;;x
 nahuatl;Nahua;;;;;;;;;;;x
-laurentine_anglo;Laurentine-Anglo;;;;;;;;;;;x
+laurentine_anglo;Laurentian;;;;;;;;;;;x
 motorman;Motorman;;;;;;;;;;;x
 yeronian;Yeronian;;;;;;;;;;;x
 ontarois;Ontarois;;;;;;;;;;;x
@@ -48,7 +48,7 @@ tzotzil;Sotz'leb;;;;;;;;;;;x
 tzetzal;Winik Atel;;;;;;;;;;;x
 maiamero;Mayamero;;;;;;;;;;;x
 carolino;Carolino;;;;;;;;;;;x
-eastern_amero_hispanophone;Atlantic Hispanic;;;;;;;;;;;x
+eastern_amero_hispanophone;Norteamericano;;;;;;;;;;;x
 chol;Lak ty'añ;;;;;;;;;;;x
 maya;Máaya' T'áan;;;;;;;;;;;x
 wampanoag;Wôpanâak;;;;;;;;;;;x
@@ -513,7 +513,7 @@ yokutian;Yokutian;;;;;;;;;;;;x
 yokuts;Yokuts;;;;;;;;;;;;x
 trinitean;Trinitean;;;;;;;;;;;;x
 ohlone;Ohlone;;;;;;;;;;;;x
-indo_american_group;Indo-American;;;;;;;;;;;;x
+indo_american_group;Indomerican;;;;;;;;;;;;x
 kailiphorani;Kailiphorani;;;;;;;;;;;;x
 czexan;Czexan;;;;;;;;;;;;x
 kairebiyan;Kairebiyan;;;;;;;;;;;;x

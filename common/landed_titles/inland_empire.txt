@@ -36,6 +36,20 @@ e_inland_empire = {
 				b_prescott_WA = {}
 				b_waitsburg_WA = {}
 			}
+			c_baker = {
+				color = { 243 168 63}
+				color2 = { 90 3 0 }
+				
+				haida = "Sablii"	#Bread
+				
+				b_la_grande_OR = {}
+				b_baker_city_OR = {}
+				b_enterprise_OR = {}
+				b_elgin_OR = {}
+				b_joseph_OR = {}
+				b_union_OR = {}
+				b_haines_OR = {}
+			}
 			c_pomeroy_WA = {
 				color={ 255 255 255 }
 				color2={ 255 255 255 }
@@ -74,59 +88,13 @@ e_inland_empire = {
 				b_arlington_OR = {}
 				b_olex_OR = {}			
 			}
-			c_columbia_gorge = {
-				color = { 149 89 23 }
-				color2 = { 255 196 40 }
-				
-				haida = "Juuts'ags"	#fast current
-				
-				b_the_dalles_OR = {}
-				b_moro_OR = {}
-				b_wasco_OR = {}
-				b_grass_valley_OR = {}
-				b_chenoweth_OR = {}
-				b_mosier_OR = {}
-				b_memaloose_OR = {}
-			}
 		}
-		d_highdesert = {
-			color = { 237 172 78 }
-			color2 = { 0 9 95 }
+		d_nez_perce = {
+			color={ 255 255 255 }
+			color2={ 255 255 255 }
 			
-			culture = cascadian
-			
-			capital = 526 #Deschutes
-			
-			haida = "Kawsda"	#to be hot
-			
-			c_malheur = {
-				color = { 125 254 176 }
-				color2 = { 55 39 10 }
-				
-				haida = "Giiyaa"	#dead spruce branch
-				
-				b_jordan_valley_OR = {}
-				b_mcdermitt_OR = {}
-				b_fields_OR = {}
-				b_andrews_OR = {}
-				b_crowley_OR = {}
-				b_princeton_OR = {}
-				b_rome_OR = {}
-			}
-			c_baker = {
-				color = { 243 168 63}
-				color2 = { 90 3 0 }
-				
-				haida = "Sablii"	#Bread
-				
-				b_la_grande_OR = {}
-				b_baker_city_OR = {}
-				b_enterprise_OR = {}
-				b_elgin_OR = {}
-				b_joseph_OR = {}
-				b_union_OR = {}
-				b_haines_OR = {}
-			}
+			capital = 463
+		
 			c_salmon_river = {
 				color = { 107 57 19 }
 				color2 = { 0 180 217 }
@@ -154,21 +122,18 @@ e_inland_empire = {
 				b_gifford_ID = {}
 				b_myrtle_ID = {}
 				b_waha_ID = {}
-			}
-			c_harney = {
-				color = { 231 213 192 }
-				color2 = { 54 30 15 }
-				
-				haida = "k'ihl"	#dry up
-				
-				b_burns_OR = {}
-				b_lawen_OR = {}
-				b_drewsey_OR = {}
-				b_voltage_OR = {}
-				b_diamond_OR = {}
-				b_riley_OR = {}
-				b_buchanan_OR = {}
-			}
+			}		
+		}
+		d_highdesert = {
+			color = { 237 172 78 }
+			color2 = { 0 9 95 }
+			
+			culture = cascadian
+			
+			capital = 526 #Deschutes
+			
+			haida = "Kawsda"	#to be hot
+			
 			c_ochoco = {
 				color = { 98 104 18 }
 				color2 = { 255 255 255 }
@@ -182,6 +147,20 @@ e_inland_empire = {
 				b_monument_OR = {}
 				b_antone_OR = {}
 				b_spray_OR = {}
+			}
+			c_columbia_gorge = {
+				color = { 149 89 23 }
+				color2 = { 255 196 40 }
+				
+				haida = "Juuts'ags"	#fast current
+				
+				b_the_dalles_OR = {}
+				b_moro_OR = {}
+				b_wasco_OR = {}
+				b_grass_valley_OR = {}
+				b_chenoweth_OR = {}
+				b_mosier_OR = {}
+				b_memaloose_OR = {}
 			}
 			c_grant_OR = {
 				color={ 255 255 255 }
@@ -230,15 +209,9 @@ e_inland_empire = {
 		color={ 153 46 30 }
 		color2={ 255 255 255 }
 		
-		d_kootenay = {
-			color = { 216 30 4 }
-			color2 = { 118 170 220 }
-			
-			haida = "Kiigaay"	#The old people
-			
-			capital = 502 #Kootenay
-			
-			culture = cree
+		d_flathead = {
+			color={ 255 255 255 }
+			color2={ 255 255 255 }
 			
 			c_koocanusa = {
 				color = { 0 153 0 }
@@ -253,48 +226,6 @@ e_inland_empire = {
 				b_jaffray_BC = {}
 				b_roosville_BC = {}
 				b_libby_MT = {}
-			}
-			c_arrowhead = {
-				color = { 126 57 32 }
-				color2 = { 192 201 182 }
-				
-				haida = "Kiid Hlgwaay"	#Kíid Hlgwáay - Spruce Sapling
-				
-				b_revelstoke_BC = {}
-				b_nakusp_BC = {}
-				b_beaton_BC = {}
-				b_st_leon_BC = {}
-				b_hills_BC = {}
-				b_new_denver_BC = {}
-				b_cherryville_BC = {}
-			}
-			c_kinbasket = {
-				color = { 115 0 19 }
-				color2 = { 182 182 182 }
-				
-				haida = "Tlat'a'aaw"	#Tlat'a'áaw - mountain
-				
-				b_beaver_BC = {}
-				b_blaeberry_BC = {}
-				b_rogers_BC = {}
-				b_donald_BC = {}
-				b_mica_creek_BC = {}
-				b_canyon_hot_springs_BC = {}
-				b_forde_BC = {}
-			}
-			c_priest_lake = {
-				color = { 68 160 175 }
-				color2 = { 96 50 17 }
-				
-				haida = "k'aayhlt'aa Sk'awíi"	#falling star
-				
-				b_sandpoint_ID = {}
-				b_priest_river_ID = {}
-				b_newport_WA = {}
-				b_dover_ID = {}
-				b_ponderay_ID = {}
-				b_kootenai_ID = {}
-				b_schweitzer_ID = {}
 			}
 			c_flathead = {
 				color = { 89 134 176 }
@@ -322,20 +253,11 @@ e_inland_empire = {
 				b_summit_MT = {}
 				b_nimrod_MT = {}
 			}
-			c_kootenay = {
-				color = { 255 179 226 }
-				color2 = { 53 92 211 }
-				
-				haida = "Hlats'uxgaay"	#Northern Lights
-				
-				b_creston_BC = {}
-				b_bonners_ferry_ID = {}
-				b_gray_creek_BC = {}
-				b_balfour_BC = {}
-				b_crawford_bay = {}
-				b_kaslo_BC = {}
-				b_wynndel_BC = {}
-			}
+		}
+		d_big_bend = {
+			color={ 255 255 255 }
+			color2={ 255 255 255 }
+			
 			c_banff = {
 				color = { 160 8 64 }
 				color2 = { 184 184 144 }
@@ -373,6 +295,76 @@ e_inland_empire = {
 				b_morrissey_BC = {}
 				b_crowsnest_BC = {}
 				b_sentinel_BC = {}		
+			}
+			c_kinbasket = {
+				color = { 115 0 19 }
+				color2 = { 182 182 182 }
+				
+				haida = "Tlat'a'aaw"	#Tlat'a'áaw - mountain
+				
+				b_beaver_BC = {}
+				b_blaeberry_BC = {}
+				b_rogers_BC = {}
+				b_donald_BC = {}
+				b_mica_creek_BC = {}
+				b_canyon_hot_springs_BC = {}
+				b_forde_BC = {}
+			}
+		}
+		
+		d_kootenay = {
+			color = { 216 30 4 }
+			color2 = { 118 170 220 }
+			
+			haida = "Kiigaay"	#The old people
+			
+			capital = 502 #Kootenay
+			
+			culture = cree
+			
+
+			c_arrowhead = {
+				color = { 126 57 32 }
+				color2 = { 192 201 182 }
+				
+				haida = "Kiid Hlgwaay"	#Kíid Hlgwáay - Spruce Sapling
+				
+				b_revelstoke_BC = {}
+				b_nakusp_BC = {}
+				b_beaton_BC = {}
+				b_st_leon_BC = {}
+				b_hills_BC = {}
+				b_new_denver_BC = {}
+				b_cherryville_BC = {}
+			}
+			c_priest_lake = {
+				color = { 68 160 175 }
+				color2 = { 96 50 17 }
+				
+				haida = "k'aayhlt'aa Sk'awíi"	#falling star
+				
+				b_sandpoint_ID = {}
+				b_priest_river_ID = {}
+				b_newport_WA = {}
+				b_dover_ID = {}
+				b_ponderay_ID = {}
+				b_kootenai_ID = {}
+				b_schweitzer_ID = {}
+			}
+
+			c_kootenay = {
+				color = { 255 179 226 }
+				color2 = { 53 92 211 }
+				
+				haida = "Hlats'uxgaay"	#Northern Lights
+				
+				b_creston_BC = {}
+				b_bonners_ferry_ID = {}
+				b_gray_creek_BC = {}
+				b_balfour_BC = {}
+				b_crawford_bay = {}
+				b_kaslo_BC = {}
+				b_wynndel_BC = {}
 			}
 			c_moyie_BC = {
 				color={ 255 255 255 }
