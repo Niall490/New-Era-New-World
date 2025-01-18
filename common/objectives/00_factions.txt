@@ -29,6 +29,7 @@ faction_succ_seniority = {
 			religion = titoist
 			religion = stalinist
 			religion = trotskyite
+			has_religion_feature = religion_ritual_sacrifice
 			religion_group = indian_group
 			in_faction = faction_succ_primogeniture
 			in_faction = faction_succ_feudal_elective
@@ -38,6 +39,13 @@ faction_succ_seniority = {
 			emf_laws_no_crown_law_title = yes
 			# The Crown Law title holder is my liege
 			crownlaw_title = { holder_scope = { is_liege_of = ROOT } }
+			crownlaw_title = {
+				NOR = {
+					has_law = crown_authority_2
+					has_law = crown_authority_3
+					has_law = crown_authority_4
+				}
+			}
 		}
 	}
 
@@ -76,6 +84,7 @@ faction_succ_seniority = {
 				religion = titoist
 				religion = stalinist
 				religion = trotskyite
+				has_religion_feature = religion_ritual_sacrifice
 				religion_group = indian_group
 			}
 		}
@@ -97,7 +106,7 @@ faction_succ_seniority = {
 		}
 		modifier = {
 			factor = 0.5
-			holder_scope = {  
+			holder_scope = {
 				any_owned_bloodline = {
 					has_bloodline_flag = bloodline_less_factions
 					bloodline_is_active_for = PREV
@@ -414,6 +423,7 @@ faction_succ_seniority = {
 						culture_group = far_east_slavic
 						culture_group = magyar
 						culture_group = east_african
+						culture_group = ob_ugric
 					}
 				}
 				heir_under_seniority_law = {
@@ -1175,6 +1185,14 @@ faction_succ_primogeniture = {
 		OR = {
 			emf_laws_no_crown_law_title = yes # Is not affected by a Crown Law title
 			crownlaw_title = { holder_scope = { is_liege_of = ROOT } } # The Crown Law title holder is my liege
+			# The Crown Law title allows vassal infighting
+			crownlaw_title = {
+				NOR = {
+					has_law = crown_authority_2
+					has_law = crown_authority_3
+					has_law = crown_authority_4
+				}
+			}
 		}
 	}
 
@@ -1575,49 +1593,47 @@ faction_succ_primogeniture = {
 			FROM = { preparing_invasion = yes }
 		}
 		modifier = {
-			factor = 0
+			factor = 0.1
 			FROM = {
-				OR = {
-					AND = {
-						NOT = { leads_faction = faction_succ_primogeniture }
-						opinion = { who = LIEGE value = 50 } 
-					}
-					AND = {
-						leads_faction = faction_succ_primogeniture
-						opinion = { who = LIEGE value = 75 } 
-					}
+				opinion = { who = LIEGE value = 0 }
+				NOR = {
+					trait = deceitful
+					ai_ambition = 40
+					trait = envious
 				}
 			}
 		}
-		
-		modifier = {
-			factor = 0
-			FROM = { 
-				opinion = { who = LIEGE value = 25 } 
-				NOT = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
-				}			
-			}
-		}		
-		
 		modifier = {
 			factor = 0
 			FROM = {
-				opinion = { who = LIEGE value = 50 } 
-				OR = {
+				opinion = { who = LIEGE value = 20 }
+				NOR = {
 					trait = deceitful
-					trait = ambitious
+					ai_ambition = 40
 					trait = envious
-				}					
+				}
 			}
 		}
-		
 		modifier = {
-			factor = 0.5
-			liege = {  
-				any_owned_bloodline = { has_bloodline_flag = bloodline_less_factions }
+			factor = 0.1
+			FROM = {
+				opinion = { who = LIEGE value = 20 }
+				OR = {
+					trait = deceitful
+					ai_ambition = 40
+					trait = envious
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			FROM = {
+				opinion = { who = LIEGE value = 40 }
+				OR = {
+					trait = deceitful
+					ai_ambition = 40
+					trait = envious
+				}
 			}
 		}
 		modifier = {
@@ -1633,8 +1649,12 @@ faction_succ_primogeniture = {
 			NOT = { FROM = { opinion = { who = LIEGE value = -75 } } }
 		}
 		modifier = {
-			factor = 0.01
-			FROM = { trait = content }
+			factor = 0.1
+			FROM = { NOT = { ai_ambition = -39 } }
+		}
+		modifier = {
+			factor = 0.1
+			FROM = { NOT = { ai_ambition = -19 } }
 		}
 		modifier = {
 			factor = 0.01
@@ -1650,7 +1670,7 @@ faction_succ_primogeniture = {
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { 
+			FROM = {
 				OR = {
 					trait = slow
 					trait = dull
@@ -1706,11 +1726,15 @@ faction_succ_primogeniture = {
 			FROM = { trait = deceitful }
 		}
 		modifier = {
-			factor = 4.0
-			FROM = { trait = ambitious }
+			factor = 2.0
+			FROM = { ai_ambition = 20 }
+		}
+		modifier = {
+			factor = 2.0
+			FROM = { ai_ambition = 40 }
 		}
 	}
-	
+
 	# AI membership weight: ROOT is the prospective member. FROM is the faction leader. FROMFROM is the target title or character.
 	membership = {
 		factor = 1
@@ -1719,10 +1743,21 @@ faction_succ_primogeniture = {
 		
 		modifier = {
 			factor = 0.5
-			ROOT = {  
-				liege = { 
-					any_owned_bloodline = { has_bloodline_flag = bloodline_less_factions }
+			FROMFROM = {  
+				holder_scope = { 
+					any_owned_bloodline = {
+						has_bloodline_flag = bloodline_less_factions
+						bloodline_is_active_for = PREV
+					}
 				}
+			}
+		}
+		modifier = {
+			factor = 1000
+			has_flag = will_join_civil_war
+			FROM = {
+				has_flag = demands_primogeniture
+				has_flag = civil_war_faction_leader
 			}
 		}
 		modifier = {

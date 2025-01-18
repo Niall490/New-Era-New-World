@@ -1,0 +1,13 @@
+# 1896 - Cache Valley
+
+# County Title
+title = c_cache_valley
+
+# Settlements
+max_settlements = 3
+
+b_providence_UT = tribal
+
+# Misc
+culture = utahn
+religion = mormon
