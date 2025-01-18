@@ -232,6 +232,7 @@ targetted_decisions = {
 				trait = stubborn
 				trait = ambitious
 			}
+			is_pilgrim = no
 			war = no
 			in_command = no
 			prisoner = no
