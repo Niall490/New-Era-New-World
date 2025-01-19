@@ -1,5 +1,29 @@
 technology = {
 	titles = {
+		d_las_vegas
+	}
+	
+	2325 = {
+		military = 2.1
+		economy = 2.1
+		culture = 2.1
+	}
+}
+
+technology = {
+	titles = {
+		d_great_salt_duchy
+	}
+	
+	2325 = {
+		military = 1.7
+		economy = 1.7
+		culture = 1.7
+	}
+}
+
+technology = {
+	titles = {
 		d_western_slope
 	}
 	
@@ -14,6 +38,8 @@ technology = {
 	titles = {
 		d_mineral_belt
 		d_moffat
+		d_ogden
+		d_west_snake
 	}
 	
 	2325 = {
@@ -25,13 +51,45 @@ technology = {
 
 technology = {
 	titles = {
+		d_black_desert_NV
+	}
+	
+	2325 = {
+		military = 1.3
+		economy = 1.1
+		culture = 1.1
+	}
+}
+
+technology = {
+	titles = {
 		d_green_river
 		d_mesa_verde
+		d_canyonlands
+		d_wasatch
+		d_sweetwater
+		d_bear_river
+		d_highland_springs
+		d_northern_basin
+		d_east_snake
 	}
 	
 	2325 = {
 		military = 1.1
 		economy = 1.1
 		culture = 1.1
+	}
+}
+
+technology = {
+	titles = {
+		d_black_rock
+		d_death_valley
+	}
+	
+	2325 = {
+		military = 1.0
+		economy = 0.7
+		culture = 0.7
 	}
 }

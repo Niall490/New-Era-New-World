@@ -160,7 +160,6 @@ technology = {
 		d_motherlode
 		d_north_valley
 		d_sacramento
-		d_death_valley
 		d_los_angeles
 		d_berdoo
 		d_salton
@@ -294,14 +293,6 @@ technology = {
 		d_benedicto
 		d_caracai
 		d_nevada
-		d_black_desert_NV
-		d_great_salt_duchy
-		d_wasatch
-		d_sweetwater
-		d_highland_springs
-		d_east_snake
-		d_west_snake
-		d_northern_basin
 		d_clearwater
 		d_deer_lodge
 		d_silver_bow
