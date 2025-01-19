@@ -19395,3 +19395,23 @@
 2239313 = { name = "Nismulax" culture = haisla }
 2239314 = { name = "Hai'mac Gax" culture = haisla }
 2239315 = { name = "Wiigwenakwelis" culture = haisla }
+
+2239316 = { name = "Yex T'sa Wit'ant'" culture = witsuwiten }
+2239317 = { name = "Yex T'sa Wilk'us" culture = witsuwiten }
+2239318 = { name = "Kayex" culture = witsuwiten }
+2239319 = { name = "Kwen Beegh Yex" culture = witsuwiten }
+2239320 = { name = "G'en Egh La Yex" culture = witsuwiten }
+2239321 = { name = "Tsee K'al K'e Yex" culture = witsuwiten }
+2239322 = { name = "Djakanyex" culture = witsuwiten }
+2239323 = { name = "Tsa K'en Yex" culture = witsuwiten }
+2239324 = { name = "Medzeyex" culture = witsuwiten }
+2239325 = { name = "Tsalyex" culture = witsuwiten }
+2239326 = { name = "Cassyex" culture = witsuwiten }
+2239327 = { name = "Kalyexwenits" culture = witsuwiten }
+2239328 = { name = "Anaskasi" culture = witsuwiten }
+2239329 = { name = "Unist'ot'en" culture = witsuwiten }
+
+2239330 = { name = "Jilh tsekh xu" culture = babine }
+2239331 = { name = "Likh c' bu" culture = babine }
+2239332 = { name = "Likh tsa mis xu" culture = babine }
+2239333 = { name = "Gilanton" culture = babine }
