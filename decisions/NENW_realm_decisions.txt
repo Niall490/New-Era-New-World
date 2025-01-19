@@ -6,7 +6,7 @@ decisions = {
 		potential = {
 			OR = {
 				form_empire_potential = yes
-				primary_title = e_columbia
+				primary_title = { title = e_columbia }
 			}
 			capital_scope = {
 				region = custom_usa
